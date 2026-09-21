@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+const root=new URL('.',import.meta.url);
+const context={window:{}};
+vm.runInNewContext(fs.readFileSync(new URL('data.js',root),'utf8'),context);
+const entries=context.window.DICTIONARY;
+const escape=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+const articles=entries.map(entry=>`<article data-static-term="${escape(entry.id)}"><h3><bdi dir="ltr">${escape(entry.term)}</bdi> — ${escape(entry.arabicName)}</h3><p dir="ltr">${escape(entry.fullName)}</p><p>${escape(entry.simpleExplanation)}</p><p>${escape(entry.example)}</p></article>`).join('');
+const fallback=`<noscript><style>.explore,.stats,.featured,.lower-grid,.detail{display:none}.static-dictionary{margin-block:24px}.static-dictionary article{border-bottom:1px solid var(--line);padding:12px 0}.static-dictionary h3{font-size:17px;margin:0 0 5px}.static-dictionary p{margin:4px 0;line-height:1.6;color:var(--muted)}</style><section class="static-dictionary" aria-labelledby="static-dictionary-title"><h2 id="static-dictionary-title">قاموس مصطلحات التكنولوجيا</h2>${articles}</section></noscript>`;
+const file=new URL('index.html',root);
+const html=fs.readFileSync(file,'utf8');
+const updated=html.replace(/(<!-- STATIC_DICTIONARY_START -->)[\s\S]*?(<!-- STATIC_DICTIONARY_END -->)/,`$1\n    ${fallback}\n    $2`);
+if(updated===html&& !html.includes('data-static-term'))throw new Error('Static dictionary markers were not found.');
+fs.writeFileSync(file,updated);
+console.log(`Generated static fallback for ${entries.length} terms.`);
