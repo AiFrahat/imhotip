@@ -1,0 +1,2348 @@
+[
+  {
+    "term": "JavaScript",
+    "fullName": "JavaScript",
+    "arabicName": "جافاسكربت",
+    "definition": "لغة برمجة تضيف التفاعل إلى صفحات الويب، ويمكن تشغيلها خارج المتصفح أيضًا.",
+    "example": "يغيّر برنامج جافاسكربت نتائج البحث أثناء الكتابة.",
+    "whereUsed": "في واجهات الويب وخدمات Node.js.",
+    "en": [
+      "A programming language for interactive web pages that also runs outside browsers.",
+      "JavaScript refreshes search results while someone types.",
+      "Web interfaces and Node.js services."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "html",
+      "css",
+      "function"
+    ],
+    "aliases": [
+      "JS"
+    ],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    ]
+  },
+  {
+    "term": "Python",
+    "fullName": "Python",
+    "arabicName": "بايثون",
+    "definition": "لغة برمجة عامة ذات صياغة مقروءة ومكتبات كثيرة للأتمتة والتحليل وبناء التطبيقات.",
+    "example": "يجمع برنامج بايثون إجمالي المبيعات من ملف CSV.",
+    "whereUsed": "في الأتمتة وتحليل البيانات والخدمات.",
+    "en": [
+      "A general-purpose language with readable syntax and libraries for automation, analysis, and applications.",
+      "A Python script totals sales from a CSV file.",
+      "Automation, data analysis, and services."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "function",
+      "library",
+      "csv"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://docs.python.org/3/tutorial/"
+    ]
+  },
+  {
+    "term": "TypeScript",
+    "fullName": "TypeScript",
+    "arabicName": "تايب سكربت",
+    "definition": "لغة توسّع جافاسكربت بفحص الأنواع قبل التشغيل، وتتحول عادةً إلى جافاسكربت للتنفيذ.",
+    "example": "ينبّه الفاحص عند تمرير نص لدالة تتوقع رقمًا.",
+    "whereUsed": "في مشاريع جافاسكربت الكبيرة.",
+    "en": [
+      "A language that adds static type checking to JavaScript and normally compiles to JavaScript.",
+      "The checker flags text passed where a number is required.",
+      "Larger JavaScript codebases."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "javascript",
+      "data-type",
+      "compiler"
+    ],
+    "aliases": [
+      "TS"
+    ],
+    "sources": [
+      "https://www.typescriptlang.org/docs/handbook/intro.html"
+    ]
+  },
+  {
+    "term": "Java",
+    "fullName": "Java",
+    "arabicName": "جافا",
+    "definition": "لغة برمجة عامة تُترجم عادةً إلى شيفرة وسيطة تشغّلها آلة جافا الافتراضية على أنظمة مختلفة.",
+    "example": "تشغّل شركة خدمة لإدارة الطلبات مكتوبة بجافا.",
+    "whereUsed": "في تطبيقات المؤسسات وخدمات الخوادم.",
+    "en": [
+      "A general-purpose language typically compiled to bytecode executed by the Java Virtual Machine.",
+      "A company runs an order-management service written in Java.",
+      "Enterprise applications and server services."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "class",
+      "oop",
+      "runtime"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://dev.java/learn/"
+    ]
+  },
+  {
+    "term": "C",
+    "fullName": "C Programming Language",
+    "arabicName": "لغة سي",
+    "definition": "لغة برمجة تمنح تحكمًا مباشرًا نسبيًا في الذاكرة وتستخدم لبناء الأنظمة والبرامج القريبة من العتاد.",
+    "example": "يكتب مطور جزءًا من برنامج جهاز قياس بلغة C.",
+    "whereUsed": "في الأنظمة والبرمجيات المضمنة.",
+    "en": [
+      "A programming language with relatively direct memory control, used for systems and hardware-related software.",
+      "A developer writes a measurement-device routine in C.",
+      "System and embedded software."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "compiler",
+      "memory-leak"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/cpp/c-language/c-language-reference?view=msvc-170"
+    ]
+  },
+  {
+    "id": "c-plus-plus",
+    "term": "C++",
+    "fullName": "C++ Programming Language",
+    "arabicName": "سي بلس بلس",
+    "definition": "لغة برمجة تجمع التحكم في الموارد مع أدوات مثل الأصناف والقوالب لبناء برامج عالية الأداء.",
+    "example": "يستخدم محرك لعبة C++ لحساب حركة الشخصيات.",
+    "whereUsed": "في الألعاب والبرامج التي تتطلب أداءً مرتفعًا.",
+    "en": [
+      "A language combining resource control with classes and templates for performance-sensitive software.",
+      "A game engine uses C++ to calculate character movement.",
+      "Games and performance-sensitive applications."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "c",
+      "class",
+      "generics"
+    ],
+    "aliases": [
+      "CPP",
+      "سي بلس بلس"
+    ],
+    "sources": [
+      "https://learn.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-170"
+    ]
+  },
+  {
+    "id": "c-sharp",
+    "term": "C#",
+    "fullName": "C# Programming Language",
+    "arabicName": "سي شارب",
+    "definition": "لغة برمجة ذات أنواع ثابتة ضمن منظومة .NET، تستخدم لبناء تطبيقات وخدمات وألعاب.",
+    "example": "يبني فريق خدمة حجز باستخدام C# و.NET.",
+    "whereUsed": "في تطبيقات .NET وخدمات الويب والألعاب.",
+    "en": [
+      "A statically typed language in the .NET ecosystem for applications, services, and games.",
+      "A team builds a booking service with C# and .NET.",
+      ".NET applications, web services, and games."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "oop",
+      "class",
+      "interface"
+    ],
+    "aliases": [
+      "CSharp",
+      "سي شارب"
+    ],
+    "sources": [
+      "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"
+    ]
+  },
+  {
+    "term": "Go",
+    "fullName": "Go Programming Language",
+    "arabicName": "لغة غو",
+    "definition": "لغة برمجة تُترجم إلى ملفات تنفيذية وتركز على البساطة ودعم المهام المتزامنة.",
+    "example": "يبني مطور خدمة تستقبل طلبات عديدة بلغة Go.",
+    "whereUsed": "في خدمات الخوادم وأدوات سطر الأوامر.",
+    "en": [
+      "A compiled language emphasizing simplicity and support for concurrent tasks.",
+      "A developer writes a Go service handling many requests.",
+      "Server services and command-line tools."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "compiler",
+      "cli"
+    ],
+    "aliases": [
+      "Golang"
+    ],
+    "sources": [
+      "https://go.dev/doc/"
+    ]
+  },
+  {
+    "term": "Rust",
+    "fullName": "Rust Programming Language",
+    "arabicName": "لغة رست",
+    "definition": "لغة أنظمة تستخدم قواعد الملكية والاستعارة للمساعدة في منع أخطاء الذاكرة دون جامع قمامة تقليدي.",
+    "example": "يرفض المترجم استخدام مرجع انتهت صلاحية بياناته.",
+    "whereUsed": "في أدوات الأنظمة والبرامج الحساسة للأداء.",
+    "en": [
+      "A systems language using ownership and borrowing to help prevent memory errors without a conventional garbage collector.",
+      "The compiler rejects a reference whose data no longer exists.",
+      "System tools and performance-sensitive software."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "compiler",
+      "garbage-collection"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html"
+    ]
+  },
+  {
+    "term": "PHP",
+    "fullName": "PHP: Hypertext Preprocessor",
+    "arabicName": "بي إتش بي",
+    "definition": "لغة برمجة تُستخدم كثيرًا على الخادم لتوليد صفحات الويب ومعالجة طلبات المستخدمين.",
+    "example": "يقرأ برنامج PHP المنتجات ثم يولّد صفحة المتجر.",
+    "whereUsed": "في مواقع الويب وأنظمة إدارة المحتوى.",
+    "en": [
+      "A language commonly used on servers to generate web pages and process requests.",
+      "PHP reads product records and generates a shop page.",
+      "Websites and content-management systems."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "server",
+      "html"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.php.net/manual/en/introduction.php"
+    ]
+  },
+  {
+    "term": "Kotlin",
+    "fullName": "Kotlin",
+    "arabicName": "كوتلن",
+    "definition": "لغة برمجة تعمل مع جافا وتدعم تطوير تطبيقات لأكثر من منصة بشيفرة مشتركة.",
+    "example": "يكتب فريق جزءًا مشتركًا من منطق تطبيقاته بكوتلن.",
+    "whereUsed": "في تطبيقات Android والخدمات والمشاريع متعددة المنصات.",
+    "en": [
+      "A language interoperable with Java that also supports sharing code across platforms.",
+      "A team shares application logic written in Kotlin.",
+      "Android apps, services, and multiplatform projects."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "java",
+      "mobile-app"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://kotlinlang.org/docs/getting-started.html"
+    ]
+  },
+  {
+    "term": "Swift",
+    "fullName": "Swift",
+    "arabicName": "سويفت",
+    "definition": "لغة برمجة عامة تهتم بوضوح الشيفرة وسلامة الأنواع، وتستخدم بكثرة في تطبيقات منصات Apple.",
+    "example": "يكتب مطور منطق تطبيق ملاحظات للآيفون بسويفت.",
+    "whereUsed": "في تطبيقات Apple وبعض خدمات الخوادم.",
+    "en": [
+      "A general-purpose language emphasizing clear code and type safety, widely used for Apple-platform apps.",
+      "A developer writes an iPhone notes app in Swift.",
+      "Apple-platform apps and some server services."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "mobile-app",
+      "data-type"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.swift.org/about/"
+    ]
+  },
+  {
+    "term": "Array",
+    "fullName": "Array",
+    "arabicName": "مصفوفة",
+    "definition": "مجموعة عناصر مرتبة يُوصل إلى كل عنصر فيها بفهرس رقمي.",
+    "example": "تحتفظ مصفوفة بأسماء خمسة منتجات بالترتيب.",
+    "whereUsed": "في القوائم ومعالجة مجموعات القيم.",
+    "en": [
+      "An ordered collection whose elements are accessed through numeric indexes.",
+      "An array holds five product names in order.",
+      "Lists and processing groups of values."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "loop",
+      "iterator"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+    ]
+  },
+  {
+    "term": "String",
+    "fullName": "String",
+    "arabicName": "سلسلة نصية",
+    "definition": "قيمة تمثل نصًا يمكن للبرنامج عرضه أو البحث فيه أو دمجه مع نص آخر.",
+    "example": "يحفظ البرنامج اسم المدينة كسلسلة نصية.",
+    "whereUsed": "في الأسماء والرسائل ومعالجة النصوص.",
+    "en": [
+      "A value representing text that software can display, search, or combine with other text.",
+      "A program stores a city name as a string.",
+      "Names, messages, and text processing."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "data-type",
+      "regular-expression"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String"
+    ]
+  },
+  {
+    "term": "Boolean",
+    "fullName": "Boolean",
+    "arabicName": "قيمة منطقية",
+    "definition": "نوع بيانات له قيمتان أساسيتان: صحيح وخطأ، ويستخدم لتمثيل تحقق شرط.",
+    "example": "يحفظ المتغير isOpen ما إذا كان المتجر مفتوحًا.",
+    "whereUsed": "في الشروط وحالات التشغيل والإيقاف.",
+    "en": [
+      "A data type with two basic values, true and false, representing whether a condition holds.",
+      "The variable isOpen records whether a shop is open.",
+      "Conditions and on/off states."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "conditional",
+      "data-type"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean"
+    ]
+  },
+  {
+    "term": "Integer",
+    "fullName": "Integer",
+    "arabicName": "عدد صحيح",
+    "definition": "قيمة عددية بلا جزء كسري؛ يختلف نطاقها الممكن حسب اللغة والنوع المستخدم.",
+    "example": "يمثل الرقم 12 عدد التذاكر المتبقية.",
+    "whereUsed": "في العدّ والفهارس والكميات الصحيحة.",
+    "en": [
+      "A whole-number value; its supported range depends on the language and numeric type.",
+      "The integer 12 represents remaining tickets.",
+      "Counts, indexes, and whole-number quantities."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "array",
+      "floating-point"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://docs.python.org/3/library/stdtypes.html"
+    ]
+  },
+  {
+    "term": "Floating Point",
+    "fullName": "Floating-Point Number",
+    "arabicName": "عدد بفاصلة عائمة",
+    "definition": "تمثيل عددي يسمح بكسور ومدى واسع، لكنه قد يقرّب بعض القيم بدل تمثيلها تمامًا.",
+    "example": "قد ينتج جمع 0.1 و0.2 قيمة قريبة جدًا من 0.3.",
+    "whereUsed": "في القياسات والحسابات العلمية.",
+    "en": [
+      "A numeric representation supporting fractions and a wide range, with rounding for some values.",
+      "Adding 0.1 and 0.2 may produce a value very close to 0.3.",
+      "Measurements and scientific calculations."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "integer",
+      "data-type"
+    ],
+    "aliases": [
+      "Floating-Point Number"
+    ],
+    "sources": [
+      "https://docs.python.org/3/library/stdtypes.html"
+    ]
+  },
+  {
+    "term": "Undefined",
+    "fullName": "Undefined Value",
+    "arabicName": "قيمة غير معرّفة",
+    "definition": "قيمة في جافاسكربت تظهر مثلًا عند قراءة متغير مُعلَن لم تُسند إليه قيمة أو خاصية غير موجودة.",
+    "example": "بعد let count دون إسناد، تكون قيمة count هي undefined.",
+    "whereUsed": "عند فحص القيم غير المهيأة والخصائص المفقودة.",
+    "en": [
+      "A JavaScript value encountered when reading an uninitialized declared variable or a nonexistent property.",
+      "After let count without an assignment, count has the value undefined.",
+      "Checking uninitialized values and missing properties."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "javascript",
+      "variable",
+      "data-type"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types"
+    ]
+  },
+  {
+    "term": "Constant",
+    "fullName": "Constant",
+    "arabicName": "ثابت برمجي",
+    "definition": "اسم يرتبط بقيمة لا يعاد إسنادها؛ قد تظل محتويات الكائن المرتبط به قابلة للتغيير حسب اللغة.",
+    "example": "يحتفظ ثابت بعنوان الخدمة المستخدم طوال تشغيل البرنامج.",
+    "whereUsed": "في القيم المرجعية والإعدادات داخل الشيفرة.",
+    "en": [
+      "A name that cannot be reassigned; an associated object's contents may still be mutable depending on the language.",
+      "A constant holds a service address during execution.",
+      "Reference values and configuration in code."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "variable",
+      "immutability"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types"
+    ]
+  },
+  {
+    "term": "Data Type",
+    "fullName": "Data Type",
+    "arabicName": "نوع بيانات",
+    "definition": "تصنيف لقيمة يحدد طبيعتها والعمليات المناسبة لها، مثل نص أو عدد أو قيمة منطقية.",
+    "example": "يفصل البرنامج بين العمر كعدد والاسم كنص.",
+    "whereUsed": "عند تعريف البيانات والتحقق من استخدامها.",
+    "en": [
+      "A value category defining its nature and suitable operations, such as text, number, or Boolean.",
+      "A program treats age as a number and name as text.",
+      "Defining data and checking how it is used."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "string",
+      "boolean",
+      "integer"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://docs.python.org/3/library/stdtypes.html"
+    ]
+  },
+  {
+    "term": "Operator",
+    "fullName": "Operator",
+    "arabicName": "عامل برمجي",
+    "definition": "رمز أو كلمة تنفذ عملية على قيمة أو أكثر، مثل الجمع أو المقارنة.",
+    "example": "يختبر التعبير stock > 0 وجود مخزون.",
+    "whereUsed": "في الحسابات والمقارنات والتعبيرات المنطقية.",
+    "en": [
+      "A symbol or keyword performing an operation on one or more values.",
+      "The expression stock > 0 checks that inventory remains.",
+      "Calculations, comparisons, and logical expressions."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "boolean",
+      "conditional"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators"
+    ]
+  },
+  {
+    "term": "Conditional",
+    "fullName": "Conditional Statement",
+    "arabicName": "جملة شرطية",
+    "definition": "تعليمة تختار أي شيفرة تنفّذ وفق نتيجة شرط.",
+    "example": "يعرض البرنامج زر الشراء إذا كان المنتج متاحًا.",
+    "whereUsed": "في قواعد العمل واتخاذ القرارات.",
+    "en": [
+      "A statement choosing which code runs according to a condition.",
+      "A program shows a buy button if a product is available.",
+      "Business rules and program decisions."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "boolean",
+      "operator"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling"
+    ]
+  },
+  {
+    "term": "Loop",
+    "fullName": "Loop",
+    "arabicName": "حلقة تكرار",
+    "definition": "بنية تعيد تنفيذ تعليمات عبر عناصر مجموعة أو طالما تحقق شرط.",
+    "example": "تحسب حلقة مجموع أسعار عناصر السلة.",
+    "whereUsed": "في معالجة القوائم والمهام المتكررة.",
+    "en": [
+      "A structure repeating instructions across a collection or while a condition holds.",
+      "A loop totals prices of shopping-cart items.",
+      "Processing lists and repetitive tasks."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "array",
+      "iterator"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration"
+    ]
+  },
+  {
+    "term": "Parameter",
+    "fullName": "Function Parameter",
+    "arabicName": "معامل دالة",
+    "definition": "اسم في تعريف الدالة يستقبل إحدى القيم الممررة عند استدعائها.",
+    "example": "تستقبل دالة التحية معاملًا اسمه name لاسم الشخص.",
+    "whereUsed": "في تصميم الدوال وإعادة استخدامها.",
+    "en": [
+      "A name in a function definition that receives a supplied argument when called.",
+      "A greeting function receives a name parameter.",
+      "Designing and reusing functions."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "function",
+      "return-value"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
+    ]
+  },
+  {
+    "term": "Return Value",
+    "fullName": "Return Value",
+    "arabicName": "قيمة الإرجاع",
+    "definition": "نتيجة تعيدها الدالة إلى الشيفرة التي استدعتها لتستخدمها في خطوات أخرى.",
+    "example": "تعيد دالة حساب الضريبة الرقم 15 إلى إجمالي الفاتورة.",
+    "whereUsed": "في ربط العمليات الحسابية والمنطقية.",
+    "en": [
+      "The result a function sends back to its caller for further use.",
+      "A tax function returns 15 for the invoice calculation.",
+      "Combining calculations and program operations."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "function",
+      "parameter"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
+    ]
+  },
+  {
+    "term": "Object",
+    "fullName": "Object",
+    "arabicName": "كائن برمجي",
+    "definition": "وحدة تجمع بيانات مترابطة وقد تضم سلوكًا ينفّذ عليها في صورة دوال.",
+    "example": "يجمع كائن المنتج اسمه وسعره وطريقة حساب الخصم.",
+    "whereUsed": "في تمثيل عناصر التطبيق وبياناتها.",
+    "en": [
+      "A unit grouping related data and potentially methods that operate on it.",
+      "A product object holds its name, price, and discount method.",
+      "Representing application entities and their data."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "class",
+      "oop"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object-oriented_programming"
+    ]
+  },
+  {
+    "term": "Class",
+    "fullName": "Class",
+    "arabicName": "صنف برمجي",
+    "definition": "وصف يحدد البيانات والسلوك المشتركين للكائنات التي تُنشأ منه.",
+    "example": "ينشئ صنف Invoice كائن فاتورة لكل عملية بيع.",
+    "whereUsed": "في تنظيم برامج تعتمد على الكائنات.",
+    "en": [
+      "A definition of the data and behavior shared by objects created from it.",
+      "An Invoice class creates a separate object for each sale.",
+      "Organizing object-based applications."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "object",
+      "oop"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object-oriented_programming"
+    ]
+  },
+  {
+    "term": "OOP",
+    "fullName": "Object-Oriented Programming",
+    "arabicName": "البرمجة كائنية التوجه",
+    "definition": "أسلوب لتنظيم البرنامج حول كائنات تجمع البيانات والسلوك المتعلق بها.",
+    "example": "يمثل تطبيق المدرسة الطلاب والدروس ككائنات متعاونة.",
+    "whereUsed": "في تنظيم التطبيقات ذات العناصر المترابطة.",
+    "en": [
+      "A programming approach organizing software around objects that combine data with related behavior.",
+      "A school app models students and lessons as collaborating objects.",
+      "Organizing applications with related entities."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "class",
+      "encapsulation"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object-oriented_programming"
+    ]
+  },
+  {
+    "term": "Inheritance",
+    "fullName": "Inheritance",
+    "arabicName": "الوراثة البرمجية",
+    "definition": "آلية تنشئ صنفًا يستفيد من خصائص وسلوك صنف آخر ويمكنه إضافة سلوك أو تخصيصه.",
+    "example": "يرث صنف ElectricCar خصائص مشتركة من Vehicle.",
+    "whereUsed": "عند مشاركة السلوك بين أصناف مترابطة.",
+    "en": [
+      "A mechanism for a class to reuse and extend or specialize another class's properties and behavior.",
+      "ElectricCar inherits common features from Vehicle.",
+      "Sharing behavior among related classes."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "class",
+      "polymorphism"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop"
+    ]
+  },
+  {
+    "term": "Encapsulation",
+    "fullName": "Encapsulation",
+    "arabicName": "التغليف البرمجي",
+    "definition": "جمع البيانات والسلوك في وحدة مع التحكم في الوصول إلى التفاصيل الداخلية.",
+    "example": "يعدّل الحساب رصيده عبر عملية إيداع بدل تغييره مباشرةً.",
+    "whereUsed": "عند حماية قواعد الكائن وتنظيم واجهته.",
+    "en": [
+      "Bundling data and behavior while controlling access to internal details.",
+      "An account changes its balance through a deposit operation.",
+      "Maintaining object rules and defining its interface."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "oop",
+      "interface"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop"
+    ]
+  },
+  {
+    "term": "Polymorphism",
+    "fullName": "Polymorphism",
+    "arabicName": "تعدد الأشكال",
+    "definition": "إمكانية استخدام واجهة مشتركة مع أنواع مختلفة ينفذ كل منها السلوك بطريقته.",
+    "example": "ينفّذ كل من الدائرة والمربع عملية draw بشكل مختلف.",
+    "whereUsed": "عند تصميم سلوك قابل للتوسع.",
+    "en": [
+      "Using a common interface with different types that each implement behavior in their own way.",
+      "A circle and a square implement draw differently.",
+      "Designing extensible behavior."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "interface",
+      "inheritance"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop"
+    ]
+  },
+  {
+    "term": "Interface",
+    "fullName": "Programming Interface",
+    "arabicName": "واجهة برمجية تعاقدية",
+    "definition": "وصف للخصائص أو العمليات المطلوبة من نوع دون فرض جميع تفاصيل تنفيذها.",
+    "example": "تطلب واجهة Printable عملية طباعة من كل نوع يطبقها.",
+    "whereUsed": "في الفصل بين العقود والتنفيذ.",
+    "en": [
+      "A contract describing required properties or operations without specifying all implementation details.",
+      "A Printable interface requires a print operation.",
+      "Separating contracts from implementation."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "class",
+      "polymorphism"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+    ]
+  },
+  {
+    "term": "Generics",
+    "fullName": "Generic Programming",
+    "arabicName": "برمجة عامة بالأنواع",
+    "definition": "كتابة دوال أو أنواع تستقبل نوعًا كمعامل لتعمل مع قيم مختلفة مع الحفاظ على فحص الأنواع.",
+    "example": "تعمل قائمة عامة مع أسماء نصية أو أسعار رقمية.",
+    "whereUsed": "في المكتبات وهياكل البيانات القابلة لإعادة الاستخدام.",
+    "en": [
+      "Writing functions or types with type parameters to support different values while preserving type checks.",
+      "A generic list can hold names or numeric prices.",
+      "Reusable libraries and data structures."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "data-type",
+      "typescript"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+    ]
+  },
+  {
+    "term": "Exception",
+    "fullName": "Exception",
+    "arabicName": "استثناء برمجي",
+    "definition": "إشارة إلى حالة غير عادية تقطع مسار التنفيذ المعتاد ويمكن التقاطها ومعالجتها.",
+    "example": "يعالج البرنامج استثناء فشل قراءة ملف ويعرض رسالة مفهومة.",
+    "whereUsed": "في التعامل مع أخطاء التشغيل.",
+    "en": [
+      "A signal of an exceptional condition that interrupts normal control flow and may be caught and handled.",
+      "A program catches a file-read failure and displays a helpful message.",
+      "Handling runtime failures."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "debugging",
+      "runtime"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling"
+    ]
+  },
+  {
+    "term": "Recursion",
+    "fullName": "Recursion",
+    "arabicName": "استدعاء ذاتي",
+    "definition": "حلّ تتكرر فيه الدالة باستدعاء نفسها لمسألة أصغر حتى تصل إلى شرط توقف.",
+    "example": "تحسب دالة حجم مجلد باستدعاء نفسها على المجلدات الموجودة داخله.",
+    "whereUsed": "في البنى المتداخلة وبعض الخوارزميات.",
+    "en": [
+      "A technique in which a function calls itself on a smaller problem until a stopping condition is reached.",
+      "A function totals a folder's size by visiting nested folders recursively.",
+      "Nested structures and some algorithms."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "function",
+      "algorithm"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
+    ]
+  },
+  {
+    "term": "Scope",
+    "fullName": "Scope",
+    "arabicName": "نطاق المتغير",
+    "definition": "الجزء من البرنامج الذي يمكن داخله الوصول إلى اسم مثل متغير أو دالة.",
+    "example": "متغير داخل دالة لا يكون متاحًا تلقائيًا خارجها.",
+    "whereUsed": "في تنظيم الأسماء وتجنب تعارضها.",
+    "en": [
+      "The region of a program where a name, such as a variable or function, is accessible.",
+      "A function's local variable is not automatically available outside it.",
+      "Organizing names and avoiding conflicts."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "variable",
+      "closure"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types"
+    ]
+  },
+  {
+    "term": "Closure",
+    "fullName": "Closure",
+    "arabicName": "إغلاق دالي",
+    "definition": "دالة تحتفظ بإمكانية الوصول إلى متغيرات النطاق الذي أُنشئت فيه حتى بعد انتهاء تنفيذه.",
+    "example": "تحتفظ دالة عدّاد بقيمة العدد بين الاستدعاءات.",
+    "whereUsed": "في الدوال التي تحتاج حالة خاصة.",
+    "en": [
+      "A function retaining access to variables from its creation scope after that scope finishes executing.",
+      "A counter function remembers its count between calls.",
+      "Functions that retain private state."
+    ],
+    "category": "programming",
+    "level": "Advanced",
+    "relatedTerms": [
+      "scope",
+      "function"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures"
+    ]
+  },
+  {
+    "term": "Callback",
+    "fullName": "Callback Function",
+    "arabicName": "دالة استدعاء راجع",
+    "definition": "دالة تمرَّر إلى دالة أخرى لتستدعيها ضمن عملها، فورًا أو في وقت لاحق.",
+    "example": "تمرّر الصفحة دالة تعرض رسالة عند الضغط على زر.",
+    "whereUsed": "في الأحداث وواجهات البرمجة التي تستقبل دوال.",
+    "en": [
+      "A function supplied to another function to invoke as part of its work, immediately or later.",
+      "A page supplies a callback to display a message on a button click.",
+      "Events and APIs that accept functions."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "function",
+      "event-listener"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function"
+    ]
+  },
+  {
+    "term": "Promise",
+    "fullName": "Promise",
+    "arabicName": "وعد برمجي",
+    "definition": "كائن يمثل نتيجة عملية غير متزامنة قد تنجح بقيمة أو تفشل بسبب خطأ.",
+    "example": "يعيد طلب البيانات وعدًا تُعرض نتيجته عند وصولها.",
+    "whereUsed": "في طلبات الشبكة والعمليات غير المتزامنة.",
+    "en": [
+      "An object representing an asynchronous operation that may fulfill with a value or reject with an error.",
+      "A data request returns a promise whose result is displayed when ready.",
+      "Network requests and asynchronous operations."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "async-await",
+      "callback"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises"
+    ]
+  },
+  {
+    "term": "Async/Await",
+    "fullName": "Async and Await",
+    "arabicName": "صياغة الانتظار غير المتزامن",
+    "definition": "صياغة تجعل التعامل مع نتائج العمليات غير المتزامنة أقرب للتسلسل العادي دون حجب مسار التنفيذ الرئيسي أثناء الانتظار.",
+    "example": "تنتظر دالة تحميل نتيجة fetch ثم تعرض البيانات.",
+    "whereUsed": "في قراءة البيانات وتنظيم العمليات غير المتزامنة.",
+    "en": [
+      "Syntax for expressing asynchronous work sequentially without blocking the main execution thread while awaiting results.",
+      "A loading function awaits fetch and then displays the data.",
+      "Data retrieval and asynchronous control flow."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "promise",
+      "fetch-api"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+    ]
+  },
+  {
+    "term": "Module",
+    "fullName": "Software Module",
+    "arabicName": "وحدة برمجية",
+    "definition": "جزء من الشيفرة له واجهة للاستيراد والتصدير تساعد على فصل مسؤولية محددة.",
+    "example": "تصدّر وحدة الحسابات دالة الضريبة إلى بقية التطبيق.",
+    "whereUsed": "في تقسيم المشروع وإعادة استخدام الشيفرة.",
+    "en": [
+      "A unit of code with an import/export interface that separates a particular responsibility.",
+      "A calculations module exports a tax function to the application.",
+      "Organizing projects and reusing code."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "function",
+      "library"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+    ]
+  },
+  {
+    "term": "Library",
+    "fullName": "Software Library",
+    "arabicName": "مكتبة برمجية",
+    "definition": "مجموعة شيفرة جاهزة يستدعيها البرنامج لتنفيذ وظائف دون كتابتها كلها من البداية.",
+    "example": "يستخدم مطور مكتبة لمعالجة التواريخ.",
+    "whereUsed": "في إضافة وظائف متخصصة للتطبيقات.",
+    "en": [
+      "Reusable code that a program calls to perform tasks without implementing everything from scratch.",
+      "A developer uses a library to handle dates.",
+      "Adding specialized functionality to applications."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "module",
+      "package"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://docs.python.org/3/library/index.html"
+    ]
+  },
+  {
+    "term": "Dependency",
+    "fullName": "Software Dependency",
+    "arabicName": "اعتماد برمجي",
+    "definition": "حزمة أو مكوّن يحتاجه البرنامج كي يبنى أو يعمل بصورة صحيحة.",
+    "example": "يعتمد تطبيق التقارير على مكتبة لرسم المخططات.",
+    "whereUsed": "في إدارة متطلبات البرامج وتوافقها.",
+    "en": [
+      "A package or component needed for software to build or run correctly.",
+      "A reporting app depends on a charting library.",
+      "Managing software requirements and compatibility."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "package",
+      "library"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://docs.npmjs.com/cli/v11/configuring-npm/package-json/"
+    ]
+  },
+  {
+    "term": "Package",
+    "fullName": "Software Package",
+    "arabicName": "حزمة برمجية",
+    "definition": "وحدة قابلة للتوزيع تجمع شيفرة وملفات ومعلومات مثل الاسم والإصدار والاعتمادات.",
+    "example": "يثبّت المطور حزمة تحتوي أدوات لمعالجة الصور.",
+    "whereUsed": "في توزيع المكتبات والأدوات البرمجية.",
+    "en": [
+      "A distributable unit containing code, files, and metadata such as name, version, and dependencies.",
+      "A developer installs an image-processing package.",
+      "Distributing software libraries and tools."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "dependency",
+      "package-manager"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://docs.npmjs.com/about-packages-and-modules/"
+    ]
+  },
+  {
+    "term": "Package Manager",
+    "fullName": "Package Manager",
+    "arabicName": "مدير حزم",
+    "definition": "أداة تثبّت الحزم وتحدّثها وتساعد في إدارة إصداراتها واعتماداتها.",
+    "example": "يجلب npm مكتبة يطلبها مشروع جافاسكربت.",
+    "whereUsed": "في إعداد المشاريع وصيانة اعتمادياتها.",
+    "en": [
+      "A tool that installs and updates packages and manages versions and dependencies.",
+      "npm retrieves a library needed by a JavaScript project.",
+      "Setting up projects and maintaining dependencies."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "package",
+      "dependency"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://docs.npmjs.com/about-npm/"
+    ]
+  },
+  {
+    "term": "Compiler",
+    "fullName": "Compiler",
+    "arabicName": "مترجم برمجي",
+    "definition": "برنامج يحوّل شيفرة من لغة إلى تمثيل آخر مثل تعليمات آلة أو شيفرة وسيطة.",
+    "example": "يحوّل مترجم C ملف المصدر إلى شيفرة قابلة للربط والتنفيذ.",
+    "whereUsed": "في تجهيز البرامج للتنفيذ أو تحويل اللغات.",
+    "en": [
+      "Software translating source code into another representation, such as machine instructions or intermediate code.",
+      "A C compiler translates source into code that can be linked and executed.",
+      "Preparing programs for execution or translating languages."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "c",
+      "runtime"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Glossary/Compile"
+    ]
+  },
+  {
+    "term": "Interpreter",
+    "fullName": "Interpreter",
+    "arabicName": "مفسّر برمجي",
+    "definition": "برنامج ينفّذ تعليمات لغة داخل بيئة تشغيل؛ قد يستخدم شيفرة وسيطة بدل إنتاج ملف تنفيذي مستقل مسبقًا.",
+    "example": "ينفّذ مفسّر بايثون برنامجًا من ملف نصي.",
+    "whereUsed": "في تشغيل النصوص البرمجية والتجارب التفاعلية.",
+    "en": [
+      "Software executing language instructions in a runtime, possibly through intermediate code rather than a prebuilt standalone executable.",
+      "The Python interpreter runs a script from a text file.",
+      "Scripts and interactive programming."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "python",
+      "runtime"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://docs.python.org/3/tutorial/interpreter.html"
+    ]
+  },
+  {
+    "term": "Runtime",
+    "fullName": "Runtime Environment",
+    "arabicName": "بيئة تشغيل",
+    "definition": "البيئة والخدمات التي تنفذ الشيفرة وتوفر ما تحتاجه أثناء عملها، مثل الذاكرة والواجهات الأساسية.",
+    "example": "يشغّل Node.js جافاسكربت ويوفر الوصول إلى الملفات.",
+    "whereUsed": "في تشغيل التطبيقات واختيار منصتها.",
+    "en": [
+      "The environment and services executing code and providing facilities such as memory and basic APIs.",
+      "Node.js runs JavaScript and provides file access.",
+      "Running applications and choosing execution platforms."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "javascript",
+      "interpreter"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs"
+    ]
+  },
+  {
+    "term": "Garbage Collection",
+    "fullName": "Garbage Collection",
+    "arabicName": "جمع الذاكرة غير المستخدمة",
+    "definition": "إدارة آلية تستعيد ذاكرة الكائنات التي لم يعد البرنامج يستطيع الوصول إليها أو استخدامها وفق آلية البيئة.",
+    "example": "تستعيد البيئة ذاكرة قائمة مؤقتة بعد زوال مراجعها.",
+    "whereUsed": "في بيئات تدير الذاكرة آليًا.",
+    "en": [
+      "Automatic memory management reclaiming objects that are no longer reachable or usable according to runtime rules.",
+      "The runtime reclaims a temporary list after its references disappear.",
+      "Runtimes with automatic memory management."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "runtime",
+      "memory-leak"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Memory_management"
+    ]
+  },
+  {
+    "term": "Memory Leak",
+    "fullName": "Memory Leak",
+    "arabicName": "تسرّب ذاكرة",
+    "definition": "احتفاظ البرنامج بذاكرة لم يعد يحتاجها دون تحريرها، مما قد يزيد استهلاكه مع الوقت.",
+    "example": "تظل صور صفحات قديمة محفوظة في قائمة تنمو بلا تنظيف.",
+    "whereUsed": "عند تشخيص زيادة استهلاك الذاكرة.",
+    "en": [
+      "Memory retained after it is no longer needed, potentially increasing consumption over time.",
+      "Images from old pages remain in an ever-growing list.",
+      "Diagnosing increasing memory use."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "garbage-collection",
+      "debugging"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Memory_management"
+    ]
+  },
+  {
+    "term": "Regular Expression",
+    "fullName": "Regular Expression",
+    "arabicName": "تعبير نمطي",
+    "definition": "نمط نصي يصف مجموعات من الأحرف للبحث عن تطابقات أو استبدالها.",
+    "example": "يلتقط نمط سلسلة أرقام من رقم طلب مكتوب في رسالة.",
+    "whereUsed": "في البحث النصي والتحقق من الصيغ.",
+    "en": [
+      "A text pattern describing character combinations for matching or replacement.",
+      "A pattern extracts digits from an order number in a message.",
+      "Text search and format checks."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "string",
+      "form-validation"
+    ],
+    "aliases": [
+      "Regex",
+      "RegExp"
+    ],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions"
+    ]
+  },
+  {
+    "term": "Lambda",
+    "fullName": "Lambda Expression",
+    "arabicName": "تعبير لامبدا",
+    "definition": "صياغة مختصرة لتعريف دالة، غالبًا دون اسم، لاستخدامها كقيمة داخل الشيفرة.",
+    "example": "تستخدم عملية ترتيب دالة قصيرة لاختيار سعر المنتج.",
+    "whereUsed": "في تمرير سلوك صغير إلى دوال أخرى.",
+    "en": [
+      "Compact syntax for defining a function, often unnamed, as a value in code.",
+      "A sorting operation uses a short function to select each product's price.",
+      "Passing small behaviors to other functions."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "function",
+      "callback"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://docs.python.org/3/tutorial/controlflow.html"
+    ]
+  },
+  {
+    "term": "Immutability",
+    "fullName": "Immutability",
+    "arabicName": "عدم قابلية التغيير",
+    "definition": "خاصية تعني أن قيمة أو كائنًا لا يتغير بعد إنشائه؛ ينتج التعديل عادةً قيمة جديدة.",
+    "example": "ينشئ التطبيق قائمة جديدة بعد إضافة مهمة بدل تغيير القائمة الأصلية.",
+    "whereUsed": "في إدارة الحالة وتقليل التغييرات غير المقصودة.",
+    "en": [
+      "A property meaning a value or object cannot change after creation; updates normally produce a new value.",
+      "An app creates a new task list instead of modifying the old one.",
+      "State management and avoiding unintended mutations."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "constant",
+      "object"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Glossary/Immutable"
+    ]
+  },
+  {
+    "term": "Iterator",
+    "fullName": "Iterator",
+    "arabicName": "مكرّر عناصر",
+    "definition": "كائن أو آلية تعطي عناصر مجموعة واحدًا بعد الآخر مع معرفة وقت انتهاء التكرار.",
+    "example": "يقرأ المكرر صفوف ملف كبير تباعًا.",
+    "whereUsed": "في المرور على مجموعات وتسلسلات البيانات.",
+    "en": [
+      "An object or mechanism yielding collection elements one at a time and indicating completion.",
+      "An iterator reads a large file's rows sequentially.",
+      "Traversing collections and data sequences."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "array",
+      "loop"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators"
+    ]
+  },
+  {
+    "term": "Type Casting",
+    "fullName": "Type Casting",
+    "arabicName": "تحويل النوع",
+    "definition": "طلب صريح لتحويل قيمة أو التعامل معها بنوع آخر وفق قواعد اللغة، وقد يفقد معلومات أو يفشل.",
+    "example": "يحوّل البرنامج عددًا عشريًا إلى عدد صحيح مع حذف الجزء الكسري في C#.",
+    "whereUsed": "عند التعامل مع أنواع مختلفة في العملية نفسها.",
+    "en": [
+      "An explicit conversion or reinterpretation between types under language rules, which may lose information or fail.",
+      "A C# program converts a floating-point value to an integer, discarding its fractional part.",
+      "Combining different types in an operation."
+    ],
+    "category": "programming",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "data-type",
+      "integer"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions"
+    ]
+  },
+  {
+    "term": "DOM",
+    "fullName": "Document Object Model",
+    "arabicName": "نموذج كائنات المستند",
+    "definition": "تمثيل صفحة الويب كشجرة من الكائنات يسمح للشيفرة بقراءة عناصرها وتغييرها.",
+    "example": "تغيّر جافاسكربت نص العنوان عبر عنصره في DOM.",
+    "whereUsed": "في التحكم البرمجي بمحتوى الصفحة.",
+    "en": [
+      "A tree representation of a web document that lets code inspect and change its elements.",
+      "JavaScript changes a heading through its DOM element.",
+      "Programmatic control of page content."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "html",
+      "javascript"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
+    ]
+  },
+  {
+    "term": "Frontend",
+    "fullName": "Frontend Development",
+    "arabicName": "تطوير الواجهة الأمامية",
+    "definition": "الجزء من تطوير الويب الذي يهتم بما يعرضه المتصفح وكيف يتفاعل المستخدم معه.",
+    "example": "ينفّذ المطور قائمة المنتجات وزر تغيير اللغة.",
+    "whereUsed": "في بناء واجهات المواقع وتفاعلها.",
+    "en": [
+      "The part of web development concerned with browser presentation and user interaction.",
+      "A developer implements a product list and language switch.",
+      "Building website interfaces and interactions."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "html",
+      "css",
+      "backend"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview"
+    ]
+  },
+  {
+    "term": "Backend",
+    "fullName": "Backend Development",
+    "arabicName": "تطوير الواجهة الخلفية",
+    "definition": "الجزء الذي يعمل على الخادم لمعالجة الطلبات وقواعد التطبيق والتعامل مع البيانات.",
+    "example": "يتحقق الخادم من المخزون قبل تسجيل طلب شراء.",
+    "whereUsed": "في خدمات المواقع ومعالجة البيانات.",
+    "en": [
+      "The server-side part handling requests, application rules, and data.",
+      "The server checks stock before recording an order.",
+      "Website services and data processing."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "server",
+      "api",
+      "frontend"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview"
+    ]
+  },
+  {
+    "term": "Full Stack",
+    "fullName": "Full-Stack Development",
+    "arabicName": "تطوير الواجهتين الأمامية والخلفية",
+    "definition": "تطوير يجمع العمل على واجهة المستخدم وجزء الخادم الذي يخدمها.",
+    "example": "يبني مطور شاشة الحجز والخدمة التي تحفظ المواعيد.",
+    "whereUsed": "في المشاريع التي تشمل الواجهة والخادم.",
+    "en": [
+      "Development covering both the user interface and the server-side systems serving it.",
+      "A developer builds a booking screen and its appointment-saving service.",
+      "Projects spanning interface and server implementation."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "frontend",
+      "backend"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview"
+    ]
+  },
+  {
+    "term": "Semantic HTML",
+    "fullName": "Semantic HTML",
+    "arabicName": "HTML دلالي",
+    "definition": "اختيار عناصر HTML التي تعبّر عن وظيفة المحتوى، مثل عنوان أو زر أو قسم تنقّل.",
+    "example": "يستخدم المطور button لإجراء قابل للنقر وnav لقائمة التنقل.",
+    "whereUsed": "في بنية صفحات واضحة للأدوات المساعدة والمتصفحات.",
+    "en": [
+      "Using HTML elements that describe content roles, such as headings, buttons, and navigation.",
+      "A developer uses button for an action and nav for navigation.",
+      "Page structure understood by browsers and assistive tools."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "html",
+      "accessibility"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
+    ]
+  },
+  {
+    "term": "Accessibility",
+    "fullName": "Web Accessibility",
+    "arabicName": "إمكانية الوصول للويب",
+    "definition": "تصميم وتطوير المحتوى بحيث يستطيع الأشخاص ذوو الإعاقات إدراكه وتشغيله وفهمه واستخدامه.",
+    "example": "يمكن التنقل في نموذج وإرساله باستخدام لوحة المفاتيح فقط.",
+    "whereUsed": "في إتاحة المواقع لأوسع نطاق من المستخدمين.",
+    "en": [
+      "Designing and building content people with disabilities can perceive, operate, understand, and use.",
+      "A form can be completed and submitted using only a keyboard.",
+      "Making websites usable by a wider range of people."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "aria",
+      "alt-text"
+    ],
+    "aliases": [
+      "A11y"
+    ],
+    "sources": [
+      "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+    ]
+  },
+  {
+    "term": "ARIA",
+    "fullName": "Accessible Rich Internet Applications",
+    "arabicName": "سمات إتاحة تطبيقات الويب",
+    "definition": "أدوار وسمات توضّح وظيفة عناصر الواجهة وحالتها للتقنيات المساعدة عندما لا تكفي دلالات HTML الأصلية.",
+    "example": "يبيّن aria-expanded ما إذا كانت قائمة مطوية مفتوحة.",
+    "whereUsed": "في تحسين إتاحة عناصر التحكم المخصصة.",
+    "en": [
+      "Roles and attributes exposing interface meaning and state to assistive technologies when native HTML semantics are insufficient.",
+      "aria-expanded indicates whether a collapsible menu is open.",
+      "Accessible custom interface controls."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "accessibility",
+      "semantic-html"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA"
+    ]
+  },
+  {
+    "term": "Alt Text",
+    "fullName": "Alternative Text",
+    "arabicName": "نص بديل للصورة",
+    "definition": "وصف نصي ينقل معنى الصورة أو وظيفتها لمن لا يستطيع رؤيتها؛ الصورة الزخرفية قد تحتاج نصًا فارغًا.",
+    "example": "يصف نص بديل مخططًا يوضح ارتفاع المبيعات.",
+    "whereUsed": "في الصور والأزرار المعتمدة على صور.",
+    "en": [
+      "Text conveying an image's meaning or function to people who cannot see it; decorative images may use empty text.",
+      "Alternative text explains a chart showing sales growth.",
+      "Images and image-based controls."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "accessibility",
+      "html"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.w3.org/WAI/tutorials/images/"
+    ]
+  },
+  {
+    "term": "Responsive Design",
+    "fullName": "Responsive Web Design",
+    "arabicName": "تصميم متجاوب",
+    "definition": "أسلوب يجعل تخطيط الصفحة ومحتواها يتكيفان مع أحجام الشاشات وخصائص العرض المختلفة.",
+    "example": "تتحول بطاقات المصطلحات من أربعة أعمدة إلى عمود واحد على الهاتف.",
+    "whereUsed": "في مواقع تعمل على الهاتف والحاسوب.",
+    "en": [
+      "An approach adapting page layout and content to different screen sizes and display characteristics.",
+      "Term cards change from four columns to one on a phone.",
+      "Websites used on phones and computers."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "media-query",
+      "viewport"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design"
+    ]
+  },
+  {
+    "term": "Viewport",
+    "fullName": "Viewport",
+    "arabicName": "منطقة عرض الصفحة",
+    "definition": "المساحة التي يتيحها المتصفح لعرض الصفحة؛ قد يختلف الجزء المرئي عند التكبير عن مساحة التخطيط.",
+    "example": "يضيق عرض الصفحة المتاح عند تصغير نافذة المتصفح.",
+    "whereUsed": "في تخطيط الصفحات وحساب أحجامها.",
+    "en": [
+      "The browser area used to display a page; zooming may make the visible area differ from the layout viewport.",
+      "Resizing the browser narrows the available page area.",
+      "Page layout and sizing."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "responsive-design",
+      "media-query"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/CSSOM_view/Viewport_concepts"
+    ]
+  },
+  {
+    "term": "Media Query",
+    "fullName": "CSS Media Query",
+    "arabicName": "استعلام وسائط",
+    "definition": "شرط في CSS يطبق أنماطًا وفق خصائص مثل عرض النافذة أو تفضيل تقليل الحركة.",
+    "example": "تختفي القائمة الجانبية عند ضيق مساحة العرض.",
+    "whereUsed": "في التصميم المتجاوب واحترام تفضيلات المستخدم.",
+    "en": [
+      "A CSS condition applying styles based on features such as viewport width or reduced-motion preference.",
+      "A sidebar collapses when the viewport becomes narrow.",
+      "Responsive layouts and user preferences."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "css",
+      "responsive-design"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries"
+    ]
+  },
+  {
+    "term": "Flexbox",
+    "fullName": "CSS Flexible Box Layout",
+    "arabicName": "تخطيط مرن",
+    "definition": "نظام CSS يرتب العناصر على محور واحد في صف أو عمود ويضبط المسافات والمحاذاة.",
+    "example": "يوزّع شريط التنقل أزراره بالتساوي في صف.",
+    "whereUsed": "في الأشرطة والأزرار ومحاذاة العناصر.",
+    "en": [
+      "A CSS layout system arranging items along one axis, with spacing and alignment controls.",
+      "A navigation bar distributes buttons evenly in a row.",
+      "Bars, button groups, and aligning elements."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "css",
+      "css-grid"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox"
+    ]
+  },
+  {
+    "term": "CSS Grid",
+    "fullName": "CSS Grid Layout",
+    "arabicName": "تخطيط شبكي",
+    "definition": "نظام CSS ينظم العناصر في صفوف وأعمدة مع التحكم في أحجام المسارات ومواقع العناصر.",
+    "example": "يعرض القاموس بطاقات داخل شبكة ذات أربعة أعمدة.",
+    "whereUsed": "في تخطيطات الصفحات ومعارض البطاقات.",
+    "en": [
+      "A CSS system arranging elements in rows and columns with control over track sizes and placement.",
+      "A dictionary displays cards in a four-column grid.",
+      "Page layouts and card galleries."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "css",
+      "flexbox"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout"
+    ]
+  },
+  {
+    "term": "Box Model",
+    "fullName": "CSS Box Model",
+    "arabicName": "نموذج الصندوق",
+    "definition": "طريقة حساب المساحة حول عنصر CSS من المحتوى والحشو والحدود والهامش.",
+    "example": "يزيد الحشو المسافة بين نص الزر وحدوده.",
+    "whereUsed": "في ضبط أحجام العناصر والمسافات.",
+    "en": [
+      "The CSS model describing an element's content, padding, border, and margin.",
+      "Padding adds space between a button label and its border.",
+      "Controlling element dimensions and spacing."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "css",
+      "selector"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model"
+    ]
+  },
+  {
+    "term": "Selector",
+    "fullName": "CSS Selector",
+    "arabicName": "محدّد CSS",
+    "definition": "نمط يحدد العناصر التي تنطبق عليها قاعدة تنسيق.",
+    "example": "يختار المحدد .card كل عنصر يحمل الصنف card.",
+    "whereUsed": "في تطبيق تنسيقات على عناصر محددة.",
+    "en": [
+      "A pattern selecting the elements to which a styling rule applies.",
+      "The .card selector matches elements with the card class.",
+      "Applying styles to selected elements."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "css",
+      "specificity"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors"
+    ]
+  },
+  {
+    "term": "Specificity",
+    "fullName": "CSS Specificity",
+    "arabicName": "أولوية المحدّد",
+    "definition": "وزن يحسب من محدد CSS ويساعد في حسم تعارض القواعد داخل مستوى متكافئ من التتالي.",
+    "example": "يتغلب محدد بمعرّف على محدد صنف في الظروف المتكافئة.",
+    "whereUsed": "عند تشخيص سبب تطبيق تنسيق معين.",
+    "en": [
+      "A weight calculated from a CSS selector that resolves competing declarations at the same cascade precedence.",
+      "An ID selector outranks a class selector when other cascade conditions match.",
+      "Diagnosing why a style wins."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "selector",
+      "css"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity"
+    ]
+  },
+  {
+    "term": "CSS Variable",
+    "fullName": "CSS Custom Property",
+    "arabicName": "متغير تنسيق مخصص",
+    "definition": "قيمة مسماة في CSS يمكن إعادة استخدامها عبر var وتتغير حسب نطاق القاعدة والتتالي.",
+    "example": "يغيّر --accent لون الأزرار والروابط من مكان واحد.",
+    "whereUsed": "في الثيمات وتوحيد ألوان ومسافات التصميم.",
+    "en": [
+      "A named CSS value reused through var, governed by scope and the cascade.",
+      "Changing --accent updates button and link colors together.",
+      "Themes and shared design values."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "css",
+      "scope"
+    ],
+    "aliases": [
+      "Custom Property"
+    ],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties"
+    ]
+  },
+  {
+    "term": "CSS Animation",
+    "fullName": "CSS Animation",
+    "arabicName": "تحريك باستخدام CSS",
+    "definition": "تغيير خواص التنسيق بمرور الزمن وفق إطارات رئيسية وإعدادات مثل المدة والتكرار.",
+    "example": "يدور مؤشر التحميل باستخدام @keyframes.",
+    "whereUsed": "في مؤشرات الحالة والحركة البصرية.",
+    "en": [
+      "Changing style properties over time using keyframes and settings such as duration and repetition.",
+      "A loading indicator rotates using @keyframes.",
+      "Status indicators and visual motion."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "css",
+      "media-query"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations"
+    ]
+  },
+  {
+    "term": "SVG",
+    "fullName": "Scalable Vector Graphics",
+    "arabicName": "رسومات متجهة قابلة للتحجيم",
+    "definition": "صيغة تصف الرسومات بأشكال ومسارات يمكن تكبيرها دون فقد وضوحها كما يحدث مع الصور النقطية.",
+    "example": "يبقى شعار SVG واضحًا عند تكبيره في الصفحة.",
+    "whereUsed": "في الشعارات والأيقونات والمخططات.",
+    "en": [
+      "A format describing graphics with shapes and paths that scale without the pixelation of raster images.",
+      "An SVG logo remains crisp when enlarged.",
+      "Logos, icons, and diagrams."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "html",
+      "canvas"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/SVG"
+    ]
+  },
+  {
+    "term": "Canvas",
+    "fullName": "HTML Canvas",
+    "arabicName": "مساحة رسم في HTML",
+    "definition": "عنصر وواجهة برمجة لرسم الصور والأشكال بالبكسلات داخل صفحة باستخدام الشيفرة.",
+    "example": "ترسم لعبة متصفح الشخصيات على مساحة canvas.",
+    "whereUsed": "في الألعاب والرسوم ومعالجة الصور.",
+    "en": [
+      "An HTML element and API for drawing graphics on a pixel-based surface with code.",
+      "A browser game draws characters on a canvas.",
+      "Games, visualizations, and image processing."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "javascript",
+      "svg"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"
+    ]
+  },
+  {
+    "term": "Event",
+    "fullName": "Web Event",
+    "arabicName": "حدث في الويب",
+    "definition": "إشارة إلى وقوع شيء مثل نقرة أو كتابة أو اكتمال عملية يمكن للبرنامج الاستجابة له.",
+    "example": "ينطلق حدث input أثناء تغيير نص مربع البحث.",
+    "whereUsed": "في ربط التفاعل بسلوك الصفحة.",
+    "en": [
+      "A signal that something happened, such as a click, typing, or a completed operation.",
+      "An input event fires when search-field text changes.",
+      "Connecting user interaction to page behavior."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "event-listener",
+      "dom"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Event"
+    ]
+  },
+  {
+    "term": "Event Listener",
+    "fullName": "Event Listener",
+    "arabicName": "مستمع حدث",
+    "definition": "دالة تسجل لتعمل عندما يقع نوع محدد من الأحداث على هدف معين.",
+    "example": "يشغّل مستمع النقر تبديل الوضع الليلي.",
+    "whereUsed": "في معالجة الأزرار والنماذج والتفاعلات.",
+    "en": [
+      "A function registered to run when a particular event occurs on a target.",
+      "A click listener switches the page to dark mode.",
+      "Handling buttons, forms, and interactions."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "event",
+      "callback"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener"
+    ]
+  },
+  {
+    "term": "Event Bubbling",
+    "fullName": "Event Bubbling",
+    "arabicName": "تصاعد الحدث",
+    "definition": "مرحلة ينتقل فيها حدث قابل للتصاعد من العنصر المستهدف إلى أسلافه في شجرة الصفحة.",
+    "example": "يعالج مستمع على القائمة نقرة حدثت على أحد عناصرها.",
+    "whereUsed": "في تفويض الأحداث وتنظيم المستمعات.",
+    "en": [
+      "The phase in which a bubbling event propagates from its target through ancestor elements.",
+      "A list-level listener handles a click on one of its items.",
+      "Event delegation and listener organization."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "event",
+      "dom"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling"
+    ]
+  },
+  {
+    "term": "Form Validation",
+    "fullName": "Form Validation",
+    "arabicName": "التحقق من مدخلات النموذج",
+    "definition": "فحص القيم المدخلة مقابل شروط مطلوبة مثل الحقول الإلزامية والصيغ؛ يلزم التحقق على الخادم أيضًا.",
+    "example": "ينبّه النموذج إلى ترك حقل البريد فارغًا.",
+    "whereUsed": "في نماذج التسجيل والحجز وإدخال البيانات.",
+    "en": [
+      "Checking input against requirements such as required fields and formats; server validation is also necessary.",
+      "A form flags an empty email field.",
+      "Registration, booking, and data-entry forms."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "html",
+      "backend"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation"
+    ]
+  },
+  {
+    "term": "Cookie",
+    "fullName": "HTTP Cookie",
+    "arabicName": "ملف تعريف ارتباط",
+    "definition": "بيانات صغيرة يخزنها المتصفح ويرسلها مع الطلبات المطابقة لقواعدها لمساعدة الموقع على تذكر حالة.",
+    "example": "يتذكر الموقع لغة العرض باستخدام ملف تعريف ارتباط.",
+    "whereUsed": "في الجلسات وتفضيلات المواقع.",
+    "en": [
+      "Small browser-stored data sent with matching requests according to its rules to help a website retain state.",
+      "A site remembers the chosen language using a cookie.",
+      "Website sessions and preferences."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "http",
+      "local-storage"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies"
+    ]
+  },
+  {
+    "term": "Local Storage",
+    "fullName": "Web Local Storage",
+    "arabicName": "تخزين محلي للمتصفح",
+    "definition": "مساحة لحفظ أزواج نصية من مفاتيح وقيم لكل أصل ويب، وتستمر عادةً بعد إغلاق المتصفح حتى تُمسح.",
+    "example": "يحفظ القاموس اختيار الوضع الليلي للزيارة التالية.",
+    "whereUsed": "في تفضيلات صغيرة غير حساسة.",
+    "en": [
+      "Browser storage for string key-value pairs per origin, usually retained across sessions until cleared.",
+      "A dictionary remembers the dark-mode choice for the next visit.",
+      "Small, nonsensitive preferences."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "session-storage",
+      "cookie"
+    ],
+    "aliases": [
+      "localStorage"
+    ],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API"
+    ]
+  },
+  {
+    "term": "Session Storage",
+    "fullName": "Web Session Storage",
+    "arabicName": "تخزين جلسة التبويب",
+    "definition": "تخزين أزواج نصية خاص بأصل الويب وجلسة التبويب، يبقى مع إعادة التحميل وينتهي عادةً بإغلاق التبويب.",
+    "example": "يحفظ معالج تسجيل الخطوة الحالية أثناء إعادة تحميل الصفحة.",
+    "whereUsed": "في الحالة المؤقتة داخل تبويب.",
+    "en": [
+      "String key-value storage scoped to an origin and tab session, surviving reloads but normally ending when the tab closes.",
+      "A sign-up wizard remembers its step during a reload.",
+      "Temporary state within a browser tab."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "local-storage",
+      "browser"
+    ],
+    "aliases": [
+      "sessionStorage"
+    ],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API"
+    ]
+  },
+  {
+    "term": "IndexedDB",
+    "fullName": "Indexed Database API",
+    "arabicName": "قاعدة بيانات داخل المتصفح",
+    "definition": "واجهة لحفظ كميات من البيانات المنظمة داخل المتصفح واسترجاعها باستخدام مفاتيح وفهارس.",
+    "example": "يحتفظ تطبيق ملاحظات بسجلات يمكن البحث فيها محليًا.",
+    "whereUsed": "في تطبيقات الويب التي تحتاج بيانات محلية كبيرة.",
+    "en": [
+      "A browser API storing structured data and retrieving it using keys and indexes.",
+      "A notes app stores records that can be searched locally.",
+      "Web applications needing substantial local data."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "database",
+      "local-storage"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"
+    ]
+  },
+  {
+    "term": "Service Worker",
+    "fullName": "Service Worker",
+    "arabicName": "عامل خدمة",
+    "definition": "برنامج يعمل ضمن دورة حياة منفصلة عن الصفحة ويمكنه اعتراض طلباتها والتحكم في تخزين الموارد مؤقتًا.",
+    "example": "يعرض التطبيق صفحة محفوظة عندما ينقطع الاتصال.",
+    "whereUsed": "في تطبيقات الويب التقدمية وتجارب الاتصال الضعيف.",
+    "en": [
+      "A script with a lifecycle separate from a page that can intercept requests and control cached resources.",
+      "An app displays a cached page when the connection fails.",
+      "Progressive web apps and unreliable connections."
+    ],
+    "category": "web",
+    "level": "Advanced",
+    "relatedTerms": [
+      "pwa",
+      "cache"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+    ]
+  },
+  {
+    "term": "Web Worker",
+    "fullName": "Web Worker",
+    "arabicName": "عامل ويب",
+    "definition": "طريقة لتشغيل شيفرة في مسار منفصل عن واجهة الصفحة لتنفيذ عمل طويل دون تعطيل تفاعلها.",
+    "example": "يحلل العامل ملفًا كبيرًا بينما تظل الأزرار مستجيبة.",
+    "whereUsed": "في الحسابات والمعالجة الثقيلة داخل المتصفح.",
+    "en": [
+      "A way to run code in a thread separate from the page interface for lengthy work without freezing interaction.",
+      "A worker analyzes a large file while buttons remain responsive.",
+      "Heavy computation and processing in browsers."
+    ],
+    "category": "web",
+    "level": "Advanced",
+    "relatedTerms": [
+      "javascript",
+      "canvas"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API"
+    ]
+  },
+  {
+    "term": "Fetch API",
+    "fullName": "Fetch API",
+    "arabicName": "واجهة جلب الموارد",
+    "definition": "واجهة جافاسكربت لإنشاء طلبات وجلب موارد ومعالجة الاستجابات باستخدام الوعود.",
+    "example": "تجلب الصفحة ملف JSON يعرض أسعار المنتجات.",
+    "whereUsed": "في اتصال واجهة الويب بخدمات البيانات.",
+    "en": [
+      "A JavaScript interface for making requests, retrieving resources, and processing responses using promises.",
+      "A page fetches a JSON file of product prices.",
+      "Connecting web interfaces to data services."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "promise",
+      "http",
+      "json"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+    ]
+  },
+  {
+    "term": "AJAX",
+    "fullName": "Asynchronous JavaScript and XML",
+    "arabicName": "تحديث غير متزامن للصفحة",
+    "definition": "أسلوب يجلب بيانات من الخادم ويحدّث جزءًا من الصفحة دون إعادة تحميلها كاملة؛ يمكنه استخدام JSON أيضًا.",
+    "example": "يعرض البحث اقتراحات جديدة أثناء الكتابة.",
+    "whereUsed": "في الواجهات التي تحدث محتواها أثناء الاستخدام.",
+    "en": [
+      "A technique retrieving server data and updating part of a page without a full reload; it can also use JSON.",
+      "Search shows new suggestions while the user types.",
+      "Interfaces that refresh content during use."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "fetch-api",
+      "spa"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Glossary/AJAX"
+    ]
+  },
+  {
+    "term": "SPA",
+    "fullName": "Single-Page Application",
+    "arabicName": "تطبيق صفحة واحدة",
+    "definition": "تطبيق ويب يحمّل مستندًا أساسيًا ثم يغيّر محتواه برمجيًا أثناء التنقل بين أقسامه.",
+    "example": "ينتقل المستخدم بين الرسائل داخل تطبيق البريد دون تحميل صفحة كاملة كل مرة.",
+    "whereUsed": "في تطبيقات الويب التفاعلية.",
+    "en": [
+      "A web app loading an initial document and updating its content programmatically as users navigate.",
+      "An email app switches messages without loading a whole new page each time.",
+      "Interactive web applications."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ajax",
+      "react"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Glossary/SPA"
+    ]
+  },
+  {
+    "term": "SSR",
+    "fullName": "Server-Side Rendering",
+    "arabicName": "توليد الصفحة على الخادم",
+    "definition": "إنتاج HTML للصفحة على الخادم استجابةً لطلب المستخدم ثم إرساله إلى المتصفح.",
+    "example": "ينشئ الخادم صفحة منتج بأسعاره الحالية عند طلبها.",
+    "whereUsed": "في الصفحات التي تحتاج محتوى جاهزًا عند وصولها.",
+    "en": [
+      "Generating a page's HTML on the server in response to a request and sending it to the browser.",
+      "A server generates a product page with current prices when requested.",
+      "Pages needing ready-to-display content on arrival."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "html",
+      "hydration",
+      "ssg"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://nextjs.org/docs/pages/building-your-application/rendering/server-side-rendering"
+    ]
+  },
+  {
+    "term": "SSG",
+    "fullName": "Static Site Generation",
+    "arabicName": "توليد موقع ثابت",
+    "definition": "إنشاء صفحات HTML مسبقًا أثناء البناء لتُقدّم لاحقًا كملفات جاهزة.",
+    "example": "تُولّد صفحات دليل الاستخدام عند تجهيز إصدار الموقع.",
+    "whereUsed": "في المدونات والتوثيق والمحتوى قليل التغير.",
+    "en": [
+      "Creating HTML pages ahead of time during a build so they can be served as ready-made files.",
+      "Documentation pages are generated when a site release is built.",
+      "Blogs, documentation, and infrequently changing content."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "html",
+      "ssr"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation"
+    ]
+  },
+  {
+    "term": "Hydration",
+    "fullName": "Hydration",
+    "arabicName": "ربط الصفحة المولّدة بالتفاعل",
+    "definition": "ربط شيفرة الواجهة بعناصر HTML المولدة مسبقًا كي تصبح قابلة للتفاعل دون إنشاء الصفحة كلها من الصفر.",
+    "example": "يظهر زر ضمن HTML القادم من الخادم ثم يبدأ الاستجابة بعد ربطه بالشيفرة.",
+    "whereUsed": "في أطر تجمع العرض المسبق والتفاعل.",
+    "en": [
+      "Attaching interface logic to prerendered HTML so it becomes interactive without rebuilding the entire page from scratch.",
+      "A button arrives in server HTML and becomes interactive when the client code attaches.",
+      "Frameworks combining prerendering and interactivity."
+    ],
+    "category": "web",
+    "level": "Advanced",
+    "relatedTerms": [
+      "ssr",
+      "react"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://react.dev/reference/react-dom/client/hydrateRoot"
+    ]
+  },
+  {
+    "term": "React",
+    "fullName": "React",
+    "arabicName": "رياكت",
+    "definition": "مكتبة جافاسكربت لبناء واجهات من مكونات يمكن إعادة استخدامها وتتحدث وفق تغير البيانات.",
+    "example": "يعاد استخدام مكون بطاقة المنتج في عدة صفحات.",
+    "whereUsed": "في واجهات الويب القائمة على المكونات.",
+    "en": [
+      "A JavaScript library for building reusable interface components that update as data changes.",
+      "A product-card component is reused across several pages.",
+      "Component-based web interfaces."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "javascript",
+      "library",
+      "spa"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://react.dev/learn"
+    ]
+  },
+  {
+    "term": "Vue",
+    "fullName": "Vue.js",
+    "arabicName": "فيو",
+    "definition": "إطار جافاسكربت لبناء الواجهات باستخدام قوالب ومكونات وربط تفاعلي بين البيانات والعرض.",
+    "example": "يتغير عدّاد السلة في القالب عند إضافة منتج.",
+    "whereUsed": "في واجهات ومشاريع ويب متنوعة الأحجام.",
+    "en": [
+      "A JavaScript framework for interfaces using templates, components, and reactive data binding.",
+      "A cart counter updates in the template when a product is added.",
+      "Web interfaces and applications of varying size."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "javascript",
+      "framework"
+    ],
+    "aliases": [
+      "Vue.js"
+    ],
+    "sources": [
+      "https://vuejs.org/guide/introduction.html"
+    ]
+  },
+  {
+    "term": "Angular",
+    "fullName": "Angular",
+    "arabicName": "أنجولار",
+    "definition": "إطار لبناء تطبيقات ويب بالمكونات، يضم أدوات مثل التوجيه والنماذج وحقن الاعتماديات.",
+    "example": "تنظّم منصة إدارية صفحاتها ونماذجها باستخدام Angular.",
+    "whereUsed": "في تطبيقات الويب المنظمة متعددة الشاشات.",
+    "en": [
+      "A component-based web framework with facilities such as routing, forms, and dependency injection.",
+      "An administration platform organizes screens and forms using Angular.",
+      "Structured web applications with multiple screens."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "typescript",
+      "framework"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://angular.dev/overview"
+    ]
+  },
+  {
+    "term": "Svelte",
+    "fullName": "Svelte",
+    "arabicName": "سفلت",
+    "definition": "إطار واجهات يستخدم مترجمًا لتحويل المكونات المكتوبة بـHTML وCSS وجافاسكربت إلى شيفرة تعمل في المتصفح.",
+    "example": "يكتب المطور عدّادًا في مكون ويولّد المترجم شيفرة تشغيله.",
+    "whereUsed": "في بناء واجهات تفاعلية بالمكونات.",
+    "en": [
+      "An interface framework using a compiler to turn HTML, CSS, and JavaScript components into browser code.",
+      "A developer writes a counter component and the compiler generates its working code.",
+      "Building interactive component-based interfaces."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "compiler",
+      "javascript",
+      "framework"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://svelte.dev/docs/svelte/overview"
+    ]
+  },
+  {
+    "term": "Web Component",
+    "fullName": "Web Components",
+    "arabicName": "مكوّن ويب أصلي",
+    "definition": "مجموعة تقنيات متصفح تسمح بإنشاء عناصر مخصصة قابلة لإعادة الاستخدام مع فصل بنيتها وسلوكها.",
+    "example": "يستخدم فريق عنصرًا مخصصًا لبطاقة مستخدم عبر مواقع مختلفة.",
+    "whereUsed": "في عناصر واجهة قابلة للنقل بين المشاريع.",
+    "en": [
+      "Browser technologies for reusable custom elements with separately defined structure and behavior.",
+      "A team reuses a custom user-card element across websites.",
+      "Reusable interface elements across projects."
+    ],
+    "category": "web",
+    "level": "Advanced",
+    "relatedTerms": [
+      "html",
+      "shadow-dom"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Web_components"
+    ]
+  },
+  {
+    "term": "Shadow DOM",
+    "fullName": "Shadow Document Object Model",
+    "arabicName": "شجرة مستند معزولة",
+    "definition": "شجرة DOM مرتبطة بعنصر وتوفر فصلًا لبنيته الداخلية وتنسيقاته عن بقية الصفحة؛ ليست حدًا أمنيًا.",
+    "example": "يحتفظ مكون بتنسيق أزراره دون أن تغيّره قواعد الصفحة العامة.",
+    "whereUsed": "في بناء مكونات ويب ذات تنسيق مستقل.",
+    "en": [
+      "A DOM tree attached to an element that isolates internal structure and styles; it is not a security boundary.",
+      "A component keeps button styling separate from general page rules.",
+      "Web components with isolated styling."
+    ],
+    "category": "web",
+    "level": "Advanced",
+    "relatedTerms": [
+      "dom",
+      "web-component"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM"
+    ]
+  },
+  {
+    "term": "Lazy Loading",
+    "fullName": "Lazy Loading",
+    "arabicName": "تحميل عند الحاجة",
+    "definition": "تأجيل تحميل مورد غير مطلوب فورًا إلى قرب الوقت الذي سيستخدم فيه لتقليل العمل الأولي.",
+    "example": "تُحمّل صور أسفل المقال عند اقتراب المستخدم منها.",
+    "whereUsed": "في تسريع التحميل الأولي للصفحات.",
+    "en": [
+      "Deferring resources not immediately needed until they are about to be used, reducing initial work.",
+      "Images farther down an article load as the reader approaches them.",
+      "Reducing initial page-loading work."
+    ],
+    "category": "web",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "browser",
+      "responsive-design"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Lazy_loading"
+    ]
+  },
+  {
+    "term": "WebAssembly",
+    "fullName": "WebAssembly",
+    "arabicName": "ويب أسمبلي",
+    "definition": "صيغة تعليمات ثنائية محمولة يمكن تشغيلها في المتصفح وبيئات أخرى وغالبًا تُنتج بترجمة لغات مثل C++ أو Rust.",
+    "example": "ينقل فريق جزء معالجة الصور إلى وحدة WebAssembly.",
+    "whereUsed": "في تشغيل حسابات مكثفة ومشاركة شيفرة مترجمة.",
+    "en": [
+      "A portable binary instruction format running in browsers and other environments, often compiled from C++ or Rust.",
+      "A team moves image-processing routines into a WebAssembly module.",
+      "Computation-heavy tasks and sharing compiled code."
+    ],
+    "category": "web",
+    "level": "Advanced",
+    "relatedTerms": [
+      "compiler",
+      "c-plus-plus",
+      "rust"
+    ],
+    "aliases": [
+      "Wasm"
+    ],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/WebAssembly"
+    ]
+  },
+  {
+    "term": "Markdown",
+    "fullName": "Markdown",
+    "arabicName": "ماركداون",
+    "definition": "صياغة نصية بسيطة لكتابة عناوين وقوائم وروابط يمكن تحويلها إلى مستند منسق مثل HTML.",
+    "example": "يضيف الكاتب # قبل العنوان في ملف README.",
+    "whereUsed": "في التوثيق والملاحظات وملفات وصف المشاريع.",
+    "en": [
+      "A lightweight text syntax for headings, lists, and links that can be converted into formatted documents such as HTML.",
+      "A writer places # before a heading in a README file.",
+      "Documentation, notes, and project descriptions."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "html",
+      "repository"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://daringfireball.net/projects/markdown/"
+    ]
+  }
+]

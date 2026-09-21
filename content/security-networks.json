@@ -1,0 +1,2419 @@
+[
+  {
+    "term": "Authentication",
+    "fullName": "Authentication",
+    "arabicName": "التحقق من الهوية",
+    "definition": "عملية تتحقق من أن الشخص أو الجهاز يملك وسيلة إثبات الهوية المرتبطة بالحساب.",
+    "example": "يتحقق الموقع من مفتاح المرور قبل فتح الحساب.",
+    "whereUsed": "عند الدخول إلى الحسابات واتصال الخدمات ببعضها.",
+    "en": [
+      "Checking that a person or device controls the credentials associated with an identity.",
+      "A site verifies a passkey before opening an account.",
+      "Account sign-in and service connections."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "password",
+      "mfa",
+      "authorization"
+    ],
+    "aliases": [
+      "AuthN"
+    ],
+    "sources": [
+      "https://pages.nist.gov/800-63-4/sp800-63b.html"
+    ]
+  },
+  {
+    "term": "Authorization",
+    "fullName": "Authorization",
+    "arabicName": "تحديد صلاحيات الوصول",
+    "definition": "تحديد الموارد والإجراءات المسموح بها لهوية معينة، مثل قراءة ملف أو تعديله.",
+    "example": "يسمح النظام للمحرر بتعديل المقال وللقارئ بمشاهدته فقط.",
+    "whereUsed": "في الملفات المشتركة ولوحات إدارة التطبيقات.",
+    "en": [
+      "Deciding which resources and actions an identity is allowed to access.",
+      "An editor may change an article while a reader may only view it.",
+      "Shared files and application administration."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "authentication",
+      "rbac"
+    ],
+    "aliases": [
+      "AuthZ"
+    ],
+    "sources": [
+      "https://learn.microsoft.com/en-us/entra/fundamentals/identity-fundamental-concepts"
+    ]
+  },
+  {
+    "term": "SSO",
+    "fullName": "Single Sign-On",
+    "arabicName": "تسجيل الدخول الموحد",
+    "definition": "آلية تتيح الدخول مرة واحدة ثم استخدام عدة تطبيقات تثق بجهة الهوية نفسها.",
+    "example": "يفتح الموظف البريد ونظام الإجازات بعد تسجيل دخول واحد.",
+    "whereUsed": "في بوابات الشركات والمؤسسات التعليمية.",
+    "en": [
+      "A mechanism that lets one sign-in provide access to several applications trusting the same identity service.",
+      "An employee opens mail and leave requests after one sign-in.",
+      "Company portals and education platforms."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "authentication",
+      "iam"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on"
+    ]
+  },
+  {
+    "term": "Passkey",
+    "fullName": "Passkey",
+    "arabicName": "مفتاح مرور",
+    "definition": "بيانات دخول تعتمد على زوج مفاتيح تشفير مرتبط بالموقع، ويُسمح باستخدامها عادة بقفل الجهاز.",
+    "example": "يفتح المستخدم حسابه ببصمة إصبعه دون كتابة كلمة مرور للموقع.",
+    "whereUsed": "في الدخول المقاوم للتصيّد إلى المواقع والتطبيقات.",
+    "en": [
+      "A site-bound public-key credential, commonly unlocked with the device screen lock.",
+      "A user signs in with a fingerprint without typing a website password.",
+      "Phishing-resistant sign-in to websites and apps."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "fido2",
+      "authentication"
+    ],
+    "aliases": [
+      "Passkeys"
+    ],
+    "sources": [
+      "https://fidoalliance.org/passkeys/"
+    ]
+  },
+  {
+    "term": "OTP",
+    "fullName": "One-Time Password",
+    "arabicName": "رمز يستخدم مرة واحدة",
+    "definition": "رمز مصادقة صالح لاستخدام واحد ضمن شروط محددة، وقد ينتهي بعد مدة قصيرة.",
+    "example": "يدخل المستخدم رمزًا مؤقتًا لتأكيد تسجيل الدخول.",
+    "whereUsed": "في تأكيد الدخول والمعاملات.",
+    "en": [
+      "An authentication code accepted once under defined conditions, often with a short expiry.",
+      "A user enters a temporary code to confirm a sign-in.",
+      "Sign-in and transaction verification."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "totp",
+      "mfa"
+    ],
+    "aliases": [
+      "One-Time Passcode"
+    ],
+    "sources": [
+      "https://pages.nist.gov/800-63-4/sp800-63b.html"
+    ]
+  },
+  {
+    "term": "TOTP",
+    "fullName": "Time-Based One-Time Password",
+    "arabicName": "رمز مصادقة مرتبط بالوقت",
+    "definition": "رمز مؤقت يحسبه التطبيق والخادم من سر مشترك والوقت، فيتغير دوريًا.",
+    "example": "يعرض تطبيق المصادقة رمزًا جديدًا كل ثلاثين ثانية.",
+    "whereUsed": "في تطبيقات المصادقة المستخدمة مع الحسابات.",
+    "en": [
+      "A temporary code calculated from a shared secret and time, changing at regular intervals.",
+      "An authenticator app shows a fresh code every thirty seconds.",
+      "Authenticator apps protecting online accounts."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "otp",
+      "mfa",
+      "ntp"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc6238.html"
+    ]
+  },
+  {
+    "term": "FIDO2",
+    "fullName": "FIDO2 Authentication Standards",
+    "arabicName": "معايير المصادقة فيدو 2",
+    "definition": "مجموعة معايير تشمل WebAuthn وCTAP لتمكين المصادقة بمفاتيح عامة عبر الأجهزة والمتصفحات.",
+    "example": "يستخدم شخص مفتاح أمان USB لتسجيل الدخول إلى موقع يدعم FIDO2.",
+    "whereUsed": "في مفاتيح الأمان ومفاتيح المرور.",
+    "en": [
+      "Standards including WebAuthn and CTAP that enable public-key authentication across browsers and devices.",
+      "Someone signs in to a supported site with a USB security key.",
+      "Security keys and passkey authentication."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "passkey",
+      "authentication"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://fidoalliance.org/passkeys/"
+    ]
+  },
+  {
+    "term": "RBAC",
+    "fullName": "Role-Based Access Control",
+    "arabicName": "التحكم في الوصول حسب الدور",
+    "definition": "إسناد الصلاحيات إلى أدوار وظيفية ثم منح المستخدمين الأدوار المناسبة.",
+    "example": "يحصل موظف الحسابات على صلاحيات الفواتير عند إسناد دور المحاسب إليه.",
+    "whereUsed": "في أنظمة الشركات وإدارة صلاحيات التطبيقات.",
+    "en": [
+      "Assigning permissions to roles and granting users the appropriate roles.",
+      "Assigning an accountant role gives an employee invoice permissions.",
+      "Business systems and application permissions."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "authorization",
+      "least-privilege"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://csrc.nist.gov/projects/role-based-access-control"
+    ]
+  },
+  {
+    "term": "ABAC",
+    "fullName": "Attribute-Based Access Control",
+    "arabicName": "التحكم في الوصول حسب السمات",
+    "definition": "تقييم صلاحيات الوصول باستخدام سمات مثل قسم المستخدم وحساسية الملف وحالة الجهاز.",
+    "example": "تسمح قاعدة لموظفي المالية بفتح تقرير من أجهزة الشركة فقط.",
+    "whereUsed": "في سياسات الوصول المرنة إلى البيانات والخدمات.",
+    "en": [
+      "Evaluating access using attributes such as department, document sensitivity, and device status.",
+      "A rule allows finance staff to open a report only from company devices.",
+      "Fine-grained access policies for data and services."
+    ],
+    "category": "security",
+    "level": "Advanced",
+    "relatedTerms": [
+      "authorization",
+      "rbac"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://csrc.nist.gov/pubs/sp/800/162/upd2/final"
+    ]
+  },
+  {
+    "term": "Least Privilege",
+    "fullName": "Principle of Least Privilege",
+    "arabicName": "مبدأ أقل صلاحية",
+    "definition": "منح الشخص أو البرنامج الحد الأدنى من الصلاحيات اللازمة لأداء المهمة.",
+    "example": "يقرأ برنامج التقارير البيانات دون السماح له بحذفها.",
+    "whereUsed": "عند إعداد حسابات المستخدمين والخدمات.",
+    "en": [
+      "Giving a person or program only the permissions needed for its task.",
+      "A reporting program can read records but cannot delete them.",
+      "User accounts and service permissions."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "authorization",
+      "rbac"
+    ],
+    "aliases": [
+      "PoLP"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/glossary/term/least_privilege"
+    ]
+  },
+  {
+    "term": "Zero Trust",
+    "fullName": "Zero Trust Architecture",
+    "arabicName": "بنية انعدام الثقة الضمنية",
+    "definition": "نهج يقيّم الهوية وحالة الجهاز وسياسة الوصول لكل مورد، دون اعتبار موقع الشبكة وحده دليل ثقة.",
+    "example": "يتحقق النظام من الجهاز والهوية قبل إتاحة ملف داخلي.",
+    "whereUsed": "في حماية موارد المؤسسات والعمل عن بُعد.",
+    "en": [
+      "An approach that evaluates identity, device state, and access policy instead of trusting network location alone.",
+      "A system checks identity and device status before sharing an internal file.",
+      "Enterprise resources and remote work."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "authentication",
+      "least-privilege"
+    ],
+    "aliases": [
+      "ZTA"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/pubs/sp/800/207/final"
+    ]
+  },
+  {
+    "term": "IAM",
+    "fullName": "Identity and Access Management",
+    "arabicName": "إدارة الهوية والوصول",
+    "definition": "سياسات وأنظمة لإدارة الهويات والحسابات وما يسمح لكل منها بالوصول إليه.",
+    "example": "توقف الشركة حساب موظف مغادر وتسحب صلاحياته من التطبيقات.",
+    "whereUsed": "في إدارة حسابات الموظفين والعملاء والخدمات.",
+    "en": [
+      "Policies and systems for managing identities, accounts, and their access to resources.",
+      "A company disables a departing employee account and removes application access.",
+      "Employee, customer, and service account administration."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "authentication",
+      "authorization",
+      "sso"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/entra/fundamentals/identity-fundamental-concepts"
+    ]
+  },
+  {
+    "term": "PAM",
+    "fullName": "Privileged Access Management",
+    "arabicName": "إدارة الوصول ذي الامتيازات",
+    "definition": "وسائل لضبط ومراقبة الوصول بالحسابات التي تملك صلاحيات قوية مثل إدارة الخوادم.",
+    "example": "يمنح المسؤول صلاحية إدارة مؤقتة مع تسجيل جلسة العمل.",
+    "whereUsed": "في حماية حسابات المديرين والبنية الأساسية.",
+    "en": [
+      "Controls that govern and monitor powerful access such as server administration.",
+      "An administrator receives temporary access with the session recorded.",
+      "Privileged accounts and infrastructure protection."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "iam",
+      "least-privilege"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.microsoft.com/en-us/security/business/security-101/what-is-privileged-access-management-pam"
+    ]
+  },
+  {
+    "term": "Digital Certificate",
+    "fullName": "Digital Certificate",
+    "arabicName": "شهادة رقمية",
+    "definition": "مستند موقّع يربط مفتاحًا عامًا باسم أو هوية ضمن نطاق وثقة محددين.",
+    "example": "يقدم خادم الموقع شهادة تربط مفتاحه باسم النطاق.",
+    "whereUsed": "في HTTPS وهوية الأجهزة وتوقيع البرمجيات.",
+    "en": [
+      "A signed document binding a public key to a name or identity within a defined trust context.",
+      "A website presents a certificate linking its key to its domain name.",
+      "HTTPS, device identity, and software signing."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "pki",
+      "tls",
+      "digital-signature"
+    ],
+    "aliases": [
+      "X.509 Certificate"
+    ],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc5280.html"
+    ]
+  },
+  {
+    "term": "PKI",
+    "fullName": "Public Key Infrastructure",
+    "arabicName": "البنية الأساسية للمفاتيح العامة",
+    "definition": "منظومة تصدر الشهادات الرقمية وتدير الثقة فيها وتجديدها وإلغاءها.",
+    "example": "تصدر جهة الشهادات شهادة لخادم وتتيح التحقق من صلاحيتها.",
+    "whereUsed": "في هوية المواقع والشركات والأجهزة.",
+    "en": [
+      "A system for issuing digital certificates and managing their trust, renewal, and revocation.",
+      "A certificate authority issues a server certificate whose validity can be checked.",
+      "Website, enterprise, and device identity."
+    ],
+    "category": "security",
+    "level": "Advanced",
+    "relatedTerms": [
+      "digital-certificate",
+      "asymmetric-encryption"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc5280.html"
+    ]
+  },
+  {
+    "term": "TLS",
+    "fullName": "Transport Layer Security",
+    "arabicName": "أمن طبقة النقل",
+    "definition": "بروتوكول يحمي الاتصال من التنصت والتعديل ويساعد على التحقق من هوية الطرف الآخر.",
+    "example": "ينشئ المتصفح اتصال TLS قبل إرسال بيانات إلى موقع HTTPS.",
+    "whereUsed": "في الويب والبريد واتصالات الخدمات.",
+    "en": [
+      "A protocol protecting connections against eavesdropping and tampering while authenticating peers.",
+      "A browser establishes TLS before sending data to an HTTPS site.",
+      "Web, email, and service connections."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "https",
+      "digital-certificate",
+      "encryption"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc8446.html"
+    ]
+  },
+  {
+    "term": "Digital Signature",
+    "fullName": "Digital Signature",
+    "arabicName": "توقيع رقمي",
+    "definition": "قيمة تنتج بمفتاح خاص للتحقق من أن البيانات لم تتغير ومن أنها وقّعت بالمفتاح المقابل.",
+    "example": "يتحقق النظام من توقيع تحديث قبل تثبيته.",
+    "whereUsed": "في المستندات وتحديثات البرامج والشهادات.",
+    "en": [
+      "A value made with a private key that verifies data integrity and use of the corresponding signing key.",
+      "A system checks an update signature before installation.",
+      "Documents, software updates, and certificates."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "hash",
+      "pki"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://csrc.nist.gov/glossary/term/digital_signature"
+    ]
+  },
+  {
+    "term": "Hash",
+    "fullName": "Cryptographic Hash",
+    "arabicName": "بصمة تجزئة تشفيرية",
+    "definition": "قيمة ثابتة الطول تحسب من البيانات؛ تغيير البيانات يغير البصمة عادة، ولا تعكس العملية لاسترجاع الأصل.",
+    "example": "يقارن المستخدم بصمة الملف بالقيمة المنشورة لاكتشاف تلف التنزيل.",
+    "whereUsed": "في التحقق من سلامة الملفات والتوقيعات.",
+    "en": [
+      "A fixed-length digest of data designed to change when the input changes and resist recovering the input.",
+      "A user compares a download digest with its published value to detect corruption.",
+      "File integrity checks and digital signatures."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "digital-signature",
+      "salt"
+    ],
+    "aliases": [
+      "Hashing"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/glossary/term/hash_function"
+    ]
+  },
+  {
+    "term": "Salt",
+    "fullName": "Password Salt",
+    "arabicName": "قيمة عشوائية لتجزئة كلمات المرور",
+    "definition": "قيمة عشوائية مختلفة تُضاف إلى عملية اشتقاق بصمة كلمة المرور لتقليل فائدة الجداول المحسوبة مسبقًا.",
+    "example": "ينتج حسابان يستخدمان الكلمة نفسها بصمتين مختلفتين بسبب اختلاف الملح.",
+    "whereUsed": "في تخزين كلمات المرور بأمان.",
+    "en": [
+      "A distinct random value used in password hashing to reduce the usefulness of precomputed hash tables.",
+      "Two accounts using the same password receive different stored hashes.",
+      "Secure password storage."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "hash",
+      "password"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://csrc.nist.gov/glossary/term/salt"
+    ]
+  },
+  {
+    "term": "Symmetric Encryption",
+    "fullName": "Symmetric-Key Encryption",
+    "arabicName": "تشفير بمفتاح متماثل",
+    "definition": "تشفير يستخدم مفتاحًا سريًا مشتركًا للتشفير وفك التشفير.",
+    "example": "يشفر التطبيق ملفًا بمفتاح ويحتاج المفتاح نفسه لقراءته.",
+    "whereUsed": "في حماية الملفات والبيانات المنقولة بكفاءة.",
+    "en": [
+      "Encryption that uses the same shared secret key for encryption and decryption.",
+      "An app encrypts a file and needs the same key to read it.",
+      "Efficient protection of stored and transmitted data."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "encryption",
+      "asymmetric-encryption"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://csrc.nist.gov/glossary/term/symmetric_key_algorithm"
+    ]
+  },
+  {
+    "term": "Asymmetric Encryption",
+    "fullName": "Public-Key Encryption",
+    "arabicName": "تشفير بمفتاح غير متماثل",
+    "definition": "تشفير يستخدم زوجًا من المفاتيح؛ ما يشفر بالمفتاح العام يفك بالمفتاح الخاص المقابل.",
+    "example": "يرسل العميل سرًا مشفرًا لا يستطيع فتحه إلا صاحب المفتاح الخاص.",
+    "whereUsed": "في تبادل الأسرار وتطبيقات التشفير بالمفتاح العام.",
+    "en": [
+      "Encryption using a key pair: data encrypted with the public key is decrypted with the matching private key.",
+      "A client sends an encrypted secret only the private-key holder can open.",
+      "Secret exchange and public-key encryption applications."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "encryption",
+      "pki"
+    ],
+    "aliases": [
+      "Public-Key Encryption"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/glossary/term/asymmetric_cryptography"
+    ]
+  },
+  {
+    "term": "E2EE",
+    "fullName": "End-to-End Encryption",
+    "arabicName": "تشفير من طرف إلى طرف",
+    "definition": "حماية للرسائل تجعل فك محتواها متاحًا للأطراف المقصودة، دون خادم التوصيل أثناء النقل.",
+    "example": "تمر رسالة مشفرة بالخادم الذي يوجّهها دون قراءة نصها.",
+    "whereUsed": "في تطبيقات المراسلة والمكالمات الخاصة.",
+    "en": [
+      "Message protection in which the intended endpoints can decrypt content while the delivery server cannot.",
+      "A server routes an encrypted message without reading its text.",
+      "Private messaging and calling."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "encryption",
+      "tls"
+    ],
+    "aliases": [
+      "End-to-End Encryption"
+    ],
+    "sources": [
+      "https://support.apple.com/en-euro/guide/security/secd9764312f/web"
+    ]
+  },
+  {
+    "term": "Encryption at Rest",
+    "fullName": "Encryption at Rest",
+    "arabicName": "تشفير البيانات المخزنة",
+    "definition": "تشفير البيانات المحفوظة على وسائط التخزين، بخلاف حمايتها خلال النقل عبر الشبكة.",
+    "example": "يبقى محتوى قرص مسروق مشفرًا دون مفتاح فك التشفير.",
+    "whereUsed": "في الأقراص وقواعد البيانات والتخزين السحابي.",
+    "en": [
+      "Encryption of data kept on storage media, distinct from protection during network transmission.",
+      "A stolen drive remains unreadable without its decryption key.",
+      "Disks, databases, and cloud storage."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "encryption",
+      "ssd"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest"
+    ]
+  },
+  {
+    "term": "Malware",
+    "fullName": "Malicious Software",
+    "arabicName": "برمجيات خبيثة",
+    "definition": "برامج صممت لإحداث ضرر أو تنفيذ أفعال غير مصرح بها على الأجهزة أو البيانات.",
+    "example": "يثبت ملف ضار برنامجًا يسرق بيانات الدخول.",
+    "whereUsed": "في حماية الأجهزة والتحقيق في الحوادث.",
+    "en": [
+      "Software designed to cause harm or perform unauthorized actions on devices or data.",
+      "A malicious download installs software that steals sign-in details.",
+      "Device protection and incident investigation."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "antivirus",
+      "ransomware",
+      "trojan"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/term-collections/security-terms"
+    ]
+  },
+  {
+    "term": "Ransomware",
+    "fullName": "Ransomware",
+    "arabicName": "برمجيات فدية",
+    "definition": "برمجيات خبيثة تمنع الوصول إلى بيانات أو أنظمة وتطالب بفدية؛ وقد يصاحبها سرقة بيانات.",
+    "example": "تتوقف ملفات مؤسسة عن الفتح بعد تشفيرها ويظهر طلب دفع.",
+    "whereUsed": "في الاستجابة للحوادث وحماية النسخ الاحتياطية.",
+    "en": [
+      "Malware that blocks access to data or systems and demands payment, sometimes alongside data theft.",
+      "An organization cannot open encrypted files and receives a payment demand.",
+      "Incident response and backup protection."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "malware",
+      "backup",
+      "incident-response"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.cisa.gov/stopransomware/ransomware-guide"
+    ]
+  },
+  {
+    "term": "Trojan",
+    "fullName": "Trojan Horse",
+    "arabicName": "حصان طروادة",
+    "definition": "برنامج يبدو مشروعًا أو مفيدًا لكنه يخفي وظيفة ضارة ينفذها بعد تشغيله.",
+    "example": "يخفي برنامج مزيف لتحويل الملفات أداة لسرقة المعلومات.",
+    "whereUsed": "في تقييم التنزيلات وفحص البرمجيات الضارة.",
+    "en": [
+      "Software that appears legitimate or useful but hides a harmful function.",
+      "A fake file converter secretly includes an information stealer.",
+      "Download assessment and malware analysis."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "malware",
+      "spyware"
+    ],
+    "aliases": [
+      "Trojan Horse"
+    ],
+    "sources": [
+      "https://learn.microsoft.com/en-us/defender-endpoint/malware/trojans-malware"
+    ]
+  },
+  {
+    "term": "Worm",
+    "fullName": "Computer Worm",
+    "arabicName": "دودة حاسوبية",
+    "definition": "برمجية خبيثة تستطيع نسخ نفسها والانتشار بين الأنظمة، غالبًا عبر الشبكة.",
+    "example": "تنتقل دودة بين أجهزة لم تعالج ثغرة أمنية.",
+    "whereUsed": "في احتواء العدوى وحماية الشبكات.",
+    "en": [
+      "Malware able to copy itself and spread between systems, commonly over a network.",
+      "A worm spreads among devices that have not fixed a security flaw.",
+      "Malware containment and network protection."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "malware",
+      "vulnerability",
+      "patch"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows/win32/lwef/mpthreat-category"
+    ]
+  },
+  {
+    "term": "Spyware",
+    "fullName": "Spyware",
+    "arabicName": "برمجيات تجسس",
+    "definition": "برنامج يجمع معلومات عن المستخدم أو نشاطه دون موافقة مناسبة ويرسلها لجهة أخرى.",
+    "example": "يسجل برنامج خفي نشاط التصفح ويرسله للمشغل.",
+    "whereUsed": "في حماية خصوصية المستخدم وفحص الأجهزة.",
+    "en": [
+      "Software that gathers user information or activity without appropriate consent and sends it to another party.",
+      "Hidden software records browsing activity and reports it to its operator.",
+      "Privacy protection and device scanning."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "malware",
+      "antivirus"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows/win32/lwef/mpthreat-category"
+    ]
+  },
+  {
+    "term": "Adware",
+    "fullName": "Advertising-Supported Software",
+    "arabicName": "برمجيات إعلانية مزعجة",
+    "definition": "برامج تعرض إعلانات، وقد تعد غير مرغوبة عندما تفرضها أو تغير الإعدادات دون وضوح وموافقة.",
+    "example": "تظهر أداة مثبتة نوافذ إعلانات متكررة وتغير صفحة البداية.",
+    "whereUsed": "في تقييم التطبيقات والتنزيلات غير المرغوبة.",
+    "en": [
+      "Software displaying advertisements that may be unwanted when it imposes ads or changes settings without clear consent.",
+      "An installed tool opens repeated adverts and changes the home page.",
+      "Assessment of unwanted applications and downloads."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "spyware",
+      "antivirus"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows/win32/lwef/mpthreat-category"
+    ]
+  },
+  {
+    "term": "Antivirus",
+    "fullName": "Antivirus Software",
+    "arabicName": "برنامج مكافحة البرمجيات الضارة",
+    "definition": "أداة تفحص الملفات والأنشطة لاكتشاف برمجيات ضارة ومنعها أو عزلها.",
+    "example": "يعزل برنامج الحماية ملفًا مرفقًا مشبوهًا قبل فتحه.",
+    "whereUsed": "في حماية الحواسيب والهواتف والخوادم.",
+    "en": [
+      "Software that examines files and activity to detect, block, or quarantine malware.",
+      "A protection tool quarantines a suspicious attachment before it opens.",
+      "Computer, phone, and server protection."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "malware",
+      "edr"
+    ],
+    "aliases": [
+      "Anti-malware"
+    ],
+    "sources": [
+      "https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-antivirus-windows"
+    ]
+  },
+  {
+    "term": "EDR",
+    "fullName": "Endpoint Detection and Response",
+    "arabicName": "اكتشاف تهديدات الأجهزة والاستجابة لها",
+    "definition": "أدوات تجمع نشاط الأجهزة وتربط أحداثه لاكتشاف الهجمات والتحقيق فيها واتخاذ إجراءات احتواء.",
+    "example": "يعزل فريق الأمن حاسوبًا بعد رصد سلوك يشبه سرقة بيانات الدخول.",
+    "whereUsed": "في حماية أجهزة المؤسسات والتحقيقات الأمنية.",
+    "en": [
+      "Tools that collect endpoint activity to detect attacks, investigate events, and support containment.",
+      "A security team isolates a laptop after detecting credential-theft behavior.",
+      "Enterprise endpoint security and investigations."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "antivirus",
+      "soc",
+      "incident-response"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/defender-endpoint/overview-endpoint-detection-response"
+    ]
+  },
+  {
+    "term": "IDS",
+    "fullName": "Intrusion Detection System",
+    "arabicName": "نظام كشف التسلل",
+    "definition": "نظام يراقب نشاط الشبكة أو الجهاز بحثًا عن علامات هجوم ويرسل تنبيهات.",
+    "example": "ينبه النظام إلى نمط اتصال غير معتاد بخادم حساس.",
+    "whereUsed": "في مراقبة الشبكات والأنظمة.",
+    "en": [
+      "A system monitoring network or host activity for attack indicators and raising alerts.",
+      "It alerts on an unusual connection pattern involving a sensitive server.",
+      "Network and host security monitoring."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ips",
+      "siem"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://csrc.nist.gov/pubs/sp/800/94/final"
+    ]
+  },
+  {
+    "term": "IPS",
+    "fullName": "Intrusion Prevention System",
+    "arabicName": "نظام منع التسلل",
+    "definition": "نظام يفحص النشاط المشبوه ويمكنه إيقاف المرور أو الإجراءات المطابقة لقواعد منع الهجمات.",
+    "example": "يمنع النظام طلبات تطابق نمط هجوم معروف.",
+    "whereUsed": "عند نقاط حماية الشبكات والخدمات.",
+    "en": [
+      "A system that inspects suspicious activity and can block traffic or actions matching attack-prevention rules.",
+      "It blocks requests matching a recognized attack pattern.",
+      "Network and service protection points."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ids",
+      "firewall"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://csrc.nist.gov/pubs/sp/800/94/final"
+    ]
+  },
+  {
+    "term": "SIEM",
+    "fullName": "Security Information and Event Management",
+    "arabicName": "إدارة معلومات وأحداث الأمن",
+    "definition": "منصة تجمع سجلات أمنية من مصادر متعددة وتربطها لتسهيل اكتشاف الحوادث والتحقيق فيها.",
+    "example": "تربط المنصة محاولات دخول فاشلة بنشاط غير معتاد على خادم.",
+    "whereUsed": "في مراكز العمليات الأمنية.",
+    "en": [
+      "A platform combining security logs from many sources to help detect and investigate incidents.",
+      "It links repeated failed sign-ins with unusual server activity.",
+      "Security operations centers."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "soc",
+      "log",
+      "ids"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.microsoft.com/en-us/security/business/security-101/what-is-siem"
+    ]
+  },
+  {
+    "term": "SOC",
+    "fullName": "Security Operations Center",
+    "arabicName": "مركز العمليات الأمنية",
+    "definition": "فريق ووظيفة تشغيلية لمتابعة التهديدات الأمنية وتحليل التنبيهات والتنسيق للاستجابة للحوادث.",
+    "example": "يراجع محللو المركز تنبيهًا ويتواصلون مع مسؤول الجهاز.",
+    "whereUsed": "في المؤسسات ومقدمي خدمات الأمن.",
+    "en": [
+      "A team and operational function monitoring threats, investigating alerts, and coordinating incident response.",
+      "Analysts review an alert and contact the device administrator.",
+      "Organizations and security service providers."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "siem",
+      "edr",
+      "incident-response"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/security/operations/overview"
+    ]
+  },
+  {
+    "term": "DDoS",
+    "fullName": "Distributed Denial of Service",
+    "arabicName": "حجب خدمة موزع",
+    "definition": "هجوم يستخدم مصادر متعددة لاستنزاف موارد خدمة أو اتصال ومنع المستخدمين من الوصول الطبيعي.",
+    "example": "تتلقى خدمة طلبات من أجهزة كثيرة فتتعطل عن خدمة الزوار.",
+    "whereUsed": "في حماية المواقع والشبكات والخدمات العامة.",
+    "en": [
+      "An attack using many sources to exhaust service or network resources and disrupt legitimate access.",
+      "Traffic from many devices overwhelms a service and prevents normal visits.",
+      "Protection of public websites, networks, and services."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "bandwidth",
+      "firewall"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.cisa.gov/sites/default/files/publications/understanding-and-responding-to-ddos-attacks_508c.pdf"
+    ]
+  },
+  {
+    "term": "Vulnerability",
+    "fullName": "Security Vulnerability",
+    "arabicName": "ثغرة أمنية",
+    "definition": "ضعف في تصميم نظام أو تنفيذه أو إعداده قد يسمح بانتهاك أمنه.",
+    "example": "يسمح خطأ في الصلاحيات بقراءة ملفات لا يحق للمستخدم الوصول إليها.",
+    "whereUsed": "في مراجعات الأمن وإدارة مخاطر البرمجيات.",
+    "en": [
+      "A weakness in system design, implementation, or configuration that may allow a security violation.",
+      "A permission flaw lets a user read files outside their access rights.",
+      "Security reviews and software risk management."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "exploit",
+      "cve",
+      "patch"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://csrc.nist.gov/glossary/term/vulnerability"
+    ]
+  },
+  {
+    "term": "Exploit",
+    "fullName": "Security Exploit",
+    "arabicName": "وسيلة استغلال ثغرة",
+    "definition": "طريقة أو شيفرة تستفيد من ثغرة لإحداث سلوك غير مصرح به.",
+    "example": "يبين اختبار مصرح به أن ثغرة قد تسمح بقراءة ملف محمي.",
+    "whereUsed": "في تقييم الثغرات واختبارات الأمن.",
+    "en": [
+      "A method or code that takes advantage of a vulnerability to cause unauthorized behavior.",
+      "An authorized test demonstrates that a flaw can expose a protected file.",
+      "Vulnerability assessment and security testing."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "vulnerability",
+      "penetration-testing"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows/win32/lwef/mpthreat-category"
+    ]
+  },
+  {
+    "term": "Zero Day",
+    "fullName": "Zero-Day Vulnerability",
+    "arabicName": "ثغرة يوم صفر",
+    "definition": "ثغرة لم تكن معروفة للجهة المسؤولة عن إصلاحها عند اكتشافها أو استغلالها؛ قد لا يتوفر لها إصلاح بعد.",
+    "example": "يعلن المطور عن خلل استُغل قبل أن يصدر تحديثًا لمعالجته.",
+    "whereUsed": "في استخبارات التهديدات والاستجابة العاجلة.",
+    "en": [
+      "A vulnerability unknown to the responsible maintainer when discovered or exploited, often without an available fix.",
+      "A developer reports a flaw exploited before a corrective update was available.",
+      "Threat intelligence and urgent incident handling."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "vulnerability",
+      "exploit",
+      "patch"
+    ],
+    "aliases": [
+      "Zero-Day"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/glossary/term/zero_day_attack"
+    ]
+  },
+  {
+    "term": "CVE",
+    "fullName": "Common Vulnerabilities and Exposures",
+    "arabicName": "معرّفات الثغرات الشائعة",
+    "definition": "نظام يمنح الثغرات المعلنة معرّفات موحدة لتسهيل الإشارة إلى الثغرة نفسها بين الأدوات والنشرات.",
+    "example": "يستخدم فريق الأمن معرّف CVE لمطابقة نشرة المورد بنتائج الفحص.",
+    "whereUsed": "في نشرات الثغرات وإدارة التحديثات.",
+    "en": [
+      "A system assigning public vulnerabilities consistent identifiers so tools and advisories can refer to the same flaw.",
+      "A team matches a vendor advisory to scan results using its CVE identifier.",
+      "Vulnerability advisories and patch management."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "vulnerability",
+      "cvss"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.cve.org/ResourcesSupport/Glossary"
+    ]
+  },
+  {
+    "term": "CVSS",
+    "fullName": "Common Vulnerability Scoring System",
+    "arabicName": "نظام تقييم شدة الثغرات",
+    "definition": "إطار لتوصيف شدة الثغرات بدرجات ومقاييس؛ لا يمثل وحده مستوى الخطر على مؤسسة محددة.",
+    "example": "يراجع الفريق درجة الثغرة مع أهمية الجهاز قبل ترتيب الإصلاحات.",
+    "whereUsed": "في تصنيف الثغرات وتحديد أولويات المعالجة.",
+    "en": [
+      "A framework describing vulnerability severity through scores and metrics, not a complete measure of organizational risk.",
+      "A team considers a severity score alongside asset importance when prioritizing fixes.",
+      "Vulnerability triage and remediation priorities."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "cve",
+      "vulnerability"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.first.org/cvss/v4.0/specification-document"
+    ]
+  },
+  {
+    "term": "Patch",
+    "fullName": "Software Patch",
+    "arabicName": "تصحيح برمجي",
+    "definition": "تحديث محدد يعالج خللًا أو ثغرة أو يحسن جزءًا من البرنامج.",
+    "example": "يثبت المسؤول تصحيحًا لمعالجة ثغرة في خادم البريد.",
+    "whereUsed": "في صيانة الأنظمة وإدارة الثغرات.",
+    "en": [
+      "A targeted software update correcting a defect, fixing a vulnerability, or improving behavior.",
+      "An administrator installs a patch for a mail server vulnerability.",
+      "System maintenance and vulnerability management."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "vulnerability",
+      "testing"
+    ],
+    "aliases": [
+      "Security Patch"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/pubs/sp/800/40/r4/final"
+    ]
+  },
+  {
+    "term": "Penetration Testing",
+    "fullName": "Penetration Testing",
+    "arabicName": "اختبار اختراق مصرح به",
+    "definition": "تقييم أمني يحاول استغلال نقاط ضعف ضمن نطاق وإذن محددين لقياس أثرها الفعلي.",
+    "example": "يختبر فريق مصرح له إمكانية الوصول إلى بيانات اختبار بحساب منخفض الصلاحيات.",
+    "whereUsed": "قبل إطلاق خدمات حساسة وخلال التقييمات الأمنية.",
+    "en": [
+      "An authorized assessment attempting to exploit weaknesses within an agreed scope to evaluate their impact.",
+      "A permitted team checks whether a low-privilege account can reach test records.",
+      "Security assessments and preparation for sensitive launches."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "vulnerability-scan",
+      "exploit"
+    ],
+    "aliases": [
+      "Pentest"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/pubs/sp/800/115/final"
+    ]
+  },
+  {
+    "term": "Vulnerability Scan",
+    "fullName": "Vulnerability Scanning",
+    "arabicName": "فحص الثغرات",
+    "definition": "فحص غالبًا آلي يبحث عن نقاط ضعف معروفة وإعدادات غير آمنة ويحتاج مراجعة نتائجه.",
+    "example": "يكشف الفحص إصدارًا قديمًا من برنامج يحتاج تحديثًا.",
+    "whereUsed": "في الجرد الأمني والمتابعة الدورية للأنظمة.",
+    "en": [
+      "Usually automated checking for known weaknesses and insecure settings, with findings requiring review.",
+      "A scan identifies an outdated software version needing an update.",
+      "Security inventories and regular system checks."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "vulnerability",
+      "penetration-testing",
+      "patch"
+    ],
+    "aliases": [
+      "Vulnerability Scanner"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/pubs/sp/800/115/final"
+    ]
+  },
+  {
+    "term": "Social Engineering",
+    "fullName": "Social Engineering",
+    "arabicName": "هندسة اجتماعية",
+    "definition": "التلاعب بالأشخاص لدفعهم لكشف معلومات أو منح وصول أو تنفيذ إجراء ضار.",
+    "example": "يدّعي متصل أنه من الدعم ويطلب رمز الدخول.",
+    "whereUsed": "في التوعية الأمنية وتحليل محاولات الاحتيال.",
+    "en": [
+      "Manipulating people into revealing information, granting access, or taking a harmful action.",
+      "A caller impersonates support and asks for a sign-in code.",
+      "Security awareness and fraud investigation."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "phishing",
+      "otp"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://niccs.cisa.gov/about-niccs/glossary"
+    ]
+  },
+  {
+    "term": "Brute Force",
+    "fullName": "Brute-Force Attack",
+    "arabicName": "هجوم التخمين المتكرر",
+    "definition": "محاولة الوصول إلى سر أو حساب بتجربة احتمالات كثيرة بدل معرفته مسبقًا.",
+    "example": "يرصد النظام آلاف محاولات تخمين كلمة مرور ويقيّدها.",
+    "whereUsed": "في حماية تسجيل الدخول وتقييم قوة الأسرار.",
+    "en": [
+      "Trying many possible values to discover a secret or access an account.",
+      "A system detects thousands of password guesses and limits them.",
+      "Sign-in protection and secret-strength assessment."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "password",
+      "mfa"
+    ],
+    "aliases": [
+      "Brute-Force"
+    ],
+    "sources": [
+      "https://owasp.org/www-community/attacks/Brute_force_attack"
+    ]
+  },
+  {
+    "term": "Credential Stuffing",
+    "fullName": "Credential Stuffing",
+    "arabicName": "تجربة بيانات دخول مسرّبة",
+    "definition": "محاولة دخول حسابات باستخدام أزواج أسماء وكلمات مرور مسروقة من خدمة أخرى.",
+    "example": "تُجرّب كلمة مرور مسرّبة على عدة مواقع بسبب إعادة استخدامها.",
+    "whereUsed": "في حماية الحسابات ورصد الاحتيال.",
+    "en": [
+      "Attempting sign-ins with username and password pairs stolen from another service.",
+      "A leaked password is tried on other sites where it may have been reused.",
+      "Account protection and fraud detection."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "password",
+      "mfa",
+      "data-breach"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://owasp.org/www-community/attacks/Credential_stuffing"
+    ]
+  },
+  {
+    "term": "Data Breach",
+    "fullName": "Data Breach",
+    "arabicName": "انكشاف بيانات لجهة غير مصرح لها",
+    "definition": "حادث تصل فيه بيانات إلى أشخاص غير مخولين أو تُكشف لهم، نتيجة هجوم أو خطأ.",
+    "example": "يصبح ملف عملاء متاحًا للعامة بسبب إعداد مشاركة خاطئ.",
+    "whereUsed": "في الاستجابة للحوادث وحماية معلومات العملاء.",
+    "en": [
+      "An incident exposing data to unauthorized parties through an attack or a mistake.",
+      "A customer file becomes public because sharing settings were incorrect.",
+      "Incident response and customer information protection."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "incident-response",
+      "dlp"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://csrc.nist.gov/glossary/term/privacy_breach"
+    ]
+  },
+  {
+    "term": "DLP",
+    "fullName": "Data Loss Prevention",
+    "arabicName": "منع تسرب البيانات",
+    "definition": "سياسات وأدوات تكتشف البيانات الحساسة وتراقب نقلها أو تمنع مشاركتها بطرق غير مسموحة.",
+    "example": "يمنع النظام إرسال ملف يحوي أرقام بطاقات إلى بريد خارجي.",
+    "whereUsed": "في البريد والأجهزة ومشاركة الملفات.",
+    "en": [
+      "Policies and tools that detect sensitive data and monitor or block disallowed sharing.",
+      "A system blocks a file containing card numbers from being sent externally.",
+      "Email, endpoints, and file sharing."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "data-breach",
+      "authorization"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/purview/dlp-learn-about-dlp"
+    ]
+  },
+  {
+    "term": "Incident Response",
+    "fullName": "Cybersecurity Incident Response",
+    "arabicName": "الاستجابة للحوادث الأمنية",
+    "definition": "عملية منظمة لاكتشاف الحادث وتحليله واحتوائه واستعادة العمل والتعلم مما حدث.",
+    "example": "يعزل الفريق جهازًا مصابًا ويحقق في السبب ثم يستعيده بأمان.",
+    "whereUsed": "عند الاختراقات والعدوى وانكشاف البيانات.",
+    "en": [
+      "An organized process for detecting, analyzing, containing, recovering from, and learning from security incidents.",
+      "A team isolates an infected device, investigates the cause, and restores it safely.",
+      "Intrusions, malware infections, and data exposure."
+    ],
+    "category": "security",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "soc",
+      "edr",
+      "data-breach"
+    ],
+    "aliases": [
+      "IR"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/pubs/sp/800/61/r3/final"
+    ]
+  },
+  {
+    "term": "TCP",
+    "fullName": "Transmission Control Protocol",
+    "arabicName": "بروتوكول التحكم في النقل",
+    "definition": "بروتوكول ينقل تدفقًا من البيانات بترتيب صحيح، ويعيد إرسال الأجزاء المفقودة ويضبط الإرسال حسب الاتصال.",
+    "example": "يعيد الاتصال إرسال جزء مفقود أثناء تنزيل ملف.",
+    "whereUsed": "في نقل الملفات واتصالات تطبيقات كثيرة.",
+    "en": [
+      "A protocol delivering an ordered data stream, retransmitting missing parts and adapting transmission to the connection.",
+      "A connection resends a missing part of a file download.",
+      "File transfers and many application connections."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "udp",
+      "packet",
+      "port"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc9293.html"
+    ]
+  },
+  {
+    "term": "UDP",
+    "fullName": "User Datagram Protocol",
+    "arabicName": "بروتوكول مخططات بيانات المستخدم",
+    "definition": "بروتوكول يرسل رسائل مستقلة دون ضمان وصولها أو ترتيبها؛ يعالج التطبيق ما يحتاجه من ضمانات.",
+    "example": "يرسل تطبيق صوت حزمًا قصيرة ويفضل استمرار المكالمة على انتظار حزمة قديمة.",
+    "whereUsed": "في الاتصال الفوري وDNS وبروتوكولات نقل حديثة.",
+    "en": [
+      "A protocol sending independent messages without guaranteeing delivery or order; applications add any required guarantees.",
+      "A voice app favors continuing a call over waiting for an old packet.",
+      "Real-time communication, DNS, and newer transport protocols."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "tcp",
+      "packet",
+      "rtp"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc768.html"
+    ]
+  },
+  {
+    "term": "IPv4",
+    "fullName": "Internet Protocol Version 4",
+    "arabicName": "الإصدار الرابع من بروتوكول الإنترنت",
+    "definition": "إصدار من IP يستخدم عناوين بطول 32 بت لتمييز واجهات الشبكة وتوجيه الحزم.",
+    "example": "يحمل جهاز في المنزل عنوانًا مثل 192.168.1.10.",
+    "whereUsed": "في عناوين الشبكات والموجّهات.",
+    "en": [
+      "The IP version using 32-bit addresses to identify network interfaces and route packets.",
+      "A home device uses an address such as 192.168.1.10.",
+      "Network addressing and routers."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "ipv6",
+      "ip-address",
+      "subnet"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc791.html"
+    ]
+  },
+  {
+    "term": "IPv6",
+    "fullName": "Internet Protocol Version 6",
+    "arabicName": "الإصدار السادس من بروتوكول الإنترنت",
+    "definition": "إصدار من IP بعناوين طولها 128 بت، يتيح مساحة عناوين أكبر بكثير من IPv4.",
+    "example": "يظهر عنوان توثيقي مثل 2001:db8::10 في شرح إعداد شبكة.",
+    "whereUsed": "في شبكات الإنترنت والمحمول الحديثة.",
+    "en": [
+      "The IP version with 128-bit addresses, providing a much larger address space than IPv4.",
+      "A networking guide uses the documentation address 2001:db8::10.",
+      "Modern internet and mobile networks."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ipv4",
+      "ip-address"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc8200.html"
+    ]
+  },
+  {
+    "term": "DHCP",
+    "fullName": "Dynamic Host Configuration Protocol",
+    "arabicName": "بروتوكول إعداد المضيف الآلي",
+    "definition": "بروتوكول يزود الجهاز تلقائيًا بإعدادات مثل عنوان IP والبوابة وخوادم DNS لفترة تأجير.",
+    "example": "يحصل الحاسوب على عنوان شبكة عند اتصاله بشبكة المكتب.",
+    "whereUsed": "في إعداد الأجهزة على الشبكات المحلية.",
+    "en": [
+      "A protocol automatically leasing network settings such as an IP address, gateway, and DNS servers.",
+      "A laptop receives network settings when joining the office network.",
+      "Automatic configuration on local networks."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ip-address",
+      "default-gateway",
+      "dns"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc2131.html"
+    ]
+  },
+  {
+    "term": "NAT",
+    "fullName": "Network Address Translation",
+    "arabicName": "ترجمة عناوين الشبكة",
+    "definition": "تغيير عناوين IP في الحزم أثناء عبورها جهازًا، وغالبًا تُترجم المنافذ أيضًا لمشاركة اتصال خارجي.",
+    "example": "تشارك أجهزة المنزل عنوان IPv4 عامًا عبر الموجّه.",
+    "whereUsed": "في الموجّهات وربط الشبكات الخاصة بالإنترنت.",
+    "en": [
+      "Rewriting packet IP addresses at a network boundary, often also translating ports to share an external connection.",
+      "Home devices share one public IPv4 address through a router.",
+      "Routers connecting private networks to the internet."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ipv4",
+      "router",
+      "port"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc3022.html"
+    ]
+  },
+  {
+    "term": "MAC Address",
+    "fullName": "Media Access Control Address",
+    "arabicName": "عنوان التحكم في الوصول للوسيط",
+    "definition": "معرّف لواجهة شبكة يستخدم لتوجيه إطارات داخل الشبكة المحلية؛ يمكن تغييره أو جعله عشوائيًا.",
+    "example": "يتعلم المحوّل عنوان MAC للجهاز ليعرف منفذه.",
+    "whereUsed": "في Ethernet وWi-Fi وإدارة الشبكات المحلية.",
+    "en": [
+      "An interface identifier used to deliver local network frames; it can be changed or randomized.",
+      "A switch learns a device MAC address to locate its port.",
+      "Ethernet, Wi-Fi, and local network administration."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ethernet",
+      "switch",
+      "arp"
+    ],
+    "aliases": [
+      "Physical Address"
+    ],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc826.html"
+    ]
+  },
+  {
+    "term": "Subnet",
+    "fullName": "Subnet",
+    "arabicName": "شبكة فرعية",
+    "definition": "جزء منطقي من شبكة IP تتشارك عناوينه بادئة معينة ويُدار كوحدة توجيه محلية.",
+    "example": "تخصص الشركة شبكة فرعية للطابعات وأخرى للحواسيب.",
+    "whereUsed": "في تصميم الشبكات وتقسيم العناوين.",
+    "en": [
+      "A logical section of an IP network sharing an address prefix and local routing boundary.",
+      "A company assigns printers and computers to separate subnets.",
+      "Network design and address planning."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "subnet-mask",
+      "cidr",
+      "router"
+    ],
+    "aliases": [
+      "Subnetwork"
+    ],
+    "sources": [
+      "https://www.rfc-editor.org/info/rfc950/"
+    ]
+  },
+  {
+    "term": "Subnet Mask",
+    "fullName": "Subnet Mask",
+    "arabicName": "قناع الشبكة الفرعية",
+    "definition": "قيمة في IPv4 تحدد البتات التي تمثل جزء الشبكة مقابل الجزء الخاص بالجهاز.",
+    "example": "يشير القناع 255.255.255.0 إلى بادئة شبكة بطول 24 بت.",
+    "whereUsed": "عند ضبط عناوين IPv4 وتشخيص الاتصال.",
+    "en": [
+      "An IPv4 value identifying the network bits and the remaining host bits in an address.",
+      "The mask 255.255.255.0 represents a 24-bit network prefix.",
+      "IPv4 setup and connectivity troubleshooting."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "subnet",
+      "cidr",
+      "ipv4"
+    ],
+    "aliases": [
+      "Netmask"
+    ],
+    "sources": [
+      "https://www.rfc-editor.org/info/rfc950/"
+    ]
+  },
+  {
+    "term": "CIDR",
+    "fullName": "Classless Inter-Domain Routing",
+    "arabicName": "التوجيه بين النطاقات دون فئات",
+    "definition": "طريقة لتخصيص وتجميع شبكات IP باستخدام طول البادئة مثل ‎/24 بدل فئات العناوين القديمة.",
+    "example": "يمثل 192.0.2.0/24 نطاقًا توثيقيًا من عناوين IPv4.",
+    "whereUsed": "في تخطيط العناوين وقواعد الشبكات والتوجيه.",
+    "en": [
+      "A way to allocate and aggregate IP networks using prefix lengths such as /24 instead of historical address classes.",
+      "192.0.2.0/24 describes an IPv4 documentation network.",
+      "Address planning, network rules, and routing."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "subnet",
+      "subnet-mask"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc4632.html"
+    ]
+  },
+  {
+    "term": "Default Gateway",
+    "fullName": "Default Gateway",
+    "arabicName": "البوابة الافتراضية",
+    "definition": "عنوان الموجّه الذي يرسل إليه الجهاز البيانات عندما لا يملك مسارًا أكثر تحديدًا لوجهتها.",
+    "example": "يرسل الحاسوب طلب موقع خارجي إلى موجّه المنزل.",
+    "whereUsed": "في إعدادات الشبكة وتشخيص انقطاع الإنترنت.",
+    "en": [
+      "The router a device uses when no more specific route matches a destination.",
+      "A computer forwards a request for an external website to the home router.",
+      "Network settings and internet troubleshooting."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "router",
+      "subnet",
+      "dhcp"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/info/rfc1122/"
+    ]
+  },
+  {
+    "term": "Switch",
+    "fullName": "Network Switch",
+    "arabicName": "محوّل شبكة",
+    "definition": "جهاز يربط أجهزة الشبكة المحلية ويوجّه الإطارات بين منافذه اعتمادًا عادةً على عناوين MAC.",
+    "example": "يربط محوّل المكتب الحواسيب والطابعات بكابلات.",
+    "whereUsed": "في الشبكات المحلية ومراكز البيانات.",
+    "en": [
+      "A device connecting local network equipment and forwarding frames between ports, usually using MAC addresses.",
+      "An office switch links computers and printers by cable.",
+      "Local networks and data centers."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "mac-address",
+      "ethernet",
+      "vlan"
+    ],
+    "aliases": [
+      "Network Switch"
+    ],
+    "sources": [
+      "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-an-ethernet-switch.html"
+    ]
+  },
+  {
+    "term": "WAN",
+    "fullName": "Wide Area Network",
+    "arabicName": "شبكة واسعة النطاق",
+    "definition": "شبكة تربط شبكات أو مواقع متباعدة جغرافيًا باستخدام وصلات اتصال مختلفة.",
+    "example": "تربط مؤسسة فروع القاهرة والإسكندرية بشبكة واحدة.",
+    "whereUsed": "في ربط الفروع ومقدمي الإنترنت.",
+    "en": [
+      "A network connecting geographically separated sites or networks through communication links.",
+      "An organization connects its Cairo and Alexandria offices.",
+      "Branch connectivity and internet providers."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "lan",
+      "router"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-wan-wide-area-network.html"
+    ]
+  },
+  {
+    "term": "WLAN",
+    "fullName": "Wireless Local Area Network",
+    "arabicName": "شبكة محلية لاسلكية",
+    "definition": "شبكة محلية تتصل أجهزتها لاسلكيًا، وغالبًا تستخدم Wi-Fi ونقاط وصول.",
+    "example": "تصل حواسيب قاعة التدريب إلى الشبكة دون كابلات.",
+    "whereUsed": "في المكاتب والمنازل والمرافق العامة.",
+    "en": [
+      "A local network whose devices connect wirelessly, commonly through Wi-Fi access points.",
+      "Laptops in a training room join the network without cables.",
+      "Offices, homes, and public facilities."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "wi-fi",
+      "access-point",
+      "lan"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.cisco.com/site/us/en/learn/topics/small-business/what-is-an-access-point.html"
+    ]
+  },
+  {
+    "term": "VLAN",
+    "fullName": "Virtual Local Area Network",
+    "arabicName": "شبكة محلية افتراضية",
+    "definition": "تقسيم منطقي للشبكة المحلية إلى نطاقات منفصلة للبث حتى لو شاركت الأجهزة المحوّلات نفسها.",
+    "example": "تفصل الشركة شبكة الزوار عن أجهزة الموظفين باستخدام VLAN.",
+    "whereUsed": "في تنظيم الشبكات وتقليل نطاق البث.",
+    "en": [
+      "A logical separation of a LAN into broadcast domains, even when devices share physical switches.",
+      "A company separates visitor devices from employee devices using VLANs.",
+      "Network segmentation and broadcast control."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "switch",
+      "subnet",
+      "broadcast"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.cisco.com/c/en/us/td/docs/routers/ios-xe/lan-wan/lan-wan/m_lsw-conf-rout-vlan.html"
+    ]
+  },
+  {
+    "term": "Ethernet",
+    "fullName": "Ethernet",
+    "arabicName": "إيثرنت",
+    "definition": "عائلة معايير للشبكات السلكية المحلية تنقل البيانات في إطارات عبر النحاس أو الألياف.",
+    "example": "يتصل الحاسوب بالمحوّل بكابل Ethernet.",
+    "whereUsed": "في شبكات المكاتب والخوادم والاتصالات السلكية.",
+    "en": [
+      "A family of wired networking standards carrying frames over copper or optical fiber.",
+      "A computer connects to a switch with an Ethernet cable.",
+      "Office networks, servers, and wired links."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "switch",
+      "mac-address",
+      "fiber-optic"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-an-ethernet-switch.html"
+    ]
+  },
+  {
+    "term": "Packet",
+    "fullName": "Network Packet",
+    "arabicName": "حزمة بيانات",
+    "definition": "وحدة بيانات تنتقل عبر الشبكة وتضم معلومات توجيه أو تحكم إلى جانب المحتوى المنقول.",
+    "example": "تقسم صورة كبيرة إلى حزم لنقلها عبر الإنترنت.",
+    "whereUsed": "في نقل البيانات وتحليل حركة الشبكة.",
+    "en": [
+      "A unit of network data containing routing or control information alongside its payload.",
+      "A large image travels across the internet in packets.",
+      "Data transmission and traffic analysis."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "tcp",
+      "udp",
+      "ip-address"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc791.html"
+    ]
+  },
+  {
+    "term": "Port",
+    "fullName": "Network Port",
+    "arabicName": "منفذ شبكة منطقي",
+    "definition": "رقم يستخدمه بروتوكول النقل لتمييز خدمات أو أطراف اتصال داخل الجهاز نفسه.",
+    "example": "تستقبل خدمة HTTPS عادة اتصالات TCP على المنفذ 443.",
+    "whereUsed": "في إعداد الخدمات وجدران الحماية.",
+    "en": [
+      "A transport-layer number distinguishing services or communication endpoints on the same device.",
+      "An HTTPS service commonly accepts TCP connections on port 443.",
+      "Service configuration and firewall rules."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "tcp",
+      "udp",
+      "socket"
+    ],
+    "aliases": [
+      "Network Port"
+    ],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc9293.html"
+    ]
+  },
+  {
+    "term": "Socket",
+    "fullName": "Network Socket",
+    "arabicName": "مقبس اتصال شبكي",
+    "definition": "نقطة اتصال برمجية لإرسال البيانات واستقبالها؛ يرتبط مقبس الإنترنت عادة ببروتوكول وعنوان ومنفذ.",
+    "example": "يفتح برنامج مقبسًا ليتصل بخادم الرسائل.",
+    "whereUsed": "في بناء التطبيقات المتصلة والشبكات.",
+    "en": [
+      "A software endpoint for sending and receiving data, commonly associated with a protocol, address, and port.",
+      "A program opens a socket to connect to a messaging server.",
+      "Networked application development."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "port",
+      "tcp",
+      "udp"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc9293.html"
+    ]
+  },
+  {
+    "term": "Latency",
+    "fullName": "Network Latency",
+    "arabicName": "زمن التأخير الشبكي",
+    "definition": "الزمن الذي تستغرقه البيانات للانتقال بين نقطتين؛ قد يُقاس لاتجاه واحد أو ذهابًا وإيابًا.",
+    "example": "يتأخر رد اللعبة عندما يرتفع زمن الرحلة إلى الخادم.",
+    "whereUsed": "في الألعاب والمكالمات وقياس أداء الشبكة.",
+    "en": [
+      "The time data takes to travel between points, measured one way or as a round trip.",
+      "A game responds slowly when the round-trip delay to its server rises.",
+      "Gaming, calls, and network performance measurement."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "jitter",
+      "ping",
+      "throughput"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://aws.amazon.com/what-is/latency/",
+      "https://www.rfc-editor.org/rfc/rfc7679.html"
+    ]
+  },
+  {
+    "term": "Throughput",
+    "fullName": "Network Throughput",
+    "arabicName": "معدل النقل الفعلي",
+    "definition": "كمية البيانات التي تعبر اتصالًا بنجاح خلال زمن محدد، وقد تقل عن سعة الوصلة المعلنة.",
+    "example": "تنتج وصلة سعتها 100 ميجابت معدل نقل فعلي أقل بسبب الازدحام.",
+    "whereUsed": "في اختبارات السرعة وتقييم كفاءة الشبكات.",
+    "en": [
+      "The amount of data successfully carried over a connection per unit of time, often below its nominal capacity.",
+      "A 100 Mbps link delivers less traffic under congestion.",
+      "Speed tests and network efficiency assessment."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "bandwidth",
+      "packet-loss"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://aws.amazon.com/what-is/network-bandwidth/"
+    ]
+  },
+  {
+    "term": "Packet Loss",
+    "fullName": "Packet Loss",
+    "arabicName": "فقد الحزم",
+    "definition": "عدم وصول بعض الحزم المرسلة إلى الوجهة، بسبب ازدحام أو أخطاء أو أسباب أخرى.",
+    "example": "تتقطع كلمات المكالمة عند فقد بعض حزم الصوت.",
+    "whereUsed": "في تشخيص الاتصال والمكالمات والبث.",
+    "en": [
+      "Failure of some transmitted packets to reach their destination because of congestion, errors, or other causes.",
+      "A call loses pieces of speech when audio packets go missing.",
+      "Connection, calling, and streaming troubleshooting."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "packet",
+      "jitter",
+      "udp"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://aws.amazon.com/what-is/latency/",
+      "https://www.rfc-editor.org/rfc/rfc7680.html"
+    ]
+  },
+  {
+    "term": "Jitter",
+    "fullName": "Packet Delay Variation",
+    "arabicName": "تفاوت تأخير الحزم",
+    "definition": "اختلاف زمن تأخير الحزم المتتابعة، ما يجعل وصول الصوت أو الفيديو غير منتظم.",
+    "example": "يستخدم تطبيق المكالمات مخزنًا صغيرًا لتنعيم تفاوت وصول حزم الصوت.",
+    "whereUsed": "في قياس جودة المكالمات والبث المباشر.",
+    "en": [
+      "Variation in packet delay that makes real-time audio or video arrive unevenly.",
+      "A calling app uses a small buffer to smooth irregular packet arrival.",
+      "Voice quality and live-stream measurements."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "latency",
+      "rtp",
+      "voip"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/info/rfc3393/"
+    ]
+  },
+  {
+    "term": "MTU",
+    "fullName": "Maximum Transmission Unit",
+    "arabicName": "أقصى حجم لوحدة الإرسال",
+    "definition": "أكبر حجم لحزمة يمكن تمريرها عبر وصلة معينة دون تجزئة على مستوى IP.",
+    "example": "قد يؤدي ضبط حجم غير مناسب لنفق شبكة إلى تعثر بعض الاتصالات.",
+    "whereUsed": "في إعداد الوصلات والأنفاق وتشخيص الشبكات.",
+    "en": [
+      "The largest IP packet a link can carry without IP fragmentation.",
+      "An unsuitable tunnel MTU can cause some connections to stall.",
+      "Link and tunnel setup and network troubleshooting."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "packet",
+      "ipv6",
+      "vpn"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc8200.html"
+    ]
+  },
+  {
+    "term": "TTL",
+    "fullName": "Time to Live",
+    "arabicName": "حد عمر الحزمة",
+    "definition": "حقل في IPv4 تقل قيمته عند عبور الموجّهات لمنع الحزمة من الدوران بلا نهاية داخل الشبكة.",
+    "example": "يسقط الموجّه الحزمة عند نفاد TTL أثناء حلقة توجيه.",
+    "whereUsed": "في توجيه IPv4 وأدوات تشخيص مسارات الشبكة.",
+    "en": [
+      "An IPv4 field reduced by routers to stop packets circulating indefinitely through a network.",
+      "A router drops a packet whose TTL expires in a routing loop.",
+      "IPv4 routing and path diagnostics."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "traceroute",
+      "router",
+      "ipv4"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc791.html"
+    ]
+  },
+  {
+    "term": "ARP",
+    "fullName": "Address Resolution Protocol",
+    "arabicName": "بروتوكول استبانة العناوين",
+    "definition": "بروتوكول يحدد عنوان MAC المقابل لعنوان IPv4 على الشبكة المحلية.",
+    "example": "يسأل الحاسوب عن MAC الخاص ببوابته قبل إرسال إطار Ethernet.",
+    "whereUsed": "في اتصال أجهزة IPv4 داخل الشبكة المحلية.",
+    "en": [
+      "A protocol finding the MAC address corresponding to an IPv4 address on a local network.",
+      "A computer resolves its gateway MAC address before sending an Ethernet frame.",
+      "Local IPv4 network communication."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "mac-address",
+      "ipv4",
+      "ethernet"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc826.html"
+    ]
+  },
+  {
+    "term": "ICMP",
+    "fullName": "Internet Control Message Protocol",
+    "arabicName": "بروتوكول رسائل التحكم في الإنترنت",
+    "definition": "بروتوكول ينقل رسائل تشخيص وأخطاء عن اتصال IP، مثل تعذر الوصول إلى وجهة.",
+    "example": "يرسل موجّه رسالة تفيد بأن شبكة الوجهة غير قابلة للوصول.",
+    "whereUsed": "في تشخيص الشبكات وأدوات مثل ping.",
+    "en": [
+      "A protocol carrying IP diagnostic and error messages, such as unreachable destinations.",
+      "A router reports that a destination network cannot be reached.",
+      "Network diagnostics and tools such as ping."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ping",
+      "traceroute",
+      "ip-address"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc792.html"
+    ]
+  },
+  {
+    "term": "Ping",
+    "fullName": "Ping Utility",
+    "arabicName": "أداة اختبار الاستجابة",
+    "definition": "أداة ترسل طلبات صدى ICMP وتقيس الرد ووقت الرحلة؛ غياب الرد لا يثبت وحده تعطل الوجهة.",
+    "example": "يختبر المسؤول استجابة بوابة الشبكة قبل فحص الاتصال الخارجي.",
+    "whereUsed": "في التشخيص الأولي لمشاكل الاتصال.",
+    "en": [
+      "A tool sending ICMP echo requests and measuring replies and round-trip time; no reply alone does not prove a host is down.",
+      "An administrator checks gateway replies before investigating external connectivity.",
+      "Initial connectivity troubleshooting."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "icmp",
+      "latency"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping"
+    ]
+  },
+  {
+    "term": "Traceroute",
+    "fullName": "Traceroute",
+    "arabicName": "تتبع مسار الاتصال",
+    "definition": "أداة تستدل على الموجّهات التي تعبرها الحزم باستخدام قيم عمر متدرجة ورسائل الرد.",
+    "example": "يفحص الفني المسار نحو خادم لمعرفة أين يظهر التأخير.",
+    "whereUsed": "في تحليل مسارات الشبكة وتشخيص الأعطال.",
+    "en": [
+      "A tool inferring the routers along a path using increasing packet lifetimes and returned messages.",
+      "A technician examines the route to a server to investigate delay.",
+      "Route analysis and network troubleshooting."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ttl",
+      "icmp",
+      "router"
+    ],
+    "aliases": [
+      "tracert"
+    ],
+    "sources": [
+      "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert"
+    ]
+  },
+  {
+    "term": "BGP",
+    "fullName": "Border Gateway Protocol",
+    "arabicName": "بروتوكول بوابة الحدود",
+    "definition": "بروتوكول تتبادل به الأنظمة المستقلة معلومات الوصول إلى شبكات IP وفق سياسات توجيه.",
+    "example": "يعلن مزود إنترنت لشركائه الشبكات التي يستطيع توصيلهم بها.",
+    "whereUsed": "في التوجيه بين مزودي الإنترنت والشبكات الكبرى.",
+    "en": [
+      "A protocol exchanging IP reachability between autonomous systems according to routing policies.",
+      "An internet provider advertises reachable networks to its peers.",
+      "Routing between internet providers and large networks."
+    ],
+    "category": "networks",
+    "level": "Advanced",
+    "relatedTerms": [
+      "router",
+      "wan",
+      "cidr"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc4271.html"
+    ]
+  },
+  {
+    "term": "OSPF",
+    "fullName": "Open Shortest Path First",
+    "arabicName": "بروتوكول المسار الأقصر أولًا",
+    "definition": "بروتوكول توجيه داخلي يبني صورة للوصلات ويحسب مسارات باستخدام تكاليفها.",
+    "example": "تعيد الموجّهات حساب الطريق بعد تعطل وصلة داخل المؤسسة.",
+    "whereUsed": "في توجيه شبكات المؤسسات ومقدمي الخدمات.",
+    "en": [
+      "An interior routing protocol that builds a link-state view and computes paths using link costs.",
+      "Routers recalculate paths after an internal link fails.",
+      "Enterprise and provider internal routing."
+    ],
+    "category": "networks",
+    "level": "Advanced",
+    "relatedTerms": [
+      "router",
+      "bgp"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc2328.html"
+    ]
+  },
+  {
+    "term": "QoS",
+    "fullName": "Quality of Service",
+    "arabicName": "جودة الخدمة",
+    "definition": "أساليب لإدارة حركة الشبكة ومنح أنواع محددة أولوية أو موارد مناسبة أثناء التنافس على السعة.",
+    "example": "تعطي الشبكة أولوية للمكالمات على تنزيل الملفات عند الازدحام.",
+    "whereUsed": "في شبكات الصوت والفيديو والمؤسسات.",
+    "en": [
+      "Methods for managing traffic and giving selected traffic suitable priority or resources under contention.",
+      "A network prioritizes calls over file downloads during congestion.",
+      "Voice, video, and enterprise networks."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "bandwidth",
+      "latency",
+      "voip"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc2475.html"
+    ]
+  },
+  {
+    "term": "Unicast",
+    "fullName": "Unicast",
+    "arabicName": "إرسال إلى وجهة واحدة",
+    "definition": "نمط إرسال تُوجَّه فيه البيانات إلى واجهة أو مستقبِل واحد محدد.",
+    "example": "يرسل جهاز طلبًا مباشرًا إلى خادم معين.",
+    "whereUsed": "في اتصالات الويب والتطبيقات المعتادة.",
+    "en": [
+      "Communication addressed to one particular receiving interface or endpoint.",
+      "A device sends a direct request to one server.",
+      "Ordinary web and application connections."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "multicast",
+      "broadcast",
+      "ip-address"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/info/rfc4291/"
+    ]
+  },
+  {
+    "term": "Multicast",
+    "fullName": "Multicast",
+    "arabicName": "إرسال إلى مجموعة",
+    "definition": "إرسال بيانات إلى عنوان مجموعة لكي تصل إلى الأجهزة التي انضمت إليها، مع دعم الشبكة لذلك.",
+    "example": "توزع شبكة داخلية بثًا واحدًا على مجموعة شاشات مشتركة.",
+    "whereUsed": "في البث وإعلانات الخدمات وبعض بروتوكولات الشبكات.",
+    "en": [
+      "Sending data to a group address for delivery to joined receivers when the network supports it.",
+      "An internal network distributes one stream to a subscribed group of displays.",
+      "Streaming, service announcements, and networking protocols."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "unicast",
+      "broadcast"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc1112.html"
+    ]
+  },
+  {
+    "term": "Broadcast",
+    "fullName": "Network Broadcast",
+    "arabicName": "بث إلى جميع أجهزة النطاق",
+    "definition": "إرسال رسالة إلى جميع الأجهزة ضمن نطاق بث محلي محدد.",
+    "example": "يرسل الجهاز طلب اكتشاف DHCP عند انضمامه إلى شبكة IPv4.",
+    "whereUsed": "في اكتشاف خدمات الشبكة المحلية وبعض رسائل التحكم.",
+    "en": [
+      "Sending a message to all devices within a defined local broadcast domain.",
+      "A device broadcasts DHCP discovery when joining an IPv4 network.",
+      "Local discovery and selected network control messages."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "vlan",
+      "dhcp",
+      "multicast"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/info/rfc919/"
+    ]
+  },
+  {
+    "term": "Anycast",
+    "fullName": "Anycast",
+    "arabicName": "إرسال إلى إحدى وجهات مشتركة العنوان",
+    "definition": "استخدام العنوان نفسه في مواقع متعددة بحيث يختار التوجيه وجهة واحدة مناسبة وفق مسارات الشبكة.",
+    "example": "يوجّه الإنترنت طلب DNS إلى إحدى نسخ الخدمة الموزعة.",
+    "whereUsed": "في DNS والخدمات الموزعة وتقليل مسافات الاتصال.",
+    "en": [
+      "Using one address at several sites so routing chooses a suitable destination according to network paths.",
+      "Routing delivers a DNS request to one of several distributed service instances.",
+      "DNS and geographically distributed services."
+    ],
+    "category": "networks",
+    "level": "Advanced",
+    "relatedTerms": [
+      "bgp",
+      "dns",
+      "unicast"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc4786.html"
+    ]
+  },
+  {
+    "term": "Access Point",
+    "fullName": "Wireless Access Point",
+    "arabicName": "نقطة وصول لاسلكية",
+    "definition": "جهاز يتيح لأجهزة Wi-Fi الاتصال بالشبكة ويصلها عادةً بالجزء السلكي منها.",
+    "example": "تضيف المدرسة نقطة وصول لتغطية فصل جديد.",
+    "whereUsed": "في إنشاء تغطية Wi-Fi للمنازل والمؤسسات.",
+    "en": [
+      "A device allowing Wi-Fi devices to join a network, usually bridging them to its wired section.",
+      "A school adds an access point to cover a new classroom.",
+      "Home and enterprise Wi-Fi coverage."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "wi-fi",
+      "wlan",
+      "ssid"
+    ],
+    "aliases": [
+      "AP",
+      "WAP"
+    ],
+    "sources": [
+      "https://www.cisco.com/site/us/en/learn/topics/small-business/what-is-an-access-point.html"
+    ]
+  },
+  {
+    "term": "SSID",
+    "fullName": "Service Set Identifier",
+    "arabicName": "اسم الشبكة اللاسلكية",
+    "definition": "اسم يميز شبكة Wi-Fi عند اختيارها؛ يمكن أن تستخدمه عدة نقاط وصول للشبكة نفسها.",
+    "example": "يختار الزائر شبكة Office-Guest من قائمة Wi-Fi.",
+    "whereUsed": "في إعداد الشبكات اللاسلكية والانضمام إليها.",
+    "en": [
+      "A name identifying a Wi-Fi network, which multiple access points may share.",
+      "A visitor selects Office-Guest from the Wi-Fi list.",
+      "Wi-Fi setup and network selection."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "wi-fi",
+      "access-point"
+    ],
+    "aliases": [
+      "Wi-Fi Network Name"
+    ],
+    "sources": [
+      "https://www.cisco.com/c/en/us/support/docs/interfaces-modules/security-modules-routers-switches/116586-config-ap-00.html"
+    ]
+  },
+  {
+    "term": "Mesh Network",
+    "fullName": "Wireless Mesh Network",
+    "arabicName": "شبكة لاسلكية متداخلة",
+    "definition": "شبكة تتعاون فيها عدة نقاط لنقل البيانات عبر وصلات بينها وتوسيع التغطية.",
+    "example": "تربط نقاط موزعة في مبنى الغرف البعيدة بالشبكة عبر بعضها.",
+    "whereUsed": "في تغطية المباني والمواقع الواسعة لاسلكيًا.",
+    "en": [
+      "A network whose nodes relay traffic through interconnections to extend wireless coverage.",
+      "Nodes placed around a building relay traffic from distant rooms.",
+      "Wireless coverage across buildings and larger sites."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "access-point",
+      "wlan",
+      "router"
+    ],
+    "aliases": [
+      "Mesh Wi-Fi"
+    ],
+    "sources": [
+      "https://www.cisco.com/c/en/us/td/docs/wireless/controller/9800/16-11/config-guide/b_wl_16_11_cg/mesh-access-points.html"
+    ]
+  },
+  {
+    "term": "Roaming",
+    "fullName": "Wi-Fi Roaming",
+    "arabicName": "التنقل بين نقاط الوصول",
+    "definition": "انتقال جهاز لاسلكي من نقطة وصول إلى أخرى مع بقائه على الشبكة، بحسب إمكانات الجهاز والشبكة.",
+    "example": "ينتقل الهاتف إلى نقطة وصول أقرب أثناء المشي بين طوابق المكتب.",
+    "whereUsed": "في الشبكات اللاسلكية ذات نقاط الوصول المتعددة.",
+    "en": [
+      "A wireless device moving between access points while staying on the network, subject to device and network capabilities.",
+      "A phone joins a nearer access point while moving between office floors.",
+      "Wi-Fi networks with multiple access points."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "access-point",
+      "ssid"
+    ],
+    "aliases": [
+      "Wi-Fi Roaming"
+    ],
+    "sources": [
+      "https://www.cisco.com/c/en/us/support/docs/smb/wireless/cisco-small-business-100-series-wireless-access-points/smb5305-wireless-access-points-frequently-asked-questions.html"
+    ]
+  },
+  {
+    "term": "Hotspot",
+    "fullName": "Wi-Fi Hotspot",
+    "arabicName": "نقطة إتاحة إنترنت لاسلكية",
+    "definition": "مكان أو جهاز يوفر اتصالًا بالإنترنت لأجهزة أخرى عبر Wi-Fi.",
+    "example": "يشارك المستخدم إنترنت هاتفه مع حاسوبه المحمول.",
+    "whereUsed": "في مشاركة الإنترنت والسفر والشبكات العامة.",
+    "en": [
+      "A location or device providing internet access to other devices over Wi-Fi.",
+      "A user shares a phone internet connection with a laptop.",
+      "Internet sharing, travel, and public connectivity."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "wi-fi",
+      "access-point"
+    ],
+    "aliases": [
+      "Mobile Hotspot"
+    ],
+    "sources": [
+      "https://support.microsoft.com/en-us/windows/experience/connectivity-networking/use-your-windows-device-as-a-mobile-hotspot"
+    ]
+  },
+  {
+    "term": "Modem",
+    "fullName": "Modulator-Demodulator",
+    "arabicName": "مودم",
+    "definition": "جهاز يحول البيانات إلى إشارات تناسب وسيط الاتصال ويعيد تحويل الإشارات المستقبلة إلى بيانات.",
+    "example": "يربط مودم الكابل شبكة المنزل بخط مزود الإنترنت.",
+    "whereUsed": "في اتصالات الكابل وDSL والشبكات الخلوية.",
+    "en": [
+      "A device converting data into signals suitable for a communication medium and received signals back into data.",
+      "A cable modem links a home network to an internet provider line.",
+      "Cable, DSL, and cellular connections."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "router",
+      "wan"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://kb.netgear.com/31114/What-s-a-modem"
+    ]
+  },
+  {
+    "term": "Fiber Optic",
+    "fullName": "Fiber-Optic Communication",
+    "arabicName": "اتصال بالألياف الضوئية",
+    "definition": "نقل المعلومات باستخدام الضوء داخل ألياف زجاجية أو بلاستيكية مخصصة.",
+    "example": "يربط كابل ألياف بين مبنيين لنقل بيانات الشبكة.",
+    "whereUsed": "في الإنترنت المنزلي وشبكات الاتصالات ومراكز البيانات.",
+    "en": [
+      "Sending information as light through specially designed glass or plastic fibers.",
+      "A fiber cable carries network data between two buildings.",
+      "Home internet, telecom networks, and data centers."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "ethernet",
+      "bandwidth"
+    ],
+    "aliases": [
+      "Optical Fiber",
+      "Fiber Optics"
+    ],
+    "sources": [
+      "https://www.corning.com/optical-communications/jp/jp/home/Resources/glossary-of-terms/glossary-terms.html"
+    ]
+  },
+  {
+    "term": "LTE",
+    "fullName": "Long Term Evolution",
+    "arabicName": "تقنية الاتصال الخلوي LTE",
+    "definition": "عائلة معايير للاتصال الخلوي عريض النطاق تستخدم نقل البيانات بالحزم وتُسوّق عادة ضمن شبكات الجيل الرابع.",
+    "example": "يتصل الهاتف بالإنترنت عبر LTE خارج نطاق Wi-Fi.",
+    "whereUsed": "في الهواتف وأجهزة الإنترنت الخلوي.",
+    "en": [
+      "A family of packet-based mobile broadband standards commonly marketed as fourth-generation connectivity.",
+      "A phone uses LTE for internet access outside Wi-Fi coverage.",
+      "Phones and cellular internet devices."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "5g",
+      "modem"
+    ],
+    "aliases": [
+      "4G LTE"
+    ],
+    "sources": [
+      "https://www.3gpp.org/images/PDF/lte_advanced_SAI_paper.pdf"
+    ]
+  },
+  {
+    "term": "5G",
+    "fullName": "Fifth-Generation Mobile Networks",
+    "arabicName": "شبكات المحمول من الجيل الخامس",
+    "definition": "جيل من معايير الاتصال الخلوي يدعم سعات أكبر وخدمات متنوعة، ويختلف أداؤه حسب الطيف والتغطية والتنفيذ.",
+    "example": "يتصل هاتف بمحطة 5G لنقل البيانات عبر شبكة المحمول.",
+    "whereUsed": "في الهواتف والاتصالات الصناعية والإنترنت الثابت اللاسلكي.",
+    "en": [
+      "A mobile-network generation supporting greater capacity and varied services, with performance depending on spectrum, coverage, and deployment.",
+      "A phone connects to a 5G base station for mobile data.",
+      "Phones, industrial connectivity, and fixed wireless access."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "lte",
+      "latency",
+      "bandwidth"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.3gpp.org/ftp/inbox/marcoms/ICT_6_1-2.pdf"
+    ]
+  },
+  {
+    "term": "VoIP",
+    "fullName": "Voice over Internet Protocol",
+    "arabicName": "نقل الصوت عبر بروتوكول الإنترنت",
+    "definition": "نقل المكالمات الصوتية كبيانات عبر شبكات IP بدل تخصيص دائرة هاتفية تقليدية للمكالمة.",
+    "example": "يجري موظف مكالمة من تطبيق الشركة عبر اتصال الإنترنت.",
+    "whereUsed": "في هواتف الشركات وتطبيقات المكالمات.",
+    "en": [
+      "Carrying voice calls as data over IP networks instead of a traditional dedicated telephone circuit.",
+      "An employee calls through a company app using an internet connection.",
+      "Business phone systems and calling applications."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "sip",
+      "rtp",
+      "qos"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://docs.fcc.gov/public/attachments/DOC-362881A1.pdf"
+    ]
+  },
+  {
+    "term": "SIP",
+    "fullName": "Session Initiation Protocol",
+    "arabicName": "بروتوكول بدء الجلسات",
+    "definition": "بروتوكول إشارات لإنشاء جلسات اتصال مثل المكالمات وتعديلها وإنهائها، ولا يحمل الصوت نفسه عادةً.",
+    "example": "يتبادل هاتفان رسائل SIP لبدء مكالمة ثم ينقلان الصوت ببروتوكول آخر.",
+    "whereUsed": "في الاتصالات الهاتفية عبر IP والمؤتمرات.",
+    "en": [
+      "A signaling protocol for establishing, changing, and ending sessions such as calls, usually without carrying the audio itself.",
+      "Two phones exchange SIP messages to start a call and carry audio separately.",
+      "IP telephony and conferencing."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "voip",
+      "rtp"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc3261.html"
+    ]
+  },
+  {
+    "term": "RTP",
+    "fullName": "Real-time Transport Protocol",
+    "arabicName": "بروتوكول نقل الوسائط الآنية",
+    "definition": "بروتوكول ينقل الصوت والفيديو مع أرقام تسلسل وطوابع زمنية تساعد على ترتيب وتشغيل الوسائط.",
+    "example": "يستخدم تطبيق مكالمة أرقام حزم RTP لمتابعة حزم الصوت المفقودة.",
+    "whereUsed": "في المكالمات والمؤتمرات والبث الحي.",
+    "en": [
+      "A protocol carrying audio and video with sequence numbers and timestamps to support media ordering and playback.",
+      "A calling app uses RTP sequence numbers to track missing audio packets.",
+      "Calls, conferencing, and live media."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "voip",
+      "udp",
+      "jitter"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc3550.html"
+    ]
+  },
+  {
+    "term": "NTP",
+    "fullName": "Network Time Protocol",
+    "arabicName": "بروتوكول وقت الشبكة",
+    "definition": "بروتوكول يساعد الأجهزة على مزامنة ساعاتها عبر الشبكة مع تقدير أثر تأخير الاتصال.",
+    "example": "تضبط الخوادم ساعاتها لتتوافق أوقات الأحداث في السجلات.",
+    "whereUsed": "في الخوادم والشبكات وتتبع الأحداث.",
+    "en": [
+      "A protocol synchronizing device clocks over networks while accounting for communication delay.",
+      "Servers align their clocks so log timestamps can be compared.",
+      "Servers, networks, and event tracking."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "log",
+      "totp"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc5905.html"
+    ]
+  },
+  {
+    "term": "SNMP",
+    "fullName": "Simple Network Management Protocol",
+    "arabicName": "بروتوكول إدارة الشبكات البسيط",
+    "definition": "بروتوكول لقراءة معلومات أجهزة الشبكة وإدارتها وتلقي تنبيهات منها وفق الصلاحيات والإصدار المستخدم.",
+    "example": "يجمع نظام المراقبة حالة منافذ محوّل الشبكة عبر SNMP.",
+    "whereUsed": "في مراقبة الموجّهات والمحوّلات والطابعات.",
+    "en": [
+      "A protocol for reading and managing device information and receiving notifications according to its version and permissions.",
+      "A monitoring system collects switch port status using SNMP.",
+      "Router, switch, and printer monitoring."
+    ],
+    "category": "networks",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "monitoring",
+      "switch",
+      "router"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.rfc-editor.org/rfc/rfc3411.html"
+    ]
+  }
+]

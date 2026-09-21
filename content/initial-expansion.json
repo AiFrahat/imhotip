@@ -1,0 +1,1138 @@
+[
+  {
+    "term": "Machine Learning",
+    "fullName": "Machine Learning",
+    "arabicName": "تعلّم الآلة",
+    "definition": "أسلوب يتعلم فيه البرنامج أنماطًا من البيانات ليُحسن توقعاته بدل كتابة قاعدة لكل حالة.",
+    "example": "يتعلم مرشح البريد التمييز بين الرسائل العادية والمزعجة.",
+    "whereUsed": "في تطبيقات الذكاء الاصطناعي.",
+    "en": [
+      "A method in which software learns patterns from data to improve predictions instead of relying on a rule for every case.",
+      "An email filter learns to spot spam from examples.",
+      "AI applications."
+    ],
+    "category": "ai",
+    "level": "Beginner",
+    "relatedTerms": [
+      "ai",
+      "dataset"
+    ],
+    "aliases": [
+      "ML"
+    ],
+    "sources": []
+  },
+  {
+    "term": "Deep Learning",
+    "fullName": "Deep Learning",
+    "arabicName": "التعلّم العميق",
+    "definition": "نوع من تعلّم الآلة يستخدم شبكات عصبية ذات طبقات عديدة لمعالجة الأنماط المعقدة.",
+    "example": "يتعرف نظام على الكلام بعد التدريب على تسجيلات كثيرة.",
+    "whereUsed": "في تطبيقات الذكاء الاصطناعي.",
+    "en": [
+      "A kind of machine learning that uses neural networks with many layers to handle complex patterns.",
+      "A system recognizes speech after training on many recordings.",
+      "AI applications."
+    ],
+    "category": "ai",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ai",
+      "dataset"
+    ],
+    "aliases": [
+      "DL"
+    ],
+    "sources": []
+  },
+  {
+    "term": "Neural Network",
+    "fullName": "Neural Network",
+    "arabicName": "شبكة عصبية",
+    "definition": "نموذج حاسوبي مكوّن من وحدات مترابطة تتغير أوزانها أثناء التدريب لتعلّم الأنماط.",
+    "example": "تساعد شبكة عصبية في تمييز الأرقام المكتوبة باليد.",
+    "whereUsed": "في تطبيقات الذكاء الاصطناعي.",
+    "en": [
+      "A computing model of connected units whose weights change during training to learn patterns.",
+      "A neural network recognizes handwritten digits.",
+      "AI applications."
+    ],
+    "category": "ai",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ai",
+      "dataset"
+    ],
+    "aliases": [
+      "NN"
+    ],
+    "sources": []
+  },
+  {
+    "term": "Generative AI",
+    "fullName": "Generative Artificial Intelligence",
+    "arabicName": "ذكاء اصطناعي توليدي",
+    "definition": "ذكاء اصطناعي ينشئ محتوى جديدًا مثل النص أو الصورة اعتمادًا على أنماط تعلّمها.",
+    "example": "تنشئ أداة مسودة رسالة من وصف قصير.",
+    "whereUsed": "في تطبيقات الذكاء الاصطناعي.",
+    "en": [
+      "AI that creates new content such as text or images from learned patterns.",
+      "A tool drafts an email from a short instruction.",
+      "AI applications."
+    ],
+    "category": "ai",
+    "level": "Beginner",
+    "relatedTerms": [
+      "ai",
+      "llm"
+    ],
+    "aliases": [
+      "GenAI"
+    ],
+    "sources": []
+  },
+  {
+    "term": "NLP",
+    "fullName": "Natural Language Processing",
+    "arabicName": "معالجة اللغة الطبيعية",
+    "definition": "مجال يساعد الحاسوب على تحليل اللغة البشرية وفهمها أو توليدها.",
+    "example": "يصنف برنامج رسالة العميل حسب موضوعها.",
+    "whereUsed": "في تطبيقات الذكاء الاصطناعي.",
+    "en": [
+      "A field that helps computers analyze, understand, or generate human language.",
+      "Software sorts customer messages by topic.",
+      "AI applications."
+    ],
+    "category": "ai",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ai",
+      "llm"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Variable",
+    "fullName": "Variable",
+    "arabicName": "متغير برمجي",
+    "definition": "اسم يشير إلى قيمة يمكن للبرنامج قراءتها أو تغييرها أثناء عمله.",
+    "example": "يحفظ التطبيق عدد المنتجات في متغير اسمه total.",
+    "whereUsed": "في تطوير البرامج.",
+    "en": [
+      "A name for a value that a program can read or change while it runs.",
+      "An app stores the number of items in a variable called total.",
+      "Software development."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "framework"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Function",
+    "fullName": "Function",
+    "arabicName": "دالة برمجية",
+    "definition": "مجموعة تعليمات لها اسم تؤدي مهمة محددة ويمكن استدعاؤها أكثر من مرة.",
+    "example": "تستدعي صفحة دالة لحساب إجمالي الطلب.",
+    "whereUsed": "في تطوير البرامج.",
+    "en": [
+      "A named set of instructions that performs a task and can be called repeatedly.",
+      "A page calls a function to calculate an order total.",
+      "Software development."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "framework"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Algorithm",
+    "fullName": "Algorithm",
+    "arabicName": "خوارزمية",
+    "definition": "خطوات مرتبة لحل مسألة أو تنفيذ مهمة، سواء كُتبت في برنامج أم لا.",
+    "example": "ترتب خوارزمية نتائج البحث حسب الصلة.",
+    "whereUsed": "في تطوير البرامج.",
+    "en": [
+      "An ordered set of steps for solving a problem or completing a task.",
+      "A search algorithm sorts results by relevance.",
+      "Software development."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "ai"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Bug",
+    "fullName": "Software Bug",
+    "arabicName": "خطأ برمجي",
+    "definition": "خلل يجعل البرنامج يتصرف على غير المتوقع في حالة معينة.",
+    "example": "يعرض التطبيق سعرًا خاطئًا بسبب خطأ في الحساب.",
+    "whereUsed": "في تطوير البرامج.",
+    "en": [
+      "A defect that makes software behave unexpectedly in a particular case.",
+      "An app shows the wrong price because of a calculation bug.",
+      "Software development."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "testing"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Debugging",
+    "fullName": "Debugging",
+    "arabicName": "تصحيح الأخطاء",
+    "definition": "عملية العثور على سبب الخطأ البرمجي وإصلاحه ثم التأكد من نجاح الإصلاح.",
+    "example": "يتتبع المطور قيمة المتغير لمعرفة سبب تعطل البحث.",
+    "whereUsed": "في تطوير البرامج.",
+    "en": [
+      "Finding the cause of a software bug, fixing it, and checking the result.",
+      "A developer traces a variable to find why search fails.",
+      "Software development."
+    ],
+    "category": "programming",
+    "level": "Beginner",
+    "relatedTerms": [
+      "testing"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "URL",
+    "fullName": "Uniform Resource Locator",
+    "arabicName": "رابط الإنترنت",
+    "definition": "عنوان يحدد مكان صفحة أو ملف على الويب وطريقة الوصول إليه.",
+    "example": "يشير رابط يبدأ بـ https إلى صفحة محددة.",
+    "whereUsed": "في مواقع الويب.",
+    "en": [
+      "An address that identifies a web page or file and how to access it.",
+      "A URL beginning with https points to a particular page.",
+      "Websites."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "http",
+      "https"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Domain",
+    "fullName": "Domain Name",
+    "arabicName": "اسم النطاق",
+    "definition": "اسم يسهل تذكره للموقع ويحوّله نظام DNS إلى عنوان الشبكة المناسب.",
+    "example": "imhotip.com اسم نطاق لموقع.",
+    "whereUsed": "في مواقع الويب.",
+    "en": [
+      "An easy-to-remember website name that DNS translates into a network address.",
+      "imhotip.com is a domain name.",
+      "Websites."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "dns"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Browser",
+    "fullName": "Web Browser",
+    "arabicName": "متصفح الويب",
+    "definition": "برنامج يطلب صفحات الويب ويعرضها ويتيح التنقل بينها.",
+    "example": "يفتح المستخدم الموقع في Chrome أو Edge.",
+    "whereUsed": "في مواقع الويب.",
+    "en": [
+      "Software that requests, displays, and lets you navigate web pages.",
+      "A user opens a site in Chrome or Edge.",
+      "Websites."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "http",
+      "html"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "HTML",
+    "fullName": "HyperText Markup Language",
+    "arabicName": "لغة ترميز صفحات الويب",
+    "definition": "لغة تحدد بنية الصفحة، مثل العناوين والفقرات والروابط والصور.",
+    "example": "يضع المطور عنوان المقال داخل عنصر HTML مناسب.",
+    "whereUsed": "في مواقع الويب.",
+    "en": [
+      "A markup language that defines a page’s structure, including headings, paragraphs, links, and images.",
+      "A developer marks an article title as a heading.",
+      "Websites."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "http"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "CSS",
+    "fullName": "Cascading Style Sheets",
+    "arabicName": "أنماط صفحات الويب",
+    "definition": "لغة تتحكم في شكل عناصر صفحة الويب مثل الألوان والمسافات والخطوط.",
+    "example": "تجعل قاعدة CSS الزر أزرق اللون.",
+    "whereUsed": "في مواقع الويب.",
+    "en": [
+      "A language for controlling the appearance of web elements, such as colors, spacing, and fonts.",
+      "A CSS rule makes a button blue.",
+      "Websites."
+    ],
+    "category": "web",
+    "level": "Beginner",
+    "relatedTerms": [
+      "html"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Server",
+    "fullName": "Server",
+    "arabicName": "خادم",
+    "definition": "حاسوب أو برنامج يقدّم بيانات أو خدمة لأجهزة أخرى عند طلبها.",
+    "example": "يرسل خادم الموقع الصفحة إلى المتصفح.",
+    "whereUsed": "في تشغيل الخدمات السحابية.",
+    "en": [
+      "A computer or program that provides data or a service to other devices on request.",
+      "A web server sends a page to a browser.",
+      "Cloud services."
+    ],
+    "category": "cloud",
+    "level": "Beginner",
+    "relatedTerms": [
+      "http",
+      "cloud"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Virtual Machine",
+    "fullName": "Virtual Machine",
+    "arabicName": "آلة افتراضية",
+    "definition": "بيئة تحاكي حاسوبًا مستقلًا داخل جهاز فعلي ويمكن تشغيل نظام عليها.",
+    "example": "تشغّل شركة خادمًا افتراضيًا لاستضافة تطبيق.",
+    "whereUsed": "في تشغيل الخدمات السحابية.",
+    "en": [
+      "An environment that behaves like an independent computer within a physical machine.",
+      "A company runs an app on a virtual server.",
+      "Cloud services."
+    ],
+    "category": "cloud",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "cloud",
+      "server"
+    ],
+    "aliases": [
+      "VM"
+    ],
+    "sources": []
+  },
+  {
+    "term": "Serverless",
+    "fullName": "Serverless Computing",
+    "arabicName": "حوسبة بلا إدارة خوادم",
+    "definition": "طريقة لتشغيل الشيفرة تتولى فيها المنصة تشغيل الخوادم وتوسيعها، مع بقاء الخوادم موجودة فعليًا.",
+    "example": "تعمل دالة تلقائيًا عند رفع صورة جديدة.",
+    "whereUsed": "في تشغيل الخدمات السحابية.",
+    "en": [
+      "A way to run code where a platform manages the servers and scaling; physical servers still exist.",
+      "A function runs when a new image is uploaded.",
+      "Cloud services."
+    ],
+    "category": "cloud",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "cloud",
+      "server"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Object Storage",
+    "fullName": "Object Storage",
+    "arabicName": "تخزين الكائنات",
+    "definition": "خدمة تحفظ الملفات ككائنات مع بيانات وصفية ومعرّف للوصول إليها.",
+    "example": "يحفظ تطبيق الصور ملفات المستخدمين في تخزين كائنات.",
+    "whereUsed": "في تشغيل الخدمات السحابية.",
+    "en": [
+      "Storage that keeps files as objects with metadata and an identifier.",
+      "A photo app stores uploaded images in object storage.",
+      "Cloud services."
+    ],
+    "category": "cloud",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "cloud"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Load Balancer",
+    "fullName": "Load Balancer",
+    "arabicName": "موزع الأحمال",
+    "definition": "أداة توزّع الطلبات على عدة خوادم حتى لا يتكدس العمل على خادم واحد.",
+    "example": "يوجه موزع الأحمال الزوار إلى نسخ متعددة من المتجر.",
+    "whereUsed": "في تشغيل الخدمات السحابية.",
+    "en": [
+      "A component that distributes requests across servers to avoid overloading one server.",
+      "It sends shoppers to different copies of an online store.",
+      "Cloud services."
+    ],
+    "category": "cloud",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "server",
+      "cloud"
+    ],
+    "aliases": [
+      "LB"
+    ],
+    "sources": []
+  },
+  {
+    "term": "IP Address",
+    "fullName": "Internet Protocol Address",
+    "arabicName": "عنوان بروتوكول الإنترنت",
+    "definition": "رقم يعرّف جهازًا أو واجهة شبكة لتوجيه البيانات إليها عبر شبكة IP.",
+    "example": "يستخدم الموجّه عنوان IP لإرسال الرد إلى جهازك.",
+    "whereUsed": "في شبكات الحاسوب.",
+    "en": [
+      "A number identifying a device or network interface so IP traffic can be routed to it.",
+      "A router uses an IP address to send a reply to your device.",
+      "Computer networks."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "dns"
+    ],
+    "aliases": [
+      "IP"
+    ],
+    "sources": []
+  },
+  {
+    "term": "Router",
+    "fullName": "Router",
+    "arabicName": "موجّه الشبكة",
+    "definition": "جهاز يختار الطريق الذي تسلكه حزم البيانات بين الشبكات.",
+    "example": "يربط موجّه المنزل أجهزتك بالإنترنت.",
+    "whereUsed": "في شبكات الحاسوب.",
+    "en": [
+      "A device that chooses paths for data packets between networks.",
+      "A home router connects your devices to the internet.",
+      "Computer networks."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "dns"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Wi-Fi",
+    "fullName": "Wi-Fi",
+    "arabicName": "واي فاي",
+    "definition": "تقنية شبكة لاسلكية تصل الأجهزة بشبكة محلية عبر موجات الراديو.",
+    "example": "يتصل الهاتف بشبكة المنزل دون كابل.",
+    "whereUsed": "في شبكات الحاسوب.",
+    "en": [
+      "Wireless networking technology that connects devices to a local network using radio waves.",
+      "A phone joins the home network without a cable.",
+      "Computer networks."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "router"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "LAN",
+    "fullName": "Local Area Network",
+    "arabicName": "شبكة محلية",
+    "definition": "شبكة تربط أجهزة في نطاق محدود مثل منزل أو مكتب.",
+    "example": "تتشارك حواسيب المكتب طابعة على شبكة محلية.",
+    "whereUsed": "في شبكات الحاسوب.",
+    "en": [
+      "A network connecting devices within a limited area such as a home or office.",
+      "Office computers share a printer over a LAN.",
+      "Computer networks."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "router"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Bandwidth",
+    "fullName": "Bandwidth",
+    "arabicName": "سعة نقل البيانات",
+    "definition": "الحد الأقصى التقريبي لكمية البيانات التي يمكن لوصلة نقلها خلال زمن محدد.",
+    "example": "تستوعب وصلة بسعة أعلى عددًا أكبر من تدفقات الفيديو.",
+    "whereUsed": "في شبكات الحاسوب.",
+    "en": [
+      "The approximate maximum amount of data a connection can carry in a given time.",
+      "A higher-bandwidth link can carry more video streams.",
+      "Computer networks."
+    ],
+    "category": "networks",
+    "level": "Beginner",
+    "relatedTerms": [
+      "router"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "HDD",
+    "fullName": "Hard Disk Drive",
+    "arabicName": "قرص صلب ميكانيكي",
+    "definition": "وحدة تخزين دائمة تستخدم أقراصًا دوارة ورأس قراءة وكتابة.",
+    "example": "يحفظ حاسوب قديم ملفاته على قرص HDD.",
+    "whereUsed": "في مكونات الأجهزة.",
+    "en": [
+      "Permanent storage that uses spinning disks and a read/write head.",
+      "An older computer keeps files on an HDD.",
+      "Device hardware."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "ssd"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "USB",
+    "fullName": "Universal Serial Bus",
+    "arabicName": "ناقل تسلسلي عام",
+    "definition": "معيار شائع لتوصيل الأجهزة ونقل البيانات، وقد يوفّر الطاقة أيضًا.",
+    "example": "يوصل المستخدم لوحة مفاتيح بالحاسوب عبر USB.",
+    "whereUsed": "في مكونات الأجهزة.",
+    "en": [
+      "A common standard for connecting devices and moving data that may also deliver power.",
+      "A keyboard connects to a computer over USB.",
+      "Device hardware."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "cpu"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Motherboard",
+    "fullName": "Motherboard",
+    "arabicName": "لوحة أم",
+    "definition": "لوحة الدوائر الرئيسية التي تربط معالج الحاسوب والذاكرة والمكونات الأخرى.",
+    "example": "يثبت المعالج والذاكرة على اللوحة الأم.",
+    "whereUsed": "في مكونات الأجهزة.",
+    "en": [
+      "The main circuit board connecting a computer’s processor, memory, and other components.",
+      "The CPU and RAM are installed on the motherboard.",
+      "Device hardware."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "cpu",
+      "ram"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "BIOS",
+    "fullName": "Basic Input/Output System",
+    "arabicName": "نظام الإدخال والإخراج الأساسي",
+    "definition": "برنامج ثابت يبدأ فحص المكونات وتجهيز تشغيل النظام عند فتح الحاسوب؛ استُبدل غالبًا بـ UEFI في الأجهزة الحديثة.",
+    "example": "تبدأ شاشة إعدادات الجهاز قبل تشغيل نظام التشغيل.",
+    "whereUsed": "في مكونات الأجهزة.",
+    "en": [
+      "Firmware that initializes hardware at startup; modern computers commonly use UEFI instead.",
+      "Firmware settings appear before the operating system starts.",
+      "Device hardware."
+    ],
+    "category": "hardware",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "cpu"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "ROM",
+    "fullName": "Read-Only Memory",
+    "arabicName": "ذاكرة للقراءة فقط",
+    "definition": "نوع ذاكرة تُحفظ فيه تعليمات ثابتة أو قليلة التغيير، ولا يفقد محتواه بانقطاع الكهرباء.",
+    "example": "يحتفظ الجهاز بتعليمات بدء التشغيل في ذاكرة غير متطايرة.",
+    "whereUsed": "في مكونات الأجهزة.",
+    "en": [
+      "Nonvolatile memory used for instructions that rarely change.",
+      "A device retains startup instructions when power is off.",
+      "Device hardware."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "ram"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Password",
+    "fullName": "Password",
+    "arabicName": "كلمة مرور",
+    "definition": "سلسلة سرية تُستخدم لإثبات هوية صاحب الحساب؛ يجب أن تكون فريدة وصعبة التخمين.",
+    "example": "يستخدم شخص كلمة مرور مختلفة لحساب البنك.",
+    "whereUsed": "في حماية الحسابات والأنظمة.",
+    "en": [
+      "A secret string used to verify an account holder; it should be unique and hard to guess.",
+      "Someone uses a different password for their bank account.",
+      "Account and system protection."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "mfa"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "MFA",
+    "fullName": "Multi-Factor Authentication",
+    "arabicName": "مصادقة متعددة العوامل",
+    "definition": "طريقة دخول تتطلب عاملين مستقلين أو أكثر لإثبات الهوية.",
+    "example": "يدخل المستخدم كلمة المرور ثم يؤكد الدخول بتطبيق مصادقة.",
+    "whereUsed": "في حماية الحسابات والأنظمة.",
+    "en": [
+      "Sign-in that requires two or more independent types of proof of identity.",
+      "A user enters a password and then approves in an authenticator app.",
+      "Account and system protection."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "password"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Encryption",
+    "fullName": "Encryption",
+    "arabicName": "تشفير",
+    "definition": "تحويل بيانات مقروءة إلى صيغة لا يفهمها من لا يملك المفتاح المناسب.",
+    "example": "يُشفّر الاتصال قبل إرسال معلومات الدفع.",
+    "whereUsed": "في حماية الحسابات والأنظمة.",
+    "en": [
+      "Turning readable data into a form that requires the right key to understand.",
+      "A connection encrypts payment details before sending them.",
+      "Account and system protection."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "https"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Firewall",
+    "fullName": "Firewall",
+    "arabicName": "جدار حماية",
+    "definition": "نظام يراقب حركة الشبكة ويسمح بها أو يمنعها حسب قواعد محددة.",
+    "example": "يمنع جدار الحماية اتصالًا واردًا غير مسموح.",
+    "whereUsed": "في حماية الحسابات والأنظمة.",
+    "en": [
+      "A system that allows or blocks network traffic according to defined rules.",
+      "A firewall blocks an unauthorized incoming connection.",
+      "Account and system protection."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "router"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Phishing",
+    "fullName": "Phishing",
+    "arabicName": "تصيّد احتيالي",
+    "definition": "محاولة خداع شخص برسالة أو صفحة مزيفة للحصول على بياناته أو دفعه لفعل ضار.",
+    "example": "تصلك رسالة تدّعي أنها من البنك وتطلب كلمة المرور.",
+    "whereUsed": "في حماية الحسابات والأنظمة.",
+    "en": [
+      "An attempt to trick someone with a fake message or page into revealing data or taking a harmful action.",
+      "A fake bank email asks for your password.",
+      "Account and system protection."
+    ],
+    "category": "security",
+    "level": "Beginner",
+    "relatedTerms": [
+      "password"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "App",
+    "fullName": "Application",
+    "arabicName": "تطبيق",
+    "definition": "برنامج يؤدي مهمة للمستخدم على الهاتف أو الحاسوب أو عبر الويب.",
+    "example": "تطبيق الخرائط يرشدك إلى الطريق.",
+    "whereUsed": "في تطبيقات المستخدم.",
+    "en": [
+      "Software that performs a task for a user on a phone, computer, or the web.",
+      "A maps app gives directions.",
+      "User applications."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "gui"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Mobile App",
+    "fullName": "Mobile Application",
+    "arabicName": "تطبيق هاتف",
+    "definition": "تطبيق مصمم للاستخدام على هاتف أو جهاز لوحي.",
+    "example": "يستخدم المسافر تطبيقًا لحجز تذكرة من هاتفه.",
+    "whereUsed": "في تطبيقات المستخدم.",
+    "en": [
+      "An application designed for use on a phone or tablet.",
+      "A traveler books a ticket from a phone app.",
+      "User applications."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "app"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Desktop App",
+    "fullName": "Desktop Application",
+    "arabicName": "تطبيق سطح مكتب",
+    "definition": "برنامج يُستخدم عادةً على حاسوب بنظام مثل Windows أو macOS أو Linux.",
+    "example": "يحرر المصمم صورة في تطبيق مثبت على حاسوبه.",
+    "whereUsed": "في تطبيقات المستخدم.",
+    "en": [
+      "Software normally used on a computer running Windows, macOS, or Linux.",
+      "A designer edits an image in an installed desktop app.",
+      "User applications."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "app"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "PWA",
+    "fullName": "Progressive Web App",
+    "arabicName": "تطبيق ويب تقدّمي",
+    "definition": "موقع ويب يستخدم إمكانات المتصفح ليقدم تجربة أقرب للتطبيق، مثل التثبيت أو العمل المحدود دون اتصال.",
+    "example": "يثبت المستخدم موقع المهام من المتصفح على الشاشة الرئيسية.",
+    "whereUsed": "في تطبيقات المستخدم.",
+    "en": [
+      "A website using browser capabilities to act more like an app, such as installation or limited offline use.",
+      "A user installs a task website from the browser.",
+      "User applications."
+    ],
+    "category": "apps",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "app",
+      "browser"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Notification",
+    "fullName": "Notification",
+    "arabicName": "إشعار",
+    "definition": "رسالة قصيرة ينبه بها التطبيق المستخدم إلى حدث أو معلومة جديدة.",
+    "example": "يعرض الهاتف إشعارًا بوصول رسالة.",
+    "whereUsed": "في تطبيقات المستخدم.",
+    "en": [
+      "A short alert from an app about an event or new information.",
+      "A phone shows an alert when a message arrives.",
+      "User applications."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "app"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Subscription",
+    "fullName": "Subscription",
+    "arabicName": "اشتراك",
+    "definition": "طريقة دفع أو وصول متكرر تمنح المستخدم خدمة خلال مدة محددة.",
+    "example": "يدفع المستخدم مبلغًا شهريًا لخدمة تخزين.",
+    "whereUsed": "في الأعمال الرقمية.",
+    "en": [
+      "A recurring payment or access arrangement for a service over a period of time.",
+      "A user pays monthly for cloud storage.",
+      "Digital business."
+    ],
+    "category": "business",
+    "level": "Beginner",
+    "relatedTerms": [
+      "saas"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "E-commerce",
+    "fullName": "Electronic Commerce",
+    "arabicName": "تجارة إلكترونية",
+    "definition": "بيع وشراء المنتجات أو الخدمات عبر الإنترنت.",
+    "example": "يطلب العميل كتابًا من متجر إلكتروني.",
+    "whereUsed": "في الأعمال الرقمية.",
+    "en": [
+      "Buying and selling products or services over the internet.",
+      "A customer orders a book from an online store.",
+      "Digital business."
+    ],
+    "category": "business",
+    "level": "Beginner",
+    "relatedTerms": [
+      "saas"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "CRM",
+    "fullName": "Customer Relationship Management",
+    "arabicName": "إدارة علاقات العملاء",
+    "definition": "نظام أو ممارسة لتنظيم بيانات العملاء وتفاعلات البيع وخدمة العملاء.",
+    "example": "يسجل فريق المبيعات مكالمة عميل في نظام CRM.",
+    "whereUsed": "في الأعمال الرقمية.",
+    "en": [
+      "A system or practice for organizing customer information, sales, and service interactions.",
+      "A sales team records a customer call in a CRM.",
+      "Digital business."
+    ],
+    "category": "business",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "saas"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "ERP",
+    "fullName": "Enterprise Resource Planning",
+    "arabicName": "تخطيط موارد المؤسسة",
+    "definition": "نظام يربط عمليات المؤسسة مثل المخزون والمشتريات والمحاسبة في بيانات مشتركة.",
+    "example": "ينعكس بيع منتج في المخزون والحسابات داخل ERP.",
+    "whereUsed": "في الأعمال الرقمية.",
+    "en": [
+      "Software connecting business processes such as inventory, purchasing, and accounting around shared data.",
+      "A sale updates inventory and accounts in an ERP.",
+      "Digital business."
+    ],
+    "category": "business",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "saas"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "UX",
+    "fullName": "User Experience",
+    "arabicName": "تجربة المستخدم",
+    "definition": "خبرة الشخص الكاملة أثناء استخدام منتج، بما فيها السهولة والوضوح والرضا.",
+    "example": "يبسط الفريق خطوات التسجيل لتحسين تجربة المستخدم.",
+    "whereUsed": "في الأعمال الرقمية.",
+    "en": [
+      "A person’s overall experience of a product, including ease, clarity, and satisfaction.",
+      "A team simplifies sign-up to improve UX.",
+      "Digital business."
+    ],
+    "category": "business",
+    "level": "Beginner",
+    "relatedTerms": [
+      "gui"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Database",
+    "fullName": "Database",
+    "arabicName": "قاعدة بيانات",
+    "definition": "مجموعة بيانات منظمة يخزنها نظام ويديرها ليسترجعها ويحدثها بكفاءة.",
+    "example": "يحفظ متجر أسماء المنتجات وأسعارها في قاعدة بيانات.",
+    "whereUsed": "في إدارة البيانات.",
+    "en": [
+      "An organized collection of data managed for efficient retrieval and updates.",
+      "A shop stores product names and prices in a database.",
+      "Data management."
+    ],
+    "category": "data",
+    "level": "Beginner",
+    "relatedTerms": [
+      "sql"
+    ],
+    "aliases": [
+      "DB"
+    ],
+    "sources": []
+  },
+  {
+    "term": "Data Warehouse",
+    "fullName": "Data Warehouse",
+    "arabicName": "مستودع بيانات",
+    "definition": "نظام يجمع بيانات من مصادر مختلفة لتحليلها وإعداد التقارير.",
+    "example": "تجمع شركة بيانات المبيعات من فروعها في مستودع واحد.",
+    "whereUsed": "في إدارة البيانات.",
+    "en": [
+      "A system that combines data from different sources for analysis and reporting.",
+      "A company brings branch sales data together for reports.",
+      "Data management."
+    ],
+    "category": "data",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "dataset",
+      "sql"
+    ],
+    "aliases": [
+      "DWH"
+    ],
+    "sources": []
+  },
+  {
+    "term": "CSV",
+    "fullName": "Comma-Separated Values",
+    "arabicName": "قيم مفصولة بفواصل",
+    "definition": "صيغة ملف نصي تمثل البيانات في صفوف وأعمدة، وتفصل القيم عادةً بفواصل.",
+    "example": "يصدّر برنامج كشف العملاء إلى ملف CSV.",
+    "whereUsed": "في إدارة البيانات.",
+    "en": [
+      "A text file format for tabular data, usually separating values with commas.",
+      "An app exports a customer list as a CSV file.",
+      "Data management."
+    ],
+    "category": "data",
+    "level": "Beginner",
+    "relatedTerms": [
+      "dataset"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "ETL",
+    "fullName": "Extract, Transform, Load",
+    "arabicName": "استخراج وتحويل وتحميل",
+    "definition": "عملية تجمع بيانات من مصادر، تنظفها أو تغيرها، ثم تحملها إلى وجهة للتحليل.",
+    "example": "ينقل فريق البيانات سجلات المبيعات إلى مستودع بعد تنظيفها.",
+    "whereUsed": "في إدارة البيانات.",
+    "en": [
+      "A process that extracts data, transforms it, and loads it into a destination for analysis.",
+      "A team cleans sales records before loading a warehouse.",
+      "Data management."
+    ],
+    "category": "data",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "dataset",
+      "sql"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Backup",
+    "fullName": "Backup",
+    "arabicName": "نسخة احتياطية",
+    "definition": "نسخة إضافية من البيانات تُحفظ لاستعادتها عند الفقد أو التلف.",
+    "example": "يستعيد المستخدم ملفاته من نسخة احتياطية بعد تعطل القرص.",
+    "whereUsed": "في إدارة البيانات.",
+    "en": [
+      "An extra copy of data kept so it can be restored after loss or damage.",
+      "A user recovers files from a backup after a drive failure.",
+      "Data management."
+    ],
+    "category": "data",
+    "level": "Beginner",
+    "relatedTerms": [
+      "ssd"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Deployment",
+    "fullName": "Deployment",
+    "arabicName": "نشر البرمجيات",
+    "definition": "إتاحة نسخة من البرنامج في بيئة يستطيع المستخدمون الوصول إليها.",
+    "example": "ينشر الفريق إصدار الموقع الجديد على الخادم.",
+    "whereUsed": "في تشغيل وتطوير البرمجيات.",
+    "en": [
+      "Making a software version available in an environment users can access.",
+      "A team deploys a new website version to a server.",
+      "Software delivery and operations."
+    ],
+    "category": "devops",
+    "level": "Beginner",
+    "relatedTerms": [
+      "ci-cd"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Version Control",
+    "fullName": "Version Control",
+    "arabicName": "إدارة الإصدارات",
+    "definition": "نظام يسجل تغييرات الملفات بمرور الوقت ليسهل التعاون والرجوع إلى نسخة سابقة.",
+    "example": "يستخدم الفريق Git لمعرفة من غيّر ملفًا ومتى.",
+    "whereUsed": "في تشغيل وتطوير البرمجيات.",
+    "en": [
+      "A system that records file changes over time for collaboration and recovery.",
+      "A team uses Git to see when a file changed.",
+      "Software delivery and operations."
+    ],
+    "category": "devops",
+    "level": "Beginner",
+    "relatedTerms": [
+      "git"
+    ],
+    "aliases": [
+      "VCS"
+    ],
+    "sources": []
+  },
+  {
+    "term": "Pipeline",
+    "fullName": "Software Pipeline",
+    "arabicName": "خط سير آلي",
+    "definition": "سلسلة خطوات آلية تمر بها الشيفرة مثل البناء والاختبار والنشر.",
+    "example": "تشغل خطوة في خط السير الاختبارات قبل النشر.",
+    "whereUsed": "في تشغيل وتطوير البرمجيات.",
+    "en": [
+      "An automated sequence of steps such as building, testing, and deploying code.",
+      "A pipeline runs tests before deployment.",
+      "Software delivery and operations."
+    ],
+    "category": "devops",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ci-cd",
+      "testing"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Monitoring",
+    "fullName": "Monitoring",
+    "arabicName": "مراقبة الأنظمة",
+    "definition": "متابعة مؤشرات عمل التطبيق والخوادم لاكتشاف المشاكل والتنبيه إليها.",
+    "example": "يرسل النظام تنبيهًا عندما ترتفع أخطاء الموقع.",
+    "whereUsed": "في تشغيل وتطوير البرمجيات.",
+    "en": [
+      "Tracking app and server signals to detect problems and raise alerts.",
+      "A system alerts the team when website errors rise.",
+      "Software delivery and operations."
+    ],
+    "category": "devops",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "deployment"
+    ],
+    "aliases": [],
+    "sources": []
+  },
+  {
+    "term": "Log",
+    "fullName": "Software Log",
+    "arabicName": "سجل الأحداث",
+    "definition": "سجل زمني لرسائل يكتبها البرنامج عن عمله وأخطائه ليساعد في التشخيص.",
+    "example": "يفحص المطور السجل لمعرفة وقت فشل طلب.",
+    "whereUsed": "في تشغيل وتطوير البرمجيات.",
+    "en": [
+      "A time-ordered record of messages about software activity and errors for troubleshooting.",
+      "A developer checks a log to find when a request failed.",
+      "Software delivery and operations."
+    ],
+    "category": "devops",
+    "level": "Beginner",
+    "relatedTerms": [
+      "debugging"
+    ],
+    "aliases": [],
+    "sources": []
+  }
+]

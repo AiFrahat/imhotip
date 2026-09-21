@@ -53,3 +53,5 @@ const DICTIONARY = [
 }));
 window.CATEGORIES=CATEGORIES; window.DICTIONARY=DICTIONARY;
 DICTIONARY.find(entry=>entry.id==='api').keywords.push('برامج تتواصل مع بعضها');
+DICTIONARY.find(entry=>entry.id==='kubernetes').aliases.push('K8s');
+DICTIONARY.find(entry=>entry.id==='ci-cd').aliases.push('CICD');

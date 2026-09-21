@@ -1,0 +1,1043 @@
+[
+  {
+    "term": "Bit",
+    "fullName": "Binary Digit",
+    "arabicName": "بت",
+    "definition": "أصغر وحدة للمعلومات الرقمية، وتأخذ إحدى قيمتين: صفر أو واحد.",
+    "example": "يمكن لبت واحد تمثيل اختيار بين تشغيل وإيقاف.",
+    "whereUsed": "في تمثيل البيانات وقياس معدلات نقلها.",
+    "en": [
+      "The smallest unit of digital information, with a value of either zero or one.",
+      "One bit can represent an on or off choice.",
+      "Representing digital data and measuring transmission rates."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "byte",
+      "bandwidth"
+    ],
+    "aliases": [
+      "Binary Digit"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/glossary/term/bit"
+    ]
+  },
+  {
+    "term": "Byte",
+    "fullName": "Byte",
+    "arabicName": "بايت",
+    "definition": "وحدة بيانات تتكون عادة من ثمانية بتات، وتستخدم لقياس أحجام الملفات والذاكرة.",
+    "example": "ملف حجمه 100 بايت يحتوي على 800 بت.",
+    "whereUsed": "في سعة الذاكرة والتخزين وأحجام التنزيلات.",
+    "en": [
+      "A unit of data normally consisting of eight bits, used to measure file sizes and memory.",
+      "A 100-byte file contains 800 bits.",
+      "Memory capacity, storage space, and download sizes."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "bit",
+      "ram",
+      "ssd"
+    ],
+    "aliases": [
+      "Octet"
+    ],
+    "sources": [
+      "https://csrc.nist.gov/glossary/term/byte"
+    ]
+  },
+  {
+    "term": "GHz",
+    "fullName": "Gigahertz",
+    "arabicName": "جيجاهرتز",
+    "definition": "وحدة تردد تعني مليار دورة في الثانية؛ تصف سرعة ساعة المعالج ولا تحدد أداءه وحدها.",
+    "example": "ساعة بتردد 3 GHz تنفذ ثلاثة مليارات دورة في الثانية، وليس بالضرورة العدد نفسه من التعليمات.",
+    "whereUsed": "في مواصفات المعالجات وترددات الإشارات.",
+    "en": [
+      "A frequency unit equal to one billion cycles per second; CPU clock frequency alone does not determine performance.",
+      "A 3 GHz clock makes three billion cycles per second, not necessarily that many instructions.",
+      "Processor specifications and signal frequencies."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "cpu",
+      "cpu-core"
+    ],
+    "aliases": [
+      "Gigahertz"
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/gaming/resources/cpu-clock-speed.html"
+    ]
+  },
+  {
+    "term": "CPU Core",
+    "fullName": "Central Processing Unit Core",
+    "arabicName": "نواة المعالج",
+    "definition": "وحدة معالجة فعلية داخل المعالج تنفذ التعليمات؛ تعدد الأنوية يساعد في توزيع الأعمال القابلة للتوازي.",
+    "example": "يستفيد برنامج تصدير الفيديو من عدة أنوية لمعالجة أجزاء مختلفة.",
+    "whereUsed": "في مقارنة المعالجات وتشغيل البرامج الثقيلة.",
+    "en": [
+      "A physical processing unit within a CPU that executes instructions; several cores can share parallel work.",
+      "A video exporter uses several cores to process different sections.",
+      "Comparing processors and running demanding applications."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "cpu",
+      "cpu-thread",
+      "multitasking"
+    ],
+    "aliases": [
+      "Processor Core"
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000098959/processors/intel-xeon-processors.html"
+    ]
+  },
+  {
+    "term": "CPU Thread",
+    "fullName": "Hardware Thread",
+    "arabicName": "خيط تنفيذ المعالج",
+    "definition": "سياق تنفيذ منطقي يراه نظام التشغيل داخل المعالج؛ قد تدعم النواة الواحدة أكثر من خيط مع مشاركة مواردها.",
+    "example": "قد يظهر معالج ذو 8 أنوية و16 خيطًا للنظام كستة عشر معالجًا منطقيًا.",
+    "whereUsed": "في جدولة المهام ومواصفات المعالجات.",
+    "en": [
+      "A logical execution context exposed by a processor; one core may support multiple threads that share its resources.",
+      "An 8-core, 16-thread CPU may appear as sixteen logical processors to the operating system.",
+      "Task scheduling and processor specifications."
+    ],
+    "category": "hardware",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "cpu-core",
+      "os",
+      "multitasking"
+    ],
+    "aliases": [
+      "Hardware Thread",
+      "Logical Processor"
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000098959/processors/intel-xeon-processors.html"
+    ]
+  },
+  {
+    "term": "VRAM",
+    "fullName": "Video Random Access Memory",
+    "arabicName": "ذاكرة الرسوميات",
+    "definition": "ذاكرة سريعة يستخدمها معالج الرسوميات لحفظ الصور والأنسجة وبيانات العمل القريبة منه.",
+    "example": "تستهلك لعبة بملفات أنسجة كبيرة مساحة أكبر من ذاكرة الرسوميات.",
+    "whereUsed": "في الألعاب والتصميم ثلاثي الأبعاد ومعالجة النماذج على GPU.",
+    "en": [
+      "Fast memory used by a graphics processor to hold textures, images, and working data.",
+      "A game with large texture files needs more graphics memory.",
+      "Gaming, 3D design, and models processed on a GPU."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "gpu",
+      "ram",
+      "resolution"
+    ],
+    "aliases": [
+      "Video Memory"
+    ],
+    "sources": [
+      "https://www.nvidia.com/en-ph/geforce/news/rtx-40-series-vram-video-memory-explained/"
+    ]
+  },
+  {
+    "term": "Cache Memory",
+    "fullName": "Processor Cache Memory",
+    "arabicName": "ذاكرة مخبأة للمعالج",
+    "definition": "ذاكرة صغيرة وسريعة قرب المعالج تحتفظ بنسخ من بيانات وتعليمات لتقليل الرجوع إلى الذاكرة الرئيسية.",
+    "example": "يعيد المعالج قراءة قيمة متكررة من المخبأ بدل جلبها كل مرة من RAM.",
+    "whereUsed": "في تسريع تنفيذ البرامج داخل المعالجات.",
+    "en": [
+      "Small, fast memory near a processor that keeps copies of data and instructions to reduce main-memory access.",
+      "A processor reads a repeated value from cache instead of fetching it from RAM each time.",
+      "Accelerating instruction and data access inside processors."
+    ],
+    "category": "hardware",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "cpu",
+      "ram",
+      "cache"
+    ],
+    "aliases": [
+      "CPU Cache",
+      "L1 Cache",
+      "L2 Cache",
+      "L3 Cache"
+    ],
+    "sources": [
+      "https://www.intel.com/content/www/us/en/support/articles/000027820/processors/intel-xeon-processors.html"
+    ]
+  },
+  {
+    "term": "NVMe",
+    "fullName": "Non-Volatile Memory Express",
+    "arabicName": "بروتوكول التخزين NVMe",
+    "definition": "بروتوكول للوصول إلى التخزين صُمم للاستفادة من ذاكرة الفلاش والتوازي، ويشيع استخدامه مع أقراص SSD عبر PCIe.",
+    "example": "يستخدم حاسوب قرص SSD يدعم NVMe لتحميل المشاريع الكبيرة.",
+    "whereUsed": "في وحدات التخزين السريعة للحواسيب والخوادم.",
+    "en": [
+      "A storage access protocol designed for flash and parallel operations, commonly used by SSDs over PCIe.",
+      "A computer uses an NVMe SSD to load large projects.",
+      "Fast storage in personal computers and servers."
+    ],
+    "category": "hardware",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "ssd",
+      "pcie",
+      "sata"
+    ],
+    "aliases": [
+      "Non Volatile Memory Express"
+    ],
+    "sources": [
+      "https://semiconductor.samsung.com/support/tools-resources/dictionary/semiconductor-glossary-nvme/"
+    ]
+  },
+  {
+    "term": "SATA",
+    "fullName": "Serial ATA",
+    "arabicName": "واجهة التخزين SATA",
+    "definition": "واجهة تسلسلية تربط وحدات التخزين، مثل الأقراص الصلبة وبعض أقراص SSD، بالحاسوب.",
+    "example": "يتصل قرص SATA مقاس 2.5 بوصة باللوحة الأم بكابل بيانات وكابل طاقة منفصلين.",
+    "whereUsed": "في توصيل وحدات التخزين الداخلية وترقيتها.",
+    "en": [
+      "A serial interface connecting storage devices, including hard disks and some SSDs, to a computer.",
+      "A 2.5-inch SATA drive connects using a data cable and a separate power cable.",
+      "Connecting and upgrading internal storage drives."
+    ],
+    "category": "hardware",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "hdd",
+      "ssd",
+      "nvme"
+    ],
+    "aliases": [
+      "Serial Advanced Technology Attachment"
+    ],
+    "sources": [
+      "https://semiconductor.samsung.com/consumer-storage/ssdupgrade/"
+    ]
+  },
+  {
+    "term": "PCIe",
+    "fullName": "Peripheral Component Interconnect Express",
+    "arabicName": "واجهة التوسعة PCIe",
+    "definition": "واجهة عالية السرعة تصل المعالج أو شرائح اللوحة بمكونات مثل بطاقات الرسوميات ووحدات التخزين عبر مسارات بيانات.",
+    "example": "تركب بطاقة رسوميات في منفذ PCIe على اللوحة الأم.",
+    "whereUsed": "في بطاقات التوسعة وأقراص NVMe داخل الحاسوب.",
+    "en": [
+      "A high-speed interface linking processors or chipset components to devices through data lanes.",
+      "A graphics card plugs into a PCIe slot on the motherboard.",
+      "Expansion cards and NVMe storage inside computers."
+    ],
+    "category": "hardware",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "gpu",
+      "motherboard",
+      "nvme"
+    ],
+    "aliases": [
+      "PCI Express"
+    ],
+    "sources": [
+      "https://semiconductor.samsung.com/consumer-storage/support/faqs/internalssd-product-information/"
+    ]
+  },
+  {
+    "term": "USB-C",
+    "fullName": "USB Type-C",
+    "arabicName": "موصل USB-C",
+    "definition": "شكل موصل USB قابل للإدخال بالاتجاهين؛ قدرات الشحن والسرعة والفيديو تعتمد على المنفذ والكابل والجهاز.",
+    "example": "قد يشحن كابل USB-C الهاتف لكنه لا يدعم توصيل شاشة خارجية.",
+    "whereUsed": "في توصيل الهواتف والحواسيب وملحقاتها وشحنها.",
+    "en": [
+      "A reversible USB connector shape; charging, speed, and video capabilities depend on the port, cable, and device.",
+      "A USB-C cable may charge a phone without supporting an external display.",
+      "Connecting and charging phones, computers, and accessories."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "usb",
+      "peripheral",
+      "displayport"
+    ],
+    "aliases": [
+      "USB Type C",
+      "Type-C"
+    ],
+    "sources": [
+      "https://usb.org/usb-type-cr-cable-and-connector-specification"
+    ]
+  },
+  {
+    "term": "HDMI",
+    "fullName": "High-Definition Multimedia Interface",
+    "arabicName": "واجهة HDMI للصوت والصورة",
+    "definition": "واجهة رقمية لنقل الفيديو والصوت بين أجهزة متوافقة مثل الحاسوب والتلفاز.",
+    "example": "يوصل المستخدم حاسوبه بالتلفاز بكابل HDMI لعرض الفيديو مع الصوت.",
+    "whereUsed": "في الشاشات والتلفزيونات وأجهزة الألعاب والعرض.",
+    "en": [
+      "A digital interface carrying video and audio between compatible devices such as computers and televisions.",
+      "A user connects a laptop to a television with HDMI for picture and sound.",
+      "Monitors, televisions, game consoles, and projectors."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "displayport",
+      "resolution",
+      "refresh-rate"
+    ],
+    "aliases": [
+      "High Definition Multimedia Interface"
+    ],
+    "sources": [
+      "https://www.hdmi.org/spec/"
+    ]
+  },
+  {
+    "term": "DisplayPort",
+    "fullName": "DisplayPort",
+    "arabicName": "واجهة العرض DisplayPort",
+    "definition": "واجهة رقمية لنقل الصورة والصوت إلى الشاشات، وقد تتوافر عبر موصلها الخاص أو عبر USB-C يدعمها.",
+    "example": "يوصل المصمم شاشة مكتبية ببطاقة الرسوميات عبر DisplayPort.",
+    "whereUsed": "في شاشات الحواسيب ومحطات الإرساء.",
+    "en": [
+      "A digital audio and video interface available through its own connector or a compatible USB-C port.",
+      "A designer connects a desktop monitor to a graphics card using DisplayPort.",
+      "Computer monitors and docking stations."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "hdmi",
+      "usb-c",
+      "gpu"
+    ],
+    "aliases": [
+      "DP"
+    ],
+    "sources": [
+      "https://www.displayport.org/home-2021-2/"
+    ]
+  },
+  {
+    "term": "OLED",
+    "fullName": "Organic Light-Emitting Diode",
+    "arabicName": "شاشة OLED ذاتية الإضاءة",
+    "definition": "تقنية عرض يصدر فيها كل بكسل ضوءه بنفسه، مما يسمح بإطفاء البكسلات لإظهار الأسود دون إضاءة خلفية.",
+    "example": "تعرض شاشة OLED خلفية سوداء بإطفاء بكسلات تلك المنطقة.",
+    "whereUsed": "في شاشات الهواتف والتلفزيونات وبعض الحواسيب.",
+    "en": [
+      "A display technology whose pixels emit their own light and can turn off to show black without a backlight.",
+      "An OLED screen shows a black area by switching off its pixels.",
+      "Phone screens, televisions, and some computer displays."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "lcd",
+      "resolution"
+    ],
+    "aliases": [
+      "Organic LED"
+    ],
+    "sources": [
+      "https://www.lg.com/uk/business/commercial-display/resources-guides/technology-solution/oled-technology/"
+    ]
+  },
+  {
+    "term": "LCD",
+    "fullName": "Liquid Crystal Display",
+    "arabicName": "شاشة البلورات السائلة",
+    "definition": "تقنية عرض تستخدم بلورات سائلة للتحكم في مرور الضوء، وتعتمد شاشاتها الحديثة عادة على إضاءة خلفية.",
+    "example": "تستخدم شاشة حاسوب LCD إضاءة خلفية LED لإظهار الصورة.",
+    "whereUsed": "في الشاشات المكتبية والتلفزيونات ولوحات الأجهزة.",
+    "en": [
+      "A display technology using liquid crystals to control light, usually with a backlight in modern screens.",
+      "An LCD computer monitor uses an LED backlight to illuminate the image.",
+      "Desktop monitors, televisions, and device panels."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "oled",
+      "resolution"
+    ],
+    "aliases": [
+      "Liquid Crystal Display"
+    ],
+    "sources": [
+      "https://www.lg.com/us/business/download/resources/BT00001837/BT00001837_1373.pdf"
+    ]
+  },
+  {
+    "term": "Refresh Rate",
+    "fullName": "Display Refresh Rate",
+    "arabicName": "معدل تحديث الشاشة",
+    "definition": "عدد مرات تحديث الشاشة للصورة في الثانية، ويقاس بالهرتز؛ وهو مختلف عن عدد الإطارات التي ينتجها البرنامج.",
+    "example": "يمكن لشاشة 120 Hz تحديث صورتها 120 مرة في الثانية.",
+    "whereUsed": "في إعدادات الشاشات ومقارنة سلاسة الحركة.",
+    "en": [
+      "How many times a display updates its image each second, measured in hertz; it differs from the frame rate produced by software.",
+      "A 120 Hz screen can update its image 120 times per second.",
+      "Display settings and motion-smoothness comparisons."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "resolution",
+      "gpu",
+      "hdmi"
+    ],
+    "aliases": [
+      "Hz",
+      "Display Refresh Rate"
+    ],
+    "sources": [
+      "https://support.microsoft.com/en-us/windows/hardware/display-graphics/change-the-refresh-rate-on-your-monitor-in-windows"
+    ]
+  },
+  {
+    "term": "Resolution",
+    "fullName": "Display Resolution",
+    "arabicName": "دقة الشاشة",
+    "definition": "عدد البكسلات التي تكوّن الصورة أفقيًا ورأسيًا؛ زيادة العدد تتيح تفاصيل أكثر عند توافر محتوى مناسب.",
+    "example": "دقة 1920 × 1080 تعني 1920 عمودًا و1080 صفًا من البكسلات.",
+    "whereUsed": "في إعداد الشاشات واختيار أبعاد الصور والفيديو.",
+    "en": [
+      "The number of pixels across and down an image; more pixels can show more detail when suitable content is available.",
+      "1920 × 1080 means 1920 pixel columns and 1080 pixel rows.",
+      "Display configuration and image or video dimensions."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "refresh-rate",
+      "lcd",
+      "oled"
+    ],
+    "aliases": [
+      "Screen Resolution",
+      "Display Resolution"
+    ],
+    "sources": [
+      "https://support.microsoft.com/en-us/windows/hardware/display-graphics/change-the-refresh-rate-on-your-monitor-in-windows"
+    ]
+  },
+  {
+    "term": "Peripheral",
+    "fullName": "Computer Peripheral",
+    "arabicName": "جهاز طرفي",
+    "definition": "جهاز متصل بالحاسوب يضيف وظيفة مثل الإدخال أو الإخراج أو التخزين.",
+    "example": "تعد لوحة المفاتيح والطابعة وقرص التخزين الخارجي أجهزة طرفية.",
+    "whereUsed": "في تجهيز أماكن العمل وتوصيل ملحقات الحاسوب.",
+    "en": [
+      "A device connected to a computer that provides a function such as input, output, or storage.",
+      "A keyboard, printer, and external drive are computer peripherals.",
+      "Workstation setup and connecting computer accessories."
+    ],
+    "category": "hardware",
+    "level": "Beginner",
+    "relatedTerms": [
+      "usb",
+      "usb-c",
+      "os"
+    ],
+    "aliases": [
+      "Peripheral Device"
+    ],
+    "sources": [
+      "https://www.usb.org/sites/default/files/D1T1-2%20-%20USB%20Type-C%20System%20Overview.pdf"
+    ]
+  },
+  {
+    "term": "Firmware",
+    "fullName": "Firmware",
+    "arabicName": "برمجيات الجهاز المضمنة",
+    "definition": "برمجيات محفوظة في ذاكرة دائمة داخل الجهاز تتحكم في تشغيل مكوناته، وقد تسمح الشركة بتحديثها.",
+    "example": "يغير تحديث برمجيات الراوتر طريقة تشغيله دون استبدال الجهاز.",
+    "whereUsed": "في الموجهات والطابعات والأقراص واللوحات الأم.",
+    "en": [
+      "Software stored in persistent device memory that controls hardware operation and may support manufacturer updates.",
+      "A router firmware update changes its behavior without replacing the device.",
+      "Routers, printers, drives, and motherboards."
+    ],
+    "category": "hardware",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "uefi",
+      "bios",
+      "router"
+    ],
+    "aliases": [
+      "Device Firmware"
+    ],
+    "sources": [
+      "https://uefi.org/specs/UEFI/2.11/23_Firmware_Update_and_Reporting.html"
+    ]
+  },
+  {
+    "term": "UEFI",
+    "fullName": "Unified Extensible Firmware Interface",
+    "arabicName": "واجهة البرمجيات الثابتة الموحدة",
+    "definition": "معيار يحدد واجهة بين برمجيات الجهاز الثابتة ونظام التشغيل، ويتضمن خدمات تساعد على بدء تشغيل النظام.",
+    "example": "تظهر إعدادات UEFI قبل تحميل نظام التشغيل عند فتح قائمة إعداد الحاسوب.",
+    "whereUsed": "في إقلاع الحواسيب وإعدادات اللوحة الأم.",
+    "en": [
+      "A standard interface between platform firmware and an operating system, including services used during startup.",
+      "UEFI settings appear before the operating system loads when opening computer setup.",
+      "Computer startup and motherboard configuration."
+    ],
+    "category": "hardware",
+    "level": "Intermediate",
+    "relatedTerms": [
+      "firmware",
+      "bios",
+      "os"
+    ],
+    "aliases": [
+      "Unified Extensible Firmware Interface"
+    ],
+    "sources": [
+      "https://uefi.org/faq"
+    ]
+  },
+  {
+    "term": "OS",
+    "fullName": "Operating System",
+    "arabicName": "نظام التشغيل",
+    "definition": "البرنامج الأساسي الذي يدير المعالج والذاكرة والأجهزة ويتيح للتطبيقات العمل والتفاعل مع المستخدم.",
+    "example": "يوزع نظام التشغيل وقت المعالج بين المتصفح ومشغل الموسيقى.",
+    "whereUsed": "في الحواسيب والهواتف والأجهزة الذكية.",
+    "en": [
+      "Core software that manages processors, memory, and devices and lets applications run and interact with users.",
+      "An operating system shares processor time between a browser and a music player.",
+      "Computers, phones, and smart devices."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "windows",
+      "linux",
+      "android"
+    ],
+    "aliases": [
+      "Operating System"
+    ],
+    "sources": [
+      "https://www.redhat.com/en/topics/linux/what-is-linux"
+    ]
+  },
+  {
+    "term": "Windows",
+    "fullName": "Microsoft Windows",
+    "arabicName": "نظام ويندوز",
+    "definition": "عائلة أنظمة تشغيل من Microsoft توفر بيئة لتشغيل التطبيقات وإدارة الملفات والأجهزة.",
+    "example": "يفتح موظف ملفات عمله وبرنامج الاجتماعات على حاسوب يعمل بويندوز.",
+    "whereUsed": "في الحواسيب الشخصية وأجهزة العمل.",
+    "en": [
+      "An operating-system family from Microsoft providing an environment for applications, files, and devices.",
+      "An employee opens work files and a meeting application on a Windows computer.",
+      "Personal computers and workplace devices."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "os",
+      "desktop-app",
+      "update"
+    ],
+    "aliases": [
+      "Microsoft Windows"
+    ],
+    "sources": [
+      "https://www.microsoft.com/en-us/windows"
+    ]
+  },
+  {
+    "term": "Linux",
+    "fullName": "Linux",
+    "arabicName": "لينكس",
+    "definition": "نواة نظام تشغيل مفتوحة المصدر؛ ويستخدم الاسم أيضًا للأنظمة التي تجمعها مع أدوات وبرامج في توزيعات.",
+    "example": "يختار المستخدم توزيعة لينكس لتشغيل حاسوب أو خادم.",
+    "whereUsed": "في الخوادم والحواسيب وبعض الأنظمة المضمنة.",
+    "en": [
+      "An open-source operating-system kernel; the name also refers to systems combining it with tools and software in distributions.",
+      "A user chooses a Linux distribution for a computer or server.",
+      "Servers, personal computers, and some embedded systems."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "os",
+      "open-source",
+      "server"
+    ],
+    "aliases": [
+      "GNU/Linux"
+    ],
+    "sources": [
+      "https://www.kernel.org/linux.html"
+    ]
+  },
+  {
+    "term": "Android",
+    "fullName": "Android",
+    "arabicName": "أندرويد",
+    "definition": "منصة ونظام تشغيل للأجهزة يعتمد على نواة لينكس؛ يتاح مشروعه الأساسي مفتوح المصدر مع اختلاف مكونات الأجهزة التجارية.",
+    "example": "يثبت المستخدم تطبيق خرائط على هاتف يعمل بأندرويد.",
+    "whereUsed": "في الهواتف والأجهزة اللوحية وأجهزة أخرى متوافقة.",
+    "en": [
+      "A device platform and operating system based on the Linux kernel; its core is open source while commercial device components vary.",
+      "A user installs a maps application on an Android phone.",
+      "Phones, tablets, and other compatible devices."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "os",
+      "linux",
+      "mobile-app"
+    ],
+    "aliases": [
+      "Android OS"
+    ],
+    "sources": [
+      "https://source.android.com/docs/setup/about"
+    ]
+  },
+  {
+    "term": "iOS",
+    "fullName": "iOS",
+    "arabicName": "نظام iOS",
+    "definition": "نظام التشغيل الذي تطوره Apple لهواتف iPhone لإدارة الجهاز وتشغيل تطبيقاته.",
+    "example": "يضبط المستخدم أذونات الكاميرا لتطبيق على iPhone من إعدادات iOS.",
+    "whereUsed": "في هواتف iPhone وتطبيقاتها.",
+    "en": [
+      "Apple operating system for iPhone, managing the device and running its applications.",
+      "An iPhone user adjusts an app camera permission in iOS settings.",
+      "iPhone devices and their applications."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "os",
+      "mobile-app",
+      "app-permissions"
+    ],
+    "aliases": [
+      "iPhone OS"
+    ],
+    "sources": [
+      "https://www.apple.com/os/ios/"
+    ]
+  },
+  {
+    "term": "macOS",
+    "fullName": "macOS",
+    "arabicName": "نظام ماك أو إس",
+    "definition": "نظام تشغيل Apple لحواسيب Mac، يتيح إدارة الملفات والأجهزة وتشغيل التطبيقات المكتبية.",
+    "example": "يشغل مصمم برنامج تحرير صور على حاسوب Mac بنظام macOS.",
+    "whereUsed": "في حواسيب Mac المكتبية والمحمولة.",
+    "en": [
+      "Apple operating system for Mac computers, supporting files, devices, and desktop applications.",
+      "A designer runs an image editor on a Mac using macOS.",
+      "Mac desktop and laptop computers."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "os",
+      "desktop-app",
+      "multitasking"
+    ],
+    "aliases": [
+      "Mac OS"
+    ],
+    "sources": [
+      "https://www.apple.com/os/macos/"
+    ]
+  },
+  {
+    "term": "Open Source",
+    "fullName": "Open-Source Software",
+    "arabicName": "برمجيات مفتوحة المصدر",
+    "definition": "برمجيات يتيح ترخيصها الاطلاع على الشيفرة واستخدامها وتعديلها وإعادة توزيعها وفق شروط الترخيص.",
+    "example": "يعدل فريق مشروعًا مفتوح المصدر ثم يشارك تعديلاته وفق رخصته.",
+    "whereUsed": "في تطوير البرامج والتعاون ومراجعة الشيفرة.",
+    "en": [
+      "Software whose license permits inspecting, using, modifying, and redistributing its source code under stated conditions.",
+      "A team changes an open-source project and shares its changes under the license.",
+      "Software development, collaboration, and code review."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "license",
+      "linux",
+      "repository"
+    ],
+    "aliases": [
+      "Open-Source Software",
+      "OSS"
+    ],
+    "sources": [
+      "https://opensource.org/osd"
+    ]
+  },
+  {
+    "term": "Freeware",
+    "fullName": "Freeware",
+    "arabicName": "برمجيات مجانية الاستخدام",
+    "definition": "وصف شائع لبرمجيات متاحة دون دفع ثمن استخدامها؛ لا يعني وحده إتاحة المصدر أو حق التعديل وإعادة التوزيع.",
+    "example": "يقدم مطور مشغل صوت مجانيًا مع الاحتفاظ بشيفرته مغلقة.",
+    "whereUsed": "في وصف تكلفة البرامج وشروط الحصول عليها.",
+    "en": [
+      "A common label for software available at no purchase cost; it does not itself grant source access, modification, or redistribution rights.",
+      "A developer provides a free audio player while keeping its source code closed.",
+      "Describing software pricing and availability."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "license",
+      "open-source",
+      "subscription"
+    ],
+    "aliases": [],
+    "sources": [
+      "https://www.gnu.org/philosophy/categories.en.html"
+    ]
+  },
+  {
+    "term": "License",
+    "fullName": "Software License",
+    "arabicName": "ترخيص البرمجيات",
+    "definition": "شروط يحددها صاحب الحقوق لتنظيم استخدام البرنامج أو نسخه أو تعديله أو توزيعه.",
+    "example": "يراجع فريق ترخيص مكتبة قبل تضمينها في منتج يوزعه.",
+    "whereUsed": "في اختيار البرامج والمكتبات وتوزيع المنتجات.",
+    "en": [
+      "Terms set by a rights holder governing software use, copying, modification, or distribution.",
+      "A team reviews a library license before including it in a distributed product.",
+      "Selecting software and libraries and distributing products."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "open-source",
+      "freeware"
+    ],
+    "aliases": [
+      "Software License",
+      "Software Licence"
+    ],
+    "sources": [
+      "https://www.gnu.org/philosophy/categories.en.html"
+    ]
+  },
+  {
+    "term": "Update",
+    "fullName": "Software Update",
+    "arabicName": "تحديث البرنامج",
+    "definition": "نسخة أو مجموعة تغييرات تحسن برنامجًا مثبتًا بإصلاحات أو ميزات أو توافق جديد.",
+    "example": "يثبت المستخدم تحديثًا لتطبيق الاجتماعات لإصلاح مشكلة الصوت.",
+    "whereUsed": "في صيانة التطبيقات وأنظمة التشغيل.",
+    "en": [
+      "A new version or set of changes improving installed software with fixes, features, or compatibility changes.",
+      "A user installs a meeting-app update to fix an audio issue.",
+      "Maintaining applications and operating systems."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "patch",
+      "windows",
+      "firmware"
+    ],
+    "aliases": [
+      "Software Update"
+    ],
+    "sources": [
+      "https://www.microsoft.com/en-us/windows"
+    ]
+  },
+  {
+    "term": "App Permissions",
+    "fullName": "Application Permissions",
+    "arabicName": "أذونات التطبيقات",
+    "definition": "صلاحيات تمنح التطبيق الوصول إلى موارد محددة مثل الكاميرا أو الموقع أو جهات الاتصال.",
+    "example": "يسمح المستخدم لتطبيق الخرائط بمعرفة موقعه أثناء الاستخدام فقط.",
+    "whereUsed": "في إعدادات خصوصية الهواتف والتطبيقات.",
+    "en": [
+      "Permissions allowing an app to access specific resources such as the camera, location, or contacts.",
+      "A user allows a maps app to access location only while it is in use.",
+      "Phone privacy settings and application access controls."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "authorization",
+      "android",
+      "ios"
+    ],
+    "aliases": [
+      "Application Permissions"
+    ],
+    "sources": [
+      "https://support.google.com/android/answer/9431959?hl=en"
+    ]
+  },
+  {
+    "term": "Plugin",
+    "fullName": "Software Plugin",
+    "arabicName": "إضافة برمجية",
+    "definition": "مكوّن يثبت داخل برنامج أو منصة لإضافة وظيفة دون تغيير التطبيق الأساسي كله.",
+    "example": "يضيف صاحب موقع إضافة ووردبريس لإنشاء نموذج تواصل.",
+    "whereUsed": "في أنظمة إدارة المحتوى وبرامج التحرير والأدوات القابلة للتوسعة.",
+    "en": [
+      "A component installed in a program or platform to add functionality without replacing the whole application.",
+      "A website owner adds a WordPress plugin to create a contact form.",
+      "Content-management systems, editing software, and extensible tools."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "app",
+      "extension"
+    ],
+    "aliases": [
+      "Plug-in",
+      "Add-on"
+    ],
+    "sources": [
+      "https://developer.wordpress.org/plugins/intro/what-is-a-plugin/"
+    ]
+  },
+  {
+    "term": "Extension",
+    "fullName": "Browser Extension",
+    "arabicName": "إضافة للمتصفح",
+    "definition": "برنامج صغير يوسع وظائف المتصفح، وقد يحتاج إلى أذونات للوصول إلى صفحات أو بيانات معينة.",
+    "example": "يثبت مستخدم إضافة لتغيير ألوان الصفحات وتحسين قراءتها.",
+    "whereUsed": "في تخصيص المتصفح وإضافة أدوات مساعدة إليه.",
+    "en": [
+      "Software that extends a browser, sometimes requiring permission to access particular pages or data.",
+      "A user installs an extension to change page colors for easier reading.",
+      "Browser customization and additional browsing tools."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "browser",
+      "plugin",
+      "app-permissions"
+    ],
+    "aliases": [
+      "Browser Extension",
+      "WebExtension"
+    ],
+    "sources": [
+      "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions"
+    ]
+  },
+  {
+    "term": "Synchronization",
+    "fullName": "Data Synchronization",
+    "arabicName": "مزامنة البيانات",
+    "definition": "عملية تجعل نسخ البيانات في أماكن مختلفة متوافقة بإرسال التغييرات بينها حسب قواعد الخدمة.",
+    "example": "يظهر تعديل مستند على الحاسوب في نسخة الهاتف بعد المزامنة.",
+    "whereUsed": "في الملفات السحابية وجهات الاتصال والعمل عبر أجهزة متعددة.",
+    "en": [
+      "Keeping copies of data in different locations consistent by exchanging changes under the service rules.",
+      "A document edit on a computer appears on the phone after synchronization.",
+      "Cloud files, contacts, and work across several devices."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "cloud",
+      "backup",
+      "offline-mode"
+    ],
+    "aliases": [
+      "Sync",
+      "Data Sync"
+    ],
+    "sources": [
+      "https://support.microsoft.com/en-us/onedrive/sync-your-computer-s-files-and-folders-with-onedrive"
+    ]
+  },
+  {
+    "term": "Offline Mode",
+    "fullName": "Offline Mode",
+    "arabicName": "وضع دون اتصال",
+    "definition": "إمكانية استخدام وظائف أو بيانات محفوظة محليًا دون الإنترنت، مع تأجيل ما يحتاج إلى اتصال.",
+    "example": "يقرأ المستخدم ملفًا أتاحه دون اتصال ثم يزامن تعديلاته لاحقًا.",
+    "whereUsed": "في السفر والاتصال الضعيف والتطبيقات التي تحفظ بيانات محلية.",
+    "en": [
+      "Using locally available data or features without internet access while deferring actions that require a connection.",
+      "A user reads a file made available offline and synchronizes edits later.",
+      "Travel, poor connectivity, and apps with local data."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "synchronization",
+      "cache",
+      "app"
+    ],
+    "aliases": [
+      "Offline Access"
+    ],
+    "sources": [
+      "https://support.microsoft.com/en-US/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows"
+    ]
+  },
+  {
+    "term": "Clipboard",
+    "fullName": "Clipboard",
+    "arabicName": "الحافظة",
+    "definition": "مساحة يحتفظ فيها النظام مؤقتًا بالمحتوى المنسوخ أو المقصوص حتى يمكن لصقه في موضع آخر.",
+    "example": "ينسخ المستخدم رابطًا من المتصفح ويلصقه في رسالة باستخدام الحافظة.",
+    "whereUsed": "في نقل النصوص والصور والعناصر بين التطبيقات.",
+    "en": [
+      "A system facility temporarily holding copied or cut content so it can be pasted elsewhere.",
+      "A user copies a browser link and pastes it into a message through the clipboard.",
+      "Moving text, images, and other content between applications."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "os",
+      "app"
+    ],
+    "aliases": [
+      "Copy and Paste"
+    ],
+    "sources": [
+      "https://support.microsoft.com/en-US/Windows/Apps/using-the-clipboard"
+    ]
+  },
+  {
+    "term": "File Extension",
+    "fullName": "Filename Extension",
+    "arabicName": "امتداد الملف",
+    "definition": "جزء في نهاية اسم الملف بعد نقطة يساعد في التعرف على نوعه واختيار البرنامج المناسب؛ تغييره وحده لا يحول المحتوى.",
+    "example": "يشير الامتداد .pdf إلى مستند PDF؛ تغيير الاسم إلى .jpg لا يصنع صورة منه.",
+    "whereUsed": "في إدارة الملفات وربطها بالتطبيقات المناسبة.",
+    "en": [
+      "A suffix after a dot in a filename that helps identify its type and associated app; renaming it does not convert the content.",
+      "The .pdf suffix identifies a PDF document; renaming it to .jpg does not create an image.",
+      "Managing files and choosing applications to open them."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "pdf",
+      "zip",
+      "os"
+    ],
+    "aliases": [
+      "Filename Extension"
+    ],
+    "sources": [
+      "https://support.microsoft.com/en-US/Windows/Experience/Storage-FileManagement/common-file-name-extensions-in-windows"
+    ]
+  },
+  {
+    "term": "PDF",
+    "fullName": "Portable Document Format",
+    "arabicName": "تنسيق المستند المحمول",
+    "definition": "تنسيق مستندات يحافظ على تخطيط الصفحات والنصوص والعناصر عند عرضه في برامج وأجهزة مختلفة.",
+    "example": "يرسل مصمم فاتورة PDF لتبقى أماكن النصوص والشعار ثابتة لدى المستلم.",
+    "whereUsed": "في مشاركة المستندات والطباعة والنماذج الرقمية.",
+    "en": [
+      "A document format designed to preserve page layout, text, and other elements across software and devices.",
+      "A designer sends a PDF invoice so text and logo positions remain consistent for the recipient.",
+      "Document sharing, printing, and digital forms."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "file-extension",
+      "app"
+    ],
+    "aliases": [
+      "Portable Document Format"
+    ],
+    "sources": [
+      "https://www.adobe.com/acrobat/about-adobe-pdf.html"
+    ]
+  },
+  {
+    "term": "ZIP",
+    "fullName": "ZIP Archive Format",
+    "arabicName": "أرشيف ZIP المضغوط",
+    "definition": "تنسيق يجمع ملفات ومجلدات في أرشيف واحد ويمكنه ضغط محتواها لتقليل الحجم.",
+    "example": "يجمع مستخدم مستندات مشروع في ملف ZIP واحد قبل إرسالها.",
+    "whereUsed": "في تجميع الملفات ونقلها وتوفير مساحة عند قابلية البيانات للضغط.",
+    "en": [
+      "An archive format that groups files and folders into one file and can compress their contents.",
+      "A user bundles project documents into a single ZIP file before sending them.",
+      "Packaging and transferring files and reducing compressible data size."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "file-extension",
+      "backup"
+    ],
+    "aliases": [
+      "ZIP Archive"
+    ],
+    "sources": [
+      "https://support.microsoft.com/en-US/Windows/Experience/Storage-FileManagement/common-file-name-extensions-in-windows"
+    ]
+  },
+  {
+    "term": "Multitasking",
+    "fullName": "Operating System Multitasking",
+    "arabicName": "تعدد المهام",
+    "definition": "إدارة النظام لعدة برامج أو مهام بتوزيع وقت المعالج والموارد بينها؛ قد تعمل أجزاء بالتوازي عند وجود أنوية متعددة.",
+    "example": "يستمر تشغيل الموسيقى أثناء كتابة مستند وتلقي إشعارات المتصفح.",
+    "whereUsed": "في أنظمة التشغيل عند استخدام عدة تطبيقات معًا.",
+    "en": [
+      "Managing several programs or tasks by sharing processor time and resources, with parallel execution possible on multiple cores.",
+      "Music keeps playing while a user writes a document and receives browser notifications.",
+      "Operating systems running several applications at once."
+    ],
+    "category": "apps",
+    "level": "Beginner",
+    "relatedTerms": [
+      "os",
+      "cpu-core",
+      "cpu-thread"
+    ],
+    "aliases": [
+      "Multi-tasking"
+    ],
+    "sources": [
+      "https://www.redhat.com/en/topics/linux/what-is-the-linux-kernel"
+    ]
+  }
+]

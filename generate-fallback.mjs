@@ -3,6 +3,8 @@ import vm from 'node:vm';
 const root=new URL('.',import.meta.url);
 const context={window:{}};
 vm.runInNewContext(fs.readFileSync(new URL('data.js',root),'utf8'),context);
+vm.runInNewContext(fs.readFileSync(new URL('en.js',root),'utf8'),context);
+vm.runInNewContext(fs.readFileSync(new URL('expansion.js',root),'utf8'),context);
 const entries=context.window.DICTIONARY;
 const escape=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const articles=entries.map(entry=>`<article data-static-term="${escape(entry.id)}"><h3><bdi dir="ltr">${escape(entry.term)}</bdi> — ${escape(entry.arabicName)}</h3><p dir="ltr">${escape(entry.fullName)}</p><p>${escape(entry.simpleExplanation)}</p><p>${escape(entry.example)}</p></article>`).join('');

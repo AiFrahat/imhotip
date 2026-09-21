@@ -13,6 +13,11 @@ const isEnglish=()=>state.language==='en';
 const categoryName=id=>isEnglish()?namesEn[id]:names[id];
 const translated=(ar,en)=>isEnglish()?en:ar;
 const normalize=s=>String(s||'').normalize('NFKD').replace(/[\u064B-\u065F\u0670]/g,'').replace(/[أإآ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').toLowerCase().trim();
+const searchIndex=new Map(data.map(entry=>[entry.id,{
+  corpus:normalize([entry.term,entry.fullName,entry.arabicName,entry.shortDefinition,entry.simpleExplanation,entry.example,entry.whereUsed,names[entry.category],namesEn[entry.category],...english[entry.id],...entry.aliases,...entry.keywords,...entry.alternateMeanings.flat()].join(' ')),
+  names:[entry.term,entry.fullName,entry.arabicName,...entry.aliases].map(normalize),
+  term:normalize(entry.term)
+}]));
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const levelName={Beginner:'مبتدئ',Intermediate:'متوسط',Advanced:'متقدم'};
 const ui={
@@ -20,25 +25,21 @@ const ui={
   en:{nav:['Dictionary','Categories','About'],headline:'Understand technology, simply.',description:'A clear dictionary of technology acronyms and terms for beginners, curious readers, and anyone who wants to understand the digital world.',aside:'Open to everyone<br>for a future with<br>better tech literacy.',placeholder:'Search any acronym or term... e.g. API, AI, VPN, RAM, Kubernetes, RAG',stats:['terms and acronyms','main categories','All levels','From beginner to advanced','Instant search','No account required'],popular:'🔥 Popular terms',more:'See more →',categories:'▦ Main categories',results:'◷ Dictionary terms',moreCategories:'More categories →',moreTerms:'Show more terms →',founder:'Founder',quote:'“ Technology knowledge should not be complicated.<br>Let’s build a community that understands it better. ”',free:'Open source and free for everyone ❤️',footer:['Contact us','Report an error','Contribute','Privacy'],tagline:'Technology for Everyone  |  Simply explained',rights:'All rights reserved.',all:'All',expand:'More⌄',collapse:'Less⌃',none:'No results. Try another word or clear the filters.',detail:['What is it?','Simple example','Where will you see it?','Another meaning in context','Related terms']}
 };
 const copy=()=>ui[state.language];
-function matches(entry){
+function matches(entry,q){
   if(state.category!=='all'&&entry.category!==state.category)return false;
   if(state.letter){const first=entry.term[0].toUpperCase();if(state.letter==='#'?!/^[0-9]/.test(first):first!==state.letter)return false}
-  if(!state.query)return true;
-  const q=normalize(state.query);
-  const corpus=[entry.term,entry.fullName,entry.arabicName,entry.shortDefinition,entry.simpleExplanation,entry.example,entry.whereUsed,names[entry.category],namesEn[entry.category],...english[entry.id],...entry.aliases,...entry.keywords,...entry.alternateMeanings.flat()].join(' ');
-  return normalize(corpus).includes(q);
+  return !q||searchIndex.get(entry.id).corpus.includes(q);
 }
-function searchScore(entry){
-  if(!state.query)return 0;
-  const q=normalize(state.query);
-  const namesToCheck=[entry.term,entry.fullName,entry.arabicName,...entry.aliases].map(normalize);
+function searchScore(entry,q){
+  if(!q)return 0;
+  const indexed=searchIndex.get(entry.id),namesToCheck=indexed.names;
   if(namesToCheck.some(value=>value===q))return 0;
-  if(normalize(entry.term).startsWith(q))return 1;
+  if(indexed.term.startsWith(q))return 1;
   if(namesToCheck.some(value=>value.startsWith(q)))return 2;
   if(namesToCheck.some(value=>value.includes(q)))return 3;
   return 4;
 }
-function filteredEntries(){return data.filter(matches).sort((a,b)=>searchScore(a)-searchScore(b)||a.term.localeCompare(b.term,'en'))}
+function filteredEntries(){const q=normalize(state.query);return data.filter(entry=>matches(entry,q)).map(entry=>({entry,score:searchScore(entry,q)})).sort((a,b)=>a.score-b.score||a.entry.term.localeCompare(b.entry.term,'en')).map(item=>item.entry)}
 function card(e){return `<button class="term-card" type="button" data-term="${e.id}" aria-label="${translated('اقرأ شرح','Read about')} ${esc(e.term)}"><strong dir="ltr">${esc(e.term)}</strong><span class="english" dir="ltr">${esc(e.fullName)}</span><span class="arabic">${esc(e.arabicName)}</span><span class="summary" dir="${isEnglish()?'ltr':'rtl'}">${esc(isEnglish()?english[e.id][0]:e.shortDefinition)}</span><span class="badges"><span class="badge">${esc(categoryName(e.category))}</span><span class="badge">${isEnglish()?e.level:levelName[e.level]}</span></span></button>`}
 function renderControls(){
   $('filters').innerHTML=[...primary,...(state.more?categories.map(x=>x[0]).filter(id=>!primary.includes(id)):[])].map(id=>`<button type="button" data-category="${id}" class="${state.category===id?'active':''}" aria-pressed="${state.category===id}">${esc(id==='all'?copy().all:categoryName(id))}</button>`).join('')+`<button type="button" data-more="true" aria-expanded="${state.more}">${state.more?copy().collapse:copy().expand}</button>`;
@@ -65,8 +66,9 @@ function openTerm(id,scroll=true){
   const related=e.relatedTerms.map(id=>byId.get(id)).filter(Boolean).map(x=>`<a href="#${x.id}" dir="ltr">${esc(x.term)}</a>`).join('');
   const content=isEnglish()?english[id]:[e.simpleExplanation,e.example,e.whereUsed];
   const headings=copy().detail;
+  const references=e.sources.length?`<h3>${translated('مراجع للمزيد','Further reading')}</h3><div class="related">${e.sources.map(url=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer" dir="ltr">${esc(new URL(url).hostname.replace(/^www\./,''))}</a>`).join('')}</div>`:'';
   const alternate=e.alternateMeanings.length?`<h3>${headings[3]}</h3>${e.alternateMeanings.map(a=>`<p><b dir="ltr">${esc(a[0])}</b> — ${isEnglish()?'In systems and databases, the number of completed transactions per second.':esc(a[1]+': '+a[2])}</p>`).join('')}`:'';
-  $('term-detail').innerHTML=`<div class="detail-head"><div><h2 dir="ltr">${esc(e.term)}</h2><p class="full-name">${esc(e.fullName)}</p><p class="arabic-name">${esc(e.arabicName)}</p></div><button class="detail-close" type="button" aria-label="${translated('إغلاق شرح المصطلح','Close term details')}">×</button></div><div class="detail-body" dir="${isEnglish()?'ltr':'rtl'}"><h3>${headings[0]}</h3><p>${esc(content[0])}</p><h3>${headings[1]}</h3><p>${esc(content[1])}</p><h3>${headings[2]}</h3><p>${esc(content[2])}</p>${alternate}<h3>${headings[4]}</h3><div class="related">${related||'—'}</div></div>`;
+  $('term-detail').innerHTML=`<div class="detail-head"><div><h2 dir="ltr">${esc(e.term)}</h2><p class="full-name">${esc(e.fullName)}</p><p class="arabic-name">${esc(e.arabicName)}</p></div><button class="detail-close" type="button" aria-label="${translated('إغلاق شرح المصطلح','Close term details')}">×</button></div><div class="detail-body" dir="${isEnglish()?'ltr':'rtl'}"><h3>${headings[0]}</h3><p>${esc(content[0])}</p><h3>${headings[1]}</h3><p>${esc(content[1])}</p><h3>${headings[2]}</h3><p>${esc(content[2])}</p>${alternate}<h3>${headings[4]}</h3><div class="related">${related||'—'}</div>${references}</div>`;
   $('term-detail').hidden=false;
   if(scroll)$('term-detail').scrollIntoView({behavior:'smooth',block:'start'});
 }
