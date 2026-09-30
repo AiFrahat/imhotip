@@ -1,0 +1,27 @@
+{
+  "currentReleaseCount": 10000,
+  "collectionGoal": 10000,
+  "milestones": [1000, 2500, 5000, 10000],
+  "batches": [
+    { "file": "initial-expansion.json", "count": 55 },
+    { "file": "ai-data.json", "count": 100 },
+    { "file": "web-programming.json", "count": 100 },
+    { "file": "security-networks.json", "count": 100 },
+    { "file": "platform-hardware-apps.json", "count": 40 },
+    { "file": "platform-cloud-devops-business.json", "count": 60 },
+    { "file": "reference-catalog.json", "count": 9500 }
+  ],
+  "targetDistribution": {
+    "ai": 900,
+    "programming": 1600,
+    "web": 900,
+    "cloud": 750,
+    "networks": 850,
+    "hardware": 850,
+    "security": 1000,
+    "apps": 750,
+    "business": 700,
+    "data": 950,
+    "devops": 750
+  }
+}

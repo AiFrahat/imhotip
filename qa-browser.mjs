@@ -108,5 +108,6 @@ try{
   if(fs.existsSync(testPage))fs.unlinkSync(testPage);
   const resolvedProfile=path.resolve(profile);
   if(path.dirname(resolvedProfile)!==path.resolve(os.tmpdir())||!path.basename(resolvedProfile).startsWith(profilePrefix))throw new Error('Refusing to remove an unexpected browser profile path.');
-  fs.rmSync(resolvedProfile,{recursive:true,force:true,maxRetries:10,retryDelay:200});
+  try{fs.rmSync(resolvedProfile,{recursive:true,force:true,maxRetries:20,retryDelay:250})}
+  catch(error){console.warn(`QA passed, but the temporary browser profile could not be removed yet: ${error.code||error.message}`)}
 }

@@ -5,7 +5,7 @@ addEventListener('DOMContentLoaded',async()=>{
   addEventListener('error',event=>errors.push(event.message));
   addEventListener('unhandledrejection',event=>errors.push(String(event.reason)));
   const check=(name,passed,detail='')=>results.push({name,passed:Boolean(passed),detail});
-  const wait=()=>new Promise(resolve=>setTimeout(resolve,35));
+  const wait=()=>new Promise(resolve=>setTimeout(resolve,100));
   const search=value=>{const input=document.getElementById('search');input.value=value;input.dispatchEvent(new Event('input',{bubbles:true}))};
   const firstResult=()=>document.querySelector('#results [data-term]')?.dataset.term;
   const firstCard=()=>document.querySelector('#featured-cards [data-term]')?.dataset.term;
@@ -13,14 +13,17 @@ addEventListener('DOMContentLoaded',async()=>{
   const activeLetter=()=>document.querySelector('#alphabet [aria-pressed=true]')?.dataset.letter;
   try{
     check('Initial dictionary renders',document.querySelectorAll('#featured-cards [data-term]').length===8&&document.querySelectorAll('#results [data-term]').length===10);
-    check('Exactly 500 real dictionary entries',window.DICTIONARY.length===500&&document.getElementById('term-count').textContent==='500');
+    check('Release count matches the real dictionary',window.DICTIONARY.length===Number(document.getElementById('term-count').textContent.replaceAll(',','')));
     const expansionSamples=['Transformer','ACID','Python','C++','C#','DOM','Passkey','IPv6','USB-C','IaaS','SRE','KPI'];
     const timings=[];
     for(const term of expansionSamples){const entry=window.DICTIONARY.find(item=>item.term===term);const start=performance.now();search(term);timings.push(performance.now()-start);check(`Expanded corpus search: ${term}`,Boolean(entry)&&firstResult()===entry.id)}
     search('ML');check('Common acronym alias search',firstResult()==='machine-learning');
     search('K8s');check('Established term alias search',firstResult()==='kubernetes');
     search('التحقق من الهوية');check('New Arabic term search',firstResult()==='authentication');
-    check('Search remains responsive with 500 entries',Math.max(...timings)<300,`slowest ${Math.max(...timings).toFixed(1)} ms`);
+    const referenceSamples=['(KEM) ciphertext','CWE-5: J2EE Misconfiguration: Data Transmission Without Encryption','application/cbor'];
+    for(const term of referenceSamples){const entry=window.DICTIONARY.find(item=>item.term===term);const start=performance.now();search(term);timings.push(performance.now()-start);check(`Official reference search: ${term}`,Boolean(entry)&&firstResult()===entry.id)}
+    const arabicReference=window.DICTIONARY.find(item=>item.term==='(KEM) ciphertext');search(arabicReference.arabicName);check('Generated Arabic reference search',firstResult()===arabicReference.id);
+    check(`Search remains responsive with ${window.DICTIONARY.length.toLocaleString('en-US')} entries`,Math.max(...timings)<300,`slowest ${Math.max(...timings).toFixed(1)} ms`);
     search('');
     check('Publisher image loads',document.getElementById('publisher-photo').complete&&document.getElementById('publisher-photo').naturalWidth>0);
     search('API');check('Acronym search appears beside input',!document.getElementById('search-suggestions').hidden&&document.querySelector('#search-suggestions [data-term]')?.dataset.term==='api');

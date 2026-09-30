@@ -1,20 +1,30 @@
-# 500-term release review
+# 10,000-term release review
 
-Reviewed on 2026-09-21. The local release contains exactly 500 distinct terms in 11 categories, with an Arabic title, Arabic and English explanations, examples, usage contexts, and valid related links.
+Reviewed on 2026-09-30. The release contains exactly 10,000 distinct technology terms across 11 categories.
 
-The existing 100 entries were preserved and 400 were added. The new entries link to primary references, including standards bodies and official product or language documentation. Selection is editorial; no statistical popularity ranking is claimed. Common abbreviations are aliases rather than extra counted entries. Editorial notes are in `content/`.
+## Composition
 
-## Validation
+- 500 editorial entries with detailed Arabic and English explanations, examples, usage contexts, aliases, and related terms.
+- 9,500 extended reference entries derived from official NIST, MITRE CWE, and IANA source records.
+- 9,900 entries expose at least one source link.
+- Machine-assisted Arabic text in the extended reference catalog is identified inside the term view and remains queued for editorial improvement.
 
-- Content build: 455 expansion entries plus 45 original entries, exactly 500 total.
-- Required fields, bilingual content, IDs, aliases, source URL schemes, and all related links: passed.
-- Repeated definitions, conflicting aliases, and self-links: none detected.
-- Generated static HTML fallback: matches all 500 entries in order.
-- Browser interaction suite: 51/51 passed on file URLs at actual 390×900 and 1280×900 CSS-pixel viewports, and over HTTP at 1280×900.
-- Search covers new terms, Arabic titles, acronyms/aliases, and punctuation-sensitive terms such as C++ and C#.
+## Automated checks
 
-Editorial checks clarified precision/F1 wording and reviewed context windows, NULL, replication, cloud recovery goals, scalability/elasticity, service objectives, and USB-C capabilities. Definitions are concise introductions; reference links provide the more detailed source context. Automated checks verify structure and behavior, not universal factual correctness.
+- Content build: 9,955 expansion entries plus 45 original entries, exactly 10,000 total.
+- Schema and link validation: passed with no missing bilingual fields, malformed URLs, duplicate IDs, duplicate canonical names, or broken related-term links.
+- Deep audit: passed with no blocking errors. Equivalent official reference definitions are counted separately because standards frequently publish both an acronym and its expanded name.
+- Static HTML fallback: intentionally limited to the 500 editorial entries so the initial document stays compact.
+- Browser QA: 55/55 checks passed at desktop width 1280px and mobile width 390px.
+- Search QA includes editorial terms, Arabic phrases, NIST terminology, MITRE CWE records, and IANA media types.
+- Slowest measured in-browser search during the final run: 32.6 ms on desktop and 29.0 ms on mobile.
+- No horizontal overflow or browser script errors were detected.
 
-## Deployment state
+## Delivery size
 
-Prepared locally for browser upload to the existing `AiFrahat/imhotip` repository. No GitHub push or deployment was performed for this release. Upload the contents of `browser-upload/` to the repository root, preserving the `assets/` and `content/` paths.
+- `expansion.js`: about 11.8 MB uncompressed and 1.3 MB with gzip compression.
+- `index.html`: about 209 KB uncompressed and 53 KB with gzip compression.
+
+## Editorial note
+
+Automated checks establish structural integrity and working behavior. The original 500 entries remain the reviewed editorial core. The extended catalog preserves source links and clearly labels machine-assisted translation so it can be improved incrementally without hiding its review status.

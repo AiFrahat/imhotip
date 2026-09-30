@@ -22,5 +22,6 @@ for(const e of entries){
 for(const e of entries)for(const r of e.relatedTerms)if(!ids.has(r))errors.push(`${e.term}: broken related term ${r}`);
 const html=fs.readFileSync(new URL('./index.html',import.meta.url),'utf8');
 const staticTerms=[...html.matchAll(/data-static-term="([^"]+)"/g)].map(match=>match[1]);
-if(staticTerms.length!==entries.length||staticTerms.some((id,index)=>id!==entries[index].id))errors.push('Static dictionary fallback is out of date; run node generate-fallback.mjs');
+const expectedStatic=entries.slice(0,500);
+if(staticTerms.length!==expectedStatic.length||staticTerms.some((id,index)=>id!==expectedStatic[index].id))errors.push('Static dictionary fallback is out of date; run node generate-fallback.mjs');
 if(errors.length){console.error(errors.join('\n'));process.exitCode=1}else console.log(`Validated ${entries.length} terms and ${categories.size} categories.`);

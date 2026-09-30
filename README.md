@@ -2,7 +2,7 @@
 
 **افهم لغة التكنولوجيا ببساطة. · Technology explained simply.**
 
-A free Arabic and English technology dictionary with **500 distinct terms across 11 categories**. Each entry includes a clear explanation, a practical example, a usage context, and related concepts.
+A free Arabic and English technology dictionary with **10,000 distinct terms across 11 categories**. The editorial core includes detailed explanations and examples, while the extended reference catalog adds sourced terminology from NIST, MITRE CWE, and IANA.
 
 [Visit iMHOTiP](https://imhotip.com)
 
@@ -18,7 +18,7 @@ The collection is an editorial selection of useful technology concepts, not a st
 
 ## Content
 
-The original 45 entries are in `data.js`, with English copy in `en.js`. The other 455 entries are authored in `content/*.json` and compiled into `expansion.js`:
+The original 45 entries are in `data.js`, with English copy in `en.js`. The first 455 expanded entries are authored in focused `content/*.json` files. The remaining 9,500 reference entries are generated from official source snapshots, translated locally, and compiled into `expansion.js`:
 
 | Source | Entries |
 | --- | ---: |
@@ -40,7 +40,7 @@ node validate.mjs
 node audit-content.mjs
 ```
 
-The build currently checks for exactly 500 entries. When intentionally expanding the corpus, update the batch counts and release-count checks. Validation checks required bilingual fields, duplicate IDs and names, conflicting aliases, source URL formats, related links, and the generated HTML fallback. These automated checks support editorial review; they cannot establish factual correctness on their own.
+The build checks for exactly 10,000 entries. Validation checks required bilingual fields, duplicate IDs and names, conflicting aliases, source URL formats, related links, and the compact generated HTML fallback. Automated checks support editorial review; they cannot establish factual correctness on their own.
 
 ## Local preview and checks
 
