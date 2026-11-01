@@ -3,9 +3,9 @@
     "term": "IaaS",
     "fullName": "Infrastructure as a Service",
     "arabicName": "البنية التحتية كخدمة",
-    "definition": "خدمة توفر موارد حوسبة وشبكات وتخزين عند الطلب، بينما يدير العميل أنظمة التشغيل والتطبيقات التي يشغلها.",
-    "example": "يستأجر فريق خادمًا افتراضيًا ويثبت عليه نظامه وبرنامج المتجر.",
-    "whereUsed": "في استضافة الخوادم وبناء بيئات مخصصة.",
+    "definition": "خدمة بتوفر موارد حوسبة وشبكات وتخزين عند الطلب، بينما بيدير العميل أنظمة التشغيل والتطبيقات التي بيشغّلها.",
+    "example": "بيستأجر فريق خادمًا افتراضيًا وبيثبّت عليه نظامه وبرنامج المتجر.",
+    "whereUsed": "هتقابله في استضافة الخوادم وبناء بيئات مخصصة.",
     "en": [
       "A service providing compute, network, and storage resources on demand while customers manage their operating systems and applications.",
       "A team rents a virtual server and installs its operating system and shop software.",
@@ -23,15 +23,16 @@
     ],
     "sources": [
       "https://aws.amazon.com/types-of-cloud-computing/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "PaaS",
     "fullName": "Platform as a Service",
     "arabicName": "المنصة كخدمة",
-    "definition": "خدمة توفر بيئة مُدارة لبناء التطبيقات وتشغيلها دون أن يدير المطور الخوادم وأنظمة تشغيلها مباشرة.",
-    "example": "يرفع مطور شيفرة تطبيق إلى منصة تدير بيئة التشغيل وتستضيفه.",
-    "whereUsed": "في نشر التطبيقات مع تقليل إدارة البنية التحتية.",
+    "definition": "خدمة بتوفر بيئة مُدارة لبناء التطبيقات وتشغيلها من غير ما المطور يدير الخوادم وأنظمة تشغيلها بنفسه.",
+    "example": "المطور بيرفع شيفرة التطبيق على منصة بتدير بيئة التشغيل وبتستضيفه.",
+    "whereUsed": "هتقابله في نشر التطبيقات مع تقليل إدارة البنية التحتية.",
     "en": [
       "A managed environment for building and running applications without directly managing the underlying servers and operating systems.",
       "A developer uploads application code to a platform that manages its runtime and hosting.",
@@ -49,15 +50,16 @@
     ],
     "sources": [
       "https://aws.amazon.com/types-of-cloud-computing/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "FaaS",
     "fullName": "Function as a Service",
     "arabicName": "الدوال كخدمة",
-    "definition": "نموذج يشغل دوال برمجية استجابة لأحداث أو طلبات مع تولي المنصة إدارة موارد التنفيذ.",
-    "example": "تعمل دالة لإنشاء صورة مصغرة عندما يرفع المستخدم صورة جديدة.",
-    "whereUsed": "في معالجة الأحداث والمهام القصيرة وواجهات الخدمات.",
+    "definition": "نموذج بيشغّل دوال برمجية استجابة لأحداث أو طلبات مع تولي المنصة إدارة موارد التنفيذ.",
+    "example": "بتشتغل دالة لإنشاء صورة مصغرة لما بيرفع المستخدم صورة جديدة.",
+    "whereUsed": "هتقابله في معالجة الأحداث والمهام القصيرة وواجهات الخدمات.",
     "en": [
       "A model that runs functions in response to events or requests while the platform manages execution resources.",
       "A function creates a thumbnail when a user uploads a new image.",
@@ -76,15 +78,16 @@
     ],
     "sources": [
       "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Virtualization",
     "fullName": "Virtualization",
     "arabicName": "المحاكاة الافتراضية",
-    "definition": "إنشاء موارد افتراضية تمثل أجهزة أو تخزينًا أو شبكات، بحيث يمكن مشاركة الموارد المادية بين بيئات منفصلة.",
-    "example": "يشغل فريق عدة خوادم افتراضية على جهاز مادي واحد.",
-    "whereUsed": "في مراكز البيانات وبيئات التجربة والحوسبة السحابية.",
+    "definition": "إنشاء موارد افتراضية بتمثّل أجهزة أو تخزينًا أو شبكات، علشان ممكن مشاركة الموارد المادية بين بيئات منفصلة.",
+    "example": "بيشغّل فريق عدة خوادم افتراضية على جهاز مادي واحد.",
+    "whereUsed": "هتقابله في مراكز البيانات وبيئات التجربة والحوسبة السحابية.",
     "en": [
       "Creating virtual representations of hardware, storage, or networks so physical resources can serve separate environments.",
       "A team runs several virtual servers on one physical machine.",
@@ -100,15 +103,16 @@
     "aliases": [],
     "sources": [
       "https://aws.amazon.com/what-is/virtualization/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Hypervisor",
     "fullName": "Hypervisor",
     "arabicName": "مدير الأجهزة الافتراضية",
-    "definition": "طبقة برمجية تنشئ الأجهزة الافتراضية وتدير وصولها إلى موارد الجهاز المادي.",
+    "definition": "طبقة برمجية بتنشئ الأجهزة الافتراضية وبتدير وصولها إلى موارد الجهاز المادي.",
     "example": "يخصص مدير الأجهزة الافتراضية ذاكرة ومعالجات لكل خادم افتراضي.",
-    "whereUsed": "في تشغيل عدة أنظمة تشغيل على العتاد نفسه.",
+    "whereUsed": "هتقابله في تشغيل عدة أنظمة تشغيل على العتاد نفسه.",
     "en": [
       "A software layer that creates virtual machines and manages their access to physical hardware resources.",
       "A hypervisor allocates memory and processors to each virtual server.",
@@ -127,15 +131,16 @@
     ],
     "sources": [
       "https://aws.amazon.com/what-is/hypervisor/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Public Cloud",
     "fullName": "Public Cloud",
     "arabicName": "سحابة عامة",
-    "definition": "بنية سحابية يقدمها مزود للاستخدام العام، ويحصل العملاء فيها على موارد وخدمات حسب حاجتهم.",
-    "example": "تشغل شركة تطبيقها لدى مزود سحابي متاح لعملاء متعددين.",
-    "whereUsed": "في استئجار خدمات الحوسبة والتخزين الجاهزة.",
+    "definition": "بنية سحابية بيقدمها مزود للاستخدام العام، والعملاء بياخدوا منها موارد وخدمات حسب احتياجهم.",
+    "example": "شركة بتشغّل تطبيقها عند مزود سحابي بيخدم عملاء كتير.",
+    "whereUsed": "هتقابله في استئجار خدمات الحوسبة والتخزين الجاهزة.",
     "en": [
       "Cloud infrastructure offered for general use by a provider, with customers obtaining resources and services as needed.",
       "A company hosts its application with a cloud provider serving many customers.",
@@ -151,15 +156,16 @@
     "aliases": [],
     "sources": [
       "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Private Cloud",
     "fullName": "Private Cloud",
     "arabicName": "سحابة خاصة",
-    "definition": "بنية سحابية مخصصة حصريًا لمؤسسة واحدة، وقد تستضيفها المؤسسة أو يديرها مزود خارجي.",
-    "example": "تستخدم مجموعة شركات منصة سحابية محجوزة لأقسامها فقط.",
-    "whereUsed": "في توفير موارد سحابية مخصصة لاحتياجات مؤسسة.",
+    "definition": "بنية سحابية مخصصة لمؤسسة واحدة بس؛ ممكن المؤسسة تستضيفها بنفسها أو مزود خارجي يديرها.",
+    "example": "بتستخدم مجموعة شركات منصة سحابية محجوزة لأقسامها فقط.",
+    "whereUsed": "هتقابله في توفير موارد سحابية مخصصة لاحتياجات مؤسسة.",
     "en": [
       "Cloud infrastructure reserved exclusively for one organization, hosted internally or managed by an external provider.",
       "A business group uses a cloud platform reserved for its own departments.",
@@ -175,15 +181,16 @@
     "aliases": [],
     "sources": [
       "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Hybrid Cloud",
     "fullName": "Hybrid Cloud",
     "arabicName": "سحابة هجينة",
     "definition": "ربط بيئات سحابية مختلفة، مثل الخاصة والعامة، للعمل معًا مع احتفاظ كل منها باستقلالها.",
-    "example": "يربط فريق سحابته الخاصة بخدمات سحابية عامة لتبادل بيانات التطبيق.",
-    "whereUsed": "في توسيع الأنظمة القائمة وربطها بخدمات سحابية.",
+    "example": "بيربط فريق سحابته الخاصة بخدمات سحابية عامة لتبادل بيانات التطبيق.",
+    "whereUsed": "هتقابله في توسيع الأنظمة القائمة وربطها بخدمات سحابية.",
     "en": [
       "Connecting distinct cloud environments, such as private and public clouds, while each retains its separate identity.",
       "A team connects its private cloud to public-cloud services for application data exchange.",
@@ -199,15 +206,16 @@
     "aliases": [],
     "sources": [
       "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Multi-cloud",
     "fullName": "Multicloud",
     "arabicName": "استخدام عدة مزودين سحابيين",
     "definition": "استخدام خدمات سحابية من مزودين مختلفين ضمن مؤسسة أو حل واحد.",
-    "example": "يستضيف فريق التطبيق عند مزود ويستخدم خدمة تحليلات عند مزود آخر.",
-    "whereUsed": "في اختيار خدمات متعددة أو تقليل الاعتماد على مزود واحد.",
+    "example": "الفريق بيستضيف التطبيق عند مزود، وبيستخدم خدمة تحليلات عند مزود تاني.",
+    "whereUsed": "هتقابله في اختيار خدمات متعددة أو تقليل الاعتماد على مزود واحد.",
     "en": [
       "Using cloud services from multiple providers within an organization or solution.",
       "A team hosts an app with one provider and uses analytics from another.",
@@ -226,15 +234,16 @@
     ],
     "sources": [
       "https://cloud.google.com/learn/what-is-multicloud"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Region",
     "fullName": "Cloud Region",
     "arabicName": "منطقة سحابية جغرافية",
-    "definition": "نطاق جغرافي يضع فيه المزود موارده السحابية، وعادة يضم مواقع تشغيل متعددة.",
-    "example": "يختار الفريق منطقة أقرب إلى غالبية مستخدمي التطبيق لتقليل زمن الوصول.",
-    "whereUsed": "في تحديد موقع استضافة الخدمات وتوزيعها جغرافيًا.",
+    "definition": "نطاق جغرافي بيحط فيه المزود موارده السحابية، وعادة بيضم مواقع تشغيل متعددة.",
+    "example": "بيختار الفريق منطقة أقرب إلى غالبية مستخدمي التطبيق لتقليل زمن الوصول.",
+    "whereUsed": "هتقابله في تحديد موقع استضافة الخدمات وتوزيعها جغرافيًا.",
     "en": [
       "A geographical area where a provider hosts cloud resources, usually across multiple operating locations.",
       "A team chooses a region near most app users to reduce latency.",
@@ -252,15 +261,16 @@
     ],
     "sources": [
       "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Availability Zone",
     "fullName": "Availability Zone",
     "arabicName": "نطاق التوافر",
-    "definition": "موقع تشغيل معزول نسبيًا داخل منطقة سحابية، يسمح بتوزيع الموارد لتقليل أثر تعطل موقع واحد.",
-    "example": "يوزع فريق نسخ التطبيق على نطاقي توافر داخل المنطقة نفسها.",
-    "whereUsed": "في تصميم الخدمات التي تتحمل أعطال مواقع الاستضافة.",
+    "definition": "موقع تشغيل معزول نسبيًا داخل منطقة سحابية، بيسمح بتوزيع الموارد لتقليل أثر تعطل موقع واحد.",
+    "example": "بيوزّع فريق نسخ التطبيق على نطاقي توافر داخل المنطقة نفسها.",
+    "whereUsed": "هتقابله في تصميم الخدمات التي تتحمل أعطال مواقع الاستضافة.",
     "en": [
       "A relatively isolated operating location within a cloud region, supporting resource distribution across failure boundaries.",
       "A team places application replicas in two availability zones within one region.",
@@ -278,15 +288,16 @@
     ],
     "sources": [
       "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Autoscaling",
     "fullName": "Automatic Scaling",
     "arabicName": "التوسع التلقائي",
-    "definition": "آلية تزيد موارد الخدمة أو تقللها تلقائيًا بناءً على مؤشرات أو جداول أو قواعد محددة.",
-    "example": "تضيف المنصة نسخًا للتطبيق عندما يزداد طول قائمة الطلبات المنتظرة.",
-    "whereUsed": "في التعامل مع تغير الحمل دون تعديل يدوي مستمر.",
+    "definition": "آلية بتزوّد موارد الخدمة أو بتقلّلها تلقائيًا بناءً على مؤشرات أو جداول أو قواعد محددة.",
+    "example": "بتضيف المنصة نسخًا للتطبيق لما بيزيد طول قائمة الطلبات المنتظرة.",
+    "whereUsed": "هتقابله في التعامل مع تغير الحمل دون تعديل يدوي مستمر.",
     "en": [
       "A mechanism that automatically adds or removes service resources using metrics, schedules, or configured rules.",
       "A platform adds application instances when its request queue grows.",
@@ -304,15 +315,16 @@
     ],
     "sources": [
       "https://learn.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Scalability",
     "fullName": "Scalability",
     "arabicName": "قابلية التوسع",
-    "definition": "قدرة النظام على استيعاب حمل أكبر عند زيادة موارده مع الحفاظ على أداء مناسب.",
-    "example": "يستطيع متجر مصمم للتوسع خدمة زوار أكثر عند إضافة خوادم.",
-    "whereUsed": "في تصميم الأنظمة التي يتوقع نمو مستخدميها أو بياناتها.",
+    "definition": "قدرة النظام إنه يستوعب حمل أكبر لما نزود موارده، مع الحفاظ على أداء مناسب.",
+    "example": "المتجر المصمم للتوسع يقدر يخدم زوار أكتر لما نضيف خوادم.",
+    "whereUsed": "هتقابله في تصميم الأنظمة التي متوقع نمو مستخدميها أو بياناتها.",
     "en": [
       "The ability to handle increased workload by adding resources while maintaining suitable performance.",
       "A scalable store can serve more visitors when additional servers are added.",
@@ -328,15 +340,16 @@
     "aliases": [],
     "sources": [
       "https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/scale-out"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Elasticity",
     "fullName": "Cloud Elasticity",
     "arabicName": "مرونة الموارد السحابية",
-    "definition": "قدرة البيئة على زيادة مواردها وتقليلها لتلائم تغير الطلب، بحيث تتحرر الموارد الزائدة عند انخفاضه.",
-    "example": "ترتفع سعة خدمة وقت العروض ثم تنخفض بعد انتهاء الازدحام.",
-    "whereUsed": "في مواءمة السعة مع الأحمال المتغيرة وتكاليفها.",
+    "definition": "قدرة البيئة إنها تزود مواردها أو تقللها حسب تغيّر الطلب، وتشيل الموارد الزيادة لما الطلب يقل.",
+    "example": "سعة الخدمة بتزيد وقت العروض، وبعد الزحمة بتقل تاني.",
+    "whereUsed": "هتقابله في ضبط السعة والتكلفة مع الأحمال المتغيرة.",
     "en": [
       "The ability to expand and shrink resources as demand changes, releasing excess capacity when demand falls.",
       "A service increases capacity during a promotion and reduces it after traffic subsides.",
@@ -354,15 +367,16 @@
     ],
     "sources": [
       "https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/scale-out"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "High Availability",
     "fullName": "High Availability",
     "arabicName": "توافر مرتفع",
-    "definition": "تصميم يقلل فترات توقف الخدمة باستخدام التكرار والمراقبة والتحويل إلى مكونات سليمة عند الأعطال.",
-    "example": "يوجه موزع الحمل الطلبات إلى خوادم سليمة إذا تعطل أحد الخوادم.",
-    "whereUsed": "في الخدمات التي تحتاج إلى تقليل الانقطاعات.",
+    "definition": "تصميم بيقلّل فترات توقف الخدمة باستخدام التكرار والمراقبة والتحويل إلى مكونات سليمة عند الأعطال.",
+    "example": "بيوجّه موزع الحمل الطلبات إلى خوادم سليمة إذا تعطل أحد الخوادم.",
+    "whereUsed": "هتقابله في الخدمات التي محتاجة تقليل الانقطاعات.",
     "en": [
       "A design approach that minimizes service downtime through redundancy, monitoring, and switching to healthy components.",
       "A load balancer directs requests to healthy servers when one fails.",
@@ -380,14 +394,15 @@
     ],
     "sources": [
       "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/high-availability-is-not-disaster-recovery.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Fault Tolerance",
     "fullName": "Fault Tolerance",
     "arabicName": "تحمل الأعطال",
-    "definition": "قدرة النظام على مواصلة الخدمة المطلوبة عند حدوث أعطال محددة في بعض مكوناته.",
-    "example": "يستمر نظام تخزين متكرر في تقديم البيانات بعد تعطل قرص ضمن الأعطال التي صُمم لتحملها.",
+    "definition": "قدرة النظام إنه يكمّل تقديم الخدمة المطلوبة حتى لو حصل عطل محدد في بعض مكوناته.",
+    "example": "بيكمّل نظام تخزين متكرر في تقديم البيانات بعد تعطل قرص ضمن الأعطال التي صُمم لتحملها.",
     "whereUsed": "في الأنظمة الموزعة والتخزين والخدمات الحرجة.",
     "en": [
       "The ability to keep providing the required service when specified components fail.",
@@ -403,15 +418,16 @@
     "aliases": [],
     "sources": [
       "https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/fault-tolerance-and-fault-isolation.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Disaster Recovery",
     "fullName": "Disaster Recovery",
     "arabicName": "التعافي من الكوارث",
     "definition": "خطط وإجراءات وموارد لاستعادة الخدمات والبيانات بعد اضطراب كبير يتجاوز التشغيل المعتاد.",
-    "example": "يجرب الفريق استعادة التطبيق من نسخ احتياطية في موقع بديل بعد توقف الموقع الرئيسي.",
-    "whereUsed": "في التخطيط لاستمرارية الخدمات واختبارات الاستعادة.",
+    "example": "بيجرّب الفريق استعادة التطبيق من نسخ احتياطية في موقع بديل بعد توقف الموقع الرئيسي.",
+    "whereUsed": "هتقابله في التخطيط لاستمرارية الخدمات واختبارات الاستعادة.",
     "en": [
       "Plans, procedures, and resources for restoring services and data after a major disruption.",
       "A team rehearses restoring an app from backups at an alternate location after the main site fails.",
@@ -429,15 +445,16 @@
     ],
     "sources": [
       "https://docs.aws.amazon.com/pdfs/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.pdf"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "RTO",
     "fullName": "Recovery Time Objective",
     "arabicName": "المدة المستهدفة لاستعادة الخدمة",
-    "definition": "الحد المستهدف للوقت المقبول بين تعطل الخدمة واستعادتها؛ يمثل هدفًا للخطة وليس ضمانًا تلقائيًا.",
-    "example": "إذا كان RTO ساعة، تُصمم خطة التعافي لإعادة الخدمة خلال ساعة من الانقطاع.",
-    "whereUsed": "في تحديد سرعة التعافي المطلوبة واختبارها.",
+    "definition": "أقصى وقت مستهدف بين تعطل الخدمة ورجوعها؛ ده هدف لخطة التعافي مش ضمان تلقائي.",
+    "example": "لو RTO ساعة، خطة التعافي بتستهدف ترجع الخدمة خلال ساعة من الانقطاع.",
+    "whereUsed": "هتقابله في تحديد سرعة التعافي المطلوبة واختبارها.",
     "en": [
       "The target maximum acceptable time between a service disruption and recovery, rather than an automatic guarantee.",
       "An RTO of one hour means the recovery plan aims to restore service within an hour of disruption.",
@@ -454,7 +471,8 @@
     ],
     "sources": [
       "https://docs.aws.amazon.com/pdfs/whitepapers/latest/disaster-recovery-of-on-premises-applications-to-aws/disaster-recovery-of-on-premises-applications-to-aws.pdf"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "RPO",
@@ -462,7 +480,7 @@
     "arabicName": "الفترة المستهدفة لفقد البيانات",
     "definition": "الحد المقبول لفقد البيانات معبرًا عنه بالزمن بين أحدث نقطة قابلة للاستعادة ولحظة العطل.",
     "example": "يعني RPO قدره 15 دقيقة أن الخطة تستهدف فقد بيانات لا تتجاوز آخر ربع ساعة.",
-    "whereUsed": "في تحديد دورية النسخ الاحتياطية وتكرار البيانات واختبارات الاستعادة.",
+    "whereUsed": "هتقابله في تحديد دورية النسخ الاحتياطية وتكرار البيانات واختبارات الاستعادة.",
     "en": [
       "The acceptable data-loss window measured as time between the latest recoverable data point and a disruption.",
       "An RPO of 15 minutes means the plan targets losing no more than the last quarter-hour of data.",
@@ -480,13 +498,14 @@
     ],
     "sources": [
       "https://docs.aws.amazon.com/pdfs/whitepapers/latest/disaster-recovery-of-on-premises-applications-to-aws/disaster-recovery-of-on-premises-applications-to-aws.pdf"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Edge Computing",
     "fullName": "Edge Computing",
     "arabicName": "الحوسبة الطرفية",
-    "definition": "معالجة البيانات قرب الأجهزة التي تنتجها أو المستخدمين الذين يحتاجونها بدل إرسال كل العمل إلى مركز بعيد.",
+    "definition": "معالجة البيانات قريب من الأجهزة اللي بتنتجها أو المستخدمين اللي محتاجينها، بدل ما نبعت كل الشغل لمركز بعيد.",
     "example": "يحلل جهاز في مصنع قراءات المستشعرات محليًا لإصدار تنبيه سريع.",
     "whereUsed": "في المصانع والأجهزة المتصلة والخدمات الحساسة للتأخير.",
     "en": [
@@ -504,14 +523,15 @@
     "aliases": [],
     "sources": [
       "https://aws.amazon.com/what-is/edge-computing/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "DevOps",
     "fullName": "Development and Operations",
     "arabicName": "التطوير والتشغيل",
     "definition": "ممارسات وثقافة تعاون تجمع تطوير البرمجيات وتشغيلها مع الأتمتة والتغذية الراجعة لتحسين تسليم الخدمات.",
-    "example": "يعمل المطورون وفريق التشغيل معًا على خط ينشر التغييرات ويراقب نتائجها.",
+    "example": "بيشتغل المطورون وفريق التشغيل معًا على خط بينشر التغييرات ويراقب نتائجها.",
     "whereUsed": "في تطوير الخدمات وإطلاقها وصيانتها باستمرار.",
     "en": [
       "Practices and a collaborative culture connecting software development and operations through automation and feedback.",
@@ -530,15 +550,16 @@
     ],
     "sources": [
       "https://aws.amazon.com/devops/what-is-devops/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "SRE",
     "fullName": "Site Reliability Engineering",
     "arabicName": "هندسة موثوقية المواقع والخدمات",
-    "definition": "تطبيق هندسة البرمجيات والأتمتة على تشغيل الخدمات وتحسين موثوقيتها وفق أهداف قابلة للقياس.",
-    "example": "يكتب فريق SRE أداة تعالج عطلًا متكررًا ويقيس أثرها على توافر الخدمة.",
-    "whereUsed": "في تشغيل الخدمات الكبيرة وتقليل العمل اليدوي المتكرر.",
+    "definition": "تطبيق هندسة البرمجيات والأتمتة على تشغيل الخدمات وتحسين موثوقيتها حسب أهداف قابلة للقياس.",
+    "example": "فريق SRE بيكتب أداة تعالج عطلًا متكررًا، وبيقيس تأثيرها على توافر الخدمة.",
+    "whereUsed": "هتقابله في تشغيل الخدمات الكبيرة وتقليل العمل اليدوي المتكرر.",
     "en": [
       "Applying software engineering and automation to service operations and measurable reliability goals.",
       "An SRE team automates a recurring failure response and measures the effect on availability.",
@@ -556,14 +577,15 @@
     ],
     "sources": [
       "https://sre.google/sre-book/introduction/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "IaC",
     "fullName": "Infrastructure as Code",
     "arabicName": "البنية التحتية كشيفرة",
-    "definition": "وصف موارد البنية التحتية وإعداداتها في ملفات يمكن مراجعتها وإصدارها واستخدامها لإنشاء بيئات متكررة.",
-    "example": "يستخدم الفريق ملفات تعريف لإنشاء شبكة وخوادم تجريبية متشابهة.",
+    "definition": "وصف موارد البنية التحتية وإعداداتها في ملفات ممكن مراجعتها وإصدارها واستخدامها لإنشاء بيئات متكررة.",
+    "example": "بيستخدم الفريق ملفات تعريف لإنشاء شبكة وخوادم تجريبية متشابهة.",
     "whereUsed": "في تجهيز البيئات السحابية وإدارة تغييراتها.",
     "en": [
       "Defining infrastructure resources and configuration in reviewable, versioned files that create repeatable environments.",
@@ -582,13 +604,14 @@
     ],
     "sources": [
       "https://developer.hashicorp.com/terraform/intro"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Unit Test",
     "fullName": "Unit Test",
     "arabicName": "اختبار وحدة",
-    "definition": "اختبار يركز على جزء صغير من البرنامج، مثل دالة، للتحقق من سلوكه مع عزل الاعتماديات عند الحاجة.",
+    "definition": "اختبار بيركز على جزء صغير من البرنامج، زي دالة، علشان نتأكد من سلوكه مع عزل الاعتماديات وقت الحاجة.",
     "example": "يتحقق الاختبار من أن خصم 10٪ من 100 يعطي 90.",
     "whereUsed": "في فحص منطق الدوال والمكونات.",
     "en": [
@@ -608,7 +631,8 @@
     ],
     "sources": [
       "https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Integration Test",
@@ -634,14 +658,15 @@
     ],
     "sources": [
       "https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "End-to-end Test",
     "fullName": "End-to-end Test",
     "arabicName": "اختبار المسار الكامل",
-    "definition": "اختبار يشغل رحلة كاملة عبر أجزاء النظام للتحقق من النتيجة النهائية كما يراها المستخدم أو النظام المتصل.",
-    "example": "يفتح اختبار المتجر ويضيف منتجًا ثم يكمل طلبًا تجريبيًا ويتحقق من تأكيده.",
+    "definition": "اختبار بيشغّل رحلة كاملة عبر أجزاء النظام للتحقق من النتيجة النهائية كما يراها المستخدم أو النظام المتصل.",
+    "example": "بيفتح اختبار المتجر ويضيف منتجًا ثم يكمل طلبًا تجريبيًا ويتحقق من تأكيده.",
     "whereUsed": "في التأكد من عمل الرحلات المهمة قبل الإطلاق.",
     "en": [
       "A test exercising a complete workflow across system parts to verify its final observable outcome.",
@@ -661,14 +686,15 @@
     ],
     "sources": [
       "https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Regression Test",
     "fullName": "Regression Test",
     "arabicName": "اختبار منع التراجع",
-    "definition": "اختبار يعاد بعد تعديل البرنامج للتحقق من أن السلوك المتوقع سابقًا ما زال يعمل.",
-    "example": "بعد تعديل البحث، يعيد الفريق اختبارات تبديل اللغة للتأكد من عدم تعطله.",
+    "definition": "اختبار يعاد بعد تعديل البرنامج للتحقق من أن السلوك المتوقع سابقًا ما زال بيشتغل.",
+    "example": "بعد تعديل البحث، بيرجّع الفريق اختبارات تبديل اللغة للتأكد من عدم تعطله.",
     "whereUsed": "في تحديث التطبيقات وإصلاح الأخطاء ومراجعة الإصدارات.",
     "en": [
       "A test rerun after a change to check that previously expected behavior still works.",
@@ -687,14 +713,15 @@
     ],
     "sources": [
       "https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/testing-strategy-test-types"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Staging",
     "fullName": "Staging Environment",
     "arabicName": "بيئة ما قبل الإنتاج",
     "definition": "بيئة منفصلة تشبه بيئة المستخدمين قدر الإمكان للتحقق من الإصدار وخطوات نشره قبل إطلاقه.",
-    "example": "يجرب الفريق نسخة المتجر الجديدة ببيانات اختبار في بيئة ما قبل الإنتاج.",
+    "example": "بيجرّب الفريق نسخة المتجر الجديدة ببيانات اختبار في بيئة ما قبل الإنتاج.",
     "whereUsed": "في مراجعة الإصدارات وتجربة النشر والتكامل.",
     "en": [
       "A separate environment resembling the live system for validating a release and deployment steps before launch.",
@@ -714,7 +741,8 @@
     ],
     "sources": [
       "https://product-downloads.atlassian.com/software/jira/downloads/documentation/AdminJIRAServer073-130117-0317-654.pdf"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Production",
@@ -722,7 +750,7 @@
     "arabicName": "بيئة الإنتاج الفعلية",
     "definition": "البيئة التي تقدم التطبيق أو الخدمة للمستخدمين الفعليين وتتعامل مع العمل الحقيقي.",
     "example": "تصل طلبات شراء العملاء إلى قاعدة البيانات في بيئة الإنتاج.",
-    "whereUsed": "في تشغيل المواقع والتطبيقات التي أُطلقت للاستخدام.",
+    "whereUsed": "هتقابله في تشغيل المواقع والتطبيقات التي أُطلقت للاستخدام.",
     "en": [
       "The environment serving real users and handling actual operational work.",
       "Customer purchases reach the database in the production environment.",
@@ -741,15 +769,16 @@
     ],
     "sources": [
       "https://sre.google/sre-book/release-engineering/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Rollback",
     "fullName": "Deployment Rollback",
     "arabicName": "الرجوع إلى إصدار سابق",
     "definition": "إعادة الخدمة إلى إصدار أو إعداد معروف سابقًا عند ظهور مشكلة بعد تغيير.",
-    "example": "يعيد الفريق إصدار الموقع السابق بعد اكتشاف تعطل تسجيل الدخول في التحديث.",
-    "whereUsed": "في معالجة مشكلات الإصدارات وتقليل أثر التغييرات.",
+    "example": "بيرجّع الفريق إصدار الموقع السابق بعد اكتشاف تعطل تسجيل الدخول في التحديث.",
+    "whereUsed": "هتقابله في معالجة مشكلات الإصدارات وتقليل أثر التغييرات.",
     "en": [
       "Returning a service to a previously known version or configuration when a change causes problems.",
       "A team restores the previous site version after an update breaks sign-in.",
@@ -767,13 +796,14 @@
     ],
     "sources": [
       "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs_service-options.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Feature Flag",
     "fullName": "Feature Flag",
     "arabicName": "مفتاح تفعيل ميزة",
-    "definition": "إعداد يتحكم في إظهار ميزة أو تشغيلها دون اشتراط نشر شيفرة جديدة عند كل تغيير للحالة.",
+    "definition": "إعداد بيتحكم في إظهار ميزة أو تشغيلها، من غير ما نحتاج ننشر شيفرة جديدة كل مرة حالتها تتغير.",
     "example": "يفعل الفريق واجهة بحث جديدة لمجموعة تجريبية ثم يوقفها من الإعدادات عند ظهور مشكلة.",
     "whereUsed": "في الإطلاق التدريجي والتجارب والتحكم في الميزات.",
     "en": [
@@ -793,14 +823,15 @@
     ],
     "sources": [
       "https://launchdarkly.com/docs/home/getting-started"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Blue-green Deployment",
     "fullName": "Blue-green Deployment",
     "arabicName": "النشر ببيئتين متبادلتين",
     "definition": "أسلوب يجهز إصدارًا جديدًا في بيئة منفصلة ثم يحول حركة المستخدمين إليها بعد التحقق منه.",
-    "example": "يعمل الإصدار الحالي في البيئة الزرقاء، ثم تتحول الطلبات إلى الخضراء بعد فحصها.",
+    "example": "بيشتغل الإصدار الحالي في البيئة الزرقاء، ثم تتحول الطلبات إلى الخضراء بعد فحصها.",
     "whereUsed": "في تبديل الإصدارات مع تسهيل الرجوع إلى البيئة السابقة.",
     "en": [
       "A deployment approach preparing a new version in a separate environment before switching user traffic to it.",
@@ -820,13 +851,14 @@
     ],
     "sources": [
       "https://docs.aws.amazon.com/whitepapers/latest/blue-green-deployments/introduction.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Canary Release",
     "fullName": "Canary Release",
     "arabicName": "إطلاق تجريبي محدود",
-    "definition": "إتاحة إصدار جديد لجزء صغير من المستخدمين أو الطلبات ومراقبته قبل توسيع انتشاره.",
+    "definition": "بنطلع الإصدار الجديد لجزء صغير من المستخدمين أو الطلبات، ونراقبه قبل ما نوسّع انتشاره.",
     "example": "يرسل الفريق 5٪ من الطلبات إلى الإصدار الجديد ويراقب الأخطاء قبل زيادة النسبة.",
     "whereUsed": "في تقليل نطاق تأثر المستخدمين بمشكلات الإصدارات.",
     "en": [
@@ -846,14 +878,15 @@
     ],
     "sources": [
       "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/canary-deployment.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Pull Request",
     "fullName": "Pull Request",
     "arabicName": "طلب مراجعة ودمج",
-    "definition": "اقتراح لتغييرات محفوظة في فرع، يتيح مناقشتها ومراجعتها وفحصها قبل دمجها في الفرع المستهدف.",
-    "example": "يفتح مطور طلبًا ليُراجع زملاؤه تحسين البحث قبل دمجه.",
+    "definition": "اقتراح لتغييرات محفوظة في فرع، ببيتيح مناقشتها ومراجعتها وفحصها قبل دمجها في الفرع المستهدف.",
+    "example": "بيفتح مطور طلبًا ليُراجع زملاؤه تحسين البحث قبل دمجه.",
     "whereUsed": "في التعاون على مستودعات Git ومراجعة الشيفرة.",
     "en": [
       "A proposal for branch changes that can be discussed, reviewed, and checked before merging into a target branch.",
@@ -872,14 +905,15 @@
     ],
     "sources": [
       "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Merge",
     "fullName": "Git Merge",
     "arabicName": "دمج الفروع",
     "definition": "جمع تغييرات من مسار تطوير في مسار آخر داخل نظام إدارة الإصدارات.",
-    "example": "يدمج الفريق فرع إصلاح الخطأ في الفرع الرئيسي بعد اجتياز الاختبارات.",
+    "example": "بيدمج الفريق فرع إصلاح الخطأ في الفرع الرئيسي بعد اجتياز الاختبارات.",
     "whereUsed": "في توحيد أعمال المطورين داخل المستودع.",
     "en": [
       "Combining changes from one development history into another in version control.",
@@ -898,14 +932,15 @@
     ],
     "sources": [
       "https://docs.github.com/en/get-started/learning-about-github/github-glossary"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Merge Conflict",
     "fullName": "Merge Conflict",
     "arabicName": "تعارض الدمج",
-    "definition": "حالة لا يستطيع فيها نظام إدارة الإصدارات جمع تغييرات متعارضة تلقائيًا، فتحتاج إلى حل واضح من المطور.",
-    "example": "يعدل شخصان السطر نفسه بشكل مختلف، فيحدد الفريق الصيغة الصحيحة أثناء الدمج.",
+    "definition": "حالة لا يقدر فيها نظام إدارة الإصدارات جمع تغييرات متعارضة تلقائيًا، فمحتاجة حل واضح من المطور.",
+    "example": "يعدل شخصان السطر نفسه بشكل مختلف، فبيحدد الفريق الصيغة الصحيحة أثناء الدمج.",
     "whereUsed": "في دمج الفروع وتحديث العمل بتغييرات الآخرين.",
     "en": [
       "A situation where version control cannot automatically reconcile competing changes and requires an explicit resolution.",
@@ -924,14 +959,15 @@
     ],
     "sources": [
       "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Fork",
     "fullName": "Repository Fork",
     "arabicName": "نسخة مستقلة من المستودع",
     "definition": "مستودع ينشأ من مستودع آخر لتطوير تغييرات مستقلة مع الاحتفاظ بعلاقة مع المشروع الأصلي على المنصة.",
-    "example": "ينشئ مساهم نسخة من مشروع عام ويقترح إصلاحًا عبر طلب دمج.",
+    "example": "بينشئ مساهم نسخة من مشروع عام ويقترح إصلاحًا عبر طلب دمج.",
     "whereUsed": "في المساهمة في المشاريع وتطوير نسخ مستقلة منها.",
     "en": [
       "A repository derived from another for independent changes while retaining a platform relationship to the original.",
@@ -950,14 +986,15 @@
     ],
     "sources": [
       "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Release",
     "fullName": "Software Release",
     "arabicName": "إصدار برمجي",
     "definition": "نسخة محددة من البرنامج تُجهز وتُتاح لمستخدميها أو مستهلكيها، عادة مع معلومات عن التغييرات.",
-    "example": "ينشر الفريق الإصدار 1.2 مع ملاحظات تشرح تحسينات البحث.",
+    "example": "بينشر الفريق الإصدار 1.2 مع ملاحظات تشرح تحسينات البحث.",
     "whereUsed": "في توزيع البرامج وتتبع النسخ المتاحة.",
     "en": [
       "A defined software version prepared and made available to its users or consumers, usually with change information.",
@@ -976,13 +1013,14 @@
     ],
     "sources": [
       "https://sre.google/sre-book/release-engineering/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Build",
     "fullName": "Software Build",
     "arabicName": "بناء البرنامج",
-    "definition": "عملية تحول الشيفرة وملفات المشروع إلى ناتج قابل للتشغيل أو التوزيع، وقد تشمل الترجمة والتجميع.",
+    "definition": "عملية بتحوّل الشيفرة وملفات المشروع لناتج جاهز للتشغيل أو التوزيع، وممكن تشمل الترجمة والتجميع.",
     "example": "ينتج أمر البناء ملفات الموقع النهائية التي سترفع إلى الاستضافة.",
     "whereUsed": "في تجهيز البرامج والمواقع للنشر أو الاختبار.",
     "en": [
@@ -1002,14 +1040,15 @@
     ],
     "sources": [
       "https://sre.google/sre-book/release-engineering/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Code Review",
     "fullName": "Code Review",
     "arabicName": "مراجعة الشيفرة",
-    "definition": "فحص تغييرات الشيفرة بواسطة شخص آخر لتقييم صحتها ووضوحها وآثارها قبل اعتمادها.",
-    "example": "يلاحظ المراجع أن تعديل البحث لا يتعامل مع النص الفارغ ويطلب إصلاحه.",
+    "definition": "شخص تاني بيراجع تغييرات الشيفرة علشان يتأكد من صحتها ووضوحها وتأثيرها قبل اعتمادها.",
+    "example": "يلاحظ المراجع أن تعديل البحث لا يتعامل مع النص الفارغ وبيطلب إصلاحه.",
     "whereUsed": "في طلبات الدمج والتعاون وتحسين جودة البرمجيات.",
     "en": [
       "Another person examines code changes for correctness, clarity, and effects before acceptance.",
@@ -1028,13 +1067,14 @@
     ],
     "sources": [
       "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Product Roadmap",
     "fullName": "Product Roadmap",
     "arabicName": "خريطة تطوير المنتج",
-    "definition": "خطة عالية المستوى توضح اتجاه المنتج وأهدافه وأولوياته عبر الزمن، وتُراجع مع تغير المعرفة والاحتياجات.",
+    "definition": "خطة عامة بتوضح اتجاه المنتج وأهدافه وأولوياته مع الوقت، وبنراجعها لما المعرفة أو الاحتياجات تتغير.",
     "example": "تضع الخريطة تحسين البحث أولًا ثم إضافة قوائم للمصطلحات المحفوظة.",
     "whereUsed": "في تنسيق تطوير المنتج والتواصل حول الأولويات.",
     "en": [
@@ -1054,13 +1094,14 @@
     ],
     "sources": [
       "https://www.atlassian.com/agile/product-management/roadmaps"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "User Story",
     "fullName": "User Story",
     "arabicName": "قصة مستخدم",
-    "definition": "وصف قصير لحاجة من منظور مستخدم يوضح ما يريد تحقيقه ولماذا، ليبدأ نقاش المتطلبات.",
+    "definition": "وصف قصير لاحتياج من وجهة نظر المستخدم، بيوضح هو عايز يحقق إيه وليه، علشان نبدأ مناقشة المتطلبات.",
     "example": "كمتعلم أريد حفظ المصطلحات حتى أراجعها لاحقًا.",
     "whereUsed": "في تخطيط ميزات المنتجات وتقسيم العمل حول قيمة المستخدم.",
     "en": [
@@ -1078,15 +1119,16 @@
     "aliases": [],
     "sources": [
       "https://www.atlassian.com/agile/project-management/user-stories"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Agile",
     "fullName": "Agile Software Development",
     "arabicName": "التطوير المرن",
-    "definition": "نهج يركز على التعاون وتسليم قيمة تدريجيًا والتعلم من الملاحظات والاستجابة لتغير الاحتياجات.",
-    "example": "يطلق الفريق تحسينًا صغيرًا ثم يعدل خطته بعد تجربة المستخدمين له.",
-    "whereUsed": "في تطوير المنتجات عندما تتطور المتطلبات والمعرفة.",
+    "definition": "طريقة بتركّز على التعاون وتسليم قيمة تدريجيًا والتعلم من الملاحظات والاستجابة لتغير الاحتياجات.",
+    "example": "بيطلق الفريق تحسينًا صغيرًا ثم يعدل خطته بعد تجربة المستخدمين له.",
+    "whereUsed": "في تطوير المنتجات لما تتطور المتطلبات والمعرفة.",
     "en": [
       "An approach emphasizing collaboration, incremental value delivery, feedback, and adapting to changing needs.",
       "A team releases a small improvement and adjusts its plan after users try it.",
@@ -1104,15 +1146,16 @@
     ],
     "sources": [
       "https://agilemanifesto.org/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Scrum",
     "fullName": "Scrum Framework",
     "arabicName": "إطار سكرم",
-    "definition": "إطار لتنظيم العمل المعقد يعتمد على فريق صغير ودورات قصيرة وفحص النتائج والتكيف معها.",
+    "definition": "إطار بينظّم العمل المعقد يعتمد على فريق صغير ودورات قصيرة وفحص النتائج والتكيف معها.",
     "example": "يراجع الفريق نتائج الدورة مع المعنيين ويعدل أولوياته.",
-    "whereUsed": "في فرق المنتجات التي تعمل بدورات محددة وأهداف واضحة.",
+    "whereUsed": "هتقابله في فرق المنتجات التي بتشتغل بدورات محددة وأهداف واضحة.",
     "en": [
       "A framework for complex work using a small team, short cycles, inspection, and adaptation.",
       "A team reviews cycle results with stakeholders and adapts priorities.",
@@ -1128,15 +1171,16 @@
     "aliases": [],
     "sources": [
       "https://scrumguides.org/scrum-guide.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Sprint",
     "fullName": "Scrum Sprint",
     "arabicName": "دورة سبرنت",
-    "definition": "فترة محددة لا تتجاوز شهرًا في سكرم، يعمل خلالها الفريق نحو هدف وينتج زيادة قابلة للاستخدام في المنتج.",
-    "example": "يحدد الفريق دورة أسبوعين لتحسين رحلة البحث والتحقق من عملها.",
-    "whereUsed": "في تنظيم العمل المتكرر داخل إطار سكرم.",
+    "definition": "فترة محددة لا تتجاوز شهرًا في سكرم، بيشتغل خلالها الفريق نحو هدف وينتج زيادة قابلة للاستخدام في المنتج.",
+    "example": "بيحدد الفريق دورة أسبوعين لتحسين رحلة البحث والتحقق من عملها.",
+    "whereUsed": "هتقابله في تنظيم العمل المتكرر داخل إطار سكرم.",
     "en": [
       "A fixed period of one month or less in Scrum for pursuing a goal and producing a usable product increment.",
       "A team sets a two-week Sprint to improve and verify the search workflow.",
@@ -1154,15 +1198,16 @@
     ],
     "sources": [
       "https://scrumguides.org/scrum-guide.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Kanban",
     "fullName": "Kanban",
     "arabicName": "كانبان لإدارة تدفق العمل",
-    "definition": "أسلوب لإدارة تدفق العمل بإظهاره ووضع حدود للعمل الجاري وسحب مهام جديدة عند توافر القدرة.",
+    "definition": "طريقة لإدارة تدفق العمل بإظهاره ووضع حدود للعمل الجاري وسحب مهام جديدة عند توافر القدرة.",
     "example": "تعرض اللوحة مهام قيد التنفيذ بحد أقصى ثلاث مهام لتقليل التشتت والانتظار.",
-    "whereUsed": "في فرق التطوير والدعم وإدارة الأعمال المتدفقة.",
+    "whereUsed": "هتقابله في فرق التطوير والدعم وإدارة الأعمال المتدفقة.",
     "en": [
       "An approach to managing flow by visualizing work, limiting work in progress, and pulling new work when capacity is available.",
       "A board limits active work to three tasks to reduce switching and waiting.",
@@ -1177,15 +1222,16 @@
     "aliases": [],
     "sources": [
       "https://www.atlassian.com/agile/kanban"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Backlog",
     "fullName": "Product Backlog",
     "arabicName": "قائمة أعمال المنتج",
-    "definition": "قائمة مرتبة ومتجددة بما يحتاجه المنتج من تحسينات وميزات وإصلاحات، وليست وعدًا بتنفيذ كل عنصر.",
-    "example": "يضع الفريق إصلاح البحث قبل المؤثرات البصرية.",
-    "whereUsed": "في ترتيب أولويات أعمال المنتج.",
+    "definition": "قائمة مترتبة ومتجددة بما يحتاجه المنتج من تحسينات وميزات وإصلاحات، وليست وعدًا بتنفيذ كل عنصر.",
+    "example": "بيحط الفريق إصلاح البحث قبل المؤثرات البصرية.",
+    "whereUsed": "هتقابله في ترتيب أولويات أعمال المنتج.",
     "en": [
       "An ordered, evolving list of product improvements, features, and fixes, not a promise to implement every item.",
       "Search fixes take priority over visual effects.",
@@ -1203,15 +1249,16 @@
     ],
     "sources": [
       "https://scrumguides.org/scrum-guide.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Stakeholder",
     "fullName": "Stakeholder",
     "arabicName": "طرف معني بالمشروع",
-    "definition": "شخص أو جهة تؤثر في المشروع أو تتأثر بنتائجه أو تهتم بها، داخل المؤسسة أو خارجها.",
-    "example": "يشارك الدعم والعملاء ومدير المنتج في مراجعة تغيير يؤثر على تجربة الاستخدام.",
-    "whereUsed": "في جمع المتطلبات واتخاذ القرارات والتواصل حول المشروع.",
+    "definition": "شخص أو جهة بتأثر في المشروع أو تتأثر بنتائجه أو تهتم بها، داخل المؤسسة أو خارجها.",
+    "example": "بيشارك الدعم والعملاء ومدير المنتج في مراجعة تغيير يؤثر على تجربة الاستخدام.",
+    "whereUsed": "هتقابله في جمع المتطلبات واتخاذ القرارات والتواصل حول المشروع.",
     "en": [
       "A person or group that influences, is affected by, or has an interest in a project or its results.",
       "Support staff, customers, and a product manager review a change affecting the user experience.",
@@ -1228,15 +1275,16 @@
     ],
     "sources": [
       "https://www.atlassian.com/teams/marketing/guide/stakeholder-management"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "KPI",
     "fullName": "Key Performance Indicator",
     "arabicName": "مؤشر أداء رئيسي",
-    "definition": "مقياس مختار يوضح التقدم نحو هدف مهم خلال فترة محددة، مع تعريف واضح لطريقة حسابه.",
-    "example": "يتابع الفريق نسبة المستخدمين الذين يجدون نتيجة مفيدة لتحسين نجاح البحث.",
-    "whereUsed": "في لوحات المتابعة وتقييم أهداف المنتجات والأعمال.",
+    "definition": "مقياس مختار بيوضح التقدم نحو هدف مهم خلال فترة محددة، مع تعريف واضح لطريقة حسابه.",
+    "example": "بيتابع الفريق نسبة المستخدمين الذين يجدون نتيجة مفيدة لتحسين نجاح البحث.",
+    "whereUsed": "هتقابله في لوحات المتابعة وتقييم أهداف المنتجات والأعمال.",
     "en": [
       "A selected metric tracking progress toward an important goal over a defined period with a clear calculation.",
       "A team tracks the proportion of users finding a useful result to improve search success.",
@@ -1254,7 +1302,8 @@
     ],
     "sources": [
       "https://www.salesforce.com/in/blog/top-kpis-for-email-marketers/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "ROI",
@@ -1262,7 +1311,7 @@
     "arabicName": "العائد على الاستثمار",
     "definition": "نسبة صافي العائد المنسوب لاستثمار إلى تكلفته، وغالبًا تعرض كنسبة مئوية مع تحديد الفترة والتكاليف.",
     "example": "إذا بلغت التكلفة 100 والمنفعة 130، فصافي العائد 30 وROI يساوي 30٪.",
-    "whereUsed": "في تقييم جدوى مشروعات وأدوات ومبادرات الأعمال.",
+    "whereUsed": "هتقابله في تقييم جدوى مشروعات وأدوات ومبادرات الأعمال.",
     "en": [
       "Net return attributable to an investment divided by its cost, usually expressed as a percentage for a defined period.",
       "With a cost of 100 and a benefit of 130, net return is 30 and ROI is 30 percent.",
@@ -1279,15 +1328,16 @@
     ],
     "sources": [
       "https://www.salesforce.com/sales/analytics/return-on-sales/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "SLA",
     "fullName": "Service Level Agreement",
     "arabicName": "اتفاق مستوى الخدمة",
-    "definition": "اتفاق يحدد مستوى الخدمة المتعهد به وكيفية قياسه وما يترتب على عدم تحقيقه وفق شروطه.",
-    "example": "يتضمن اتفاق الاستضافة حدًا للتوافر وتعويضًا محددًا عند عدم الوفاء بالشروط.",
-    "whereUsed": "في تنظيم التزامات مزودي الخدمات مع العملاء.",
+    "definition": "اتفاق بيحدد مستوى الخدمة المتعهد بيه، وطريقة قياسه، وإيه اللي يحصل لو الشروط متحققتش.",
+    "example": "بيتضمن اتفاق الاستضافة حدًا للتوافر وتعويضًا محددًا عند عدم الوفاء بالشروط.",
+    "whereUsed": "هتقابله في تنظيم التزامات مزودي الخدمات مع العملاء.",
     "en": [
       "An agreement specifying promised service levels, measurement rules, and consequences of failing to meet its terms.",
       "A hosting agreement defines an availability commitment and specified compensation for qualifying failures.",
@@ -1305,15 +1355,16 @@
     ],
     "sources": [
       "https://sre.google/sre-book/service-level-objectives/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "SLO",
     "fullName": "Service Level Objective",
     "arabicName": "هدف مستوى الخدمة",
-    "definition": "هدف قابل للقياس لمستوى الخدمة خلال نافذة زمنية محددة، يُقارن بالقيمة الفعلية لمؤشر الخدمة.",
-    "example": "يستهدف الفريق نجاح 99.9٪ من الطلبات الصالحة خلال شهر.",
-    "whereUsed": "في تحديد أهداف الموثوقية واتخاذ قرارات التشغيل.",
+    "definition": "هدف قابل للقياس لمستوى الخدمة خلال فترة محددة، وبنقارنه بالقيمة الفعلية لمؤشر الخدمة.",
+    "example": "بيستهدف الفريق نجاح 99.9٪ من الطلبات الصالحة خلال شهر.",
+    "whereUsed": "هتقابله في تحديد أهداف الموثوقية واتخاذ قرارات التشغيل.",
     "en": [
       "A measurable service-level target over a defined time window, compared with the observed service indicator.",
       "A team targets successful handling of 99.9 percent of valid requests over a month.",
@@ -1331,15 +1382,16 @@
     ],
     "sources": [
       "https://sre.google/sre-book/service-level-objectives/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "SLI",
     "fullName": "Service Level Indicator",
     "arabicName": "مؤشر مستوى الخدمة",
-    "definition": "قياس فعلي لجانب من الخدمة مثل نسبة نجاح الطلبات أو زمن استجابتها وفق تعريف واضح.",
+    "definition": "قياس فعلي لجانب من الخدمة مثل نسبة نجاح الطلبات أو زمن استجابتها حسب تعريف واضح.",
     "example": "نجح 998 من 1000 طلب صالح خلال الفترة.",
-    "whereUsed": "في مراقبة تجربة الخدمة والتحقق من أهداف الموثوقية.",
+    "whereUsed": "هتقابله في مراقبة تجربة الخدمة والتحقق من أهداف الموثوقية.",
     "en": [
       "An observed measure of service behavior, such as request success or latency, under a precise definition.",
       "998 of 1000 valid requests succeeded during the period.",
@@ -1357,15 +1409,16 @@
     ],
     "sources": [
       "https://sre.google/sre-book/service-level-objectives/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "B2B",
     "fullName": "Business to Business",
     "arabicName": "أعمال موجهة للشركات",
-    "definition": "نموذج تعامل تبيع فيه شركة منتجات أو خدمات لشركات أخرى بوصفها عملاء.",
-    "example": "تبيع شركة برنامج إدارة مخزون باشتراكات لمتاجر وموزعين.",
-    "whereUsed": "في الخدمات المؤسسية والتجارة بين الشركات.",
+    "definition": "نموذج تعامل بتبيع فيه شركة منتجات أو خدمات لشركات تانية باعتبارها العملاء.",
+    "example": "شركة بتبيع برنامج إدارة مخزون باشتراكات لمتاجر وموزعين.",
+    "whereUsed": "هتقابله في الخدمات المؤسسية والتجارة بين الشركات.",
     "en": [
       "A model in which a business sells products or services to other businesses.",
       "A company sells inventory-management subscriptions to retailers and distributors.",
@@ -1383,15 +1436,16 @@
     ],
     "sources": [
       "https://trailhead.salesforce.com/content/learn/modules/the-communications-industry/meet-communications-customers"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "B2C",
     "fullName": "Business to Consumer",
     "arabicName": "أعمال موجهة للمستهلك",
-    "definition": "نموذج تعامل تبيع فيه الشركة منتجات أو خدمات إلى أفراد للاستخدام الشخصي.",
-    "example": "يبيع متجر إلكتروني سماعات مباشرة لمستخدم يشتريها لنفسه.",
-    "whereUsed": "في متاجر المستهلكين والتطبيقات والخدمات الشخصية.",
+    "definition": "نموذج تعامل بتبيع فيه الشركة منتجات أو خدمات للأفراد علشان يستخدموها بشكل شخصي.",
+    "example": "بيبيع متجر إلكتروني سماعات مباشرة لمستخدم يشتريها لنفسه.",
+    "whereUsed": "هتقابله في متاجر المستهلكين والتطبيقات والخدمات الشخصية.",
     "en": [
       "A model in which a business sells products or services to individuals for personal use.",
       "An online shop sells headphones to a person buying them for personal use.",
@@ -1408,15 +1462,16 @@
     ],
     "sources": [
       "https://trailhead.salesforce.com/content/learn/modules/the-communications-industry/meet-communications-customers"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Conversion Rate",
     "fullName": "Conversion Rate",
     "arabicName": "معدل التحويل",
-    "definition": "نسبة من أتموا إجراءً مستهدفًا إلى المجموعة المؤهلة المقاسة خلال فترة محددة.",
+    "definition": "نسبة الناس اللي كمّلوا إجراءً مستهدفًا إلى المجموعة المؤهلة المقاسة خلال فترة محددة.",
     "example": "إذا سجل 50 شخصًا من 1000 زائر مؤهل، فمعدل تحويل التسجيل 5٪.",
-    "whereUsed": "في تقييم التسجيل والشراء ونتائج صفحات المنتجات.",
+    "whereUsed": "هتقابله في تقييم التسجيل والشراء ونتائج صفحات المنتجات.",
     "en": [
       "The proportion of a defined eligible group completing a target action during a specified period.",
       "If 50 of 1000 eligible visitors sign up, the signup conversion rate is 5 percent.",
@@ -1434,7 +1489,8 @@
     ],
     "sources": [
       "https://www.optimizely.com/optimization-glossary/ab-testing"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Retention",
@@ -1442,7 +1498,7 @@
     "arabicName": "الاحتفاظ بالعملاء",
     "definition": "استمرار عملاء أو مستخدمين من مجموعة محددة في استخدام المنتج أو التعامل معه خلال فترة لاحقة.",
     "example": "إذا استمر 7 من 10 عملاء أصليين بعد شهر، فنسبة احتفاظ تلك المجموعة 70٪.",
-    "whereUsed": "في فهم القيمة المستمرة للمنتج ومتابعة الاشتراكات.",
+    "whereUsed": "هتقابله في فهم القيمة المستمرة للمنتج ومتابعة الاشتراكات.",
     "en": [
       "Customers or users from a defined group continuing to use or stay with a product over a later period.",
       "If 7 of 10 original customers remain after a month, that group has 70 percent retention.",
@@ -1461,15 +1517,16 @@
     ],
     "sources": [
       "https://stripe.com/resources/more/customer-retention-why-it-matters-and-how-to-improve-it"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Churn",
     "fullName": "Customer Churn",
     "arabicName": "فقد العملاء",
-    "definition": "توقف عملاء أو مستخدمين عن التعامل مع الخدمة وفق معيار وفترة محددين؛ تقاس النسبة عادة من المجموعة الأصلية.",
+    "definition": "توقّف عملاء أو مستخدمين عن التعامل مع الخدمة حسب معيار وفترة محددين؛ تقاس النسبة عادة من المجموعة الأصلية.",
     "example": "إذا ترك عميلان الخدمة من أصل 50 في بداية الشهر، فمعدل فقد العملاء 4٪.",
-    "whereUsed": "في متابعة إلغاء الاشتراكات وفهم أسباب مغادرة المستخدمين.",
+    "whereUsed": "هتقابله في متابعة إلغاء الاشتراكات وفهم أسباب مغادرة المستخدمين.",
     "en": [
       "Customers or users leaving a service under a defined criterion and period; the rate commonly uses the starting group as its base.",
       "If 2 of the 50 customers present at the start of a month leave, customer churn is 4 percent.",
@@ -1488,15 +1545,16 @@
     ],
     "sources": [
       "https://stripe.com/resources/more/how-to-calculate-churn-rates"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "A/B Testing",
     "fullName": "A/B Testing",
     "arabicName": "اختبار المقارنة بين نسختين",
-    "definition": "تجربة تقارن نسختين بتوزيع المستخدمين عشوائيًا وقياس نتيجة محددة مع مراعاة حجم العينة وعدم اليقين.",
-    "example": "يقارن الفريق نموذجَي تسجيل ويقيس نسبة إكمال التسجيل في كل مجموعة.",
-    "whereUsed": "في تقييم تغييرات المنتجات والواجهات بالتجارب.",
+    "definition": "تجربة بتقارن نسختين بتوزيع المستخدمين عشوائيًا وقياس نتيجة محددة مع مراعاة حجم العينة وعدم اليقين.",
+    "example": "الفريق بيقارن نموذجَي تسجيل، وبيقيس نسبة إكمال التسجيل في كل مجموعة.",
+    "whereUsed": "هتقابله في تقييم تغييرات المنتجات والواجهات بالتجارب.",
     "en": [
       "An experiment comparing two variants through random assignment and a defined outcome while considering sample size and uncertainty.",
       "A team compares two signup forms and measures completion in each group.",
@@ -1515,15 +1573,16 @@
     ],
     "sources": [
       "https://www.optimizely.com/optimization-glossary/ab-testing"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Freemium",
     "fullName": "Freemium Business Model",
     "arabicName": "نموذج مجاني مع مزايا مدفوعة",
-    "definition": "نموذج يقدم استخدامًا أساسيًا مجانيًا مع إتاحة قدرات أو حدود أعلى مقابل الدفع.",
-    "example": "يتيح تطبيق ملاحظات عددًا محدودًا من المشاريع مجانًا ويطلب اشتراكًا لزيادة الحد.",
-    "whereUsed": "في تسعير التطبيقات والخدمات الرقمية.",
+    "definition": "نموذج بيقدم استخدامًا أساسيًا مجانيًا مع إتاحة قدرات أو حدود أعلى مقابل الدفع.",
+    "example": "تطبيق الملاحظات بيتيح عددًا محدودًا من المشاريع مجانًا، وبيطلب اشتراكًا لزيادة الحد.",
+    "whereUsed": "هتقابله في تسعير التطبيقات والخدمات الرقمية.",
     "en": [
       "A model offering a free basic experience with additional capabilities or higher limits available for payment.",
       "A notes app offers a limited number of projects free and charges for a higher limit.",
@@ -1541,6 +1600,7 @@
     ],
     "sources": [
       "https://stripe.com/resources/more/freemium-business-model"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   }
 ]

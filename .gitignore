@@ -1,0 +1,14 @@
+.qa-page-*.html
+.qa-search.html
+.qa-direct.html
+qa-*.png
+file-check.png
+_deploy/
+browser-upload/
+.local-cache/
+.local-config/
+.local-data/
+content/source-*
+content/translation-model/
+content/translate-en_ar-1_0.*
+content/translation-test*.json

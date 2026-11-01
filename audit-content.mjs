@@ -5,6 +5,9 @@ const manifest=JSON.parse(fs.readFileSync(new URL('content/manifest.json',root),
 const ctx={window:{}};
 for(const file of ['data.js','en.js','expansion.js'])vm.runInNewContext(fs.readFileSync(new URL(file,root),'utf8'),ctx);
 const entries=ctx.window.DICTIONARY, english=ctx.window.EN_CONTENT;
+const shardManifest=JSON.parse(fs.readFileSync(new URL('corpus/manifest.json',root),'utf8'));
+const shardEntries=shardManifest.searchShards.flatMap(shard=>JSON.parse(fs.readFileSync(new URL(`corpus/${shard.file}`,root),'utf8')));
+const allEntries=[...entries,...shardEntries];
 const errors=[],canonical=new Map(),aliases=new Map(),definitions=new Map();
 let referenceDuplicateDefinitions=0;
 const normalize=s=>s.normalize('NFKC').toLowerCase().trim();
@@ -30,6 +33,6 @@ for(const e of entries){
   }
   if(e.relatedTerms.includes(e.id))errors.push(`${e.id}: self-related term`);
 }
-if(entries.length!==manifest.currentReleaseCount)errors.push(`Expected ${manifest.currentReleaseCount} terms, received ${entries.length}`);
-console.log(JSON.stringify({terms:entries.length,goal:manifest.collectionGoal,nextMilestone:manifest.milestones.find(value=>value>entries.length)||null,categories:Object.fromEntries(ctx.window.CATEGORIES.map(([id])=>[id,entries.filter(e=>e.category===id).length])),withSources:entries.filter(e=>e.sources.length).length,referenceDuplicateDefinitions,errors},null,2));
+if(allEntries.length!==manifest.currentReleaseCount)errors.push(`Expected ${manifest.currentReleaseCount} terms, received ${allEntries.length}`);
+console.log(JSON.stringify({terms:allEntries.length,baseTerms:entries.length,shardedTerms:shardEntries.length,goal:manifest.collectionGoal,nextMilestone:manifest.milestones.find(value=>value>allEntries.length)||null,categories:Object.fromEntries(ctx.window.CATEGORIES.map(([id])=>[id,allEntries.filter(e=>e.category===id).length])),withSources:entries.filter(e=>e.sources.length).length+shardEntries.length,egyptianReviewed:entries.filter(e=>e.reviewStatus==='egyptian-reviewed').length,egyptianStructured:shardEntries.filter(e=>e.reviewStatus==='egyptian-structured').length,machineAssisted:entries.filter(e=>e.reviewStatus==='machine-assisted').length+shardEntries.filter(e=>e.reviewStatus==='machine-assisted').length,referenceDuplicateDefinitions,errors},null,2));
 if(errors.length)process.exitCode=1;

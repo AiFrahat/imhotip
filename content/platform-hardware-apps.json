@@ -3,9 +3,9 @@
     "term": "Bit",
     "fullName": "Binary Digit",
     "arabicName": "بت",
-    "definition": "أصغر وحدة للمعلومات الرقمية، وتأخذ إحدى قيمتين: صفر أو واحد.",
-    "example": "يمكن لبت واحد تمثيل اختيار بين تشغيل وإيقاف.",
-    "whereUsed": "في تمثيل البيانات وقياس معدلات نقلها.",
+    "definition": "ببساطة، ده أصغر وحدة للمعلومات الرقمية، وتأخذ إحدى قيمتين: صفر أو واحد.",
+    "example": "مثلاً، ممكن لبت واحد تمثيل اختيار بين تشغيل وإيقاف.",
+    "whereUsed": "هتلاقيه في تمثيل البيانات وقياس معدلات نقلها.",
     "en": [
       "The smallest unit of digital information, with a value of either zero or one.",
       "One bit can represent an on or off choice.",
@@ -22,15 +22,16 @@
     ],
     "sources": [
       "https://csrc.nist.gov/glossary/term/bit"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Byte",
     "fullName": "Byte",
     "arabicName": "بايت",
-    "definition": "وحدة بيانات تتكون عادة من ثمانية بتات، وتستخدم لقياس أحجام الملفات والذاكرة.",
-    "example": "ملف حجمه 100 بايت يحتوي على 800 بت.",
-    "whereUsed": "في سعة الذاكرة والتخزين وأحجام التنزيلات.",
+    "definition": "ببساطة، دي وحدة بيانات بتتكوّن عادة من ثمانية بتات، وتستخدم لقياس أحجام الملفات والذاكرة.",
+    "example": "مثلاً، ملف حجمه 100 بايت بيحتوي على 800 بت.",
+    "whereUsed": "هتلاقيه في سعة الذاكرة والتخزين وأحجام التنزيلات.",
     "en": [
       "A unit of data normally consisting of eight bits, used to measure file sizes and memory.",
       "A 100-byte file contains 800 bits.",
@@ -48,15 +49,16 @@
     ],
     "sources": [
       "https://csrc.nist.gov/glossary/term/byte"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "GHz",
     "fullName": "Gigahertz",
     "arabicName": "جيجاهرتز",
-    "definition": "وحدة تردد تعني مليار دورة في الثانية؛ تصف سرعة ساعة المعالج ولا تحدد أداءه وحدها.",
-    "example": "ساعة بتردد 3 GHz تنفذ ثلاثة مليارات دورة في الثانية، وليس بالضرورة العدد نفسه من التعليمات.",
-    "whereUsed": "في مواصفات المعالجات وترددات الإشارات.",
+    "definition": "ببساطة، دي وحدة تردد تعني مليار دورة في الثانية؛ بتوصف سرعة ساعة المعالج ولا بتحدد أداءه وحدها.",
+    "example": "مثلاً، ساعة بتردد 3 GHz بتنفّذ ثلاثة مليارات دورة في الثانية، وليس بالضرورة العدد نفسه من التعليمات.",
+    "whereUsed": "هتلاقيه في مواصفات المعالجات وترددات الإشارات.",
     "en": [
       "A frequency unit equal to one billion cycles per second; CPU clock frequency alone does not determine performance.",
       "A 3 GHz clock makes three billion cycles per second, not necessarily that many instructions.",
@@ -73,15 +75,16 @@
     ],
     "sources": [
       "https://www.intel.com/content/www/us/en/gaming/resources/cpu-clock-speed.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "CPU Core",
     "fullName": "Central Processing Unit Core",
     "arabicName": "نواة المعالج",
-    "definition": "وحدة معالجة فعلية داخل المعالج تنفذ التعليمات؛ تعدد الأنوية يساعد في توزيع الأعمال القابلة للتوازي.",
-    "example": "يستفيد برنامج تصدير الفيديو من عدة أنوية لمعالجة أجزاء مختلفة.",
-    "whereUsed": "في مقارنة المعالجات وتشغيل البرامج الثقيلة.",
+    "definition": "ببساطة، دي وحدة معالجة فعلية داخل المعالج بتنفّذ التعليمات؛ تعدد الأنوية بيساعد في توزيع الأعمال القابلة للتوازي.",
+    "example": "مثلاً، بيستفيد برنامج تصدير الفيديو من عدة أنوية لمعالجة أجزاء مختلفة.",
+    "whereUsed": "هتلاقيه في مقارنة المعالجات وتشغيل البرامج الثقيلة.",
     "en": [
       "A physical processing unit within a CPU that executes instructions; several cores can share parallel work.",
       "A video exporter uses several cores to process different sections.",
@@ -99,15 +102,16 @@
     ],
     "sources": [
       "https://www.intel.com/content/www/us/en/support/articles/000098959/processors/intel-xeon-processors.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "CPU Thread",
     "fullName": "Hardware Thread",
     "arabicName": "خيط تنفيذ المعالج",
-    "definition": "سياق تنفيذ منطقي يراه نظام التشغيل داخل المعالج؛ قد تدعم النواة الواحدة أكثر من خيط مع مشاركة مواردها.",
-    "example": "قد يظهر معالج ذو 8 أنوية و16 خيطًا للنظام كستة عشر معالجًا منطقيًا.",
-    "whereUsed": "في جدولة المهام ومواصفات المعالجات.",
+    "definition": "ببساطة، ده سياق تنفيذ منطقي يراه نظام التشغيل داخل المعالج؛ قد تدعم النواة الواحدة أكثر من خيط مع مشاركة مواردها.",
+    "example": "مثلاً، ممكن بيظهر معالج ذو 8 أنوية و16 خيطًا للنظام كستة عشر معالجًا منطقيًا.",
+    "whereUsed": "هتلاقيه في جدولة المهام ومواصفات المعالجات.",
     "en": [
       "A logical execution context exposed by a processor; one core may support multiple threads that share its resources.",
       "An 8-core, 16-thread CPU may appear as sixteen logical processors to the operating system.",
@@ -126,15 +130,16 @@
     ],
     "sources": [
       "https://www.intel.com/content/www/us/en/support/articles/000098959/processors/intel-xeon-processors.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "VRAM",
     "fullName": "Video Random Access Memory",
     "arabicName": "ذاكرة الرسوميات",
-    "definition": "ذاكرة سريعة يستخدمها معالج الرسوميات لحفظ الصور والأنسجة وبيانات العمل القريبة منه.",
-    "example": "تستهلك لعبة بملفات أنسجة كبيرة مساحة أكبر من ذاكرة الرسوميات.",
-    "whereUsed": "في الألعاب والتصميم ثلاثي الأبعاد ومعالجة النماذج على GPU.",
+    "definition": "ببساطة، دي ذاكرة سريعة يستخدمها معالج الرسوميات لحفظ الصور والأنسجة وبيانات العمل القريبة منه.",
+    "example": "مثلاً، بتستهلك لعبة بملفات أنسجة كبيرة مساحة أكبر من ذاكرة الرسوميات.",
+    "whereUsed": "هتلاقيه في الألعاب والتصميم ثلاثي الأبعاد ومعالجة النماذج على GPU.",
     "en": [
       "Fast memory used by a graphics processor to hold textures, images, and working data.",
       "A game with large texture files needs more graphics memory.",
@@ -152,15 +157,16 @@
     ],
     "sources": [
       "https://www.nvidia.com/en-ph/geforce/news/rtx-40-series-vram-video-memory-explained/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Cache Memory",
     "fullName": "Processor Cache Memory",
     "arabicName": "ذاكرة مخبأة للمعالج",
-    "definition": "ذاكرة صغيرة وسريعة قرب المعالج تحتفظ بنسخ من بيانات وتعليمات لتقليل الرجوع إلى الذاكرة الرئيسية.",
-    "example": "يعيد المعالج قراءة قيمة متكررة من المخبأ بدل جلبها كل مرة من RAM.",
-    "whereUsed": "في تسريع تنفيذ البرامج داخل المعالجات.",
+    "definition": "ببساطة، دي ذاكرة صغيرة وسريعة قرب المعالج تحتفظ بنسخ من بيانات وتعليمات لتقليل الرجوع إلى الذاكرة الرئيسية.",
+    "example": "مثلاً، بيرجع المعالج قراءة قيمة متكررة من المخبأ بدل جلبها كل مرة من RAM.",
+    "whereUsed": "هتلاقيه في تسريع تنفيذ البرامج داخل المعالجات.",
     "en": [
       "Small, fast memory near a processor that keeps copies of data and instructions to reduce main-memory access.",
       "A processor reads a repeated value from cache instead of fetching it from RAM each time.",
@@ -181,15 +187,16 @@
     ],
     "sources": [
       "https://www.intel.com/content/www/us/en/support/articles/000027820/processors/intel-xeon-processors.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "NVMe",
     "fullName": "Non-Volatile Memory Express",
     "arabicName": "بروتوكول التخزين NVMe",
-    "definition": "بروتوكول للوصول إلى التخزين صُمم للاستفادة من ذاكرة الفلاش والتوازي، ويشيع استخدامه مع أقراص SSD عبر PCIe.",
-    "example": "يستخدم حاسوب قرص SSD يدعم NVMe لتحميل المشاريع الكبيرة.",
-    "whereUsed": "في وحدات التخزين السريعة للحواسيب والخوادم.",
+    "definition": "ببساطة، ده بروتوكول للوصول إلى التخزين صُمم للاستفادة من ذاكرة الفلاش والتوازي، ويشيع استخدامه مع أقراص SSD عبر PCIe.",
+    "example": "مثلاً، بيستخدم حاسوب قرص SSD يدعم NVMe لتحميل المشاريع الكبيرة.",
+    "whereUsed": "هتلاقيه في وحدات التخزين السريعة للحواسيب والخوادم.",
     "en": [
       "A storage access protocol designed for flash and parallel operations, commonly used by SSDs over PCIe.",
       "A computer uses an NVMe SSD to load large projects.",
@@ -207,15 +214,16 @@
     ],
     "sources": [
       "https://semiconductor.samsung.com/support/tools-resources/dictionary/semiconductor-glossary-nvme/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "SATA",
     "fullName": "Serial ATA",
     "arabicName": "واجهة التخزين SATA",
-    "definition": "واجهة تسلسلية تربط وحدات التخزين، مثل الأقراص الصلبة وبعض أقراص SSD، بالحاسوب.",
-    "example": "يتصل قرص SATA مقاس 2.5 بوصة باللوحة الأم بكابل بيانات وكابل طاقة منفصلين.",
-    "whereUsed": "في توصيل وحدات التخزين الداخلية وترقيتها.",
+    "definition": "ببساطة، دي واجهة تسلسلية بتربط وحدات التخزين، زي الأقراص الصلبة وبعض أقراص SSD، بالحاسوب.",
+    "example": "مثلاً، بيتصل قرص SATA مقاس 2.5 بوصة باللوحة الأم بكابل بيانات وكابل طاقة منفصلين.",
+    "whereUsed": "هتلاقيه في توصيل وحدات التخزين الداخلية وترقيتها.",
     "en": [
       "A serial interface connecting storage devices, including hard disks and some SSDs, to a computer.",
       "A 2.5-inch SATA drive connects using a data cable and a separate power cable.",
@@ -233,15 +241,16 @@
     ],
     "sources": [
       "https://semiconductor.samsung.com/consumer-storage/ssdupgrade/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "PCIe",
     "fullName": "Peripheral Component Interconnect Express",
     "arabicName": "واجهة التوسعة PCIe",
-    "definition": "واجهة عالية السرعة تصل المعالج أو شرائح اللوحة بمكونات مثل بطاقات الرسوميات ووحدات التخزين عبر مسارات بيانات.",
-    "example": "تركب بطاقة رسوميات في منفذ PCIe على اللوحة الأم.",
-    "whereUsed": "في بطاقات التوسعة وأقراص NVMe داخل الحاسوب.",
+    "definition": "ببساطة، دي واجهة عالية السرعة بتوصل المعالج أو شرائح اللوحة بمكونات زي بطاقات الرسوميات ووحدات التخزين عبر مسارات بيانات.",
+    "example": "مثلاً، تركب بطاقة رسوميات في منفذ PCIe على اللوحة الأم.",
+    "whereUsed": "هتلاقيه في بطاقات التوسعة وأقراص NVMe داخل الحاسوب.",
     "en": [
       "A high-speed interface linking processors or chipset components to devices through data lanes.",
       "A graphics card plugs into a PCIe slot on the motherboard.",
@@ -259,15 +268,16 @@
     ],
     "sources": [
       "https://semiconductor.samsung.com/consumer-storage/support/faqs/internalssd-product-information/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "USB-C",
     "fullName": "USB Type-C",
     "arabicName": "موصل USB-C",
-    "definition": "شكل موصل USB قابل للإدخال بالاتجاهين؛ قدرات الشحن والسرعة والفيديو تعتمد على المنفذ والكابل والجهاز.",
-    "example": "قد يشحن كابل USB-C الهاتف لكنه لا يدعم توصيل شاشة خارجية.",
-    "whereUsed": "في توصيل الهواتف والحواسيب وملحقاتها وشحنها.",
+    "definition": "ببساطة، ده شكل موصل USB قابل للإدخال بالاتجاهين؛ قدرات الشحن والسرعة والفيديو بتعتمد على المنفذ والكابل والجهاز.",
+    "example": "مثلاً، ممكن يشحن كابل USB-C الهاتف لكنه لا يدعم توصيل شاشة خارجية.",
+    "whereUsed": "هتلاقيه في توصيل الهواتف والحواسيب وملحقاتها وشحنها.",
     "en": [
       "A reversible USB connector shape; charging, speed, and video capabilities depend on the port, cable, and device.",
       "A USB-C cable may charge a phone without supporting an external display.",
@@ -286,15 +296,16 @@
     ],
     "sources": [
       "https://usb.org/usb-type-cr-cable-and-connector-specification"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "HDMI",
     "fullName": "High-Definition Multimedia Interface",
     "arabicName": "واجهة HDMI للصوت والصورة",
-    "definition": "واجهة رقمية لنقل الفيديو والصوت بين أجهزة متوافقة مثل الحاسوب والتلفاز.",
-    "example": "يوصل المستخدم حاسوبه بالتلفاز بكابل HDMI لعرض الفيديو مع الصوت.",
-    "whereUsed": "في الشاشات والتلفزيونات وأجهزة الألعاب والعرض.",
+    "definition": "ببساطة، دي واجهة رقمية لنقل الفيديو والصوت بين أجهزة متوافقة زي الحاسوب والتلفاز.",
+    "example": "مثلاً، يوصل المستخدم حاسوبه بالتلفاز بكابل HDMI لعرض الفيديو مع الصوت.",
+    "whereUsed": "هتلاقيه في الشاشات والتلفزيونات وأجهزة الألعاب والعرض.",
     "en": [
       "A digital interface carrying video and audio between compatible devices such as computers and televisions.",
       "A user connects a laptop to a television with HDMI for picture and sound.",
@@ -312,15 +323,16 @@
     ],
     "sources": [
       "https://www.hdmi.org/spec/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "DisplayPort",
     "fullName": "DisplayPort",
     "arabicName": "واجهة العرض DisplayPort",
-    "definition": "واجهة رقمية لنقل الصورة والصوت إلى الشاشات، وقد تتوافر عبر موصلها الخاص أو عبر USB-C يدعمها.",
-    "example": "يوصل المصمم شاشة مكتبية ببطاقة الرسوميات عبر DisplayPort.",
-    "whereUsed": "في شاشات الحواسيب ومحطات الإرساء.",
+    "definition": "ببساطة، دي واجهة رقمية لنقل الصورة والصوت إلى الشاشات، وقد تتوافر عبر موصلها الخاص أو عبر USB-C يدعمها.",
+    "example": "مثلاً، يوصل المصمم شاشة مكتبية ببطاقة الرسوميات عبر DisplayPort.",
+    "whereUsed": "هتلاقيه في شاشات الحواسيب ومحطات الإرساء.",
     "en": [
       "A digital audio and video interface available through its own connector or a compatible USB-C port.",
       "A designer connects a desktop monitor to a graphics card using DisplayPort.",
@@ -338,15 +350,16 @@
     ],
     "sources": [
       "https://www.displayport.org/home-2021-2/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "OLED",
     "fullName": "Organic Light-Emitting Diode",
     "arabicName": "شاشة OLED ذاتية الإضاءة",
-    "definition": "تقنية عرض يصدر فيها كل بكسل ضوءه بنفسه، مما يسمح بإطفاء البكسلات لإظهار الأسود دون إضاءة خلفية.",
-    "example": "تعرض شاشة OLED خلفية سوداء بإطفاء بكسلات تلك المنطقة.",
-    "whereUsed": "في شاشات الهواتف والتلفزيونات وبعض الحواسيب.",
+    "definition": "ببساطة، دي تقنية عرض يصدر فيها كل بكسل ضوءه بنفسه، مما يسمح بإطفاء البكسلات لإظهار الأسود من غير إضاءة خلفية.",
+    "example": "مثلاً، تعرض شاشة OLED خلفية سوداء بإطفاء بكسلات تلك المنطقة.",
+    "whereUsed": "هتلاقيه في شاشات الهواتف والتلفزيونات وبعض الحواسيب.",
     "en": [
       "A display technology whose pixels emit their own light and can turn off to show black without a backlight.",
       "An OLED screen shows a black area by switching off its pixels.",
@@ -363,15 +376,16 @@
     ],
     "sources": [
       "https://www.lg.com/uk/business/commercial-display/resources-guides/technology-solution/oled-technology/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "LCD",
     "fullName": "Liquid Crystal Display",
     "arabicName": "شاشة البلورات السائلة",
-    "definition": "تقنية عرض تستخدم بلورات سائلة للتحكم في مرور الضوء، وتعتمد شاشاتها الحديثة عادة على إضاءة خلفية.",
-    "example": "تستخدم شاشة حاسوب LCD إضاءة خلفية LED لإظهار الصورة.",
-    "whereUsed": "في الشاشات المكتبية والتلفزيونات ولوحات الأجهزة.",
+    "definition": "ببساطة، دي تقنية عرض بتستخدم بلورات سائلة للتحكم في مرور الضوء، وتعتمد شاشاتها الحديثة عادة على إضاءة خلفية.",
+    "example": "مثلاً، بتستخدم شاشة حاسوب LCD إضاءة خلفية LED لإظهار الصورة.",
+    "whereUsed": "هتلاقيه في الشاشات المكتبية والتلفزيونات ولوحات الأجهزة.",
     "en": [
       "A display technology using liquid crystals to control light, usually with a backlight in modern screens.",
       "An LCD computer monitor uses an LED backlight to illuminate the image.",
@@ -388,15 +402,16 @@
     ],
     "sources": [
       "https://www.lg.com/us/business/download/resources/BT00001837/BT00001837_1373.pdf"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Refresh Rate",
     "fullName": "Display Refresh Rate",
     "arabicName": "معدل تحديث الشاشة",
-    "definition": "عدد مرات تحديث الشاشة للصورة في الثانية، ويقاس بالهرتز؛ وهو مختلف عن عدد الإطارات التي ينتجها البرنامج.",
-    "example": "يمكن لشاشة 120 Hz تحديث صورتها 120 مرة في الثانية.",
-    "whereUsed": "في إعدادات الشاشات ومقارنة سلاسة الحركة.",
+    "definition": "ببساطة، ده عدد مرات تحديث الشاشة للصورة في الثانية، ويقاس بالهرتز؛ وهو مختلف عن عدد الإطارات اللي ينتجها البرنامج.",
+    "example": "مثلاً، ممكن لشاشة 120 Hz تحديث صورتها 120 مرة في الثانية.",
+    "whereUsed": "هتلاقيه في إعدادات الشاشات ومقارنة سلاسة الحركة.",
     "en": [
       "How many times a display updates its image each second, measured in hertz; it differs from the frame rate produced by software.",
       "A 120 Hz screen can update its image 120 times per second.",
@@ -415,15 +430,16 @@
     ],
     "sources": [
       "https://support.microsoft.com/en-us/windows/hardware/display-graphics/change-the-refresh-rate-on-your-monitor-in-windows"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Resolution",
     "fullName": "Display Resolution",
     "arabicName": "دقة الشاشة",
-    "definition": "عدد البكسلات التي تكوّن الصورة أفقيًا ورأسيًا؛ زيادة العدد تتيح تفاصيل أكثر عند توافر محتوى مناسب.",
-    "example": "دقة 1920 × 1080 تعني 1920 عمودًا و1080 صفًا من البكسلات.",
-    "whereUsed": "في إعداد الشاشات واختيار أبعاد الصور والفيديو.",
+    "definition": "ببساطة، ده عدد البكسلات اللي تكوّن الصورة أفقيًا ورأسيًا؛ زيادة العدد بتتيح تفاصيل أكثر عند توافر محتوى مناسب.",
+    "example": "مثلاً، دقة 1920 × 1080 تعني 1920 عمودًا و1080 صفًا من البكسلات.",
+    "whereUsed": "هتلاقيه في إعداد الشاشات واختيار أبعاد الصور والفيديو.",
     "en": [
       "The number of pixels across and down an image; more pixels can show more detail when suitable content is available.",
       "1920 × 1080 means 1920 pixel columns and 1080 pixel rows.",
@@ -442,15 +458,16 @@
     ],
     "sources": [
       "https://support.microsoft.com/en-us/windows/hardware/display-graphics/change-the-refresh-rate-on-your-monitor-in-windows"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Peripheral",
     "fullName": "Computer Peripheral",
     "arabicName": "جهاز طرفي",
-    "definition": "جهاز متصل بالحاسوب يضيف وظيفة مثل الإدخال أو الإخراج أو التخزين.",
-    "example": "تعد لوحة المفاتيح والطابعة وقرص التخزين الخارجي أجهزة طرفية.",
-    "whereUsed": "في تجهيز أماكن العمل وتوصيل ملحقات الحاسوب.",
+    "definition": "ببساطة، ده جهاز متصل بالحاسوب يضيف وظيفة زي الإدخال أو الإخراج أو التخزين.",
+    "example": "مثلاً، تعد لوحة المفاتيح والطابعة وقرص التخزين الخارجي أجهزة طرفية.",
+    "whereUsed": "هتلاقيه في تجهيز أماكن العمل وتوصيل ملحقات الحاسوب.",
     "en": [
       "A device connected to a computer that provides a function such as input, output, or storage.",
       "A keyboard, printer, and external drive are computer peripherals.",
@@ -468,15 +485,16 @@
     ],
     "sources": [
       "https://www.usb.org/sites/default/files/D1T1-2%20-%20USB%20Type-C%20System%20Overview.pdf"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Firmware",
     "fullName": "Firmware",
     "arabicName": "برمجيات الجهاز المضمنة",
-    "definition": "برمجيات محفوظة في ذاكرة دائمة داخل الجهاز تتحكم في تشغيل مكوناته، وقد تسمح الشركة بتحديثها.",
-    "example": "يغير تحديث برمجيات الراوتر طريقة تشغيله دون استبدال الجهاز.",
-    "whereUsed": "في الموجهات والطابعات والأقراص واللوحات الأم.",
+    "definition": "ببساطة، ده برمجيات محفوظة في ذاكرة دائمة داخل الجهاز تتحكم في تشغيل مكوناته، وقد تسمح الشركة بتحديثها.",
+    "example": "مثلاً، يغير تحديث برمجيات الراوتر طريقة تشغيله من غير استبدال الجهاز.",
+    "whereUsed": "هتلاقيه في الموجهات والطابعات والأقراص واللوحات الأم.",
     "en": [
       "Software stored in persistent device memory that controls hardware operation and may support manufacturer updates.",
       "A router firmware update changes its behavior without replacing the device.",
@@ -494,15 +512,16 @@
     ],
     "sources": [
       "https://uefi.org/specs/UEFI/2.11/23_Firmware_Update_and_Reporting.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "UEFI",
     "fullName": "Unified Extensible Firmware Interface",
     "arabicName": "واجهة البرمجيات الثابتة الموحدة",
-    "definition": "معيار يحدد واجهة بين برمجيات الجهاز الثابتة ونظام التشغيل، ويتضمن خدمات تساعد على بدء تشغيل النظام.",
-    "example": "تظهر إعدادات UEFI قبل تحميل نظام التشغيل عند فتح قائمة إعداد الحاسوب.",
-    "whereUsed": "في إقلاع الحواسيب وإعدادات اللوحة الأم.",
+    "definition": "ببساطة، ده معيار بيحدد واجهة بين برمجيات الجهاز الثابتة ونظام التشغيل، ويتضمن خدمات بتساعد على بدء تشغيل النظام.",
+    "example": "مثلاً، بتظهر إعدادات UEFI قبل تحميل نظام التشغيل عند فتح قائمة إعداد الحاسوب.",
+    "whereUsed": "هتلاقيه في إقلاع الحواسيب وإعدادات اللوحة الأم.",
     "en": [
       "A standard interface between platform firmware and an operating system, including services used during startup.",
       "UEFI settings appear before the operating system loads when opening computer setup.",
@@ -520,15 +539,16 @@
     ],
     "sources": [
       "https://uefi.org/faq"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "OS",
     "fullName": "Operating System",
     "arabicName": "نظام التشغيل",
-    "definition": "البرنامج الأساسي الذي يدير المعالج والذاكرة والأجهزة ويتيح للتطبيقات العمل والتفاعل مع المستخدم.",
-    "example": "يوزع نظام التشغيل وقت المعالج بين المتصفح ومشغل الموسيقى.",
-    "whereUsed": "في الحواسيب والهواتف والأجهزة الذكية.",
+    "definition": "ببساطة، ده البرنامج الأساسي اللي بيدير المعالج والذاكرة والأجهزة ويتيح للتطبيقات العمل والتفاعل مع المستخدم.",
+    "example": "مثلاً، يوزع نظام التشغيل وقت المعالج بين المتصفح ومشغل الموسيقى.",
+    "whereUsed": "هتلاقيه في الحواسيب والهواتف والأجهزة الذكية.",
     "en": [
       "Core software that manages processors, memory, and devices and lets applications run and interact with users.",
       "An operating system shares processor time between a browser and a music player.",
@@ -546,15 +566,16 @@
     ],
     "sources": [
       "https://www.redhat.com/en/topics/linux/what-is-linux"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Windows",
     "fullName": "Microsoft Windows",
     "arabicName": "نظام ويندوز",
-    "definition": "عائلة أنظمة تشغيل من Microsoft توفر بيئة لتشغيل التطبيقات وإدارة الملفات والأجهزة.",
-    "example": "يفتح موظف ملفات عمله وبرنامج الاجتماعات على حاسوب يعمل بويندوز.",
-    "whereUsed": "في الحواسيب الشخصية وأجهزة العمل.",
+    "definition": "ببساطة، ده عائلة أنظمة تشغيل من Microsoft بتوفّر بيئة لتشغيل التطبيقات وإدارة الملفات والأجهزة.",
+    "example": "مثلاً، بيفتح موظف ملفات عمله وبرنامج الاجتماعات على حاسوب بيشتغل بويندوز.",
+    "whereUsed": "هتلاقيه في الحواسيب الشخصية وأجهزة العمل.",
     "en": [
       "An operating-system family from Microsoft providing an environment for applications, files, and devices.",
       "An employee opens work files and a meeting application on a Windows computer.",
@@ -572,15 +593,16 @@
     ],
     "sources": [
       "https://www.microsoft.com/en-us/windows"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Linux",
     "fullName": "Linux",
     "arabicName": "لينكس",
-    "definition": "نواة نظام تشغيل مفتوحة المصدر؛ ويستخدم الاسم أيضًا للأنظمة التي تجمعها مع أدوات وبرامج في توزيعات.",
-    "example": "يختار المستخدم توزيعة لينكس لتشغيل حاسوب أو خادم.",
-    "whereUsed": "في الخوادم والحواسيب وبعض الأنظمة المضمنة.",
+    "definition": "ببساطة، ده نواة نظام تشغيل مفتوحة المصدر؛ ويستخدم الاسم أيضًا للأنظمة اللي تجمعها مع أدوات وبرامج في توزيعات.",
+    "example": "مثلاً، بيختار المستخدم توزيعة لينكس لتشغيل حاسوب أو خادم.",
+    "whereUsed": "هتلاقيه في الخوادم والحواسيب وبعض الأنظمة المضمنة.",
     "en": [
       "An open-source operating-system kernel; the name also refers to systems combining it with tools and software in distributions.",
       "A user chooses a Linux distribution for a computer or server.",
@@ -598,15 +620,16 @@
     ],
     "sources": [
       "https://www.kernel.org/linux.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Android",
     "fullName": "Android",
     "arabicName": "أندرويد",
-    "definition": "منصة ونظام تشغيل للأجهزة يعتمد على نواة لينكس؛ يتاح مشروعه الأساسي مفتوح المصدر مع اختلاف مكونات الأجهزة التجارية.",
-    "example": "يثبت المستخدم تطبيق خرائط على هاتف يعمل بأندرويد.",
-    "whereUsed": "في الهواتف والأجهزة اللوحية وأجهزة أخرى متوافقة.",
+    "definition": "ببساطة، دي منصة ونظام تشغيل للأجهزة بيعتمد على نواة لينكس؛ يتاح مشروعه الأساسي مفتوح المصدر مع اختلاف مكونات الأجهزة التجارية.",
+    "example": "مثلاً، يثبت المستخدم تطبيق خرائط على هاتف بيشتغل بأندرويد.",
+    "whereUsed": "هتلاقيه في الهواتف والأجهزة اللوحية وأجهزة تانية متوافقة.",
     "en": [
       "A device platform and operating system based on the Linux kernel; its core is open source while commercial device components vary.",
       "A user installs a maps application on an Android phone.",
@@ -624,15 +647,16 @@
     ],
     "sources": [
       "https://source.android.com/docs/setup/about"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "iOS",
     "fullName": "iOS",
     "arabicName": "نظام iOS",
-    "definition": "نظام التشغيل الذي تطوره Apple لهواتف iPhone لإدارة الجهاز وتشغيل تطبيقاته.",
-    "example": "يضبط المستخدم أذونات الكاميرا لتطبيق على iPhone من إعدادات iOS.",
-    "whereUsed": "في هواتف iPhone وتطبيقاتها.",
+    "definition": "ببساطة، ده نظام التشغيل اللي تطوره Apple لهواتف iPhone لإدارة الجهاز وتشغيل تطبيقاته.",
+    "example": "مثلاً، بيضبط المستخدم أذونات الكاميرا لتطبيق على iPhone من إعدادات iOS.",
+    "whereUsed": "هتلاقيه في هواتف iPhone وتطبيقاتها.",
     "en": [
       "Apple operating system for iPhone, managing the device and running its applications.",
       "An iPhone user adjusts an app camera permission in iOS settings.",
@@ -650,15 +674,16 @@
     ],
     "sources": [
       "https://www.apple.com/os/ios/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "macOS",
     "fullName": "macOS",
     "arabicName": "نظام ماك أو إس",
-    "definition": "نظام تشغيل Apple لحواسيب Mac، يتيح إدارة الملفات والأجهزة وتشغيل التطبيقات المكتبية.",
-    "example": "يشغل مصمم برنامج تحرير صور على حاسوب Mac بنظام macOS.",
-    "whereUsed": "في حواسيب Mac المكتبية والمحمولة.",
+    "definition": "ببساطة، ده نظام تشغيل Apple لحواسيب Mac، بيتيح إدارة الملفات والأجهزة وتشغيل التطبيقات المكتبية.",
+    "example": "مثلاً، بيشغّل مصمم برنامج تحرير صور على حاسوب Mac بنظام macOS.",
+    "whereUsed": "هتلاقيه في حواسيب Mac المكتبية والمحمولة.",
     "en": [
       "Apple operating system for Mac computers, supporting files, devices, and desktop applications.",
       "A designer runs an image editor on a Mac using macOS.",
@@ -676,15 +701,16 @@
     ],
     "sources": [
       "https://www.apple.com/os/macos/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Open Source",
     "fullName": "Open-Source Software",
     "arabicName": "برمجيات مفتوحة المصدر",
-    "definition": "برمجيات يتيح ترخيصها الاطلاع على الشيفرة واستخدامها وتعديلها وإعادة توزيعها وفق شروط الترخيص.",
-    "example": "يعدل فريق مشروعًا مفتوح المصدر ثم يشارك تعديلاته وفق رخصته.",
-    "whereUsed": "في تطوير البرامج والتعاون ومراجعة الشيفرة.",
+    "definition": "ببساطة، ده برمجيات بيتيح ترخيصها الاطلاع على الشيفرة واستخدامها وتعديلها وإعادة توزيعها وفق شروط الترخيص.",
+    "example": "مثلاً، يعدل فريق مشروعًا مفتوح المصدر ثم يشارك تعديلاته وفق رخصته.",
+    "whereUsed": "هتلاقيه في تطوير البرامج والتعاون ومراجعة الشيفرة.",
     "en": [
       "Software whose license permits inspecting, using, modifying, and redistributing its source code under stated conditions.",
       "A team changes an open-source project and shares its changes under the license.",
@@ -703,15 +729,16 @@
     ],
     "sources": [
       "https://opensource.org/osd"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Freeware",
     "fullName": "Freeware",
     "arabicName": "برمجيات مجانية الاستخدام",
-    "definition": "وصف شائع لبرمجيات متاحة دون دفع ثمن استخدامها؛ لا يعني وحده إتاحة المصدر أو حق التعديل وإعادة التوزيع.",
-    "example": "يقدم مطور مشغل صوت مجانيًا مع الاحتفاظ بشيفرته مغلقة.",
-    "whereUsed": "في وصف تكلفة البرامج وشروط الحصول عليها.",
+    "definition": "ببساطة، ده وصف شائع لبرمجيات متاحة من غير دفع ثمن استخدامها؛ لا يعني وحده إتاحة المصدر أو حق التعديل وإعادة التوزيع.",
+    "example": "مثلاً، يقدم مطور مشغل صوت مجانيًا مع الاحتفاظ بشيفرته مغلقة.",
+    "whereUsed": "هتلاقيه في وصف تكلفة البرامج وشروط الحصول عليها.",
     "en": [
       "A common label for software available at no purchase cost; it does not itself grant source access, modification, or redistribution rights.",
       "A developer provides a free audio player while keeping its source code closed.",
@@ -727,15 +754,16 @@
     "aliases": [],
     "sources": [
       "https://www.gnu.org/philosophy/categories.en.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "License",
     "fullName": "Software License",
     "arabicName": "ترخيص البرمجيات",
-    "definition": "شروط يحددها صاحب الحقوق لتنظيم استخدام البرنامج أو نسخه أو تعديله أو توزيعه.",
-    "example": "يراجع فريق ترخيص مكتبة قبل تضمينها في منتج يوزعه.",
-    "whereUsed": "في اختيار البرامج والمكتبات وتوزيع المنتجات.",
+    "definition": "ببساطة، ده شروط يحددها صاحب الحقوق لتنظيم استخدام البرنامج أو نسخه أو تعديله أو توزيعه.",
+    "example": "مثلاً، يراجع فريق ترخيص مكتبة قبل تضمينها في منتج يوزعه.",
+    "whereUsed": "هتلاقيه في اختيار البرامج والمكتبات وتوزيع المنتجات.",
     "en": [
       "Terms set by a rights holder governing software use, copying, modification, or distribution.",
       "A team reviews a library license before including it in a distributed product.",
@@ -753,15 +781,16 @@
     ],
     "sources": [
       "https://www.gnu.org/philosophy/categories.en.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Update",
     "fullName": "Software Update",
     "arabicName": "تحديث البرنامج",
-    "definition": "نسخة أو مجموعة تغييرات تحسن برنامجًا مثبتًا بإصلاحات أو ميزات أو توافق جديد.",
-    "example": "يثبت المستخدم تحديثًا لتطبيق الاجتماعات لإصلاح مشكلة الصوت.",
-    "whereUsed": "في صيانة التطبيقات وأنظمة التشغيل.",
+    "definition": "ببساطة، دي نسخة أو مجموعة تغييرات تحسن برنامجًا مثبتًا بإصلاحات أو ميزات أو توافق جديد.",
+    "example": "مثلاً، يثبت المستخدم تحديثًا لتطبيق الاجتماعات لإصلاح مشكلة الصوت.",
+    "whereUsed": "هتلاقيه في صيانة التطبيقات وأنظمة التشغيل.",
     "en": [
       "A new version or set of changes improving installed software with fixes, features, or compatibility changes.",
       "A user installs a meeting-app update to fix an audio issue.",
@@ -779,15 +808,16 @@
     ],
     "sources": [
       "https://www.microsoft.com/en-us/windows"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "App Permissions",
     "fullName": "Application Permissions",
     "arabicName": "أذونات التطبيقات",
-    "definition": "صلاحيات تمنح التطبيق الوصول إلى موارد محددة مثل الكاميرا أو الموقع أو جهات الاتصال.",
-    "example": "يسمح المستخدم لتطبيق الخرائط بمعرفة موقعه أثناء الاستخدام فقط.",
-    "whereUsed": "في إعدادات خصوصية الهواتف والتطبيقات.",
+    "definition": "ببساطة، ده صلاحيات تمنح التطبيق الوصول إلى موارد محددة زي الكاميرا أو الموقع أو جهات الاتصال.",
+    "example": "مثلاً، يسمح المستخدم لتطبيق الخرائط بمعرفة موقعه وقت الاستخدام فقط.",
+    "whereUsed": "هتلاقيه في إعدادات خصوصية الهواتف والتطبيقات.",
     "en": [
       "Permissions allowing an app to access specific resources such as the camera, location, or contacts.",
       "A user allows a maps app to access location only while it is in use.",
@@ -805,15 +835,16 @@
     ],
     "sources": [
       "https://support.google.com/android/answer/9431959?hl=en"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Plugin",
     "fullName": "Software Plugin",
     "arabicName": "إضافة برمجية",
-    "definition": "مكوّن يثبت داخل برنامج أو منصة لإضافة وظيفة دون تغيير التطبيق الأساسي كله.",
-    "example": "يضيف صاحب موقع إضافة ووردبريس لإنشاء نموذج تواصل.",
-    "whereUsed": "في أنظمة إدارة المحتوى وبرامج التحرير والأدوات القابلة للتوسعة.",
+    "definition": "ببساطة، ده مكوّن يثبت داخل برنامج أو منصة لإضافة وظيفة من غير تغيير التطبيق الأساسي كله.",
+    "example": "مثلاً، يضيف صاحب موقع إضافة ووردبريس لإنشاء نموذج تواصل.",
+    "whereUsed": "هتلاقيه في أنظمة إدارة المحتوى وبرامج التحرير والأدوات القابلة للتوسعة.",
     "en": [
       "A component installed in a program or platform to add functionality without replacing the whole application.",
       "A website owner adds a WordPress plugin to create a contact form.",
@@ -831,15 +862,16 @@
     ],
     "sources": [
       "https://developer.wordpress.org/plugins/intro/what-is-a-plugin/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Extension",
     "fullName": "Browser Extension",
     "arabicName": "إضافة للمتصفح",
-    "definition": "برنامج صغير يوسع وظائف المتصفح، وقد يحتاج إلى أذونات للوصول إلى صفحات أو بيانات معينة.",
-    "example": "يثبت مستخدم إضافة لتغيير ألوان الصفحات وتحسين قراءتها.",
-    "whereUsed": "في تخصيص المتصفح وإضافة أدوات مساعدة إليه.",
+    "definition": "ببساطة، ده برنامج صغير يوسع وظائف المتصفح، وقد يحتاج إلى أذونات للوصول إلى صفحات أو بيانات معينة.",
+    "example": "مثلاً، يثبت مستخدم إضافة لتغيير ألوان الصفحات وتحسين قراءتها.",
+    "whereUsed": "هتلاقيه في تخصيص المتصفح وإضافة أدوات مساعدة إليه.",
     "en": [
       "Software that extends a browser, sometimes requiring permission to access particular pages or data.",
       "A user installs an extension to change page colors for easier reading.",
@@ -858,15 +890,16 @@
     ],
     "sources": [
       "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Synchronization",
     "fullName": "Data Synchronization",
     "arabicName": "مزامنة البيانات",
-    "definition": "عملية تجعل نسخ البيانات في أماكن مختلفة متوافقة بإرسال التغييرات بينها حسب قواعد الخدمة.",
-    "example": "يظهر تعديل مستند على الحاسوب في نسخة الهاتف بعد المزامنة.",
-    "whereUsed": "في الملفات السحابية وجهات الاتصال والعمل عبر أجهزة متعددة.",
+    "definition": "ببساطة، دي عملية تجعل نسخ البيانات في أماكن مختلفة متوافقة بإرسال التغييرات بينها حسب قواعد الخدمة.",
+    "example": "مثلاً، بيظهر تعديل مستند على الحاسوب في نسخة الهاتف بعد المزامنة.",
+    "whereUsed": "هتلاقيه في الملفات السحابية وجهات الاتصال والعمل عبر أجهزة متعددة.",
     "en": [
       "Keeping copies of data in different locations consistent by exchanging changes under the service rules.",
       "A document edit on a computer appears on the phone after synchronization.",
@@ -885,15 +918,16 @@
     ],
     "sources": [
       "https://support.microsoft.com/en-us/onedrive/sync-your-computer-s-files-and-folders-with-onedrive"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Offline Mode",
     "fullName": "Offline Mode",
     "arabicName": "وضع دون اتصال",
-    "definition": "إمكانية استخدام وظائف أو بيانات محفوظة محليًا دون الإنترنت، مع تأجيل ما يحتاج إلى اتصال.",
-    "example": "يقرأ المستخدم ملفًا أتاحه دون اتصال ثم يزامن تعديلاته لاحقًا.",
-    "whereUsed": "في السفر والاتصال الضعيف والتطبيقات التي تحفظ بيانات محلية.",
+    "definition": "ببساطة، ده إمكانية استخدام وظائف أو بيانات محفوظة محليًا من غير الإنترنت، مع تأجيل ما يحتاج إلى اتصال.",
+    "example": "مثلاً، بيقرا المستخدم ملفًا أتاحه من غير اتصال ثم يزامن تعديلاته لاحقًا.",
+    "whereUsed": "هتلاقيه في السفر والاتصال الضعيف والتطبيقات اللي تحفظ بيانات محلية.",
     "en": [
       "Using locally available data or features without internet access while deferring actions that require a connection.",
       "A user reads a file made available offline and synchronizes edits later.",
@@ -911,15 +945,16 @@
     ],
     "sources": [
       "https://support.microsoft.com/en-US/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Clipboard",
     "fullName": "Clipboard",
     "arabicName": "الحافظة",
-    "definition": "مساحة يحتفظ فيها النظام مؤقتًا بالمحتوى المنسوخ أو المقصوص حتى يمكن لصقه في موضع آخر.",
-    "example": "ينسخ المستخدم رابطًا من المتصفح ويلصقه في رسالة باستخدام الحافظة.",
-    "whereUsed": "في نقل النصوص والصور والعناصر بين التطبيقات.",
+    "definition": "ببساطة، دي مساحة يحتفظ فيها النظام مؤقتًا بالمحتوى المنسوخ أو المقصوص حتى ممكن لصقه في موضع تاني.",
+    "example": "مثلاً، ينسخ المستخدم رابطًا من المتصفح ويلصقه في رسالة باستخدام الحافظة.",
+    "whereUsed": "هتلاقيه في نقل النصوص والصور والعناصر بين التطبيقات.",
     "en": [
       "A system facility temporarily holding copied or cut content so it can be pasted elsewhere.",
       "A user copies a browser link and pastes it into a message through the clipboard.",
@@ -936,15 +971,16 @@
     ],
     "sources": [
       "https://support.microsoft.com/en-US/Windows/Apps/using-the-clipboard"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "File Extension",
     "fullName": "Filename Extension",
     "arabicName": "امتداد الملف",
-    "definition": "جزء في نهاية اسم الملف بعد نقطة يساعد في التعرف على نوعه واختيار البرنامج المناسب؛ تغييره وحده لا يحول المحتوى.",
-    "example": "يشير الامتداد .pdf إلى مستند PDF؛ تغيير الاسم إلى .jpg لا يصنع صورة منه.",
-    "whereUsed": "في إدارة الملفات وربطها بالتطبيقات المناسبة.",
+    "definition": "ببساطة، ده جزء في نهاية اسم الملف بعد نقطة بيساعد في التعرف على نوعه واختيار البرنامج المناسب؛ تغييره وحده لا بيحوّل المحتوى.",
+    "example": "مثلاً، يشير الامتداد .pdf إلى مستند PDF؛ تغيير الاسم إلى .jpg لا يصنع صورة منه.",
+    "whereUsed": "هتلاقيه في إدارة الملفات وربطها بالتطبيقات المناسبة.",
     "en": [
       "A suffix after a dot in a filename that helps identify its type and associated app; renaming it does not convert the content.",
       "The .pdf suffix identifies a PDF document; renaming it to .jpg does not create an image.",
@@ -962,15 +998,16 @@
     ],
     "sources": [
       "https://support.microsoft.com/en-US/Windows/Experience/Storage-FileManagement/common-file-name-extensions-in-windows"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "PDF",
     "fullName": "Portable Document Format",
     "arabicName": "تنسيق المستند المحمول",
-    "definition": "تنسيق مستندات يحافظ على تخطيط الصفحات والنصوص والعناصر عند عرضه في برامج وأجهزة مختلفة.",
-    "example": "يرسل مصمم فاتورة PDF لتبقى أماكن النصوص والشعار ثابتة لدى المستلم.",
-    "whereUsed": "في مشاركة المستندات والطباعة والنماذج الرقمية.",
+    "definition": "ببساطة، ده تنسيق مستندات يحافظ على تخطيط الصفحات والنصوص والعناصر عند عرضه في برامج وأجهزة مختلفة.",
+    "example": "مثلاً، بيبعت مصمم فاتورة PDF لتبقى أماكن النصوص والشعار ثابتة لدى المستلم.",
+    "whereUsed": "هتلاقيه في مشاركة المستندات والطباعة والنماذج الرقمية.",
     "en": [
       "A document format designed to preserve page layout, text, and other elements across software and devices.",
       "A designer sends a PDF invoice so text and logo positions remain consistent for the recipient.",
@@ -987,15 +1024,16 @@
     ],
     "sources": [
       "https://www.adobe.com/acrobat/about-adobe-pdf.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "ZIP",
     "fullName": "ZIP Archive Format",
     "arabicName": "أرشيف ZIP المضغوط",
-    "definition": "تنسيق يجمع ملفات ومجلدات في أرشيف واحد ويمكنه ضغط محتواها لتقليل الحجم.",
-    "example": "يجمع مستخدم مستندات مشروع في ملف ZIP واحد قبل إرسالها.",
-    "whereUsed": "في تجميع الملفات ونقلها وتوفير مساحة عند قابلية البيانات للضغط.",
+    "definition": "ببساطة، ده تنسيق بيجمع ملفات ومجلدات في أرشيف واحد ويمكنه ضغط محتواها لتقليل الحجم.",
+    "example": "مثلاً، بيجمع مستخدم مستندات مشروع في ملف ZIP واحد قبل إرسالها.",
+    "whereUsed": "هتلاقيه في تجميع الملفات ونقلها وتوفير مساحة عند قابلية البيانات للضغط.",
     "en": [
       "An archive format that groups files and folders into one file and can compress their contents.",
       "A user bundles project documents into a single ZIP file before sending them.",
@@ -1012,15 +1050,16 @@
     ],
     "sources": [
       "https://support.microsoft.com/en-US/Windows/Experience/Storage-FileManagement/common-file-name-extensions-in-windows"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Multitasking",
     "fullName": "Operating System Multitasking",
     "arabicName": "تعدد المهام",
-    "definition": "إدارة النظام لعدة برامج أو مهام بتوزيع وقت المعالج والموارد بينها؛ قد تعمل أجزاء بالتوازي عند وجود أنوية متعددة.",
-    "example": "يستمر تشغيل الموسيقى أثناء كتابة مستند وتلقي إشعارات المتصفح.",
-    "whereUsed": "في أنظمة التشغيل عند استخدام عدة تطبيقات معًا.",
+    "definition": "ببساطة، دي إدارة النظام لعدة برامج أو مهام بتوزيع وقت المعالج والموارد بينها؛ ممكن تشتغل أجزاء بالتوازي عند وجود أنوية متعددة.",
+    "example": "مثلاً، بيستمر تشغيل الموسيقى وقت كتابة مستند وتلقي إشعارات المتصفح.",
+    "whereUsed": "هتلاقيه في أنظمة التشغيل عند استخدام عدة تطبيقات معًا.",
     "en": [
       "Managing several programs or tasks by sharing processor time and resources, with parallel execution possible on multiple cores.",
       "Music keeps playing while a user writes a document and receives browser notifications.",
@@ -1038,6 +1077,7 @@
     ],
     "sources": [
       "https://www.redhat.com/en/topics/linux/what-is-the-linux-kernel"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   }
 ]

@@ -1,7 +1,7 @@
 {
-  "currentReleaseCount": 10000,
-  "collectionGoal": 10000,
-  "milestones": [1000, 2500, 5000, 10000],
+  "currentReleaseCount": 1000000,
+  "collectionGoal": 1000000,
+  "milestones": [25000, 50000, 100000, 250000, 500000, 1000000],
   "batches": [
     { "file": "initial-expansion.json", "count": 55 },
     { "file": "ai-data.json", "count": 100 },
@@ -9,19 +9,21 @@
     { "file": "security-networks.json", "count": 100 },
     { "file": "platform-hardware-apps.json", "count": 40 },
     { "file": "platform-cloud-devops-business.json", "count": 60 },
-    { "file": "reference-catalog.json", "count": 9500 }
+    { "file": "reference-catalog.json", "count": 9500 },
+    { "file": "../corpus/manifest.json", "count": 593000, "format": "prefix-routed-compact-cpe-v4" },
+    { "file": "../corpus-cve/manifest.json", "count": 397000, "format": "prefix-routed-compact-cve-v2" }
   ],
   "targetDistribution": {
-    "ai": 900,
-    "programming": 1600,
-    "web": 900,
-    "cloud": 750,
-    "networks": 850,
-    "hardware": 850,
-    "security": 1000,
-    "apps": 750,
-    "business": 700,
-    "data": 950,
-    "devops": 750
+    "ai": 100000,
+    "programming": 150000,
+    "web": 100000,
+    "cloud": 70000,
+    "networks": 90000,
+    "hardware": 90000,
+    "security": 140000,
+    "apps": 70000,
+    "business": 50000,
+    "data": 90000,
+    "devops": 50000
   }
 }

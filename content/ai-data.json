@@ -3,9 +3,9 @@
     "term": "Training",
     "fullName": "Model Training",
     "arabicName": "تدريب النموذج",
-    "definition": "عملية يضبط فيها النموذج قيمه الداخلية باستخدام أمثلة كي يتعلم أداء مهمة.",
-    "example": "يتدرب نموذج على رسائل مصنفة ليتعلم اكتشاف البريد المزعج.",
-    "whereUsed": "عند بناء نماذج التنبؤ والتصنيف.",
+    "definition": "ببساطة، دي عملية بيضبط فيها النموذج قيمه الداخلية باستخدام أمثلة علشان يتعلم أداء مهمة.",
+    "example": "مثلاً، بيتدرّب نموذج على رسائل مصنفة ليتعلم اكتشاف البريد المزعج.",
+    "whereUsed": "هتلاقيه في بناء نماذج التنبؤ والتصنيف.",
     "en": [
       "The process of adjusting a model's internal values using examples so it learns a task.",
       "A model learns to identify spam from labeled messages.",
@@ -21,15 +21,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/intro-to-ml/what-is-ml"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Supervised Learning",
     "fullName": "Supervised Learning",
     "arabicName": "تعلّم بإشراف",
-    "definition": "تعلّم من أمثلة تحتوي على المدخلات والإجابات المطلوبة، لبناء توقعات لأمثلة جديدة.",
-    "example": "يتعلم نموذج تقدير سعر منزل من مساحته وسعره المسجل.",
-    "whereUsed": "في توقع الأسعار وتصنيف الرسائل.",
+    "definition": "ببساطة، ده تعلّم من أمثلة بتحتوي على المدخلات والإجابات المطلوبة، لبناء توقعات لأمثلة جديدة.",
+    "example": "مثلاً، بيتعلم نموذج تقدير سعر منزل من مساحته وسعره المسجل.",
+    "whereUsed": "هتلاقيه في توقع الأسعار وتصنيف الرسائل.",
     "en": [
       "Learning from inputs paired with target answers to make predictions for new examples.",
       "A model learns house prices from floor areas and recorded sale prices.",
@@ -45,15 +46,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/intro-to-ml/supervised"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Unsupervised Learning",
     "fullName": "Unsupervised Learning",
     "arabicName": "تعلّم دون إشراف",
-    "definition": "اكتشاف بنية أو أنماط في بيانات لم تُرفق بها إجابات هدف جاهزة.",
-    "example": "يجمع نظام متسوقين متشابهين دون إعطائه فئات مسبقة.",
-    "whereUsed": "في استكشاف البيانات وتقسيم العملاء.",
+    "definition": "ببساطة، ده اكتشاف بنية أو أنماط في بيانات لم تُرفق بها إجابات هدف جاهزة.",
+    "example": "مثلاً، بيجمع نظام متسوقين متشابهين من غير إعطائه فئات مسبقة.",
+    "whereUsed": "هتلاقيه في استكشاف البيانات وتقسيم العملاء.",
     "en": [
       "Discovering structure in data without supplied target answers.",
       "A system groups similar shoppers without predefined customer classes.",
@@ -68,15 +70,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/unsupervised-learning"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Reinforcement Learning",
     "fullName": "Reinforcement Learning",
     "arabicName": "التعلّم المعزّز",
-    "definition": "تعلّم اختيار الأفعال من خلال التفاعل مع بيئة والحصول على مكافآت أو عقوبات.",
-    "example": "يتعلم لاعب آلي أي حركة تزيد احتمال الفوز عبر تجارب متكررة.",
-    "whereUsed": "في الألعاب والتحكم والروبوتات.",
+    "definition": "ببساطة، ده تعلّم اختيار الأفعال من خلال التفاعل مع بيئة والحصول على مكافآت أو عقوبات.",
+    "example": "مثلاً، بيتعلم لاعب آلي أي حركة بتزوّد احتمال الفوز عبر تجارب متكررة.",
+    "whereUsed": "هتلاقيه في الألعاب والتحكم والروبوتات.",
     "en": [
       "Learning which actions to take by interacting with an environment and receiving rewards or penalties.",
       "A game-playing system improves its moves through repeated trials.",
@@ -93,15 +96,16 @@
     ],
     "sources": [
       "https://www.ibm.com/think/topics/reinforcement-learning"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Classification",
     "fullName": "Classification",
     "arabicName": "التصنيف الآلي",
-    "definition": "مهمة تعلّم آلة تختار فئة أو فئات مناسبة للمدخل من مجموعة محددة.",
-    "example": "يصنف نموذج تذكرة الدعم إلى مشكلة دفع أو مشكلة دخول.",
-    "whereUsed": "في فرز المحتوى والتعرف على الصور.",
+    "definition": "ببساطة، ده مهمة تعلّم آلة بتختار فئة أو فئات مناسبة للمدخل من مجموعة محددة.",
+    "example": "مثلاً، بيصنّف نموذج تذكرة الدعم إلى مشكلة دفع أو مشكلة دخول.",
+    "whereUsed": "هتلاقيه في فرز المحتوى والتعرف على الصور.",
     "en": [
       "A machine-learning task that assigns an input to one or more defined classes.",
       "A model routes a support ticket to billing or sign-in issues.",
@@ -117,15 +121,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/intro-to-ml/what-is-ml"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Regression",
     "fullName": "Regression",
     "arabicName": "الانحدار",
-    "definition": "مهمة تتوقع قيمة عددية مستمرة اعتمادًا على خصائص المدخل.",
-    "example": "يتوقع نموذج مدة توصيل طلب بالدقائق من المسافة والازدحام.",
-    "whereUsed": "في التنبؤ بالأسعار والكميات والمدد.",
+    "definition": "ببساطة، ده مهمة تتوقع قيمة عددية مستمرة اعتمادًا على خصائص المدخل.",
+    "example": "مثلاً، بيتوقع نموذج مدة توصيل طلب بالدقائق من المسافة والازدحام.",
+    "whereUsed": "هتلاقيه في التنبؤ بالأسعار والكميات والمدد.",
     "en": [
       "A prediction task that estimates a continuous numeric value from input features.",
       "A model estimates delivery minutes from distance and traffic.",
@@ -140,15 +145,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/intro-to-ml/what-is-ml"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Clustering",
     "fullName": "Clustering",
     "arabicName": "التجميع العنقودي",
-    "definition": "تقسيم أمثلة البيانات إلى مجموعات وفق تشابهها، دون ضرورة معرفة أسماء المجموعات مقدمًا.",
-    "example": "تُجمع مقالات متقاربة الموضوع لاكتشاف أقسام مناسبة للأرشيف.",
-    "whereUsed": "في تنظيم المستندات وتحليل أنماط المستخدمين.",
+    "definition": "ببساطة، ده تقسيم أمثلة البيانات إلى مجموعات وفق تشابهها، من غير ضرورة معرفة أسماء المجموعات مقدمًا.",
+    "example": "مثلاً، بتتجمع مقالات متقاربة الموضوع لاكتشاف أقسام مناسبة للأرشيف.",
+    "whereUsed": "هتلاقيه في تنظيم المستندات وتحليل أنماط المستخدمين.",
     "en": [
       "Grouping examples by similarity without requiring predefined group labels.",
       "Related articles are grouped to suggest sections for an archive.",
@@ -163,15 +169,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/unsupervised-learning"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Feature",
     "fullName": "Model Feature",
     "arabicName": "خاصية مدخلة للنموذج",
-    "definition": "معلومة يستخدمها النموذج لإنتاج توقع، مثل رقم أو فئة أو تمثيل لصورة.",
-    "example": "مساحة الشقة وعدد غرفها خصائص في نموذج تقدير السعر.",
-    "whereUsed": "عند إعداد مدخلات نماذج تعلّم الآلة.",
+    "definition": "ببساطة، دي معلومة يستخدمها النموذج لإنتاج توقع، زي رقم أو فئة أو تمثيل لصورة.",
+    "example": "مثلاً، مساحة الشقة وعدد غرفها خصائص في نموذج تقدير السعر.",
+    "whereUsed": "هتلاقيه في إعداد مدخلات نماذج تعلّم الآلة.",
     "en": [
       "An input measurement or attribute used by a model to make a prediction.",
       "Floor area and room count are features in a price model.",
@@ -186,15 +193,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/intro-to-ml/supervised"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Label",
     "fullName": "Training Label",
     "arabicName": "الإجابة المستهدفة",
-    "definition": "الإجابة المعروفة المرتبطة بمثال تدريبي في التعلّم بإشراف.",
-    "example": "كلمة مزعج هي التصنيف الصحيح المرفق برسالة تدريبية.",
-    "whereUsed": "عند تجهيز بيانات التدريب والتقييم.",
+    "definition": "ببساطة، ده الإجابة المعروفة المرتبطة بمثال تدريبي في التعلّم بإشراف.",
+    "example": "مثلاً، كلمة مزعج هي التصنيف الصحيح المرفق برسالة تدريبية.",
+    "whereUsed": "هتلاقيه في تجهيز بيانات التدريب والتقييم.",
     "en": [
       "The known target answer attached to a supervised-learning example.",
       "The label spam is attached to a training email.",
@@ -209,15 +217,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/intro-to-ml/supervised"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Training Set",
     "fullName": "Training Set",
     "arabicName": "مجموعة التدريب",
-    "definition": "الجزء من البيانات الذي يستخدمه النموذج لتعلّم قيمه الداخلية.",
-    "example": "يتعلم نموذج صور من مجموعة تدريب منفصلة عن صور الاختبار.",
-    "whereUsed": "أثناء تدريب نماذج تعلّم الآلة.",
+    "definition": "ببساطة، ده الجزء من البيانات اللي بيستخدمه النموذج لتعلّم قيمه الداخلية.",
+    "example": "مثلاً، بيتعلم نموذج صور من مجموعة تدريب منفصلة عن صور الاختبار.",
+    "whereUsed": "هتقابله وقت تدريب نماذج تعلّم الآلة.",
     "en": [
       "The portion of data used to learn a model's internal values.",
       "An image model learns from training photos kept separate from test photos.",
@@ -233,15 +242,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Validation Set",
     "fullName": "Validation Set",
     "arabicName": "مجموعة التحقق",
-    "definition": "بيانات منفصلة عن التدريب تساعد على اختيار إعدادات النموذج ومقارنة نسخه أثناء التطوير.",
-    "example": "يختار الفريق حجم النموذج وفق نتائجه على مجموعة التحقق.",
-    "whereUsed": "عند ضبط النماذج واختيار أفضل إعدادات.",
+    "definition": "ببساطة، دي بيانات منفصلة عن التدريب بتساعد على اختيار إعدادات النموذج ومقارنة نسخه وقت التطوير.",
+    "example": "مثلاً، بيختار الفريق حجم النموذج وفق نتائجه على مجموعة التحقق.",
+    "whereUsed": "هتلاقيه في ضبط النماذج واختيار أفضل إعدادات.",
     "en": [
       "Data held apart from training for choosing model settings and comparing versions during development.",
       "A team selects a model size using validation results.",
@@ -257,15 +267,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Test Set",
     "fullName": "Test Set",
     "arabicName": "مجموعة الاختبار",
-    "definition": "بيانات محفوظة لتقييم النموذج النهائي بعد اختيار إعداداته، دون استخدامها لتدريبه أو ضبطه.",
-    "example": "يُقيَّم مصنف البريد على رسائل لم تدخل التدريب أو اختيار الإعدادات.",
-    "whereUsed": "لقياس الأداء المتوقع على بيانات جديدة.",
+    "definition": "ببساطة، دي بيانات محفوظة لتقييم النموذج النهائي بعد اختيار إعداداته، من غير استخدامها لتدريبه أو ضبطه.",
+    "example": "مثلاً، يُقيَّم مصنف البريد على رسائل لم تدخل التدريب أو اختيار الإعدادات.",
+    "whereUsed": "هتحتاجه لقياس الأداء المتوقع على بيانات جديدة.",
     "en": [
       "Data reserved for final evaluation after model settings have been chosen.",
       "An email classifier is checked on messages unused in training or tuning.",
@@ -281,15 +292,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Overfitting",
     "fullName": "Overfitting",
     "arabicName": "فرط التكيّف",
-    "definition": "تعلّم تفاصيل بيانات التدريب أكثر من اللازم، فيضعف الأداء على أمثلة جديدة.",
-    "example": "يحفظ نموذج صور التدريب لكنه يخطئ في صور أخرى لنفس الأشياء.",
-    "whereUsed": "عند تشخيص ضعف أداء النماذج بعد التدريب.",
+    "definition": "ببساطة، ده تعلّم تفاصيل بيانات التدريب أكثر من اللازم، فيضعف الأداء على أمثلة جديدة.",
+    "example": "مثلاً، بيحفظ نموذج صور التدريب لكنه يخطئ في صور تانية لنفس الأشياء.",
+    "whereUsed": "هتلاقيه في تشخيص ضعف أداء النماذج بعد التدريب.",
     "en": [
       "Fitting training details so closely that performance on new examples suffers.",
       "A model recognizes training photos but misses new photos of the same objects.",
@@ -305,15 +317,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/overfitting/generalization"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Underfitting",
     "fullName": "Underfitting",
     "arabicName": "نقص التكيّف",
-    "definition": "عجز النموذج عن تعلّم العلاقات المهمة، فيكون أداؤه ضعيفًا حتى على بيانات التدريب.",
-    "example": "يستخدم الفريق نموذجًا بسيطًا جدًا فيفشل في تمثيل علاقة منحنية.",
-    "whereUsed": "عند اختيار تعقيد النموذج ومدة التدريب.",
+    "definition": "ببساطة، ده عجز النموذج عن تعلّم العلاقات المهمة، فيكون أداؤه ضعيفًا حتى على بيانات التدريب.",
+    "example": "مثلاً، بيستخدم الفريق نموذجًا بسيطًا جدًا فيفشل في تمثيل علاقة منحنية.",
+    "whereUsed": "هتلاقيه في اختيار تعقيد النموذج ومدة التدريب.",
     "en": [
       "Failing to learn important relationships, resulting in poor performance even on training data.",
       "An overly simple model cannot capture a curved relationship.",
@@ -329,15 +342,16 @@
     "aliases": [],
     "sources": [
       "https://www.tensorflow.org/tutorials/keras/overfit_and_underfit"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Generalization",
     "fullName": "Generalization",
     "arabicName": "التعميم",
-    "definition": "قدرة النموذج على أداء مهمته جيدًا على أمثلة جديدة مماثلة لما سيقابله في الاستخدام.",
-    "example": "يتعرف نموذج على خط شخص لم تظهر كتابته في بيانات التدريب.",
-    "whereUsed": "عند تقييم فائدة النموذج خارج بياناته الأصلية.",
+    "definition": "ببساطة، دي قدرة النموذج على أداء مهمته جيدًا على أمثلة جديدة مماثلة لما سيقابله في الاستخدام.",
+    "example": "مثلاً، يتعرف نموذج على خط شخص لم بتظهر كتابته في بيانات التدريب.",
+    "whereUsed": "هتلاقيه في تقييم فائدة النموذج خارج بياناته الأصلية.",
     "en": [
       "A model's ability to perform well on new examples representative of intended use.",
       "A model recognizes handwriting from a person absent from its training data.",
@@ -352,15 +366,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/overfitting/generalization"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Fine-tuning",
     "fullName": "Fine-tuning",
     "arabicName": "الضبط الدقيق",
-    "definition": "تدريب إضافي لنموذج سبق تدريبه لتكييفه مع مهمة أو أسلوب أو مجال معين.",
-    "example": "يُدرَّب نموذج لغوي إضافيًا على أمثلة ردود دعم معتمدة.",
-    "whereUsed": "في تخصيص نماذج جاهزة لاحتياجات محددة.",
+    "definition": "ببساطة، ده تدريب إضافي لنموذج سبق تدريبه لتكييفه مع مهمة أو أسلوب أو مجال معين.",
+    "example": "مثلاً، يُدرَّب نموذج لغوي إضافيًا على أمثلة ردود دعم معتمدة.",
+    "whereUsed": "هتلاقيه في تخصيص نماذج جاهزة لاحتياجات محددة.",
     "en": [
       "Further training of an existing model to adapt it to a task, style, or domain.",
       "A language model receives additional training on approved support replies.",
@@ -376,15 +391,16 @@
     "aliases": [],
     "sources": [
       "https://www.tensorflow.org/tutorials/images/transfer_learning"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Transfer Learning",
     "fullName": "Transfer Learning",
     "arabicName": "نقل التعلّم",
-    "definition": "استخدام المعرفة التي تعلمها نموذج في مهمة سابقة للمساعدة في مهمة جديدة.",
-    "example": "يبدأ مصنف أنواع الزهور بنموذج سبق أن تعلم خصائص الصور العامة.",
-    "whereUsed": "عند قلة بيانات المهمة الجديدة أو موارد التدريب.",
+    "definition": "ببساطة، ده استخدام المعرفة اللي تعلمها نموذج في مهمة سابقة للمساعدة في مهمة جديدة.",
+    "example": "مثلاً، بيبدأ مصنف أنواع الزهور بنموذج سبق أن تعلم خصائص الصور العامة.",
+    "whereUsed": "هتلاقيه في قلة بيانات المهمة الجديدة أو موارد التدريب.",
     "en": [
       "Reusing what a model learned on an earlier task to help solve a new one.",
       "A flower classifier starts with a model that already learned general image features.",
@@ -399,15 +415,16 @@
     "aliases": [],
     "sources": [
       "https://www.tensorflow.org/tutorials/images/transfer_learning"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Foundation Model",
     "fullName": "Foundation Model",
     "arabicName": "نموذج تأسيسي",
-    "definition": "نموذج مدرّب على بيانات واسعة يمكن تكييفه لأداء مهام متعددة.",
-    "example": "يُستخدم نفس النموذج الأساسي في التلخيص والترجمة بعد تهيئته لكل مهمة.",
-    "whereUsed": "عند بناء خدمات تعتمد على نماذج عامة.",
+    "definition": "ببساطة، ده نموذج مدرّب على بيانات واسعة ممكن تكييفه لأداء مهام متعددة.",
+    "example": "مثلاً، يُستخدم نفس النموذج الأساسي في التلخيص والترجمة بعد تهيئته لكل مهمة.",
+    "whereUsed": "هتلاقيه في بناء خدمات بتعتمد على نماذج عامة.",
     "en": [
       "A model trained on broad data that can be adapted to multiple tasks.",
       "The same base model supports summarization and translation after adaptation.",
@@ -423,15 +440,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/foundation-models"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Multimodal AI",
     "fullName": "Multimodal Artificial Intelligence",
     "arabicName": "ذكاء اصطناعي متعدد الوسائط",
-    "definition": "نظام يعالج أو يربط أكثر من نوع من البيانات، مثل النص والصورة والصوت.",
-    "example": "يسأل المستخدم عن صورة ويجيب المساعد بنص يصف محتواها.",
-    "whereUsed": "في فهم الصور والمساعدات الصوتية والمرئية.",
+    "definition": "ببساطة، ده نظام بيعالج أو بيربط أكثر من نوع من البيانات، زي النص والصورة والصوت.",
+    "example": "مثلاً، يسأل المستخدم عن صورة ويجيب المساعد بنص بيوصف محتواها.",
+    "whereUsed": "هتلاقيه في فهم الصور والمساعدات الصوتية والمرئية.",
     "en": [
       "AI that handles or connects multiple kinds of data, such as text, images, and audio.",
       "A user asks about a photo and receives a written description.",
@@ -447,15 +465,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/multimodal-ai"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Transformer",
     "fullName": "Transformer Architecture",
     "arabicName": "بنية المحوّل",
-    "definition": "بنية للشبكات العصبية تعتمد على الانتباه لربط أجزاء المدخل ومعالجة علاقاتها.",
-    "example": "يربط نموذج كلمة في الجملة بكلمات أخرى لتفسير معناها.",
-    "whereUsed": "في النماذج اللغوية ومعالجة الصور والصوت.",
+    "definition": "ببساطة، دي بنية للشبكات العصبية بتعتمد على الانتباه لربط أجزاء المدخل ومعالجة علاقاتها.",
+    "example": "مثلاً، بيربط نموذج كلمة في الجملة بكلمات تانية لتفسير معناها.",
+    "whereUsed": "هتلاقيه في النماذج اللغوية ومعالجة الصور والصوت.",
     "en": [
       "A neural-network architecture using attention to model relationships among input elements.",
       "A model relates one word to others when interpreting a sentence.",
@@ -471,15 +490,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/transformer-model"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Attention",
     "fullName": "Attention Mechanism",
     "arabicName": "آلية الانتباه",
-    "definition": "طريقة تمنح أجزاء المدخل أوزانًا مختلفة بحسب صلتها بالجزء الذي يعالجه النموذج.",
-    "example": "عند ترجمة كلمة، يستفيد النموذج أكثر من الكلمات المرتبطة بها.",
-    "whereUsed": "في نماذج المحوّلات والترجمة.",
+    "definition": "ببساطة، دي طريقة تمنح أجزاء المدخل أوزانًا مختلفة بحسب صلتها بالجزء اللي يعالجه النموذج.",
+    "example": "مثلاً، عند ترجمة كلمة، يستفيد النموذج أكثر من الكلمات المرتبطة بها.",
+    "whereUsed": "هتلاقيه في نماذج المحوّلات والترجمة.",
     "en": [
       "A mechanism that weights input elements according to their relevance to the current computation.",
       "During translation, a model emphasizes words relevant to the word being processed.",
@@ -494,15 +514,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/transformer-model"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Context Window",
     "fullName": "Context Window",
     "arabicName": "نافذة السياق",
-    "definition": "حد كمية الرموز التي يستطيع النموذج التعامل معها في الطلب الواحد، وغالبًا يشمل المدخل والمخرج.",
-    "example": "يشغل سجل المحادثة والمستند الطويل جزءًا من نافذة السياق.",
-    "whereUsed": "عند إرسال مستندات ومحادثات إلى النماذج اللغوية.",
+    "definition": "ببساطة، ده حد كمية الرموز اللي يستطيع النموذج التعامل معها في الطلب الواحد، وغالبًا يشمل المدخل والمخرج.",
+    "example": "مثلاً، بيشغّل سجل المحادثة والمستند الطويل جزءًا من نافذة السياق.",
+    "whereUsed": "هتلاقيه في إرسال مستندات ومحادثات إلى النماذج اللغوية.",
     "en": [
       "The token capacity a model can handle in one request, often covering both input and output.",
       "Conversation history and a long document consume part of the context window.",
@@ -518,15 +539,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/context-window"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Hallucination",
     "fullName": "AI Hallucination",
     "arabicName": "هلوسة النموذج",
-    "definition": "إنتاج النموذج معلومة تبدو مقنعة لكنها مختلقة أو لا يدعمها السياق المتاح.",
-    "example": "يذكر مساعد عنوان دراسة غير موجودة ضمن إجابته.",
-    "whereUsed": "عند مراجعة إجابات النماذج التوليدية والتحقق منها.",
+    "definition": "ببساطة، ده إنتاج النموذج معلومة تبدو مقنعة لكنها مختلقة أو لا يدعمها السياق المتاح.",
+    "example": "مثلاً، يذكر مساعد عنوان دراسة غير موجودة ضمن إجابته.",
+    "whereUsed": "هتلاقيه في مراجعة إجابات النماذج التوليدية والتحقق منها.",
     "en": [
       "A model output that sounds plausible but is invented or unsupported by the available context.",
       "An assistant cites a study title that does not exist.",
@@ -541,15 +563,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/ai-hallucinations"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Temperature",
     "fullName": "Sampling Temperature",
     "arabicName": "درجة عشوائية التوليد",
-    "definition": "إعداد يؤثر في توزيع احتمالات الرموز عند توليد النص؛ زيادته تسمح عادةً باختيارات أكثر تنوعًا.",
-    "example": "يرفع الكاتب الإعداد للحصول على اقتراحات عناوين أكثر تنوعًا.",
-    "whereUsed": "عند ضبط توليد النصوص في الخدمات التي تدعمه.",
+    "definition": "ببساطة، ده إعداد يؤثر في توزيع احتمالات الرموز عند توليد النص؛ زيادته تسمح غالبًا باختيارات أكثر تنوعًا.",
+    "example": "مثلاً، يرفع الكاتب الإعداد للحصول على اقتراحات عناوين أكثر تنوعًا.",
+    "whereUsed": "هتلاقيه في ضبط توليد النصوص في الخدمات اللي تدعمه.",
     "en": [
       "A setting that adjusts token sampling probabilities; higher values usually allow more varied choices.",
       "A writer increases it to explore a wider variety of titles.",
@@ -565,15 +588,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/glossary"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Prompt Engineering",
     "fullName": "Prompt Engineering",
     "arabicName": "صياغة التوجيهات",
-    "definition": "تصميم المدخلات والتعليمات والأمثلة لتحسين استجابة النموذج لمهمة محددة.",
-    "example": "يحدد المستخدم الجمهور وشكل الإجابة ويضيف مثالًا قبل طلب التلخيص.",
-    "whereUsed": "عند بناء المساعدات والعمل مع النماذج التوليدية.",
+    "definition": "ببساطة، ده تصميم المدخلات والتعليمات والأمثلة لتحسين استجابة النموذج لمهمة محددة.",
+    "example": "مثلاً، بيحدد المستخدم الجمهور وشكل الإجابة ويضيف مثالًا قبل طلب التلخيص.",
+    "whereUsed": "هتلاقيه في بناء المساعدات والعمل مع النماذج التوليدية.",
     "en": [
       "Designing instructions, context, and examples to improve a model's response to a task.",
       "A user specifies audience and output format before requesting a summary.",
@@ -589,15 +613,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/glossary"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Few-shot Learning",
     "fullName": "Few-shot Learning",
     "arabicName": "التعلّم بأمثلة قليلة",
-    "definition": "تكييف الأداء اعتمادًا على أمثلة قليلة؛ وفي التوجيه اللغوي تُعرض الأمثلة داخل الطلب.",
-    "example": "يضع المستخدم مثالين لتصنيف الرسائل قبل إرسال رسالة جديدة.",
-    "whereUsed": "عند توضيح مهمة أو تنسيق مطلوب بأمثلة محدودة.",
+    "definition": "ببساطة، ده تكييف الأداء اعتمادًا على أمثلة قليلة؛ وفي التوجيه اللغوي تُعرض الأمثلة داخل الطلب.",
+    "example": "مثلاً، يضع المستخدم مثالين لتصنيف الرسائل قبل إرسال رسالة جديدة.",
+    "whereUsed": "هتلاقيه في توضيح مهمة أو تنسيق مطلوب بأمثلة محدودة.",
     "en": [
       "Adapting performance using few examples; in language prompting, examples can be included directly in the prompt.",
       "A user supplies two message-classification examples before a new message.",
@@ -612,15 +637,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/few-shot-learning"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Zero-shot Learning",
     "fullName": "Zero-shot Learning",
     "arabicName": "التعلّم دون أمثلة للمهمة",
-    "definition": "أداء مهمة أو التعامل مع فئة لم تُقدَّم لها أمثلة تدريبية خاصة؛ وفي التوجيه يعني طلب المهمة دون أمثلة.",
-    "example": "يطلب المستخدم تصنيف نص إلى إيجابي أو سلبي دون عرض أمثلة في الطلب.",
-    "whereUsed": "عند تجربة قدرة نموذج على مهام أو فئات جديدة.",
+    "definition": "ببساطة، ده أداء مهمة أو التعامل مع فئة لم تُقدَّم لها أمثلة تدريبية خاصة؛ وفي التوجيه يعني طلب المهمة من غير أمثلة.",
+    "example": "مثلاً، يطلب المستخدم تصنيف نص إلى إيجابي أو سلبي من غير عرض أمثلة في الطلب.",
+    "whereUsed": "هتلاقيه في تجربة قدرة نموذج على مهام أو فئات جديدة.",
     "en": [
       "Performing a task or recognizing a class without task-specific examples; in prompting, asking without demonstrations.",
       "A user asks for positive-or-negative classification without prompt examples.",
@@ -635,15 +661,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/zero-shot-learning"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "RLHF",
     "fullName": "Reinforcement Learning from Human Feedback",
     "arabicName": "التعلّم المعزّز من ملاحظات البشر",
-    "definition": "أسلوب يوجّه تدريب النموذج باستخدام تفضيلات بشرية، غالبًا عبر نموذج مكافأة.",
-    "example": "يقارن مراجعون بين إجابتين لتعليم النظام أيهما أنسب.",
-    "whereUsed": "في مواءمة سلوك النماذج مع تفضيلات المستخدمين.",
+    "definition": "ببساطة، ده أسلوب يوجّه تدريب النموذج باستخدام تفضيلات بشرية، غالبًا عبر نموذج مكافأة.",
+    "example": "مثلاً، يقارن مراجعون بين إجابتين لتعليم النظام أيهما أنسب.",
+    "whereUsed": "هتلاقيه في مواءمة سلوك النماذج مع تفضيلات المستخدمين.",
     "en": [
       "Training guided by human preferences, commonly through a learned reward model.",
       "Reviewers compare two answers to indicate which is more helpful.",
@@ -658,15 +685,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/rlhf"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Model Parameter",
     "fullName": "Model Parameter",
     "arabicName": "معامل النموذج",
-    "definition": "قيمة داخلية يتعلمها النموذج أثناء التدريب وتؤثر في ناتجه، مثل وزن اتصال عصبي.",
-    "example": "يتغير وزن أثناء التدريب ليصبح توقع النموذج أقرب للإجابة المطلوبة.",
-    "whereUsed": "عند شرح حجم النماذج وآلية تدريبها.",
+    "definition": "ببساطة، دي قيمة داخلية يتعلمها النموذج وقت التدريب وتؤثر في ناتجه، زي وزن اتصال عصبي.",
+    "example": "مثلاً، يتغير وزن وقت التدريب ليصبح توقع النموذج أقرب للإجابة المطلوبة.",
+    "whereUsed": "هتلاقيه في شرح حجم النماذج وآلية تدريبها.",
     "en": [
       "An internal value learned during training that affects outputs, such as a neural-network weight.",
       "Training adjusts a weight to bring predictions closer to target answers.",
@@ -682,15 +710,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/neural-networks/backpropagation"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Hyperparameter",
     "fullName": "Hyperparameter",
     "arabicName": "معامل ضبط خارجي",
-    "definition": "إعداد يحدد طريقة التدريب أو بنية النموذج ويُختار خارج عملية تعلّم الأوزان.",
-    "example": "يجرب الفريق معدلي تعلّم ويقارن نتائجهما على مجموعة التحقق.",
-    "whereUsed": "عند ضبط تدريب نماذج تعلّم الآلة.",
+    "definition": "ببساطة، ده إعداد بيحدد طريقة التدريب أو بنية النموذج ويُختار خارج عملية تعلّم الأوزان.",
+    "example": "مثلاً، يجرب الفريق معدلي تعلّم ويقارن نتائجهما على مجموعة التحقق.",
+    "whereUsed": "هتلاقيه في ضبط تدريب نماذج تعلّم الآلة.",
     "en": [
       "A setting chosen outside weight learning that controls training or model structure.",
       "A team compares two learning rates using validation results.",
@@ -706,15 +735,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/linear-regression/hyperparameters"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Epoch",
     "fullName": "Epoch",
     "arabicName": "دورة تدريب كاملة",
-    "definition": "مرور تدريبي كامل على أمثلة مجموعة التدريب مرة واحدة.",
-    "example": "عند تدريب نموذج لعشر دورات، تُستخدم أمثلة المجموعة في عشر مرات مرور.",
-    "whereUsed": "عند متابعة تقدم التدريب وتحديد مدته.",
+    "definition": "ببساطة، ده مرور تدريبي كامل على أمثلة مجموعة التدريب مرة واحدة.",
+    "example": "مثلاً، عند تدريب نموذج لعشر دورات، تُستخدم أمثلة المجموعة في عشر مرات مرور.",
+    "whereUsed": "هتلاقيه في متابعة تقدم التدريب وتحديد مدته.",
     "en": [
       "One complete training pass through the training examples.",
       "Ten epochs mean ten passes through the training dataset.",
@@ -729,15 +759,16 @@
     "aliases": [],
     "sources": [
       "https://keras.io/api/models/model_training_apis/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Batch Size",
     "fullName": "Batch Size",
     "arabicName": "حجم الدفعة",
-    "definition": "عدد أمثلة التدريب التي تُعالَج معًا قبل خطوة تحديث للقيم المتعلمة في التدريب المعتاد.",
-    "example": "بحجم دفعة 32، تُستخدم 32 صورة لحساب تحديث واحد.",
-    "whereUsed": "عند موازنة الذاكرة وسرعة واستقرار التدريب.",
+    "definition": "ببساطة، ده عدد أمثلة التدريب اللي تُعالَج معًا قبل خطوة تحديث للقيم المتعلمة في التدريب المعتاد.",
+    "example": "مثلاً، بحجم دفعة 32، تُستخدم 32 صورة لحساب تحديث واحد.",
+    "whereUsed": "هتلاقيه في موازنة الذاكرة وسرعة واستقرار التدريب.",
     "en": [
       "The number of training examples processed together for a typical parameter-update step.",
       "A batch size of 32 uses 32 images to calculate one update.",
@@ -753,15 +784,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/linear-regression/hyperparameters"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Learning Rate",
     "fullName": "Learning Rate",
     "arabicName": "معدل التعلّم",
-    "definition": "إعداد يتحكم في حجم خطوات تعديل معاملات النموذج أثناء التدريب.",
-    "example": "قد يتجاوز التدريب الحل الجيد عندما تكون خطوات التحديث كبيرة جدًا.",
-    "whereUsed": "عند ضبط تقارب النموذج أثناء التدريب.",
+    "definition": "ببساطة، ده إعداد يتحكم في حجم خطوات تعديل معاملات النموذج وقت التدريب.",
+    "example": "مثلاً، ممكن يتجاوز التدريب الحل الجيد عندما تكون خطوات التحديث كبيرة جدًا.",
+    "whereUsed": "هتلاقيه في ضبط تقارب النموذج وقت التدريب.",
     "en": [
       "A setting controlling the size of parameter updates during training.",
       "Updates that are too large can repeatedly overshoot a useful solution.",
@@ -776,15 +808,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/linear-regression/hyperparameters"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Loss Function",
     "fullName": "Loss Function",
     "arabicName": "دالة الخسارة",
-    "definition": "دالة تعطي رقمًا يعبّر عن خطأ النموذج وفق الهدف التدريبي المختار.",
-    "example": "تقيس دالة خسارة الفرق بين سعر متوقع والسعر المسجل.",
-    "whereUsed": "عند تحديد ما يحاول تدريب النموذج تحسينه.",
+    "definition": "ببساطة، دي دالة تعطي رقمًا يعبّر عن خطأ النموذج وفق الهدف التدريبي المختار.",
+    "example": "مثلاً، بتقيس دالة خسارة الفرق بين سعر متوقع والسعر المسجل.",
+    "whereUsed": "هتلاقيه في تحديد ما يحاول تدريب النموذج تحسينه.",
     "en": [
       "A function that assigns a numerical penalty to model outputs according to the training objective.",
       "A loss measures the difference between a predicted price and its recorded value.",
@@ -799,15 +832,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/linear-regression/gradient-descent"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Gradient Descent",
     "fullName": "Gradient Descent",
     "arabicName": "الانحدار المتدرّج",
-    "definition": "طريقة تحسين تعدل المعاملات تدريجيًا في اتجاه يقلل دالة الخسارة محليًا.",
-    "example": "يعدّل التدريب الأوزان خطوة بعد أخرى لتقليل خطأ التوقع.",
-    "whereUsed": "في تدريب كثير من نماذج تعلّم الآلة.",
+    "definition": "ببساطة، دي طريقة تحسين تعدل المعاملات تدريجيًا في اتجاه بيقلّل دالة الخسارة محليًا.",
+    "example": "مثلاً، يعدّل التدريب الأوزان خطوة بعد تانية لتقليل خطأ التوقع.",
+    "whereUsed": "هتلاقيه في تدريب كثير من نماذج تعلّم الآلة.",
     "en": [
       "An optimization method that adjusts parameters toward locally lower loss.",
       "Training changes weights step by step to reduce prediction error.",
@@ -823,15 +857,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/linear-regression/gradient-descent"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Backpropagation",
     "fullName": "Backpropagation",
     "arabicName": "الانتشار العكسي",
-    "definition": "حساب تأثير كل معامل على خسارة الشبكة بالرجوع عبر طبقاتها، لتمكين تحديث المعاملات.",
-    "example": "بعد خطأ في تصنيف صورة، تُحسب مشتقات الخسارة لأوزان الطبقات.",
-    "whereUsed": "في تدريب الشبكات العصبية.",
+    "definition": "ببساطة، ده حساب تأثير كل معامل على خسارة الشبكة بالرجوع عبر طبقاتها، لتمكين تحديث المعاملات.",
+    "example": "مثلاً، بعد خطأ في تصنيف صورة، تُحسب مشتقات الخسارة لأوزان الطبقات.",
+    "whereUsed": "هتلاقيه في تدريب الشبكات العصبية.",
     "en": [
       "Computing how each parameter affects network loss by working backward through the layers.",
       "After an image-classification error, loss derivatives are calculated for layer weights.",
@@ -847,15 +882,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/neural-networks/backpropagation"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Activation Function",
     "fullName": "Activation Function",
     "arabicName": "دالة التنشيط",
-    "definition": "دالة تُطبق داخل الشبكة العصبية، وتسمح الأنواع غير الخطية منها بتعلّم علاقات معقدة.",
-    "example": "تجعل دالة ReLU القيم السالبة صفرًا وتُبقي القيم الموجبة.",
-    "whereUsed": "عند تصميم طبقات الشبكات العصبية.",
+    "definition": "ببساطة، دي دالة تُطبق داخل الشبكة العصبية، وتسمح الأنواع غير الخطية منها بتعلّم علاقات معقدة.",
+    "example": "مثلاً، تجعل دالة ReLU القيم السالبة صفرًا وتُبقي القيم الموجبة.",
+    "whereUsed": "هتلاقيه في تصميم طبقات الشبكات العصبية.",
     "en": [
       "A function applied within a neural network; nonlinear choices allow complex relationships to be learned.",
       "ReLU replaces negative values with zero and keeps positive values.",
@@ -870,15 +906,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/neural-networks/activation-functions"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Regularization",
     "fullName": "Regularization",
     "arabicName": "تنظيم النموذج",
-    "definition": "أساليب تحد من تعقيد النموذج أو اعتماده المفرط على تفاصيل التدريب لتحسين التعميم.",
-    "example": "تضاف عقوبة للأوزان الكبيرة ضمن هدف التدريب.",
-    "whereUsed": "عند تقليل فرط التكيّف وتحسين الأداء على بيانات جديدة.",
+    "definition": "ببساطة، ده أساليب تحد من تعقيد النموذج أو اعتماده المفرط على تفاصيل التدريب لتحسين التعميم.",
+    "example": "مثلاً، تضاف عقوبة للأوزان الكبيرة ضمن هدف التدريب.",
+    "whereUsed": "هتلاقيه في تقليل فرط التكيّف وتحسين الأداء على بيانات جديدة.",
     "en": [
       "Methods that constrain model complexity or dependence on training details to improve generalization.",
       "Training adds a penalty for large weights.",
@@ -894,15 +931,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/overfitting/regularization"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Dropout",
     "fullName": "Dropout",
     "arabicName": "الإسقاط أثناء التدريب",
-    "definition": "أسلوب يعطل عشوائيًا بعض القيم الخارجة من الوحدات أثناء التدريب للحد من فرط التكيّف.",
-    "example": "تُصفّر طبقة نسبة من قيمها في كل خطوة تدريب، ثم تعمل كاملة أثناء التنبؤ.",
-    "whereUsed": "في تنظيم الشبكات العصبية.",
+    "definition": "ببساطة، ده أسلوب يعطل عشوائيًا بعض القيم الخارجة من الوحدات وقت التدريب للحد من فرط التكيّف.",
+    "example": "مثلاً، تُصفّر طبقة نسبة من قيمها في كل خطوة تدريب، ثم بتشتغل كاملة وقت التنبؤ.",
+    "whereUsed": "هتلاقيه في تنظيم الشبكات العصبية.",
     "en": [
       "A regularization technique that randomly suppresses some unit outputs during training.",
       "A layer zeros some values during training and uses its full network at prediction time.",
@@ -918,15 +956,16 @@
     "aliases": [],
     "sources": [
       "https://keras.io/api/layers/regularization_layers/dropout/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Data Augmentation",
     "fullName": "Data Augmentation",
     "arabicName": "زيادة تنوع بيانات التدريب",
-    "definition": "إنشاء نسخ معدّلة من الأمثلة بطريقة تحافظ على معناها المناسب للمهمة.",
-    "example": "يُغيَّر سطوع صور المنتجات لتدريب نموذج يتحمل اختلاف الإضاءة.",
-    "whereUsed": "في تدريب نماذج الصور والصوت والنصوص.",
+    "definition": "ببساطة، ده إنشاء نسخ معدّلة من الأمثلة بطريقة تحافظ على معناها المناسب للمهمة.",
+    "example": "مثلاً، يُغيَّر سطوع صور المنتجات لتدريب نموذج يتحمل اختلاف الإضاءة.",
+    "whereUsed": "هتلاقيه في تدريب نماذج الصور والصوت والنصوص.",
     "en": [
       "Creating altered training examples while preserving the meaning needed for the task.",
       "Product photos receive brightness changes to teach tolerance to lighting differences.",
@@ -942,15 +981,16 @@
     "aliases": [],
     "sources": [
       "https://www.tensorflow.org/tutorials/images/data_augmentation"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Accuracy",
     "fullName": "Classification Accuracy",
     "arabicName": "نسبة التصنيفات الصحيحة",
-    "definition": "نسبة التوقعات الصحيحة من جميع التوقعات؛ قد تخفي ضعف النموذج إذا كانت الفئات غير متوازنة.",
-    "example": "صحة 90 تصنيفًا من 100 تعني دقة إجمالية قدرها 90%.",
-    "whereUsed": "في تقييم التصنيف مع مقاييس أخرى.",
+    "definition": "ببساطة، دي نسبة التوقعات الصحيحة من جميع التوقعات؛ قد تخفي ضعف النموذج إذا كانت الفئات غير متوازنة.",
+    "example": "مثلاً، صحة 90 تصنيفًا من 100 تعني دقة إجمالية قدرها 90%.",
+    "whereUsed": "هتلاقيه في تقييم التصنيف مع مقاييس تانية.",
     "en": [
       "The share of all predictions that are correct; it can hide weaknesses when classes are imbalanced.",
       "Ninety correct classifications out of 100 give 90% accuracy.",
@@ -966,15 +1006,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Precision",
     "fullName": "Classification Precision",
     "arabicName": "دقة التوقعات الإيجابية",
-    "definition": "نسبة الحالات الإيجابية الصحيحة بين جميع الحالات التي صنفها النموذج إيجابية.",
-    "example": "إذا صنف النظام عشر رسائل كمزعجة وكانت ثمانٍ فعلًا مزعجة، فالقيمة 80%.",
-    "whereUsed": "عندما يهم تقليل الإنذارات الإيجابية الكاذبة.",
+    "definition": "ببساطة، دي نسبة الحالات الإيجابية الصحيحة بين جميع الحالات اللي صنفها النموذج إيجابية.",
+    "example": "مثلاً، إذا صنف النظام عشر رسائل كمزعجة وكانت ثمانٍ فعلًا مزعجة، فالقيمة 80%.",
+    "whereUsed": "هتلاقيه في عندما يهم تقليل الإنذارات الإيجابية الكاذبة.",
     "en": [
       "The fraction of predicted positives that are truly positive.",
       "If eight of ten messages flagged as spam are spam, precision is 80%.",
@@ -990,15 +1031,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Recall",
     "fullName": "Classification Recall",
     "arabicName": "معدل استرجاع الحالات الإيجابية",
-    "definition": "نسبة الحالات الإيجابية الحقيقية التي نجح النموذج في اكتشافها.",
-    "example": "اكتشاف 15 رسالة مزعجة من أصل 20 يعني استرجاعًا قدره 75%.",
-    "whereUsed": "عندما يهم تقليل الحالات التي تفوت النموذج.",
+    "definition": "ببساطة، دي نسبة الحالات الإيجابية الحقيقية اللي نجح النموذج في اكتشافها.",
+    "example": "مثلاً، اكتشاف 15 رسالة مزعجة من أصل 20 يعني استرجاعًا قدره 75%.",
+    "whereUsed": "هتلاقيه في عندما يهم تقليل الحالات اللي تفوت النموذج.",
     "en": [
       "The fraction of actual positive cases that a model successfully detects.",
       "Detecting 15 of 20 spam messages gives 75% recall.",
@@ -1014,15 +1056,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "F1 Score",
     "fullName": "F1 Score",
     "arabicName": "مقياس إف 1",
-    "definition": "المتوسط التوافقي للدقة الإيجابية والاسترجاع، ويجمعهما في مقياس واحد.",
-    "example": "عندما تكون دقة التوقعات الإيجابية والاسترجاع 80% معًا، تكون قيمة F1 هي 0.8.",
-    "whereUsed": "عند تقييم توازن الدقة والاسترجاع في التصنيف.",
+    "definition": "ببساطة، ده المتوسط التوافقي للدقة الإيجابية والاسترجاع، ويجمعهما في مقياس واحد.",
+    "example": "مثلاً، عندما تكون دقة التوقعات الإيجابية والاسترجاع 80% معًا، تكون قيمة F1 هي 0.8.",
+    "whereUsed": "هتلاقيه في تقييم توازن الدقة والاسترجاع في التصنيف.",
     "en": [
       "The harmonic mean of precision and recall, combining them into one score.",
       "When precision and recall are both 80%, F1 is 0.8.",
@@ -1038,15 +1081,16 @@
     "aliases": [],
     "sources": [
       "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Confusion Matrix",
     "fullName": "Confusion Matrix",
     "arabicName": "مصفوفة الالتباس",
-    "definition": "جدول يقارن الفئات الحقيقية بالفئات المتوقعة ليكشف أنواع أخطاء التصنيف.",
-    "example": "يوضح الجدول كم رسالة عادية صُنفت مزعجة وكم رسالة مزعجة فاتت النموذج.",
-    "whereUsed": "عند تحليل أخطاء النماذج المصنفة.",
+    "definition": "ببساطة، ده جدول يقارن الفئات الحقيقية بالفئات المتوقعة ليكشف أنواع أخطاء التصنيف.",
+    "example": "مثلاً، بيوضّح الجدول كم رسالة عادية صُنفت مزعجة وكم رسالة مزعجة فاتت النموذج.",
+    "whereUsed": "هتلاقيه في تحليل أخطاء النماذج المصنفة.",
     "en": [
       "A table comparing true classes with predicted classes to reveal classification errors.",
       "It shows legitimate messages marked as spam and spam messages missed.",
@@ -1062,15 +1106,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/crash-course/classification/thresholding"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Computer Vision",
     "fullName": "Computer Vision",
     "arabicName": "الرؤية الحاسوبية",
-    "definition": "مجال يمكّن الحاسوب من استخراج معلومات من الصور والفيديو.",
-    "example": "تكتشف كاميرا خط إنتاج عبوات ذات ملصقات ناقصة.",
-    "whereUsed": "في فحص الصور وتحليل الفيديو.",
+    "definition": "ببساطة، ده مجال يمكّن الحاسوب من استخراج معلومات من الصور والفيديو.",
+    "example": "مثلاً، بتكتشف كاميرا خط إنتاج عبوات ذات ملصقات ناقصة.",
+    "whereUsed": "هتلاقيه في فحص الصور وتحليل الفيديو.",
     "en": [
       "A field that extracts useful information from images and video.",
       "A production-line camera finds packages with missing labels.",
@@ -1086,15 +1131,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/computer-vision"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Object Detection",
     "fullName": "Object Detection",
     "arabicName": "اكتشاف الأجسام",
-    "definition": "تحديد أنواع الأجسام ومواقعها داخل صورة أو إطار فيديو.",
-    "example": "يرسم النموذج مستطيلات حول السيارات والمشاة في صورة شارع.",
-    "whereUsed": "في عدّ العناصر وتحليل مشاهد الفيديو.",
+    "definition": "ببساطة، ده تحديد أنواع الأجسام ومواقعها داخل صورة أو إطار فيديو.",
+    "example": "مثلاً، يرسم النموذج مستطيلات حول السيارات والمشاة في صورة شارع.",
+    "whereUsed": "هتلاقيه في عدّ العناصر وتحليل مشاهد الفيديو.",
     "en": [
       "Identifying object categories and locating them within an image or video frame.",
       "A model draws boxes around cars and pedestrians in a street image.",
@@ -1109,15 +1155,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/object-detection"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "OCR",
     "fullName": "Optical Character Recognition",
     "arabicName": "التعرّف الضوئي على الحروف",
-    "definition": "تحويل النص الموجود في صورة أو مسح ضوئي إلى نص يمكن للبرنامج قراءته ومعالجته.",
-    "example": "يستخرج تطبيق رقم الفاتورة من صورة إيصال.",
-    "whereUsed": "في رقمنة المستندات والبحث داخل الصور النصية.",
+    "definition": "ببساطة، ده تحويل النص الموجود في صورة أو مسح ضوئي إلى نص ممكن للبرنامج قراءته ومعالجته.",
+    "example": "مثلاً، يستخرج تطبيق رقم الفاتورة من صورة إيصال.",
+    "whereUsed": "هتلاقيه في رقمنة المستندات والبحث داخل الصور النصية.",
     "en": [
       "Converting writing in an image or scan into text that software can process.",
       "An app extracts an invoice number from a receipt photo.",
@@ -1132,15 +1179,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/optical-character-recognition"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Speech Recognition",
     "fullName": "Automatic Speech Recognition",
     "arabicName": "التعرّف على الكلام",
-    "definition": "تحويل الكلام المسجل أو المباشر إلى كلمات مكتوبة باستخدام نظام حاسوبي.",
-    "example": "يحوّل تطبيق حديث الاجتماع إلى نص لمراجعته.",
-    "whereUsed": "في الإملاء ونسخ التسجيلات والأوامر الصوتية.",
+    "definition": "ببساطة، ده تحويل الكلام المسجل أو المباشر إلى كلمات مكتوبة باستخدام نظام حاسوبي.",
+    "example": "مثلاً، يحوّل تطبيق حديث الاجتماع إلى نص لمراجعته.",
+    "whereUsed": "هتلاقيه في الإملاء ونسخ التسجيلات والأوامر الصوتية.",
     "en": [
       "Converting recorded or live spoken language into written words.",
       "An app turns meeting speech into a transcript for review.",
@@ -1159,15 +1207,16 @@
     ],
     "sources": [
       "https://www.ibm.com/think/topics/speech-recognition"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "TTS",
     "fullName": "Text-to-Speech",
     "arabicName": "تحويل النص إلى كلام",
-    "definition": "توليد صوت ينطق نصًا مكتوبًا.",
-    "example": "يقرأ قارئ شاشة محتوى صفحة بصوت مسموع.",
-    "whereUsed": "في الإتاحة والمساعدات الصوتية وقراءة المحتوى.",
+    "definition": "ببساطة، ده توليد صوت ينطق نصًا مكتوبًا.",
+    "example": "مثلاً، بيقرا قارئ شاشة محتوى صفحة بصوت مسموع.",
+    "whereUsed": "هتلاقيه في الإتاحة والمساعدات الصوتية وقراءة المحتوى.",
     "en": [
       "Generating spoken audio from written text.",
       "A screen reader speaks the contents of a page.",
@@ -1182,15 +1231,16 @@
     "aliases": [],
     "sources": [
       "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/text-to-speech"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Sentiment Analysis",
     "fullName": "Sentiment Analysis",
     "arabicName": "تحليل المشاعر",
-    "definition": "تقدير الاتجاه العاطفي أو التقييمي في نص، مثل إيجابي أو سلبي أو محايد.",
-    "example": "تجمع الشركة تقييمات المنتجات حسب الرضا أو عدم الرضا.",
-    "whereUsed": "في تحليل الآراء وتعليقات العملاء.",
+    "definition": "ببساطة، ده تقدير الاتجاه العاطفي أو التقييمي في نص، زي إيجابي أو سلبي أو محايد.",
+    "example": "مثلاً، بتجمع الشركة تقييمات المنتجات حسب الرضا أو عدم الرضا.",
+    "whereUsed": "هتلاقيه في تحليل الآراء وتعليقات العملاء.",
     "en": [
       "Estimating the emotional or evaluative tone of text, such as positive, negative, or neutral.",
       "A company groups product reviews by satisfaction or dissatisfaction.",
@@ -1205,15 +1255,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/sentiment-analysis"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Recommendation System",
     "fullName": "Recommendation System",
     "arabicName": "نظام التوصية",
-    "definition": "نظام يرتب عناصر يُرجح أن تهم المستخدم اعتمادًا على معلومات عنه أو عن العناصر والتفاعلات.",
-    "example": "تقترح منصة تعلم دورات مرتبطة بما درسه المستخدم.",
-    "whereUsed": "في المتاجر والمحتوى ومنصات التعلم.",
+    "definition": "ببساطة، ده نظام يرتب عناصر يُرجح أن تهم المستخدم اعتمادًا على معلومات عنه أو عن العناصر والتفاعلات.",
+    "example": "مثلاً، تقترح منصة تعلم دورات مرتبطة بما درسه المستخدم.",
+    "whereUsed": "هتلاقيه في المتاجر والمحتوى ومنصات التعلم.",
     "en": [
       "A system ranking items likely to interest a user using user, item, or interaction information.",
       "A learning platform suggests courses related to completed lessons.",
@@ -1228,15 +1279,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/recommendation/overview"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Quantization",
     "fullName": "Model Quantization",
     "arabicName": "تكميم النموذج",
-    "definition": "تمثيل أوزان النموذج أو حساباته بدقة عددية أقل لتقليل الحجم أو كلفة التشغيل، مع احتمال تأثر الجودة.",
-    "example": "تُحوّل أوزان إلى أعداد أقل بتات لتشغيل نموذج على هاتف.",
-    "whereUsed": "عند ضغط النماذج وتسريع تشغيلها على أجهزة محدودة.",
+    "definition": "ببساطة، ده تمثيل أوزان النموذج أو حساباته بدقة عددية أقل لتقليل الحجم أو كلفة التشغيل، مع احتمال تأثر الجودة.",
+    "example": "مثلاً، تُحوّل أوزان إلى أعداد أقل بتات لتشغيل نموذج على هاتف.",
+    "whereUsed": "هتلاقيه في ضغط النماذج وتسريع تشغيلها على أجهزة محدودة.",
     "en": [
       "Representing model values with fewer bits to reduce size or computation, potentially affecting quality.",
       "Weights use fewer bits so a model can run on a phone.",
@@ -1251,15 +1303,16 @@
     "aliases": [],
     "sources": [
       "https://www.tensorflow.org/model_optimization/guide/quantization/post_training"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Distillation",
     "fullName": "Knowledge Distillation",
     "arabicName": "تقطير المعرفة",
-    "definition": "تدريب نموذج ليتعلم من مخرجات أو سلوك نموذج معلّم، وغالبًا يكون المتعلم أصغر.",
-    "example": "يتعلم مصنف صغير من توقعات نموذج أكبر لتقليل كلفة التشغيل.",
-    "whereUsed": "عند نقل قدرات النماذج إلى نماذج أخف.",
+    "definition": "ببساطة، ده تدريب نموذج ليتعلم من مخرجات أو سلوك نموذج معلّم، وغالبًا يكون المتعلم أصغر.",
+    "example": "مثلاً، بيتعلم مصنف صغير من توقعات نموذج أكبر لتقليل كلفة التشغيل.",
+    "whereUsed": "هتلاقيه في نقل قدرات النماذج إلى نماذج أخف.",
     "en": [
       "Training a model from a teacher model's outputs or behavior, often to create a smaller learner.",
       "A small classifier learns from a larger model's predictions to lower running cost.",
@@ -1277,15 +1330,16 @@
     ],
     "sources": [
       "https://www.ibm.com/think/topics/knowledge-distillation"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Semantic Search",
     "fullName": "Semantic Search",
     "arabicName": "البحث الدلالي",
-    "definition": "بحث يحاول مطابقة المعنى والنية بدل الاعتماد فقط على تطابق الكلمات.",
-    "example": "يجد سؤال عن استعادة الحساب مقالًا بعنوان إعادة تعيين كلمة المرور.",
-    "whereUsed": "في البحث داخل المستندات ومصادر المعرفة.",
+    "definition": "ببساطة، ده بحث يحاول مطابقة المعنى والنية بدل الاعتماد فقط على تطابق الكلمات.",
+    "example": "مثلاً، بيلاقي سؤال عن استعادة الحساب مقالًا بعنوان إعادة تعيين كلمة المرور.",
+    "whereUsed": "هتلاقيه في البحث داخل المستندات ومصادر المعرفة.",
     "en": [
       "Search that matches meaning and intent rather than relying only on identical words.",
       "A query about account recovery finds an article titled reset your password.",
@@ -1301,15 +1355,16 @@
     "aliases": [],
     "sources": [
       "https://www.elastic.co/what-is/semantic-search"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Relational Database",
     "fullName": "Relational Database",
     "arabicName": "قاعدة بيانات علائقية",
-    "definition": "قاعدة تنظم البيانات في جداول يمكن ربطها باستخدام قيم مشتركة.",
-    "example": "يربط المتجر جدول الطلبات بجدول العملاء عبر رقم العميل.",
-    "whereUsed": "في أنظمة المبيعات والحسابات وإدارة السجلات.",
+    "definition": "ببساطة، ده قاعدة تنظم البيانات في جداول ممكن ربطها باستخدام قيم مشتركة.",
+    "example": "مثلاً، بيربط المتجر جدول الطلبات بجدول العملاء عبر رقم العميل.",
+    "whereUsed": "هتلاقيه في أنظمة المبيعات والحسابات وإدارة السجلات.",
     "en": [
       "A database organizing data in tables that can be related through shared values.",
       "A store connects orders to customers using a customer ID.",
@@ -1325,15 +1380,16 @@
     "aliases": [],
     "sources": [
       "https://www.postgresql.org/docs/current/tutorial-concepts.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Table",
     "fullName": "Database Table",
     "arabicName": "جدول قاعدة بيانات",
-    "definition": "مجموعة صفوف لها أعمدة محددة لتنظيم بيانات من نوع معين.",
-    "example": "يضم جدول المنتجات أعمدة الاسم والسعر ورقم المنتج.",
-    "whereUsed": "عند تخزين بيانات منظمة في قواعد علائقية.",
+    "definition": "ببساطة، دي مجموعة صفوف لها أعمدة محددة لتنظيم بيانات من نوع معين.",
+    "example": "مثلاً، يضم جدول المنتجات أعمدة الاسم والسعر ورقم المنتج.",
+    "whereUsed": "هتلاقيه في تخزين بيانات منظمة في قواعد علائقية.",
     "en": [
       "A collection of rows with defined columns for a particular kind of data.",
       "A product table contains name, price, and product-number columns.",
@@ -1349,15 +1405,16 @@
     "aliases": [],
     "sources": [
       "https://www.postgresql.org/docs/current/tutorial-concepts.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Row",
     "fullName": "Database Row",
     "arabicName": "صف أو سجل",
-    "definition": "مجموعة قيم مترابطة داخل جدول، تمثل عادةً عنصرًا أو حدثًا واحدًا.",
-    "example": "يمثل صف واحد بيانات طلب شراء محدد.",
-    "whereUsed": "عند قراءة الجداول وتعديل السجلات.",
+    "definition": "ببساطة، دي مجموعة قيم مترابطة داخل جدول، تمثل غالبًا عنصرًا أو حدثًا واحدًا.",
+    "example": "مثلاً، يمثل صف واحد بيانات طلب شراء محدد.",
+    "whereUsed": "هتلاقيه في قراءة الجداول وتعديل السجلات.",
     "en": [
       "A set of related values in a table, usually representing one item or event.",
       "One row holds the details of a particular purchase order.",
@@ -1374,15 +1431,16 @@
     ],
     "sources": [
       "https://www.postgresql.org/docs/current/tutorial-concepts.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Column",
     "fullName": "Database Column",
     "arabicName": "عمود قاعدة بيانات",
-    "definition": "حقل مسمى داخل جدول يحتوي نوعًا محددًا من المعلومات لكل صف.",
-    "example": "يحفظ عمود السعر قيمة سعر كل منتج.",
-    "whereUsed": "في تصميم الجداول واختيار الحقول للاستعلام.",
+    "definition": "ببساطة، ده حقل مسمى داخل جدول بيحتوي نوعًا محددًا من المعلومات لكل صف.",
+    "example": "مثلاً، بيحفظ عمود السعر قيمة سعر كل منتج.",
+    "whereUsed": "هتلاقيه في تصميم الجداول واختيار الحقول للاستعلام.",
     "en": [
       "A named field holding a defined kind of information for each table row.",
       "The price column stores each product's price.",
@@ -1398,15 +1456,16 @@
     "aliases": [],
     "sources": [
       "https://www.postgresql.org/docs/current/tutorial-concepts.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Primary Key",
     "fullName": "Primary Key",
     "arabicName": "مفتاح أساسي",
-    "definition": "عمود أو مجموعة أعمدة تميز كل صف بشكل فريد ولا تقبل قيمة NULL.",
-    "example": "يستخدم جدول العملاء رقم عميل فريدًا كمفتاح أساسي.",
-    "whereUsed": "عند تعريف هوية السجلات وربط الجداول.",
+    "definition": "ببساطة، ده عمود أو مجموعة أعمدة تميز كل صف بشكل فريد ولا تقبل قيمة NULL.",
+    "example": "مثلاً، بيستخدم جدول العملاء رقم عميل فريدًا كمفتاح أساسي.",
+    "whereUsed": "هتلاقيه في تعريف هوية السجلات وربط الجداول.",
     "en": [
       "One or more columns uniquely identifying each row, with no NULL values allowed.",
       "A customer table uses a unique customer number as its primary key.",
@@ -1424,15 +1483,16 @@
     ],
     "sources": [
       "https://www.postgresql.org/docs/current/ddl-constraints.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Foreign Key",
     "fullName": "Foreign Key",
     "arabicName": "مفتاح أجنبي",
-    "definition": "قيد يربط قيمة في جدول بمفتاح مرجعي في جدول آخر أو في الجدول نفسه.",
-    "example": "يشير رقم العميل في الطلب إلى عميل موجود في جدول العملاء.",
-    "whereUsed": "للحفاظ على صحة الروابط بين السجلات.",
+    "definition": "ببساطة، ده قيد بيربط قيمة في جدول بمفتاح مرجعي في جدول تاني أو في الجدول نفسه.",
+    "example": "مثلاً، يشير رقم العميل في الطلب إلى عميل موجود في جدول العملاء.",
+    "whereUsed": "هتحتاجه للحفاظ على صحة الروابط بين السجلات.",
     "en": [
       "A constraint linking values in one table to a referenced key in another table or the same table.",
       "The customer number in an order refers to an existing customer record.",
@@ -1450,15 +1510,16 @@
     ],
     "sources": [
       "https://www.postgresql.org/docs/current/ddl-constraints.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Database Index",
     "fullName": "Database Index",
     "arabicName": "فهرس قاعدة بيانات",
-    "definition": "بنية إضافية تسرّع الوصول إلى صفوف مطابقة لشروط معينة، مقابل مساحة وكلفة عند تحديث البيانات.",
-    "example": "يسرّع فهرس البريد الإلكتروني البحث عن حساب مستخدم.",
-    "whereUsed": "عند تحسين الاستعلامات البطيئة.",
+    "definition": "ببساطة، دي بنية إضافية تسرّع الوصول إلى صفوف مطابقة لشروط معينة، مقابل مساحة وكلفة عند تحديث البيانات.",
+    "example": "مثلاً، يسرّع فهرس البريد الإلكتروني البحث عن حساب مستخدم.",
+    "whereUsed": "هتلاقيه في تحسين الاستعلامات البطيئة.",
     "en": [
       "An additional structure that speeds up selected row lookups, at a storage and update cost.",
       "An email-address index speeds up account lookup.",
@@ -1475,15 +1536,16 @@
     ],
     "sources": [
       "https://www.postgresql.org/docs/current/indexes-intro.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Query",
     "fullName": "Database Query",
     "arabicName": "استعلام بيانات",
-    "definition": "طلب إلى قاعدة بيانات لاسترجاع معلومات وفق شروط أو حسابات محددة.",
-    "example": "يطلب استعلام أسماء المنتجات التي يقل مخزونها عن خمس قطع.",
-    "whereUsed": "في التقارير وربط التطبيقات بقواعد البيانات.",
+    "definition": "ببساطة، ده طلب إلى قاعدة بيانات لاسترجاع معلومات وفق شروط أو حسابات محددة.",
+    "example": "مثلاً، يطلب استعلام أسماء المنتجات اللي يقل مخزونها عن خمس قطع.",
+    "whereUsed": "هتلاقيه في التقارير وربط التطبيقات بقواعد البيانات.",
     "en": [
       "A request to retrieve database information using specified conditions or calculations.",
       "A query lists products with fewer than five items in stock.",
@@ -1499,15 +1561,16 @@
     "aliases": [],
     "sources": [
       "https://www.postgresql.org/docs/current/tutorial-select.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Join",
     "fullName": "SQL Join",
     "arabicName": "ربط الجداول",
-    "definition": "عملية تجمع صفوفًا من مصادر جدولية وفق شرط ربط.",
-    "example": "يربط التقرير الطلبات بالعملاء لعرض اسم العميل بجانب كل طلب.",
-    "whereUsed": "عند إعداد تقارير من جداول مترابطة.",
+    "definition": "ببساطة، دي عملية بتجمع صفوفًا من مصادر جدولية وفق شرط ربط.",
+    "example": "مثلاً، بيربط التقرير الطلبات بالعملاء لعرض اسم العميل بجانب كل طلب.",
+    "whereUsed": "هتلاقيه في إعداد تقارير من جداول مترابطة.",
     "en": [
       "An operation combining rows from table sources according to a matching condition.",
       "A report joins orders to customers to show each customer's name.",
@@ -1523,15 +1586,16 @@
     "aliases": [],
     "sources": [
       "https://www.postgresql.org/docs/current/tutorial-join.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Aggregation",
     "fullName": "Data Aggregation",
     "arabicName": "تجميع القيم",
-    "definition": "تلخيص عدة صفوف في قيمة أو قيم مثل المجموع أو العدد أو المتوسط، غالبًا لكل مجموعة.",
-    "example": "يُحسب مجموع المبيعات لكل فرع بدل عرض كل عملية منفردة.",
-    "whereUsed": "في التقارير والإحصاءات ولوحات المتابعة.",
+    "definition": "ببساطة، ده تلخيص عدة صفوف في قيمة أو قيم زي المجموع أو العدد أو المتوسط، غالبًا لكل مجموعة.",
+    "example": "مثلاً، يُحسب مجموع المبيعات لكل فرع بدل عرض كل عملية منفردة.",
+    "whereUsed": "هتلاقيه في التقارير والإحصاءات ولوحات المتابعة.",
     "en": [
       "Summarizing rows using values such as sums, counts, or averages, often per group.",
       "Sales are summed for each branch instead of listing every transaction.",
@@ -1547,15 +1611,16 @@
     "aliases": [],
     "sources": [
       "https://www.postgresql.org/docs/current/tutorial-agg.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Database View",
     "fullName": "Database View",
     "arabicName": "عرض قاعدة البيانات",
-    "definition": "استعلام محفوظ يُستخدم كجدول افتراضي؛ العرض العادي لا يخزن نسخة مستقلة من نتائجه.",
-    "example": "يُنشأ عرض يجمع أسماء العملاء وإجمالي طلباتهم لتسهيل التقارير.",
-    "whereUsed": "عند تبسيط الاستعلامات وتنظيم الوصول للبيانات.",
+    "definition": "ببساطة، ده استعلام محفوظ يُستخدم كجدول افتراضي؛ العرض العادي لا بيخزّن نسخة مستقلة من نتائجه.",
+    "example": "مثلاً، يُنشأ عرض بيجمع أسماء العملاء وإجمالي طلباتهم لتسهيل التقارير.",
+    "whereUsed": "هتلاقيه في تبسيط الاستعلامات وتنظيم الوصول للبيانات.",
     "en": [
       "A saved query exposed as a virtual table; a regular view does not store its own copy of results.",
       "A view combines customer names and order totals for reuse in reports.",
@@ -1573,15 +1638,16 @@
     ],
     "sources": [
       "https://www.postgresql.org/docs/current/tutorial-views.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Transaction",
     "fullName": "Database Transaction",
     "arabicName": "معاملة قاعدة بيانات",
-    "definition": "مجموعة عمليات تُعامل كوحدة عمل واحدة، ويمكن اعتمادها أو إلغاؤها معًا.",
-    "example": "يُسجَّل حجز المقعد وتحديث عدد المقاعد المتاحة في معاملة واحدة.",
-    "whereUsed": "في الحجز والمخزون وعمليات التحديث المترابطة.",
+    "definition": "ببساطة، دي مجموعة عمليات تُعامل كوحدة عمل واحدة، ويمكن اعتمادها أو إلغاؤها معًا.",
+    "example": "مثلاً، يُسجَّل حجز المقعد وتحديث عدد المقاعد المتاحة في معاملة واحدة.",
+    "whereUsed": "هتلاقيه في الحجز والمخزون وعمليات التحديث المترابطة.",
     "en": [
       "A group of operations treated as one unit of work that can be committed or rolled back together.",
       "Seat booking and available-seat updates are placed in one transaction.",
@@ -1596,15 +1662,16 @@
     "aliases": [],
     "sources": [
       "https://www.postgresql.org/docs/current/tutorial-transactions.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "ACID",
     "fullName": "Atomicity, Consistency, Isolation, Durability",
     "arabicName": "خصائص موثوقية المعاملات",
-    "definition": "أربع خصائص للمعاملات: التنفيذ الكامل أو الإلغاء، احترام قواعد البيانات، عزل التزامن، وبقاء التغييرات المعتمدة.",
-    "example": "إذا فشل جزء من تحديث طلب شراء، تُلغى بقية تغييرات المعاملة.",
-    "whereUsed": "عند اختيار وإعداد نظم معاملات موثوقة.",
+    "definition": "ببساطة، ده أربع خصائص للمعاملات: التنفيذ الكامل أو الإلغاء، احترام قواعد البيانات، عزل التزامن، وبقاء التغييرات المعتمدة.",
+    "example": "مثلاً، إذا فشل جزء من تحديث طلب شراء، تُلغى بقية تغييرات المعاملة.",
+    "whereUsed": "هتلاقيه في اختيار وإعداد نظم معاملات موثوقة.",
     "en": [
       "Four transaction properties: all-or-nothing execution, valid data rules, controlled concurrency, and persistence of committed changes.",
       "If part of an order update fails, the transaction's other changes are rolled back.",
@@ -1619,15 +1686,16 @@
     "aliases": [],
     "sources": [
       "https://www.databricks.com/blog/what-are-acid-transactions"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Database Normalization",
     "fullName": "Database Normalization",
     "arabicName": "تطبيع قاعدة البيانات",
-    "definition": "تنظيم الجداول حسب علاقات البيانات لتقليل التكرار ومشكلات الإضافة والتعديل والحذف.",
-    "example": "يُحفظ عنوان العميل في جدول العملاء بدل تكراره في كل صف منتج طلبه.",
-    "whereUsed": "في تصميم قواعد البيانات العلائقية.",
+    "definition": "ببساطة، ده تنظيم الجداول حسب علاقات البيانات لتقليل التكرار ومشكلات الإضافة والتعديل والحذف.",
+    "example": "مثلاً، بيتحفظ عنوان العميل في جدول العملاء بدل تكراره في كل صف منتج طلبه.",
+    "whereUsed": "هتلاقيه في تصميم قواعد البيانات العلائقية.",
     "en": [
       "Organizing tables by data relationships to reduce duplication and insertion, update, or deletion anomalies.",
       "A customer's address is stored in the customer table rather than repeated with every ordered item.",
@@ -1645,15 +1713,16 @@
     ],
     "sources": [
       "https://www.ibm.com/think/topics/database-normalization"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Database Schema",
     "fullName": "Database Schema",
     "arabicName": "مخطط قاعدة البيانات",
-    "definition": "وصف لتنظيم قاعدة البيانات، مثل الجداول والأعمدة والعلاقات والقيود؛ وقد تعني أيضًا نطاق أسماء في بعض الأنظمة.",
-    "example": "يوضح المخطط أن الطلب يتبع عميلًا وأن له تاريخًا وقيمة.",
-    "whereUsed": "عند تصميم البيانات وتوثيق بنيتها.",
+    "definition": "ببساطة، ده وصف لتنظيم قاعدة البيانات، زي الجداول والأعمدة والعلاقات والقيود؛ وقد تعني أيضًا نطاق أسماء في بعض الأنظمة.",
+    "example": "مثلاً، بيوضّح المخطط أن الطلب يتبع عميلًا وأن له تاريخًا وقيمة.",
+    "whereUsed": "هتلاقيه في تصميم البيانات وتوثيق بنيتها.",
     "en": [
       "A description of database structure, including tables, columns, relationships, and constraints; some systems also use schema for a namespace.",
       "A schema shows that an order belongs to a customer and has a date and value.",
@@ -1671,15 +1740,16 @@
     ],
     "sources": [
       "https://www.ibm.com/think/topics/database-schema"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "NULL",
     "fullName": "SQL NULL",
     "arabicName": "قيمة غير معروفة أو غير متاحة",
-    "definition": "علامة في SQL تدل على غياب قيمة معروفة؛ تختلف عن الصفر والنص الفارغ.",
-    "example": "يحمل تاريخ التسليم NULL لأن الطلب لم يُسلّم بعد.",
-    "whereUsed": "عند التعامل مع البيانات الناقصة في الاستعلامات.",
+    "definition": "ببساطة، ده علامة في SQL تدل على غياب قيمة معروفة؛ تختلف عن الصفر والنص الفارغ.",
+    "example": "مثلاً، يحمل تاريخ التسليم NULL لأن الطلب لم يُسلّم بعد.",
+    "whereUsed": "هتلاقيه في التعامل مع البيانات الناقصة في الاستعلامات.",
     "en": [
       "An SQL marker for a missing or unknown value, distinct from zero or an empty string.",
       "A delivery date is NULL because the order has not yet been delivered.",
@@ -1695,15 +1765,16 @@
     "aliases": [],
     "sources": [
       "https://www.postgresql.org/docs/current/functions-comparison.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Unique Constraint",
     "fullName": "Unique Constraint",
     "arabicName": "قيد التفرد",
-    "definition": "قاعدة تمنع تكرار قيمة أو مجموعة قيم بين صفوف جدول، مع اختلاف معاملة NULL حسب النظام والإعداد.",
-    "example": "يمنع قيد تفرد إنشاء حسابين باسم مستخدم واحد.",
-    "whereUsed": "عند حماية بيانات يجب أن تكون فريدة.",
+    "definition": "ببساطة، ده قاعدة تمنع تكرار قيمة أو مجموعة قيم بين صفوف جدول، مع اختلاف معاملة NULL حسب النظام والإعداد.",
+    "example": "مثلاً، يمنع قيد تفرد إنشاء حسابين باسم مستخدم واحد.",
+    "whereUsed": "هتلاقيه في حماية بيانات يجب أن تكون فريدة.",
     "en": [
       "A rule preventing duplicate values or value combinations across rows; NULL handling varies by system and settings.",
       "A unique constraint prevents two accounts using the same username.",
@@ -1719,15 +1790,16 @@
     "aliases": [],
     "sources": [
       "https://www.postgresql.org/docs/current/ddl-constraints.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Stored Procedure",
     "fullName": "Stored Procedure",
     "arabicName": "إجراء مخزّن",
-    "definition": "برنامج مسمى داخل قاعدة البيانات يُستدعى لتنفيذ خطوات، ويمكنه استقبال معاملات.",
-    "example": "يستدعي التطبيق إجراءً يحدث حالة الطلب ويسجل وقت التحديث.",
-    "whereUsed": "عند تجميع عمليات البيانات القابلة لإعادة الاستخدام.",
+    "definition": "ببساطة، ده برنامج مسمى داخل قاعدة البيانات يُستدعى لتنفيذ خطوات، ويمكنه استقبال معاملات.",
+    "example": "مثلاً، يستدعي التطبيق إجراءً يحدث حالة الطلب ويسجل وقت التحديث.",
+    "whereUsed": "هتلاقيه في تجميع عمليات البيانات القابلة لإعادة الاستخدام.",
     "en": [
       "A named program stored in a database that runs operations and can accept arguments.",
       "An application calls a procedure to update an order status and record its update time.",
@@ -1743,15 +1815,16 @@
     "aliases": [],
     "sources": [
       "https://www.postgresql.org/docs/current/xproc.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Trigger",
     "fullName": "Database Trigger",
     "arabicName": "مشغّل قاعدة بيانات",
-    "definition": "منطق يُشغَّل تلقائيًا عند حدث محدد في قاعدة البيانات، مثل إدراج صف أو تعديله.",
-    "example": "يسجل مشغّل تغيير حالة الطلب في جدول تتبع.",
-    "whereUsed": "عند تطبيق قواعد أو تسجيل أحداث على مستوى البيانات.",
+    "definition": "ببساطة، ده منطق يُشغَّل تلقائيًا عند حدث محدد في قاعدة البيانات، زي إدراج صف أو تعديله.",
+    "example": "مثلاً، يسجل مشغّل تغيير حالة الطلب في جدول تتبع.",
+    "whereUsed": "هتلاقيه في تطبيق قواعد أو تسجيل أحداث على مستوى البيانات.",
     "en": [
       "Logic automatically invoked by a database event, such as inserting or updating a row.",
       "A trigger records order-status changes in an audit table.",
@@ -1766,15 +1839,16 @@
     "aliases": [],
     "sources": [
       "https://www.postgresql.org/docs/current/trigger-definition.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "OLTP",
     "fullName": "Online Transaction Processing",
     "arabicName": "معالجة المعاملات التشغيلية",
-    "definition": "نمط أنظمة يركز على عمليات قصيرة ومتكررة لقراءة البيانات وتحديثها أثناء العمل اليومي.",
-    "example": "يعالج متجر إنشاء الطلب وتعديل المخزون فور شراء العميل.",
-    "whereUsed": "في المتاجر والحجوزات وتطبيقات الأعمال.",
+    "definition": "ببساطة، ده نمط أنظمة يركز على عمليات قصيرة ومتكررة لقراءة البيانات وتحديثها وقت العمل اليومي.",
+    "example": "مثلاً، بيعالج متجر إنشاء الطلب وتعديل المخزون فور شراء العميل.",
+    "whereUsed": "هتلاقيه في المتاجر والحجوزات وتطبيقات الأعمال.",
     "en": [
       "A workload focused on frequent short reads and updates for day-to-day operations.",
       "A store processes order creation and stock updates when a customer buys.",
@@ -1790,15 +1864,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/oltp"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "OLAP",
     "fullName": "Online Analytical Processing",
     "arabicName": "المعالجة التحليلية",
-    "definition": "نمط لتحليل بيانات كثيرة عبر تجميعات ومقارنات وأبعاد مثل الزمن والمنطقة.",
-    "example": "يقارن محلل مبيعات المنتجات حسب الشهر والفرع.",
-    "whereUsed": "في ذكاء الأعمال والتقارير التحليلية.",
+    "definition": "ببساطة، ده نمط لتحليل بيانات كثيرة عبر تجميعات ومقارنات وأبعاد زي الزمن والمنطقة.",
+    "example": "مثلاً، يقارن محلل مبيعات المنتجات حسب الشهر والفرع.",
+    "whereUsed": "هتلاقيه في ذكاء الأعمال والتقارير التحليلية.",
     "en": [
       "A style of analysis using aggregations and dimensions such as time and region over substantial data.",
       "An analyst compares product sales by month and branch.",
@@ -1814,15 +1889,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/olap"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Data Lake",
     "fullName": "Data Lake",
     "arabicName": "بحيرة بيانات",
-    "definition": "مخزن واسع يحتفظ ببيانات متنوعة، غالبًا بصيغتها الأصلية، لتجهيزها واستخدامها لاحقًا.",
-    "example": "تجمع مؤسسة ملفات وسجلات وصورًا لتحليلها بطرق مختلفة.",
-    "whereUsed": "في منصات التحليل وتعلّم الآلة.",
+    "definition": "ببساطة، ده مخزن واسع يحتفظ ببيانات متنوعة، غالبًا بصيغتها الأصلية، لتجهيزها واستخدامها لاحقًا.",
+    "example": "مثلاً، بتجمع مؤسسة ملفات وسجلات وصورًا لتحليلها بطرق مختلفة.",
+    "whereUsed": "هتلاقيه في منصات التحليل وتعلّم الآلة.",
     "en": [
       "Storage holding varied data, often in its original form, for later preparation and use.",
       "An organization collects files, logs, and images for different analyses.",
@@ -1838,15 +1914,16 @@
     "aliases": [],
     "sources": [
       "https://aws.amazon.com/what-is/data-lake/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Data Lakehouse",
     "fullName": "Data Lakehouse",
     "arabicName": "بحيرة بيانات بقدرات المستودع",
-    "definition": "معمارية تجمع مرونة تخزين بحيرة البيانات مع قدرات إدارة وتحليل مرتبطة بمستودعات البيانات.",
-    "example": "يُستخدم نفس مخزن البيانات لتقارير SQL وتدريب نماذج بعد تنظيمه.",
-    "whereUsed": "في منصات بيانات تجمع التحليل وتعلّم الآلة.",
+    "definition": "ببساطة، دي معمارية بتجمع مرونة تخزين بحيرة البيانات مع قدرات إدارة وتحليل مرتبطة بمستودعات البيانات.",
+    "example": "مثلاً، يُستخدم نفس مخزن البيانات لتقارير SQL وتدريب نماذج بعد تنظيمه.",
+    "whereUsed": "هتلاقيه في منصات بيانات بتجمع التحليل وتعلّم الآلة.",
     "en": [
       "An architecture combining data-lake storage flexibility with warehouse-style management and analysis.",
       "A managed data store supports SQL reporting and model training.",
@@ -1862,15 +1939,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/data-lakehouse"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "ELT",
     "fullName": "Extract, Load, Transform",
     "arabicName": "استخراج وتحميل وتحويل",
-    "definition": "نقل البيانات أولًا إلى الوجهة ثم إجراء التحويلات هناك.",
-    "example": "تُرفع سجلات المتجر إلى المستودع، ثم تُنظَّف باستخدام SQL داخله.",
-    "whereUsed": "في مستودعات البيانات ومنصات التحليل.",
+    "definition": "ببساطة، ده نقل البيانات أولًا إلى الوجهة ثم إجراء التحويلات هناك.",
+    "example": "مثلاً، تُرفع سجلات المتجر إلى المستودع، ثم تُنظَّف باستخدام SQL داخله.",
+    "whereUsed": "هتلاقيه في مستودعات البيانات ومنصات التحليل.",
     "en": [
       "Loading extracted data into a destination before transforming it there.",
       "Store records are loaded into a warehouse and then cleaned with SQL.",
@@ -1886,15 +1964,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/elt"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Data Pipeline",
     "fullName": "Data Pipeline",
     "arabicName": "مسار معالجة البيانات",
-    "definition": "خطوات مترابطة تنقل البيانات وتجهزها من مصادرها إلى وجهة الاستخدام.",
-    "example": "يجلب مسار سجلات الطلبات ويزيل التكرار ثم يحدّث تقرير المبيعات.",
-    "whereUsed": "في هندسة البيانات والتقارير الآلية.",
+    "definition": "ببساطة، ده خطوات مترابطة بتنقل البيانات وتجهزها من مصادرها إلى وجهة الاستخدام.",
+    "example": "مثلاً، يجلب مسار سجلات الطلبات ويزيل التكرار ثم يحدّث تقرير المبيعات.",
+    "whereUsed": "هتلاقيه في هندسة البيانات والتقارير الآلية.",
     "en": [
       "Connected steps that move and prepare data from sources to a destination.",
       "A pipeline fetches orders, removes duplicates, and updates a sales report.",
@@ -1910,15 +1989,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/data-pipeline"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Data Cleaning",
     "fullName": "Data Cleaning",
     "arabicName": "تنظيف البيانات",
-    "definition": "معالجة أخطاء البيانات ونواقصها وتكرارها وتنسيقاتها غير المتسقة وفق قواعد واضحة.",
-    "example": "يوحّد الفريق صيغ التواريخ ويصلح السجلات المتكررة قبل التحليل.",
-    "whereUsed": "قبل التحليل ودمج المصادر وتدريب النماذج.",
+    "definition": "ببساطة، ده معالجة أخطاء البيانات ونواقصها وتكرارها وتنسيقاتها غير المتسقة وفق قواعد واضحة.",
+    "example": "مثلاً، يوحّد الفريق صيغ التواريخ ويصلح السجلات المتكررة قبل التحليل.",
+    "whereUsed": "هتلاقيه في قبل التحليل ودمج المصادر وتدريب النماذج.",
     "en": [
       "Addressing data errors, gaps, duplicates, and inconsistent formats using defined rules.",
       "A team standardizes date formats and resolves duplicate records before analysis.",
@@ -1934,15 +2014,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/data-cleaning"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Data Quality",
     "fullName": "Data Quality",
     "arabicName": "جودة البيانات",
-    "definition": "مدى صلاحية البيانات للغرض المطلوب من حيث الدقة والاكتمال والاتساق والحداثة وغيرها.",
-    "example": "تفقد بيانات المخزون جودتها إذا كانت أعدادها صحيحة لكنها قديمة.",
-    "whereUsed": "عند تقييم موثوقية التقارير ومدخلات الأنظمة.",
+    "definition": "ببساطة، ده مدى صلاحية البيانات للغرض المطلوب من حيث الدقة والاكتمال والاتساق والحداثة وغيرها.",
+    "example": "مثلاً، بتفقد بيانات المخزون جودتها إذا كانت أعدادها صحيحة لكنها قديمة.",
+    "whereUsed": "هتلاقيه في تقييم موثوقية التقارير ومدخلات الأنظمة.",
     "en": [
       "How fit data is for its purpose, considering accuracy, completeness, consistency, freshness, and other needs.",
       "Inventory numbers can be correct yet too old to support ordering decisions.",
@@ -1957,15 +2038,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/data-quality"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Data Lineage",
     "fullName": "Data Lineage",
     "arabicName": "تتبّع أصل البيانات وتحولاتها",
-    "definition": "وصف رحلة البيانات من مصادرها وعبر التغييرات حتى التقارير أو الأنظمة التي تستخدمها.",
-    "example": "يتتبع محلل رقمًا في لوحة المبيعات إلى جدول الطلبات والتحويلات التي حسبته.",
-    "whereUsed": "عند تفسير الأرقام وتشخيص أخطاء البيانات.",
+    "definition": "ببساطة، ده وصف رحلة البيانات من مصادرها وعبر التغييرات حتى التقارير أو الأنظمة اللي تستخدمها.",
+    "example": "مثلاً، يتتبع محلل رقمًا في لوحة المبيعات إلى جدول الطلبات والتحويلات اللي حسبته.",
+    "whereUsed": "هتلاقيه في تفسير الأرقام وتشخيص أخطاء البيانات.",
     "en": [
       "A record of where data comes from, how it changes, and where it is used.",
       "An analyst traces a dashboard total back to orders and the calculations that produced it.",
@@ -1981,15 +2063,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/data-lineage"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Metadata",
     "fullName": "Metadata",
     "arabicName": "بيانات وصفية",
-    "definition": "معلومات تصف بيانات أخرى، مثل مصدرها وبنيتها وتاريخها ومعنى حقولها.",
-    "example": "يوضح وصف عمود أن المبالغ بالجنيه المصري وأن وقت التحديث يومي.",
-    "whereUsed": "عند فهم الملفات والجداول وإدارتها.",
+    "definition": "ببساطة، ده معلومات بتوصف بيانات تانية، زي مصدرها وبنيتها وتاريخها ومعنى حقولها.",
+    "example": "مثلاً، بيوضّح وصف عمود أن المبالغ بالجنيه المصري وأن وقت التحديث يومي.",
+    "whereUsed": "هتلاقيه في فهم الملفات والجداول وإدارتها.",
     "en": [
       "Information describing other data, such as origin, structure, dates, and field meaning.",
       "A column description states that amounts are in Egyptian pounds and refreshed daily.",
@@ -2005,15 +2088,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/metadata"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Data Governance",
     "fullName": "Data Governance",
     "arabicName": "حوكمة البيانات",
-    "definition": "سياسات ومسؤوليات وعمليات تحدد كيفية إدارة البيانات والوصول إليها وضمان جودتها.",
-    "example": "تحدد المؤسسة مالك بيانات العملاء ومن يسمح له بتعديلها.",
-    "whereUsed": "في إدارة بيانات المؤسسات ومشاركتها.",
+    "definition": "ببساطة، ده سياسات ومسؤوليات وعمليات بتحدد كيفية إدارة البيانات والوصول إليها وضمان جودتها.",
+    "example": "مثلاً، بتحدد المؤسسة مالك بيانات العملاء ومن يسمح له بتعديلها.",
+    "whereUsed": "هتلاقيه في إدارة بيانات المؤسسات ومشاركتها.",
     "en": [
       "Policies, responsibilities, and processes defining how data is managed, accessed, and kept trustworthy.",
       "An organization assigns a customer-data owner and defines who may edit it.",
@@ -2029,15 +2113,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/data-governance"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Data Modeling",
     "fullName": "Data Modeling",
     "arabicName": "نمذجة البيانات",
-    "definition": "تصميم كيفية تمثيل الأشياء وخصائصها وعلاقاتها داخل نظام بيانات.",
-    "example": "يرسم المصمم علاقة العميل بطلباته والمنتجات الموجودة في كل طلب.",
-    "whereUsed": "قبل بناء قواعد البيانات ومستودعات التحليل.",
+    "definition": "ببساطة، ده تصميم كيفية تمثيل الأشياء وخصائصها وعلاقاتها داخل نظام بيانات.",
+    "example": "مثلاً، يرسم المصمم علاقة العميل بطلباته والمنتجات الموجودة في كل طلب.",
+    "whereUsed": "هتلاقيه في قبل بناء قواعد البيانات ومستودعات التحليل.",
     "en": [
       "Designing how entities, attributes, and relationships are represented in a data system.",
       "A designer maps customers, their orders, and the products in each order.",
@@ -2053,15 +2138,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/data-modeling"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Star Schema",
     "fullName": "Star Schema",
     "arabicName": "المخطط النجمي",
-    "definition": "تصميم تحليلي يضع جدول حقائق في الوسط ويربطه بجداول أبعاد تصف تلك الحقائق.",
-    "example": "يرتبط جدول المبيعات بجداول المنتجات والعملاء والتواريخ.",
-    "whereUsed": "في مستودعات البيانات ونماذج ذكاء الأعمال.",
+    "definition": "ببساطة، ده تصميم تحليلي يضع جدول حقائق في الوسط ويربطه بجداول أبعاد بتوصف تلك الحقائق.",
+    "example": "مثلاً، يرتبط جدول المبيعات بجداول المنتجات والعملاء والتواريخ.",
+    "whereUsed": "هتلاقيه في مستودعات البيانات ونماذج ذكاء الأعمال.",
     "en": [
       "An analytical design with a central fact table linked to descriptive dimension tables.",
       "A sales table links to product, customer, and date tables.",
@@ -2077,15 +2163,16 @@
     "aliases": [],
     "sources": [
       "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Fact Table",
     "fullName": "Fact Table",
     "arabicName": "جدول الحقائق",
-    "definition": "جدول يسجل أحداثًا أو قياسات بمستوى تفصيل محدد ويربطها بالأبعاد المناسبة.",
-    "example": "يسجل كل صف بندًا من عملية بيع مع الكمية والمبلغ ورقم المنتج.",
-    "whereUsed": "في نماذج التحليل بالمخطط النجمي.",
+    "definition": "ببساطة، ده جدول يسجل أحداثًا أو قياسات بمستوى تفصيل محدد ويربطها بالأبعاد المناسبة.",
+    "example": "مثلاً، يسجل كل صف بندًا من عملية بيع مع الكمية والمبلغ ورقم المنتج.",
+    "whereUsed": "هتلاقيه في نماذج التحليل بالمخطط النجمي.",
     "en": [
       "A table recording events or measurements at a defined level of detail and linking them to dimensions.",
       "Each row records a sale line with quantity, amount, and product ID.",
@@ -2101,15 +2188,16 @@
     "aliases": [],
     "sources": [
       "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Dimension Table",
     "fullName": "Dimension Table",
     "arabicName": "جدول الأبعاد",
-    "definition": "جدول يحتوي صفات تستخدم لوصف الحقائق وتصفيتها وتجميعها.",
-    "example": "يحفظ بُعد المنتجات اسم المنتج وفئته لعرض المبيعات حسب الفئة.",
-    "whereUsed": "في التقارير متعددة الأبعاد.",
+    "definition": "ببساطة، ده جدول بيحتوي صفات بتستخدم لوصف الحقائق وتصفيتها وتجميعها.",
+    "example": "مثلاً، بيحفظ بُعد المنتجات اسم المنتج وفئته لعرض المبيعات حسب الفئة.",
+    "whereUsed": "هتلاقيه في التقارير متعددة الأبعاد.",
     "en": [
       "A table containing attributes used to describe, filter, and group facts.",
       "A product dimension stores names and categories for category-level sales reports.",
@@ -2125,15 +2213,16 @@
     "aliases": [],
     "sources": [
       "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Partitioning",
     "fullName": "Table Partitioning",
     "arabicName": "تقسيم الجدول",
-    "definition": "تقسيم جدول منطقي إلى أجزاء أصغر وفق قاعدة، مثل التاريخ، لتسهيل الإدارة وبعض الاستعلامات.",
-    "example": "تُحفظ سجلات كل شهر في قسم مستقل داخل جدول الأحداث.",
-    "whereUsed": "في إدارة الجداول الكبيرة وحذف أو قراءة فترات محددة.",
+    "definition": "ببساطة، ده تقسيم جدول منطقي إلى أجزاء أصغر وفق قاعدة، زي التاريخ، لتسهيل الإدارة وبعض الاستعلامات.",
+    "example": "مثلاً، بتتحفظ سجلات كل شهر في قسم مستقل داخل جدول الأحداث.",
+    "whereUsed": "هتلاقيه في إدارة الجداول الكبيرة وحذف أو قراءة فترات محددة.",
     "en": [
       "Dividing one logical table into smaller parts by a rule, such as date, to aid management and selected queries.",
       "Each month's event records are stored in a separate partition.",
@@ -2149,15 +2238,16 @@
     "aliases": [],
     "sources": [
       "https://www.postgresql.org/docs/current/ddl-partitioning.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Sharding",
     "fullName": "Database Sharding",
     "arabicName": "توزيع أجزاء قاعدة البيانات",
-    "definition": "تقسيم بيانات قاعدة إلى أجزاء تُوزع على عدة خوادم لاستيعاب حجم أو حمل أكبر.",
-    "example": "تُوزع سجلات العملاء على خوادم مختلفة حسب نطاق رقم العميل.",
-    "whereUsed": "عند توسيع قواعد البيانات عبر عدة أجهزة.",
+    "definition": "ببساطة، ده تقسيم بيانات قاعدة إلى أجزاء تُوزع على عدة خوادم لاستيعاب حجم أو حمل أكبر.",
+    "example": "مثلاً، تُوزع سجلات العملاء على خوادم مختلفة حسب نطاق رقم العميل.",
+    "whereUsed": "هتلاقيه في توسيع قواعد البيانات عبر عدة أجهزة.",
     "en": [
       "Splitting database records into portions distributed across servers to handle more data or load.",
       "Customer records are distributed by customer-number ranges across servers.",
@@ -2173,15 +2263,16 @@
     "aliases": [],
     "sources": [
       "https://aws.amazon.com/what-is/database-sharding/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Database Replication",
     "fullName": "Database Replication",
     "arabicName": "نسخ متماثلة من قاعدة البيانات",
-    "definition": "نقل تغييرات البيانات إلى نسخة أو أكثر، بشكل متزامن أو غير متزامن؛ والنسخ غير المتزامن قد يتأخر.",
-    "example": "تستقبل قاعدة قراءة منفصلة تحديثات قاعدة الطلبات الرئيسية.",
-    "whereUsed": "لتوزيع القراءة أو إتاحة نسخ إضافية من البيانات.",
+    "definition": "ببساطة، ده نقل تغييرات البيانات إلى نسخة أو أكثر، بشكل متزامن أو غير متزامن؛ والنسخ غير المتزامن قد يتأخر.",
+    "example": "مثلاً، بتستقبل قاعدة قراءة منفصلة تحديثات قاعدة الطلبات الرئيسية.",
+    "whereUsed": "هتحتاجه لتوزيع القراءة أو إتاحة نسخ إضافية من البيانات.",
     "en": [
       "Propagating database changes to additional copies, synchronously or asynchronously; asynchronous copies can lag.",
       "A separate reporting replica receives updates from the main orders database.",
@@ -2200,15 +2291,16 @@
     "sources": [
       "https://www.postgresql.org/docs/current/logical-replication.html",
       "https://www.postgresql.org/docs/current/different-replication-solutions.html"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "CDC",
     "fullName": "Change Data Capture",
     "arabicName": "التقاط تغييرات البيانات",
-    "definition": "اكتشاف الإضافات والتعديلات والحذف ونقل هذه التغييرات إلى أنظمة أخرى.",
-    "example": "يتلقى مستودع التحليل الطلبات التي تغيرت فقط بدل نسخ الجدول كاملًا.",
-    "whereUsed": "في مزامنة البيانات وتحديث التحليلات.",
+    "definition": "ببساطة، ده اكتشاف الإضافات والتعديلات والحذف ونقل هذه التغييرات إلى أنظمة تانية.",
+    "example": "مثلاً، يتلقى مستودع التحليل الطلبات اللي تغيرت فقط بدل نسخ الجدول كاملًا.",
+    "whereUsed": "هتلاقيه في مزامنة البيانات وتحديث التحليلات.",
     "en": [
       "Detecting inserts, updates, and deletes and passing those changes to other systems.",
       "An analytics store receives only changed orders instead of copying the whole table.",
@@ -2224,15 +2316,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/change-data-capture"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Batch Processing",
     "fullName": "Batch Processing",
     "arabicName": "معالجة على دفعات",
-    "definition": "تجميع أعمال أو بيانات ومعالجتها معًا في وقت مجدول أو عند توفر كمية مناسبة.",
-    "example": "تُحسب فواتير جميع المشتركين في تشغيل ليلي.",
-    "whereUsed": "في التقارير الدورية ومعالجة الملفات الكبيرة.",
+    "definition": "ببساطة، ده تجميع أعمال أو بيانات ومعالجتها معًا في وقت مجدول أو عند بتوفّر كمية مناسبة.",
+    "example": "مثلاً، تُحسب فواتير جميع المشتركين في تشغيل ليلي.",
+    "whereUsed": "هتلاقيه في التقارير الدورية ومعالجة الملفات الكبيرة.",
     "en": [
       "Collecting work or data and processing it together on a schedule or when enough has accumulated.",
       "All subscriber invoices are calculated in a nightly run.",
@@ -2247,15 +2340,16 @@
     "aliases": [],
     "sources": [
       "https://aws.amazon.com/what-is/batch-processing/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Stream Processing",
     "fullName": "Stream Processing",
     "arabicName": "معالجة تدفقات البيانات",
-    "definition": "معالجة أحداث تصل باستمرار أثناء تدفقها، بدل انتظار اكتمال مجموعة كبيرة.",
-    "example": "يُحدَّث عداد الطلبات مع وصول كل حدث شراء.",
-    "whereUsed": "في متابعة الأحداث والتنبيهات والتحليلات المستمرة.",
+    "definition": "ببساطة، ده معالجة أحداث بتوصل باستمرار وقت تدفقها، بدل انتظار اكتمال مجموعة كبيرة.",
+    "example": "مثلاً، يُحدَّث عداد الطلبات مع وصول كل حدث شراء.",
+    "whereUsed": "هتلاقيه في متابعة الأحداث والتنبيهات والتحليلات المستمرة.",
     "en": [
       "Processing continuously arriving events as they flow in, rather than waiting for a large completed batch.",
       "An order counter updates as purchase events arrive.",
@@ -2271,15 +2365,16 @@
     "aliases": [],
     "sources": [
       "https://aws.amazon.com/what-is/streaming-data/"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Time Series",
     "fullName": "Time Series",
     "arabicName": "سلسلة زمنية",
-    "definition": "قيم أو ملاحظات مرتبطة بأزمنة وقوعها، ويهم ترتيبها الزمني في التحليل.",
-    "example": "قراءات حرارة جهاز كل دقيقة تشكل سلسلة زمنية.",
-    "whereUsed": "في تحليل الاتجاهات والتوقع ومراقبة القياسات.",
+    "definition": "ببساطة، ده قيم أو ملاحظات مرتبطة بأزمنة وقوعها، ويهم ترتيبها الزمني في التحليل.",
+    "example": "مثلاً، قراءات حرارة جهاز كل دقيقة تشكل سلسلة زمنية.",
+    "whereUsed": "هتلاقيه في تحليل الاتجاهات والتوقع ومراقبة القياسات.",
     "en": [
       "Observations associated with times, where their chronological order matters for analysis.",
       "A device's temperature readings every minute form a time series.",
@@ -2295,15 +2390,16 @@
     "aliases": [],
     "sources": [
       "https://developers.google.com/machine-learning/glossary"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Dashboard",
     "fullName": "Dashboard",
     "arabicName": "لوحة متابعة",
-    "definition": "واجهة تجمع مؤشرات ورسومًا مختارة لتسهيل متابعة حالة عمل أو نشاط.",
-    "example": "تعرض لوحة المتجر مبيعات اليوم والطلبات المتأخرة في شاشة واحدة.",
-    "whereUsed": "في متابعة الأداء والعمليات اليومية.",
+    "definition": "ببساطة، دي واجهة بتجمع مؤشرات ورسومًا مختارة لتسهيل متابعة حالة عمل أو نشاط.",
+    "example": "مثلاً، تعرض لوحة المتجر مبيعات اليوم والطلبات المتأخرة في شاشة واحدة.",
+    "whereUsed": "هتلاقيه في متابعة الأداء والعمليات اليومية.",
     "en": [
       "A view collecting selected metrics and charts for monitoring an activity or business.",
       "A shop dashboard shows today's sales and delayed orders together.",
@@ -2319,15 +2415,16 @@
     "aliases": [],
     "sources": [
       "https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "BI",
     "fullName": "Business Intelligence",
     "arabicName": "ذكاء الأعمال",
-    "definition": "عمليات وأدوات تحول بيانات الأعمال إلى تقارير وتحليلات تساعد على اتخاذ القرارات.",
-    "example": "يقارن فريق المبيعات أداء الفروع باستخدام تقارير من بيانات الطلبات.",
-    "whereUsed": "في تحليل أداء المؤسسات والتخطيط.",
+    "definition": "ببساطة، ده عمليات وأدوات بتحوّل بيانات الأعمال إلى تقارير وتحليلات بتساعد على اتخاذ القرارات.",
+    "example": "مثلاً، يقارن فريق المبيعات أداء الفروع باستخدام تقارير من بيانات الطلبات.",
+    "whereUsed": "هتلاقيه في تحليل أداء المؤسسات والتخطيط.",
     "en": [
       "Processes and tools turning business data into reports and analysis for decisions.",
       "A sales team compares branch performance using order-based reports.",
@@ -2343,15 +2440,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/business-intelligence"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Data Visualization",
     "fullName": "Data Visualization",
     "arabicName": "تمثيل البيانات بصريًا",
-    "definition": "عرض البيانات برسوم أو خرائط لتوضيح المقارنات والأنماط والتغيرات.",
-    "example": "يكشف رسم خطي تغير عدد الطلبات يومًا بعد يوم.",
-    "whereUsed": "في التقارير والتحليل وشرح النتائج.",
+    "definition": "ببساطة، ده عرض البيانات برسوم أو خرائط لتوضيح المقارنات والأنماط والتغيرات.",
+    "example": "مثلاً، بيكشف رسم خطي تغير عدد الطلبات يومًا بعد يوم.",
+    "whereUsed": "هتلاقيه في التقارير والتحليل وشرح النتائج.",
     "en": [
       "Showing data through charts or maps to reveal comparisons, patterns, and changes.",
       "A line chart shows how daily order counts change.",
@@ -2367,15 +2465,16 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/data-visualization"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   },
   {
     "term": "Data Catalog",
     "fullName": "Data Catalog",
     "arabicName": "فهرس البيانات",
-    "definition": "دليل قابل للبحث يصف مجموعات البيانات ومكانها ومعناها ومالكيها لمساعدة الناس على اكتشافها.",
-    "example": "يجد محلل جدول المبيعات المعتمد ويعرف المسؤول عنه من الفهرس.",
-    "whereUsed": "في اكتشاف بيانات المؤسسات وفهمها.",
+    "definition": "ببساطة، ده دليل قابل للبحث بيوصف مجموعات البيانات ومكانها ومعناها ومالكيها لمساعدة الناس على اكتشافها.",
+    "example": "مثلاً، بيلاقي محلل جدول المبيعات المعتمد ويعرف المسؤول عنه من الفهرس.",
+    "whereUsed": "هتلاقيه في اكتشاف بيانات المؤسسات وفهمها.",
     "en": [
       "A searchable inventory describing datasets, locations, meanings, and owners to support discovery.",
       "An analyst finds the approved sales table and its owner in the catalog.",
@@ -2391,6 +2490,7 @@
     "aliases": [],
     "sources": [
       "https://www.ibm.com/think/topics/data-catalog"
-    ]
+    ],
+    "reviewStatus": "egyptian-reviewed"
   }
 ]

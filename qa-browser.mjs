@@ -9,10 +9,12 @@ const chrome=process.env.CHROME_PATH||'C:\\Program Files\\Google\\Chrome\\Applic
 const width=Number(process.argv[2]||1280);
 if(!Number.isInteger(width)||width<1)throw new Error('Viewport width must be a positive integer.');
 const height=900;
+const httpMode=process.argv.includes('--http');
+const failureMode=process.argv.includes('--block-shard');
 const testPage=path.join(root,`.qa-page-${process.pid}.html`);
 const profilePrefix=`imhotip-qa-${process.pid}-`;
 const profile=fs.mkdtempSync(path.join(os.tmpdir(),profilePrefix));
-const url=process.argv[3]==='--http'?`http://localhost:8000/${path.basename(testPage)}`:pathToFileURL(testPage).href;
+const url=httpMode?`http://localhost:8000/${path.basename(testPage)}`:pathToFileURL(testPage).href;
 let browser;
 let send;
 let exited;
@@ -61,6 +63,7 @@ function connectPipe(child){
 }
 
 try{
+  qaRun:{
   const index=fs.readFileSync(path.join(root,'index.html'),'utf8');
   fs.writeFileSync(testPage,index.replace('</body>','<script defer src="./qa-client.js"></script></body>'));
   browser=spawn(chrome,['--headless','--disable-gpu','--no-sandbox','--no-first-run','--no-default-browser-check',`--user-data-dir=${profile}`,'--remote-debugging-pipe',`--window-size=${width},${height}`],{stdio:['ignore','ignore','pipe','pipe','pipe'],windowsHide:true});
@@ -72,8 +75,17 @@ try{
   const {sessionId}=await send('Target.attachToTarget',{targetId,flatten:true});
   await send('Emulation.setDeviceMetricsOverride',{width,height,deviceScaleFactor:1,mobile:false},sessionId);
   await send('Page.enable',{},sessionId);
+  if(failureMode){await send('Network.enable',{},sessionId);await send('Network.setBlockedURLs',{urls:['*release-manifest.json*']},sessionId)}
   const navigation=await send('Page.navigate',{url},sessionId);
   if(navigation.errorText)throw new Error(`Navigation failed: ${navigation.errorText}`);
+  if(failureMode){
+    const failure=await send('Runtime.evaluate',{expression:`(async()=>{const end=Date.now()+15000;while(Date.now()<end&&document.body?.dataset.corpusReady!=='error')await new Promise(r=>setTimeout(r,50));const input=document.getElementById('search');input.value='API';input.dispatchEvent(new Event('input',{bubbles:true}));return {extendedCorpusFailureDetected:document.body?.dataset.corpusReady==='error',releaseCount:Number(document.getElementById('term-count')?.textContent.replaceAll(',',''))===1000000,baseSearch:document.querySelector('#results [data-term]')?.dataset.term==='api',overflow:document.documentElement.scrollWidth<=innerWidth}})()`,awaitPromise:true,returnByValue:true},sessionId);
+    if(failure.exceptionDetails)throw new Error(failure.exceptionDetails.exception?.description||failure.exceptionDetails.text);
+    const checks=Object.entries(failure.result.value);for(const [name,passed] of checks)console.log(`${passed?'PASS':'FAIL'} shard failure: ${name}`);
+    if(checks.some(([,passed])=>!passed))process.exitCode=1;
+    console.log(`${checks.filter(([,passed])=>passed).length}/${checks.length} shard-failure checks passed at ${width}px.`);
+    break qaRun;
+  }
   const evaluated=await send('Runtime.evaluate',{
     expression:`(async()=>{
       const deadline=Date.now()+25000;
@@ -94,6 +106,7 @@ try{
   const failed=checks.filter(check=>!check.passed);
   console.log(`${checks.length-failed.length}/${checks.length} browser checks passed at ${viewport.width}px (${url.startsWith('file:')?'file':'HTTP'}).`);
   if(failed.length)process.exitCode=1;
+  }
 }finally{
   if(browser){
     if(send)await send('Browser.close',{},undefined,2000).catch(()=>{});
